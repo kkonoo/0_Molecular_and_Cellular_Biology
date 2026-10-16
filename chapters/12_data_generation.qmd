@@ -1,0 +1,36 @@
+---
+title: "12. 데이터는 어떻게 만들어지나"
+description: "PCR, 시퀀싱 원리, 항체, CRISPR, 세포 배양"
+author: "Eunji Ha"
+date: today
+format:
+  html:
+    include-in-header:
+      text: |
+        <meta name="ai-title" content="12. 데이터는 어떻게 만들어지나">
+        <meta name="ai-context" content="
+        이 챕터는 PCR, 시퀀싱 원리, 항체, CRISPR, 세포 배양을 다룹니다. (초안 작성 전)
+        ">
+---
+
+::: {.callout-note collapse="true"}
+## 참고 자료
+- Essential Cell Biology 10장
+- OpenStax Biology 2e 17장 Biotechnology and Genomics
+:::
+
+::: {.callout-warning}
+## 작성 예정
+이 장은 아직 쓰는 중입니다. 다룰 내용:
+
+1. PCR
+2. 시퀀싱의 원리
+3. 항체
+4. CRISPR
+5. 세포 배양
+
+데이터에서는 이렇게 보여요:
+
+- library prep → FASTQ
+- Perturb-seq
+:::

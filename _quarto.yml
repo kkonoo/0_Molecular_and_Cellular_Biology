@@ -1,0 +1,101 @@
+
+project:
+  type: website
+  execute-dir: project
+  render:
+    - index.qmd
+    - chapters/*.qmd
+
+website:
+  title: "0. Molecular and Cellular Biology"
+  description: "분자세포생물학: 시퀀싱 데이터를 읽기 위한 세포와 분자 — CS·통계 전공자를 위한 자습서"
+  favicon: images/logo.ico
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+    right:
+      - icon: github
+        href: https://github.com/kkonoo/0_Molecular_and_Cellular_Biology
+
+  sidebar:
+    style: "floating"
+    search: true
+    contents:
+      - text: "Home"
+        href: index.qmd
+      - section: "Part 1. 세포와 분자"
+        contents:
+          - chapters/00_why_biology.qmd
+          - chapters/01_cell_system.qmd
+          - chapters/02_biomolecules.qmd
+      - section: "Part 2. 유전 정보"
+        contents:
+          - chapters/03_genome_chromatin.qmd
+          - chapters/04_replication_mutation_inheritance.qmd
+      - section: "Part 3. 유전자 발현"
+        contents:
+          - chapters/05_transcription.qmd
+          - chapters/06_rna_processing.qmd
+          - chapters/07_translation_protein.qmd
+      - section: "Part 4. 세포의 결정과 상호작용"
+        contents:
+          - chapters/08_cell_signaling.qmd
+          - chapters/09_cell_cycle_death_cancer.qmd
+          - chapters/10_cell_identity.qmd
+          - chapters/11_tissue_interaction.qmd
+      - section: "Part 5. 데이터가 만들어지기까지"
+        contents:
+          - chapters/12_data_generation.qmd
+      - section: "부록"
+        contents:
+          - chapters/A1_glossary.qmd
+          - chapters/A2_nomenclature.qmd
+          - chapters/A3_databases.qmd
+          - chapters/A4_immune_cells.qmd
+
+  page-footer:
+    left: "Copyright 2026, Eunji"
+
+
+format:
+  html:
+    theme:
+      light: cosmo
+    css: assets/html.css
+    toc: true
+    toc-depth: 4
+    toc-title: "Contents"
+    toc-float: true
+    page-layout: full
+
+    code-fold: false
+    code-copy: true
+    highlight-style: github
+
+    number-sections: false
+    smooth-scroll: true
+
+    # 그림은 SVG 벡터로 출력
+    fig-format: svg
+    fig-width: 7
+    fig-height: 4.5
+    fig-dpi: 300
+
+    # 수식은 LaTeX + MathJax
+    html-math-method: mathjax
+
+    # AI 채팅 위젯 전역 설정
+    include-after-body: assets/ai-chat-init.html
+
+  revealjs:
+    css: assets/revealjs.css
+    fig-format: svg
+
+
+execute:
+  freeze: auto          # 코드 실행 결과 캐시 (빠른 빌드)
+  echo: true
+  eval: true            # 데이터 상자의 짧은 R 코드를 실제로 실행
+  warning: false
+  message: false

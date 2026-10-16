@@ -1,0 +1,33 @@
+---
+title: "0. 왜 생물학을 알아야 하나"
+description: "세포는 얼마나 작고 그 안에 분자는 몇 개인가, 시퀀싱은 무엇을 세는가"
+author: "Eunji Ha"
+date: today
+format:
+  html:
+    include-in-header:
+      text: |
+        <meta name="ai-title" content="0. 왜 생물학을 알아야 하나">
+        <meta name="ai-context" content="
+        이 챕터는 세포는 얼마나 작고 그 안에 분자는 몇 개인가, 시퀀싱은 무엇을 세는가를 다룹니다. (초안 작성 전)
+        ">
+---
+
+::: {.callout-note collapse="true"}
+## 참고 자료
+- Essential Cell Biology 1장
+- Cell Biology by the Numbers (Milo & Phillips) — 크기와 개수에 대한 감각
+:::
+
+::: {.callout-warning}
+## 작성 예정
+이 장은 아직 쓰는 중입니다. 다룰 내용:
+
+1. 세포의 크기에 대한 감각: 세포, 핵, 미토콘드리아, 단백질, DNA
+2. 분자 수에 대한 감각: 세포 하나에 mRNA 몇 개? 단백질 몇 개?
+3. 시퀀싱은 무엇을 세는가: 분자 → read → count
+
+데이터에서는 이렇게 보여요:
+
+- count matrix 한 칸 = 한 세포에서 잡힌 한 유전자의 UMI 수
+:::

@@ -1,0 +1,35 @@
+---
+title: "9. 세포주기·세포사멸·암"
+description: "세포주기 검문점, apoptosis, 암에서 고장 나는 지점"
+author: "Eunji Ha"
+date: today
+format:
+  html:
+    include-in-header:
+      text: |
+        <meta name="ai-title" content="9. 세포주기·세포사멸·암">
+        <meta name="ai-context" content="
+        이 챕터는 세포주기 검문점, apoptosis, 암에서 고장 나는 지점을 다룹니다. (초안 작성 전)
+        ">
+---
+
+::: {.callout-note collapse="true"}
+## 참고 자료
+- Essential Cell Biology 18, 20장
+- OpenStax Biology 2e 10장 Cell Reproduction
+:::
+
+::: {.callout-warning}
+## 작성 예정
+이 장은 아직 쓰는 중입니다. 다룰 내용:
+
+1. 세포주기: G1, S, G2, M
+2. 검문점
+3. 세포사멸 (apoptosis)
+4. 암: 어디가 고장 나는가
+
+데이터에서는 이렇게 보여요:
+
+- cell cycle score (S/G2M)
+- 주기 효과를 빼야 할 때와 아닐 때
+:::

@@ -1,0 +1,35 @@
+---
+title: "6. RNA 가공"
+description: "splicing, isoform, polyA, ncRNA·miRNA"
+author: "Eunji Ha"
+date: today
+format:
+  html:
+    include-in-header:
+      text: |
+        <meta name="ai-title" content="6. RNA 가공">
+        <meta name="ai-context" content="
+        이 챕터는 splicing, isoform, polyA, ncRNA·miRNA를 다룹니다. (초안 작성 전)
+        ">
+---
+
+::: {.callout-note collapse="true"}
+## 참고 자료
+- Essential Cell Biology 7장
+- OpenStax Biology 2e 15장 Genes and Proteins
+:::
+
+::: {.callout-warning}
+## 작성 예정
+이 장은 아직 쓰는 중입니다. 다룰 내용:
+
+1. 5' cap과 polyA 꼬리
+2. splicing과 isoform
+3. 비암호화 RNA: ncRNA, miRNA
+
+데이터에서는 이렇게 보여요:
+
+- isoform별 정량
+- intron read (→ RNA velocity)
+- 3' 편향
+:::

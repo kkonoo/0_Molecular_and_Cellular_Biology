@@ -1,0 +1,33 @@
+---
+title: "11. 조직과 세포 간 상호작용"
+description: "세포외기질, 세포 접합, 리간드-수용체"
+author: "Eunji Ha"
+date: today
+format:
+  html:
+    include-in-header:
+      text: |
+        <meta name="ai-title" content="11. 조직과 세포 간 상호작용">
+        <meta name="ai-context" content="
+        이 챕터는 세포외기질, 세포 접합, 리간드-수용체를 다룹니다. (초안 작성 전)
+        ">
+---
+
+::: {.callout-note collapse="true"}
+## 참고 자료
+- Essential Cell Biology 16, 20장
+:::
+
+::: {.callout-warning}
+## 작성 예정
+이 장은 아직 쓰는 중입니다. 다룰 내용:
+
+1. 조직 = 세포 + 세포외기질
+2. 세포 접합
+3. 리간드-수용체
+
+데이터에서는 이렇게 보여요:
+
+- spatial transcriptomics
+- cell-cell communication 분석
+:::

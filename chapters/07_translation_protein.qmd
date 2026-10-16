@@ -1,0 +1,35 @@
+---
+title: "7. 번역과 단백질의 일생"
+description: "유전암호, folding, 번역 후 변형(PTM), 분해"
+author: "Eunji Ha"
+date: today
+format:
+  html:
+    include-in-header:
+      text: |
+        <meta name="ai-title" content="7. 번역과 단백질의 일생">
+        <meta name="ai-context" content="
+        이 챕터는 유전암호, folding, 번역 후 변형(PTM), 분해를 다룹니다. (초안 작성 전)
+        ">
+---
+
+::: {.callout-note collapse="true"}
+## 참고 자료
+- Essential Cell Biology 4, 7장
+- OpenStax Biology 2e 15장 Genes and Proteins
+:::
+
+::: {.callout-warning}
+## 작성 예정
+이 장은 아직 쓰는 중입니다. 다룰 내용:
+
+1. 유전암호와 리보솜
+2. 단백질 접힘 (folding)
+3. 번역 후 변형 (PTM)
+4. 단백질 분해
+
+데이터에서는 이렇게 보여요:
+
+- mRNA 양과 단백질 양이 다른 이유
+- CITE-seq: RNA와 표면 단백질을 함께 재기
+:::

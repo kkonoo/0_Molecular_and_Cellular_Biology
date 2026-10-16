@@ -1,0 +1,210 @@
+/* css styles */
+
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+@import url('https://cdn.jsdelivr.net/gh/wan2land/d2coding/d2coding-ligature-full.css');
+
+:root {
+  --course-heading-1: #4A3D6B;
+  --course-heading-1-bg: #f3f0f7;
+  --course-heading-2: #5B4D80;
+  --course-heading-2-border: #cfc4e2;
+  --course-heading-3: #7A6A99;
+  --course-code-bg: #f5f5f5;
+  --course-muted-text: #555;
+  --course-data: #1F7A7A;
+  --course-data-bg: #e8f4f3;
+  --course-src: #2F5F8A;
+  --course-src-border: #c9d8e6;
+}
+
+body.quarto-dark {
+  --course-heading-1: #e1d7f4;
+  --course-heading-1-bg: #2a2438;
+  --course-heading-2: #d1c2ee;
+  --course-heading-2-border: #76639d;
+  --course-heading-3: #bca9df;
+  --course-code-bg: #20242b;
+  --course-muted-text: #d4d4d4;
+  --course-data: #7fd0c8;
+  --course-data-bg: #1f3433;
+  --course-src: #a9c8e6;
+  --course-src-border: #4a6580;
+}
+
+body {
+  font-family: "Pretendard", sans-serif;
+  font-size: 1.1em;   /* 기본 16px → ~17.6px */
+  font-weight: 500;  /* Medium */
+}
+
+/* ── 제목 ──────────────────────────────────────
+   h1(대제목)에만 배경. h2 이하는 배경 없음.
+   :not(.title) 로 문서 제목 블록은 제외.        */
+
+h1:not(.title) {
+  color: var(--course-heading-1);
+  font-size: 1.6em;
+  font-weight: 700;
+  background-color: var(--course-heading-1-bg);
+  padding: 0.4em 0.6em;
+  border-radius: 8px;
+  margin: 1.6em 0 0.7em;
+}
+
+h2 {
+  color: var(--course-heading-2);
+  font-size: 1.35em;
+  font-weight: 600;
+  background: none;          /* 배경 제거 */
+  border-left: 4px solid var(--course-heading-2-border);
+  padding: 0 0 0 0.55em;
+  border-radius: 0;
+  margin: 1.3em 0 0.45em;
+}
+
+h3 {
+  color: var(--course-heading-3);
+  font-size: 1.2em;
+  font-weight: 600;
+  background: none;
+  padding: 0;
+  margin: 1.0em 0 0.35em;
+}
+
+h4, h5 {
+  color: var(--course-heading-2);
+  font-size: 1.1em;
+  font-weight: 600;
+  background: none;
+  padding: 0;
+  margin: 0.8em 0 0.3em;
+}
+
+/* callout 제목은 h2/h3 로 쓰지만 헤딩 스타일을 상속하지 않게 */
+.callout h2,
+.callout h3,
+.callout-title-container h2,
+.callout-title-container h3 {
+  background: none;
+  border-left: none;
+  padding: 0;
+  margin: 0;
+  font-size: inherit;
+  color: inherit;
+}
+
+
+/* 코드 공통 */
+code, pre code {
+  font-family: 'D2Coding', 'Fira Code', monospace;
+  font-size: 1em;
+  font-weight: 500;
+  border-radius: 6px;
+}
+
+pre {
+  border-radius: 6px;
+  padding: 1em;
+  border: none;
+}
+
+
+/* 일반 코드 블록 (``` 만 쓴 것) */
+pre:not(.sourceCode) {
+  background: var(--course-code-bg);
+}
+pre:not(.sourceCode) code {
+  color: var(--course-muted-text);
+}
+
+/* R 코드 블록 */
+pre.sourceCode, pre.sourceCode code {
+  background: var(--course-code-bg);
+  margin: 0;
+}
+.cell-output,
+.cell-output-stderr,
+.cell-output-stdout {
+  margin: 0;
+  padding: 0;
+}
+.cell-output pre {
+  background: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* callout 박스 안 글씨체/크기 */
+.callout-body-container {
+  font-family: 'Pretendard', sans-serif;
+  font-size: 1.2em;
+  font-weight: 500;  /* Medium */
+  color: var(--course-muted-text);
+}
+
+/* callout 제목 글씨체 */
+.callout-title-container {
+  font-family: 'Pretendard', sans-serif;
+  font-weight: 700;
+  font-size: 1.2em;
+  font-weight: 500;  /* Medium */
+  color: var(--course-muted-text);
+}
+
+/* callout 컬러바 */
+.callout {
+  border-left: 3px solid;  /* 왼쪽 컬러바만 남기기 */
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+/* definition */
+dd,
+.callout-body-container {
+  color: var(--course-muted-text);
+}
+
+
+/* plot정렬 */
+.cell-output-display {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* "데이터에서는 이렇게 보여요" 상자: ::: {.callout-caution .data-box icon=false} */
+div.callout.data-box {
+  border-left-color: var(--course-data) !important;
+}
+div.callout.data-box .callout-header {
+  background-color: var(--course-data-bg) !important;
+}
+div.callout.data-box .callout-title-container {
+  color: var(--course-data);
+  font-weight: 700;
+}
+
+/* 출처 배지: [BioNumbers](url){.src} */
+a.src {
+  display: inline-block;
+  font-size: 0.72em;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--course-src);
+  border: 1px solid var(--course-src-border);
+  border-radius: 999px;
+  padding: 0 0.55em;
+  margin: 0 0.15em;
+  text-decoration: none;
+  white-space: nowrap;
+  vertical-align: 0.1em;
+}
+a.src:hover {
+  background: var(--course-src-border);
+}
+
+/* 표 안 한국어는 어절 단위로 줄바꿈 ("작성 예/정" 방지) */
+table {
+  word-break: keep-all;
+}

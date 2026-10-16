@@ -1,0 +1,36 @@
+---
+title: "2. 생체분자"
+description: "핵산·단백질·지질·당 — 구조가 기능을 정한다"
+author: "Eunji Ha"
+date: today
+format:
+  html:
+    include-in-header:
+      text: |
+        <meta name="ai-title" content="2. 생체분자">
+        <meta name="ai-context" content="
+        이 챕터는 핵산·단백질·지질·당 — 구조가 기능을 정한다를 다룹니다. (초안 작성 전)
+        ">
+---
+
+::: {.callout-note collapse="true"}
+## 참고 자료
+- Essential Cell Biology 2, 4장
+- OpenStax Biology 2e 2장 The Chemical Foundation of Life, 3장 Biological Macromolecules
+:::
+
+::: {.callout-warning}
+## 작성 예정
+이 장은 아직 쓰는 중입니다. 다룰 내용:
+
+1. 생명을 이루는 네 가지 분자: 핵산, 단백질, 지질, 당
+2. 핵산: 뉴클레오타이드, 이중나선, 상보적 결합
+3. 단백질: 아미노산, 접힘 — 구조가 기능을 정한다
+4. 지질과 당
+
+데이터에서는 이렇게 보여요:
+
+- 서열 = A/C/G/T 문자열
+- 상보적 가닥과 5'→3' 방향 (reverse complement)
+- 단백질 도메인
+:::

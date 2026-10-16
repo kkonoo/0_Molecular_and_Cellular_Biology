@@ -1,0 +1,24 @@
+---
+title: "부록 C. 자주 쓰는 데이터베이스"
+description: "NCBI, Ensembl, UniProt, GO — 무엇을 어디서 찾나"
+author: "Eunji Ha"
+date: today
+format:
+  html:
+    include-in-header:
+      text: |
+        <meta name="ai-title" content="부록 C. 자주 쓰는 데이터베이스">
+        <meta name="ai-context" content="
+        이 챕터는 NCBI, Ensembl, UniProt, GO — 무엇을 어디서 찾나를 다룹니다. (초안 작성 전)
+        ">
+---
+
+::: {.callout-warning}
+## 작성 예정
+이 장은 아직 쓰는 중입니다. 다룰 내용:
+
+1. NCBI
+2. Ensembl
+3. UniProt
+4. Gene Ontology (GO)
+:::

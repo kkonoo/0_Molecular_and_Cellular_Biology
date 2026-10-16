@@ -1,0 +1,35 @@
+---
+title: "10. 세포 정체성과 분화"
+description: "cell type이란 무엇인가, 발생·줄기세포, 조혈 분화와 면역세포 계통"
+author: "Eunji Ha"
+date: today
+format:
+  html:
+    include-in-header:
+      text: |
+        <meta name="ai-title" content="10. 세포 정체성과 분화">
+        <meta name="ai-context" content="
+        이 챕터는 cell type이란 무엇인가, 발생·줄기세포, 조혈 분화와 면역세포 계통을 다룹니다. (초안 작성 전)
+        ">
+---
+
+::: {.callout-note collapse="true"}
+## 참고 자료
+- Essential Cell Biology 20장
+- 면역세포: HaLab Wiki — [면역세포의 종류와 상태](https://halab-wiki.knu.ac.kr/disease/immunology/01-basics/cells.html), [면역계의 발생](https://halab-wiki.knu.ac.kr/disease/immunology/01-basics/ontogeny.html)
+:::
+
+::: {.callout-warning}
+## 작성 예정
+이 장은 아직 쓰는 중입니다. 다룰 내용:
+
+1. cell type이란 무엇인가
+2. 발생과 줄기세포
+3. 조혈 분화와 면역세포 계통 — 자세한 내용은 HaLab Wiki로 연결
+
+데이터에서는 이렇게 보여요:
+
+- 클러스터 = cell type인가?
+- marker gene
+- trajectory
+:::

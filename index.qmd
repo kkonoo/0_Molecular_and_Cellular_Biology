@@ -1,0 +1,76 @@
+---
+title: "0. Molecular and Cellular Biology"
+subtitle: "분자세포생물학 — 시퀀싱 데이터를 읽기 위한 세포와 분자"
+author: "Eunji Ha"
+date: today
+format:
+  html:
+    include-in-header:
+      text: |
+        <meta name="ai-title" content="홈 - 분자세포생물학 강의 안내">
+        <meta name="ai-context" content="
+        이 강의는 HaLab에 들어온 CS·통계 전공 대학원생이 혼자 읽는 분자세포생물학 자습서입니다. 생물학 배경이 거의 없다고 가정합니다.
+        목표는 시퀀싱 데이터(bulk·single-cell·spatial RNA-seq, ATAC-seq, variant)를 이해하는 데 필요한 만큼의 분자세포생물학입니다.
+        Part 1 세포와 분자(0 왜 생물학을 알아야 하나, 1 세포라는 시스템, 2 생체분자),
+        Part 2 유전 정보(3 유전체와 염색질, 4 복제·돌연변이·유전),
+        Part 3 유전자 발현(5 전사와 전사 조절, 6 RNA 가공, 7 번역과 단백질의 일생),
+        Part 4 세포의 결정과 상호작용(8 세포 신호전달, 9 세포주기·세포사멸·암, 10 세포 정체성과 분화, 11 조직과 세포 간 상호작용),
+        Part 5 데이터가 만들어지기까지(12 PCR·시퀀싱·항체·CRISPR·세포 배양), 부록(한영 용어집, 유전자·단백질 표기 규칙, 자주 쓰는 데이터베이스, 면역세포 지도)으로 구성됩니다.
+        각 장에는 생물학 개념이 실제 데이터 형식과 분석 단계에서 어떻게 보이는지 연결하는 '데이터에서는 이렇게 보여요' 상자가 있습니다.
+        그림은 직접 그린 모식도이고, 숫자에는 출처를 붙입니다. 다음 교재는 1. Basic Statistics입니다.
+        ">
+---
+
+# Course Overview
+
+- HaLab에 들어온 **CS·통계 전공 대학원생**의 자습용 — 생물학 배경이 거의 없다고 가정
+- 목표: 시퀀싱 데이터(bulk·single-cell·spatial RNA-seq, ATAC-seq, variant)를 **이해하는 데 필요한 만큼**의 분자세포생물학
+- 교과서 전체를 요약하지 않음 — 데이터에서 거꾸로 출발해 필요한 개념만 고름
+- 장마다 **"데이터에서는 이렇게 보여요"** 상자 — 생물학 개념을 실제 파일 형식과 분석 단계로 연결
+- 이 책 다음에: [1. Basic Statistics](https://kkonoo.github.io/1_Basic_Statistics/)
+
+# Syllabus
+
+| Part | 장 | 주제 | 데이터에서는 | 상태 |
+|---|---|---|---|---|
+| **1** 세포와 분자 | [0](chapters/00_why_biology.qmd) | 왜 생물학을 알아야 하나 | count matrix 한 칸 = UMI 수 | 작성 예정 |
+| | [1](chapters/01_cell_system.qmd) | 세포라는 시스템 | mito read 비율, scRNA vs snRNA | 작성 예정 |
+| | [2](chapters/02_biomolecules.qmd) | 생체분자 | 서열 문자열, 5'→3', 단백질 도메인 | 작성 예정 |
+| **2** 유전 정보 | [3](chapters/03_genome_chromatin.qmd) | 유전체와 염색질 | GTF, 0-based vs 1-based, 레퍼런스 버전 | 작성 예정 |
+| | [4](chapters/04_replication_mutation_inheritance.qmd) | 복제·돌연변이·유전 | VCF, GWAS 결과표 | 작성 예정 |
+| **3** 유전자 발현 | [5](chapters/05_transcription.qmd) | 전사와 전사 조절 | ATAC·ChIP peak, TF motif | 작성 예정 |
+| | [6](chapters/06_rna_processing.qmd) | RNA 가공 | isoform 정량, intron read, 3' 편향 | 작성 예정 |
+| | [7](chapters/07_translation_protein.qmd) | 번역과 단백질의 일생 | mRNA ≠ 단백질 양, CITE-seq | 작성 예정 |
+| **4** 세포의 결정과 상호작용 | [8](chapters/08_cell_signaling.qmd) | 세포 신호전달 | KEGG 그림, pathway 분석 결과 | 작성 예정 |
+| | [9](chapters/09_cell_cycle_death_cancer.qmd) | 세포주기·세포사멸·암 | cell cycle score (S/G2M) | 작성 예정 |
+| | [10](chapters/10_cell_identity.qmd) | 세포 정체성과 분화 | 클러스터 = cell type?, marker, trajectory | 작성 예정 |
+| | [11](chapters/11_tissue_interaction.qmd) | 조직과 세포 간 상호작용 | spatial, cell-cell communication | 작성 예정 |
+| **5** 데이터가 만들어지기까지 | [12](chapters/12_data_generation.qmd) | 데이터는 어떻게 만들어지나 | library prep → FASTQ, Perturb-seq | 작성 예정 |
+| **부록** | [A](chapters/A1_glossary.qmd) | 한영 용어집 | — | 작성 예정 |
+| | [B](chapters/A2_nomenclature.qmd) | 유전자·단백질 표기 규칙 | — | 작성 예정 |
+| | [C](chapters/A3_databases.qmd) | 자주 쓰는 데이터베이스 | — | 작성 예정 |
+| | [D](chapters/A4_immune_cells.qmd) | 면역세포 지도 | — | 작성 예정 |
+
+: {tbl-colwidths="[18,6,26,37,13]"}
+
+# 이 사이트 읽는 법
+
+| 상자 | 뜻 |
+|---|---|
+| 파란 **note** | 참고 자료 (접혀 있음) |
+| 빨간 **important** | 핵심 정의 |
+| 노란 **warning** | 흔한 오해, **처음엔 여기서 헷갈려요** |
+| 초록 **tip** | 직관, 비유 |
+| 청록 **데이터에서는 이렇게 보여요** | 생물학 개념이 실제 데이터 파일과 분석 단계에서 보이는 모습 |
+
+- 설명은 개조식 — 한 줄에 한 정보
+- 숫자 옆의 작은 배지([예시](#){.src})는 **출처 링크** — 세포·분자의 숫자는 출처마다 범위가 다르므로 "대략 이 정도"로 읽기
+- 그림은 직접 그린 모식도 — 실제 크기 비율과 다를 때는 그림 설명에 적음
+- 코드는 데이터 상자에서 꼭 필요할 때만, 짧은 base R로
+- 오른쪽 아래 **AI 학습 도우미**에 지금 보고 있는 장의 내용을 물어볼 수 있음
+
+# 선수 지식
+
+- 생물학: 없어도 됨 — 고등학교 생물을 다 잊었다고 가정
+- 화학: 원자, 분자, 화학 결합이라는 말을 들어 본 정도 — 필요한 것은 [2장](chapters/02_biomolecules.qmd)에서
+- 프로그래밍: R 기본 문법 (벡터, 행렬, 함수 호출) — 데이터 상자의 짧은 코드를 읽을 수 있으면 충분

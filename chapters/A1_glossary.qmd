@@ -1,0 +1,22 @@
+---
+title: "부록 A. 한영 용어집"
+description: "장마다 나온 용어의 한국어·영어 대응"
+author: "Eunji Ha"
+date: today
+format:
+  html:
+    include-in-header:
+      text: |
+        <meta name="ai-title" content="부록 A. 한영 용어집">
+        <meta name="ai-context" content="
+        이 챕터는 장마다 나온 용어의 한국어·영어 대응을 다룹니다. (초안 작성 전)
+        ">
+---
+
+::: {.callout-warning}
+## 작성 예정
+이 장은 아직 쓰는 중입니다. 다룰 내용:
+
+1. 장별 용어 모음
+2. 약어 풀이
+:::

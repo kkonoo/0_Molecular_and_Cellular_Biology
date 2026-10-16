@@ -1,0 +1,24 @@
+---
+title: "부록 B. 유전자·단백질 표기 규칙"
+description: "사람·마우스 유전자와 단백질 표기, 유전자 ID"
+author: "Eunji Ha"
+date: today
+format:
+  html:
+    include-in-header:
+      text: |
+        <meta name="ai-title" content="부록 B. 유전자·단백질 표기 규칙">
+        <meta name="ai-context" content="
+        이 챕터는 사람·마우스 유전자와 단백질 표기, 유전자 ID를 다룹니다. (초안 작성 전)
+        ">
+---
+
+::: {.callout-warning}
+## 작성 예정
+이 장은 아직 쓰는 중입니다. 다룰 내용:
+
+1. 사람 유전자: 대문자 이탤릭
+2. 마우스 유전자: 첫 글자만 대문자 이탤릭
+3. 단백질 표기
+4. 유전자 symbol과 ID (Ensembl, Entrez)
+:::

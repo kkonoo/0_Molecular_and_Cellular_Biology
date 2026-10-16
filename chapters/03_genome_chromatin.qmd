@@ -1,0 +1,36 @@
+---
+title: "3. 유전체와 염색질"
+description: "유전자 구조(promoter, exon/intron, UTR, enhancer), 히스톤, 염색질 접힘"
+author: "Eunji Ha"
+date: today
+format:
+  html:
+    include-in-header:
+      text: |
+        <meta name="ai-title" content="3. 유전체와 염색질">
+        <meta name="ai-context" content="
+        이 챕터는 유전자 구조(promoter, exon/intron, UTR, enhancer), 히스톤, 염색질 접힘을 다룹니다. (초안 작성 전)
+        ">
+---
+
+::: {.callout-note collapse="true"}
+## 참고 자료
+- Essential Cell Biology 5, 8장
+- OpenStax Biology 2e 14장 DNA Structure and Function
+:::
+
+::: {.callout-warning}
+## 작성 예정
+이 장은 아직 쓰는 중입니다. 다룰 내용:
+
+1. 유전체: 염색체, 유전자, 유전자 사이
+2. 유전자 구조: promoter, exon/intron, UTR, enhancer
+3. 히스톤과 뉴클레오솜
+4. 염색질 접힘: 열린 염색질과 닫힌 염색질
+
+데이터에서는 이렇게 보여요:
+
+- GTF 한 줄 읽기
+- 0-based vs 1-based 좌표
+- 레퍼런스 버전 (유전체 assembly와 annotation release)
+:::

@@ -1,0 +1,35 @@
+---
+title: "4. 복제·돌연변이·유전"
+description: "DNA 복제와 수선, SNV·indel·CNV, 멘델 유전"
+author: "Eunji Ha"
+date: today
+format:
+  html:
+    include-in-header:
+      text: |
+        <meta name="ai-title" content="4. 복제·돌연변이·유전">
+        <meta name="ai-context" content="
+        이 챕터는 DNA 복제와 수선, SNV·indel·CNV, 멘델 유전을 다룹니다. (초안 작성 전)
+        ">
+---
+
+::: {.callout-note collapse="true"}
+## 참고 자료
+- Essential Cell Biology 6, 19장
+- OpenStax Biology 2e 12장 Mendel's Experiments and Heredity, 14장 DNA Structure and Function
+:::
+
+::: {.callout-warning}
+## 작성 예정
+이 장은 아직 쓰는 중입니다. 다룰 내용:
+
+1. DNA 복제와 수선
+2. 변이의 종류: SNV, indel, CNV
+3. 멘델 유전: allele, genotype, 유전 양식
+4. 심화 학습: [Human Genetics](https://chaek.org/books/human-genetics) (chaek)
+
+데이터에서는 이렇게 보여요:
+
+- VCF 한 줄 읽기
+- GWAS 결과표 읽기
+:::
