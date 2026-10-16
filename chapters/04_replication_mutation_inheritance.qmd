@@ -179,7 +179,7 @@ format:
 - 가장 선명하게 찍힌 한 명(lead SNP)이 범인이라고 단정할 수 없음 → 다른 증거(기능 실험, 다른 집단)가 필요
 :::
 
-::: {.callout-caution .data-box icon=false}
+::: {.callout-caution .data-box icon=false collapse="true"}
 ## 데이터에서는 이렇게 보여요: VCF 한 줄 = 변이 하나, 샘플 칸 = 그 사람의 genotype
 
 **파일 구조** [hts-specs](https://github.com/samtools/hts-specs){.src}
@@ -263,7 +263,7 @@ setNames(sapply(gts, decode), gts)
 - 이 위치는 [3장](03_genome_chromatin.qmd) 가상 유전자 DEMO1의 첫 CDS(1,041–1,100) 안
 :::
 
-::: {.callout-caution .data-box icon=false}
+::: {.callout-caution .data-box icon=false collapse="true"}
 ## 데이터에서는 이렇게 보여요: GWAS 결과표 한 줄 = 변이 하나의 연관 검정, 기준 allele부터 확인
 
 **컬럼** — GWAS Catalog의 요약통계 형식 GWAS-SSF 이름 기준 [GWAS-SSF](https://github.com/EBISPOT/gwas-summary-statistics-standard){.src}

@@ -163,7 +163,7 @@ format:
 
 - InterPro: 서로 닮은 단백질 무리의 서열 특징(signature)에 GO 용어를 연결해 자동 주석의 바탕이 됨 [GO 증거 코드](https://geneontology.org/docs/guide-go-evidence-codes/){.src}
 
-::: {.callout-caution .data-box icon=false}
+::: {.callout-caution .data-box icon=false collapse="true"}
 ## 데이터에서는 이렇게 보여요: 논문의 원자료는 GSE에서 SRR까지 따라간다
 
 ![GEO와 SRA 번호의 대응. 연구(GSE ↔ SRP), 시료(GSM ↔ SRX), read 파일 단위(SRR)로 내려감. 모식도이며 시료·run 수는 데이터마다 다름](../figures/A3_geo_sra.svg){fig-alt="왼쪽 GEO의 GSE, GSM, GPL, 보충 파일과 오른쪽 SRA의 SRP, SRX, SRR, FASTQ가 연구와 시료 단위로 이어진 그림"}
@@ -202,7 +202,7 @@ format:
 - 한 시료에 run이 여럿이면(SRX 하나에 SRR 여러 개) 보통 합쳐서 한 시료로 다룸 → 시료 수를 SRR 수로 세지 않기
 :::
 
-::: {.callout-caution .data-box icon=false}
+::: {.callout-caution .data-box icon=false collapse="true"}
 ## 데이터에서는 이렇게 보여요: ID 변환은 일대일이 아니다
 
 | 도구 | 방식 | 핵심 함수·이름 | 주의 |

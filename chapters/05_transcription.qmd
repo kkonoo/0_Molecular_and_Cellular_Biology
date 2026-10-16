@@ -174,7 +174,7 @@ format:
 | 가장 가까운 유전자 vs 표적 유전자 | enhancer는 고리로 멀리 있는 유전자를 조절할 수 있음 |
 :::
 
-::: {.callout-caution .data-box icon=false}
+::: {.callout-caution .data-box icon=false collapse="true"}
 ## 데이터에서는 이렇게 보여요: peak = read가 쌓인 구간, narrowPeak 한 줄 = peak 하나
 
 **두 실험이 재는 것**
@@ -228,7 +228,7 @@ chr1   1000   1400   sampleA_peak_17   312   .   8.21   34.6   31.2   210
 - fragment 길이 분포: 약 200 bp 간격의 물결 = 뉴클레오솜 0개, 1개, 2개를 사이에 둔 fragment [Buenrostro 2013](https://pubmed.ncbi.nlm.nih.gov/24097267/){.src} → 이 무늬가 안 보이면 의심
 :::
 
-::: {.callout-caution .data-box icon=false}
+::: {.callout-caution .data-box icon=false collapse="true"}
 ## 데이터에서는 이렇게 보여요: TF 모티프는 위치별 염기 빈도 표(PWM)이고, 모티프가 있다고 결합하는 것은 아니다
 
 **PFM → PWM → logo**

@@ -165,7 +165,7 @@ format:
   4. 표적 중 *SOCS* → JAK 억제 (되먹임)
 - MAPK보다 단계가 짧음: 수용체 → JAK → STAT → 핵
 
-::: {.callout-caution .data-box icon=false}
+::: {.callout-caution .data-box icon=false collapse="true"}
 ## 데이터에서는 이렇게 보여요: KEGG 그림의 상자 하나는 유전자 하나가 아닐 수 있다
 
 ![KEGG pathway 그림의 기호를 범례를 보고 새로 그린 것. 아래 줄은 MAPK 지도의 ERK 줄기를 같은 기호로 그린 예](../figures/ch08_kegg_legend.svg){fig-alt="왼쪽은 노드 모양 네 가지, 오른쪽은 활성화, 억제, 간접 효과, 결합, 인산화, 탈인산화, 유비퀴틴화 선, 아래는 EGFR에서 ELK1까지의 줄과 ERK를 억제하는 DUSP"}
@@ -205,7 +205,7 @@ format:
 - RNA-seq 결과로 칠한 상자 = 그 유전자의 **mRNA 변화**. 화살표를 따라 신호가 흘렀다는 증거는 아님 (3절)
 :::
 
-::: {.callout-caution .data-box icon=false}
+::: {.callout-caution .data-box icon=false collapse="true"}
 ## 데이터에서는 이렇게 보여요: pathway 분석 = 유전자 목록과 유전자 집합의 겹침에 대한 검정
 
 **ORA (over-representation analysis)**

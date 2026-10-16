@@ -149,7 +149,7 @@ format:
   - PBMC scRNA-seq에 호중구가 거의 없는 이유 = 생물학이 아니라 **시료 준비** 단계
 - 면역세포 아형·상태·혈액 속 비율·발생 시기는 위키 세 페이지와 [부록 D](A4_immune_cells.qmd)에서
 
-::: {.callout-caution .data-box icon=false}
+::: {.callout-caution .data-box icon=false collapse="true"}
 ## 데이터에서는 이렇게 보여요: 클러스터는 계산 결과, cell type은 해석
 
 **해상도에 따라 클러스터 수가 바뀜**
@@ -183,7 +183,7 @@ format:
 | 서로 다른 계통의 marker가 한 세포에 같이 있나? | doublet 의심 |
 :::
 
-::: {.callout-caution .data-box icon=false}
+::: {.callout-caution .data-box icon=false collapse="true"}
 ## 데이터에서는 이렇게 보여요: marker = 그 클러스터에서는 켜져 있고 나머지에서는 꺼진 유전자
 
 **`FindAllMarkers()` 결과 읽기**
@@ -248,7 +248,7 @@ c(pct.1 = pct.1, pct.2 = pct.2,
 - 참조에 없는 type도 가장 비슷한 이름을 받음 → 자동 라벨은 출발점, marker로 확인해 확정
 :::
 
-::: {.callout-caution .data-box icon=false}
+::: {.callout-caution .data-box icon=false collapse="true"}
 ## 데이터에서는 이렇게 보여요: 궤적과 pseudotime = 한 번 찍은 사진 속 세포를 길 위에 늘어세운 것
 
 ![연속 분화의 궤적 모식도. 왼쪽은 세포를 pseudotime으로 색칠한 모습, 오른쪽은 pseudotime에 따라 바뀌는 유전자. 가상의 데이터](../figures/ch10_trajectory.svg){fig-alt="왼쪽: 시작점에서 갈림점을 지나 계통 A와 B로 갈라지는 점들이 보라에서 주황으로 색이 변함. 오른쪽: 전구 marker는 pseudotime에 따라 내려가고 계통 A·B marker는 갈림점 뒤에 올라감"}

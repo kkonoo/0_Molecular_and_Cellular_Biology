@@ -197,7 +197,7 @@ format:
 
 - 새 데이터를 받으면 **"이 칸은 무엇을 센 숫자인가"**부터 확인
 
-::: {.callout-caution .data-box icon=false}
+::: {.callout-caution .data-box icon=false collapse="true"}
 ## 데이터에서는 이렇게 보여요: count matrix 한 칸 = 한 세포에서 잡힌 한 유전자의 UMI 수
 
 ![가상의 count matrix 일부. 행 = 유전자, 열 = 세포 바코드, 칸 = UMI 수, 마지막 줄 = 세포별 전체 UMI](../figures/ch00_matrix.svg){fig-alt="유전자 5개와 세포 6개의 count matrix. 대부분의 칸이 0이고, 둘째 세포의 CD3E 칸 5가 강조됨"}

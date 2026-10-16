@@ -214,7 +214,7 @@ format:
   - 실험 전 살아 있는 세포의 비율을 확인 → 죽어 가는 세포는 품질 지표가 나쁨 ([1장](01_cell_system.qmd))
   - 조직 해리·처리 과정 자체가 세포에 스트레스를 줄 수 있음 → 스트레스 반응 유전자의 높은 발현이 실험 흔적일 수 있음 ([7장](07_translation_protein.qmd), [11장](11_tissue_interaction.qmd))
 
-::: {.callout-caution .data-box icon=false}
+::: {.callout-caution .data-box icon=false collapse="true"}
 ## 데이터에서는 이렇게 보여요: FASTQ 한 레코드 = 4줄, 품질 문자 하나 = 숫자 하나
 
 **파일 이름 규칙**
@@ -278,7 +278,7 @@ signif(10^(-Q / 10), 2)             # 틀릴 확률 P = 10^(-Q/10)
 - 도구마다 세부 규칙이 달라 같은 FASTQ에서도 count가 조금씩 다를 수 있음 → 논문 methods에 도구와 버전을 적는 이유
 :::
 
-::: {.callout-caution .data-box icon=false}
+::: {.callout-caution .data-box icon=false collapse="true"}
 ## 데이터에서는 이렇게 보여요: Perturb-seq은 세포마다 "어떤 guide를 받았나"라는 열이 하나 더 있다
 
 **무엇을 하나**

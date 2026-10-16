@@ -204,7 +204,7 @@ format:
   - 예: ABO 혈액형은 적혈구 표면 당사슬의 차이
 - 핵산의 리보스·디옥시리보스도 당
 
-::: {.callout-caution .data-box icon=false}
+::: {.callout-caution .data-box icon=false collapse="true"}
 ## 데이터에서는 이렇게 보여요: 서열은 한 가닥을 5′→3′으로 쓴 문자열
 
 **FASTA 형식**

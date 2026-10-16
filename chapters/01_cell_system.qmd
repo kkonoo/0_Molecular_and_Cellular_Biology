@@ -185,7 +185,7 @@ format:
 - read를 레퍼런스에 정렬하면 exon에 떨어졌는지 intron에 떨어졌는지 알 수 있음 ([3장](03_genome_chromatin.qmd))
 - 같은 조직이라도 무엇을 잡았는지에 따라 count matrix의 성격이 달라짐 → 장 끝 데이터 상자 2
 
-::: {.callout-caution .data-box icon=false}
+::: {.callout-caution .data-box icon=false collapse="true"}
 ## 데이터에서는 이렇게 보여요: mitochondrial read 비율은 막이 온전했는지 보는 간접 지표
 
 ![막이 손상된 세포에서 MT- 비율이 올라가는 원리. 아래 막대는 가상의 숫자로, 주황(MT-) 분자 수는 그대로이고 전체가 줄어 비율이 오름](../figures/ch01_damaged_cell.svg){fig-alt="온전한 세포와 막에 구멍이 난 세포. 손상된 세포에서 세포질 mRNA는 빠져나가고 미토콘드리아는 남음. 아래 막대에서 MT- 비율이 4%에서 25%로 오름"}
@@ -236,7 +236,7 @@ rbind(total, mt, pct_mt = mt / total * 100)
   3. 높은 세포들이 한 클러스터로 모이고 뚜렷한 marker가 있으면 **생물학**일 수 있음 → 버리기 전에 확인 ([10장](10_cell_identity.qmd))
 :::
 
-::: {.callout-caution .data-box icon=false}
+::: {.callout-caution .data-box icon=false collapse="true"}
 ## 데이터에서는 이렇게 보여요: scRNA-seq은 세포 전체, snRNA-seq은 핵만 잡는다
 
 ![scRNA-seq과 snRNA-seq이 잡는 범위와 read가 떨어지는 곳. 아래 막대는 모식도이며 실제 비율은 조직과 방법마다 다름](../figures/ch01_sc_vs_sn.svg){fig-alt="왼쪽은 세포 전체를 잡는 scRNA-seq, 오른쪽은 핵만 잡는 snRNA-seq. snRNA-seq에서는 intron read 비중이 크고 MT- read가 거의 없음"}

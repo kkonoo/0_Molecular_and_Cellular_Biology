@@ -134,7 +134,7 @@ format:
 | 3' 데이터의 isoform 결과 | 5' 쪽에서 갈리는 isoform은 3' 끝 read로는 구분이 거의 안 됨 (데이터 상자 3) |
 :::
 
-::: {.callout-caution .data-box icon=false}
+::: {.callout-caution .data-box icon=false collapse="true"}
 ## 데이터에서는 이렇게 보여요: read 하나가 여러 isoform에 맞으면, 정량 도구가 확률적으로 나눠 준다
 
 ![대체 splicing으로 생기는 isoform 두 개(A: exon 3 포함, B: exon 3 건너뜀)와 read의 배정. 회색 read는 둘 다에서 나올 수 있어 모호함](../figures/ch06_isoforms.svg){fig-alt="exon 4개짜리 유전자, exon 1-2-3-4로 이어진 isoform A와 exon 1-2-4로 이어진 isoform B. 아래 read 중 회색은 exon 1, 2, 4 안에 있어 둘 다 가능, 보라는 exon 3이나 exon 2-3, 3-4 경계를 걸쳐 A에서만 가능, 주황은 exon 2-4 경계를 걸쳐 B에서만 가능"}
@@ -182,7 +182,7 @@ round(n, 1)
 - 피할 것: gene 수준 count를 offset **없이** 그대로 넘기기 — 시료마다 isoform 구성이 달라 평균 길이가 바뀌는 효과를 놓침
 :::
 
-::: {.callout-caution .data-box icon=false}
+::: {.callout-caution .data-box icon=false collapse="true"}
 ## 데이터에서는 이렇게 보여요: unspliced와 spliced를 따로 세면 세포가 어디로 가는지 추정할 수 있다 (RNA velocity)
 
 ![RNA velocity 모식도. 왼쪽: α(전사) → unspliced(u) → β(splicing) → spliced(s) → γ(분해). 오른쪽: 세포마다 (s, u)를 찍으면 정상상태 선 위의 세포는 그 유전자를 켜는 중, 아래의 세포는 끄는 중. 모식도](../figures/ch06_velocity.svg){fig-alt="왼쪽은 핵 안에서 유전자 DNA가 전사되어 intron이 남은 unspliced RNA가 되고 splicing으로 spliced mRNA가 되어 핵 밖에서 분해되는 단계와 두 미분방정식. 오른쪽은 가로축 spliced, 세로축 unspliced 평면에 점선 정상상태 선과, 선 위로 올라가는 주황 점들(켜지는 중)과 선 아래로 내려오는 보라 점들(꺼지는 중)"}
@@ -215,7 +215,7 @@ round(n, 1)
 - unspliced 비율은 방법마다 다름: snRNA-seq은 intron read가 많음 ([1장](01_cell_system.qmd)) → 핵 데이터는 intron까지 세는 `--soloFeatures GeneFull`이 쓰임 [STARsolo](https://github.com/alexdobin/STAR/blob/master/docs/STARsolo.md){.src}
 :::
 
-::: {.callout-caution .data-box icon=false}
+::: {.callout-caution .data-box icon=false collapse="true"}
 ## 데이터에서는 이렇게 보여요: 3' 방식은 유전자의 3' 끝만 읽는다
 
 ![같은 유전자에서 read가 쌓이는 모양. full-length 방식(위)은 exon 전체에, 3' 방식(아래)은 poly(A) 쪽 3' 끝 근처에만 쌓임. 모식도](../figures/ch06_coverage.svg){fig-alt="exon 4개짜리 유전자 아래 두 coverage 트랙. full-length 트랙은 네 exon 모두에 고른 높이, 3' 방식 트랙은 exon 4의 끝부분에만 봉우리가 있고 exon 2(isoform마다 다른 exon) 아래는 read가 거의 없음"}

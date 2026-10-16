@@ -89,7 +89,7 @@ flowchart LR
 | CD 번호 vs 유전자 기호 | CD20 = *MS4A1*, CD16 = *FCGR3A*·*FCGR3B* → [부록 B](A2_nomenclature.qmd) |
 :::
 
-::: {.callout-caution .data-box icon=false}
+::: {.callout-caution .data-box icon=false collapse="true"}
 ## 데이터에서는 이렇게 보여요: PBMC 클러스터에 이름 붙이기
 
 **PBMC에는 무엇이 들어 있나**

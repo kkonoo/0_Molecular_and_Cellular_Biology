@@ -245,7 +245,7 @@ format:
 | *TP53* vs p53 | 이탤릭 *TP53* = 유전자, 정체 p53 = 단백질 ([부록 B](A2_nomenclature.qmd)) |
 :::
 
-::: {.callout-caution .data-box icon=false}
+::: {.callout-caution .data-box icon=false collapse="true"}
 ## 데이터에서는 이렇게 보여요: 세포주기 점수 = S기·G2M기 유전자 묶음의 발현 점수
 
 **무엇으로 점수를 매기나**
@@ -292,7 +292,7 @@ data.frame(S.Score, G2M.Score, Phase,
   - 확인: 그 클러스터 안에 T세포·B세포 등 다른 type의 marker가 섞여 있는지 보기
 :::
 
-::: {.callout-caution .data-box icon=false}
+::: {.callout-caution .data-box icon=false collapse="true"}
 ## 데이터에서는 이렇게 보여요: 주기 효과는 "무엇이 궁금한가"에 따라 빼거나 남김
 
 **빼는 방법 두 가지 (Seurat 비네트)** [Seurat 비네트](https://satijalab.org/seurat/articles/cell_cycle_vignette){.src}

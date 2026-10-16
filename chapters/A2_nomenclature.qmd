@@ -195,7 +195,7 @@ format:
 - `A66G`처럼 쓰면 단백질 변화인지 염기 변화인지 모호 → `p.Ala66Gly`처럼 접두를 붙임 [GeneReviews](https://ncbi.nlm.nih.gov/books/NBK1528){.src}
 - VCF 파일은 HGVS가 아니라 **염색체 좌표 + 참조/대체 염기**로 적음 → [4장](04_replication_mutation_inheritance.qmd)
 
-::: {.callout-caution .data-box icon=false}
+::: {.callout-caution .data-box icon=false collapse="true"}
 ## 데이터에서는 이렇게 보여요: 행 이름은 symbol, 열쇠는 Ensembl ID
 
 **파일로는** — Cell Ranger의 `features.tsv.gz` [10x Genomics](https://www.10xgenomics.com/support/software/cell-ranger/latest/analysis/outputs/cr-outputs-mex-matrices){.src}
