@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 470" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" role="img" aria-label="DNA 이중나선에서 뉴클레오솜 사슬, 접힌 염색질, 고리와 TAD, 분열기 염색체로 압축되는 단계와, 닫힌 염색질과 열린 염색질의 비교">
+<rect width="940" height="470" fill="#ffffff"/>
+<text x="20.0" y="24.0" font-size="15" text-anchor="start" fill="#333" font-weight="700">접힘 단계: 오른쪽으로 갈수록 더 압축 (크기 비율 아님)</text>
+<rect x="20.0" y="38.0" width="168.0" height="194.0" rx="10" fill="#f7f6fa" stroke="#d9d3e6" stroke-width="1"/>
+<text x="104.0" y="62.0" font-size="16" text-anchor="middle" fill="#333" font-weight="700">DNA 이중나선</text>
+<text x="104.0" y="220.0" font-size="13" text-anchor="middle" fill="#555">지름 약 2 nm</text>
+<rect x="203.0" y="38.0" width="168.0" height="194.0" rx="10" fill="#f7f6fa" stroke="#d9d3e6" stroke-width="1"/>
+<text x="287.0" y="62.0" font-size="16" text-anchor="middle" fill="#333" font-weight="700">뉴클레오솜 사슬</text>
+<text x="287.0" y="220.0" font-size="13" text-anchor="middle" fill="#555">약 11 nm, 구슬 꿰미</text>
+<rect x="386.0" y="38.0" width="168.0" height="194.0" rx="10" fill="#f7f6fa" stroke="#d9d3e6" stroke-width="1"/>
+<text x="470.0" y="62.0" font-size="16" text-anchor="middle" fill="#333" font-weight="700">접힌 염색질</text>
+<text x="470.0" y="220.0" font-size="13" text-anchor="middle" fill="#555">불규칙하게 뭉친 사슬</text>
+<rect x="569.0" y="38.0" width="168.0" height="194.0" rx="10" fill="#f7f6fa" stroke="#d9d3e6" stroke-width="1"/>
+<text x="653.0" y="62.0" font-size="16" text-anchor="middle" fill="#333" font-weight="700">고리 · TAD</text>
+<text x="653.0" y="220.0" font-size="13" text-anchor="middle" fill="#555">Mb 규모의 영역</text>
+<rect x="752.0" y="38.0" width="168.0" height="194.0" rx="10" fill="#f7f6fa" stroke="#d9d3e6" stroke-width="1"/>
+<text x="836.0" y="62.0" font-size="16" text-anchor="middle" fill="#333" font-weight="700">분열기 염색체</text>
+<text x="836.0" y="220.0" font-size="13" text-anchor="middle" fill="#555">가장 압축 (9장)</text>
+<line x1="190.0" y1="140.0" x2="201.0" y2="140.0" stroke="#888" stroke-width="2"/>
+<line x1="201.0" y1="140.0" x2="196.7" y2="142.6" stroke="#888" stroke-width="2"/>
+<line x1="201.0" y1="140.0" x2="196.7" y2="137.4" stroke="#888" stroke-width="2"/>
+<line x1="373.0" y1="140.0" x2="384.0" y2="140.0" stroke="#888" stroke-width="2"/>
+<line x1="384.0" y1="140.0" x2="379.7" y2="142.6" stroke="#888" stroke-width="2"/>
+<line x1="384.0" y1="140.0" x2="379.7" y2="137.4" stroke="#888" stroke-width="2"/>
+<line x1="556.0" y1="140.0" x2="567.0" y2="140.0" stroke="#888" stroke-width="2"/>
+<line x1="567.0" y1="140.0" x2="562.7" y2="142.6" stroke="#888" stroke-width="2"/>
+<line x1="567.0" y1="140.0" x2="562.7" y2="137.4" stroke="#888" stroke-width="2"/>
+<line x1="739.0" y1="140.0" x2="750.0" y2="140.0" stroke="#888" stroke-width="2"/>
+<line x1="750.0" y1="140.0" x2="745.7" y2="142.6" stroke="#888" stroke-width="2"/>
+<line x1="750.0" y1="140.0" x2="745.7" y2="137.4" stroke="#888" stroke-width="2"/>
+<line x1="43.6" y1="148.1" x2="43.6" y2="131.9" stroke="#bbb" stroke-width="1.2"/>
+<line x1="49.2" y1="154.0" x2="49.2" y2="126.0" stroke="#bbb" stroke-width="1.2"/>
+<line x1="54.8" y1="156.0" x2="54.8" y2="124.0" stroke="#bbb" stroke-width="1.2"/>
+<line x1="60.4" y1="153.5" x2="60.4" y2="126.5" stroke="#bbb" stroke-width="1.2"/>
+<line x1="66.0" y1="147.3" x2="66.0" y2="132.7" stroke="#bbb" stroke-width="1.2"/>
+<line x1="71.6" y1="139.1" x2="71.6" y2="140.9" stroke="#bbb" stroke-width="1.2"/>
+<line x1="77.2" y1="131.1" x2="77.2" y2="148.9" stroke="#bbb" stroke-width="1.2"/>
+<line x1="82.8" y1="125.6" x2="82.8" y2="154.4" stroke="#bbb" stroke-width="1.2"/>
+<line x1="88.4" y1="124.1" x2="88.4" y2="155.9" stroke="#bbb" stroke-width="1.2"/>
+<line x1="94.0" y1="127.0" x2="94.0" y2="153.0" stroke="#bbb" stroke-width="1.2"/>
+<line x1="99.6" y1="133.5" x2="99.6" y2="146.5" stroke="#bbb" stroke-width="1.2"/>
+<line x1="105.2" y1="141.8" x2="105.2" y2="138.2" stroke="#bbb" stroke-width="1.2"/>
+<line x1="110.8" y1="149.6" x2="110.8" y2="130.4" stroke="#bbb" stroke-width="1.2"/>
+<line x1="116.4" y1="154.8" x2="116.4" y2="125.2" stroke="#bbb" stroke-width="1.2"/>
+<line x1="122.0" y1="155.8" x2="122.0" y2="124.2" stroke="#bbb" stroke-width="1.2"/>
+<line x1="127.6" y1="152.5" x2="127.6" y2="127.5" stroke="#bbb" stroke-width="1.2"/>
+<line x1="133.2" y1="145.7" x2="133.2" y2="134.3" stroke="#bbb" stroke-width="1.2"/>
+<line x1="138.8" y1="137.3" x2="138.8" y2="142.7" stroke="#bbb" stroke-width="1.2"/>
+<line x1="144.4" y1="129.6" x2="144.4" y2="150.4" stroke="#bbb" stroke-width="1.2"/>
+<line x1="150.0" y1="124.9" x2="150.0" y2="155.1" stroke="#bbb" stroke-width="1.2"/>
+<line x1="155.6" y1="124.3" x2="155.6" y2="155.7" stroke="#bbb" stroke-width="1.2"/>
+<line x1="161.2" y1="128.1" x2="161.2" y2="151.9" stroke="#bbb" stroke-width="1.2"/>
+<line x1="166.8" y1="135.2" x2="166.8" y2="144.8" stroke="#bbb" stroke-width="1.2"/>
+<path d="M38.0,140.0 L39.0,141.5 L40.0,143.0 L41.0,144.5 L42.0,145.9 L43.0,147.3 L44.0,148.7 L45.0,149.9 L46.0,151.0 L47.0,152.1 L48.0,153.0 L49.0,153.9 L50.0,154.6 L51.0,155.1 L52.0,155.5 L53.0,155.8 L54.0,156.0 L55.0,156.0 L56.0,155.8 L57.0,155.5 L58.0,155.1 L59.0,154.6 L60.0,153.9 L61.0,153.0 L62.0,152.1 L63.0,151.0 L64.0,149.9 L65.0,148.7 L66.0,147.3 L67.0,145.9 L68.0,144.5 L69.0,143.0 L70.0,141.5 L71.0,140.0 L72.0,138.5 L73.0,137.0 L74.0,135.5 L75.0,134.1 L76.0,132.7 L77.0,131.3 L78.0,130.1 L79.0,129.0 L80.0,127.9 L81.0,127.0 L82.0,126.1 L83.0,125.4 L84.0,124.9 L85.0,124.5 L86.0,124.2 L87.0,124.0 L88.0,124.0 L89.0,124.2 L90.0,124.5 L91.0,124.9 L92.0,125.4 L93.0,126.1 L94.0,127.0 L95.0,127.9 L96.0,129.0 L97.0,130.1 L98.0,131.3 L99.0,132.7 L100.0,134.1 L101.0,135.5 L102.0,137.0 L103.0,138.5 L104.0,140.0 L105.0,141.5 L106.0,143.0 L107.0,144.5 L108.0,145.9 L109.0,147.3 L110.0,148.7 L111.0,149.9 L112.0,151.0 L113.0,152.1 L114.0,153.0 L115.0,153.9 L116.0,154.6 L117.0,155.1 L118.0,155.5 L119.0,155.8 L120.0,156.0 L121.0,156.0 L122.0,155.8 L123.0,155.5 L124.0,155.1 L125.0,154.6 L126.0,153.9 L127.0,153.0 L128.0,152.1 L129.0,151.0 L130.0,149.9 L131.0,148.7 L132.0,147.3 L133.0,145.9 L134.0,144.5 L135.0,143.0 L136.0,141.5 L137.0,140.0 L138.0,138.5 L139.0,137.0 L140.0,135.5 L141.0,134.1 L142.0,132.7 L143.0,131.3 L144.0,130.1 L145.0,129.0 L146.0,127.9 L147.0,127.0 L148.0,126.1 L149.0,125.4 L150.0,124.9 L151.0,124.5 L152.0,124.2 L153.0,124.0 L154.0,124.0 L155.0,124.2 L156.0,124.5 L157.0,124.9 L158.0,125.4 L159.0,126.1 L160.0,127.0 L161.0,127.9 L162.0,129.0 L163.0,130.1 L164.0,131.3 L165.0,132.7 L166.0,134.1 L167.0,135.5 L168.0,137.0 L169.0,138.5 L170.0,140.0" stroke="#5B4D80" stroke-width="2.5" fill="none"/>
+<path d="M38.0,140.0 L39.0,138.5 L40.0,137.0 L41.0,135.5 L42.0,134.1 L43.0,132.7 L44.0,131.3 L45.0,130.1 L46.0,129.0 L47.0,127.9 L48.0,127.0 L49.0,126.1 L50.0,125.4 L51.0,124.9 L52.0,124.5 L53.0,124.2 L54.0,124.0 L55.0,124.0 L56.0,124.2 L57.0,124.5 L58.0,124.9 L59.0,125.4 L60.0,126.1 L61.0,127.0 L62.0,127.9 L63.0,129.0 L64.0,130.1 L65.0,131.3 L66.0,132.7 L67.0,134.1 L68.0,135.5 L69.0,137.0 L70.0,138.5 L71.0,140.0 L72.0,141.5 L73.0,143.0 L74.0,144.5 L75.0,145.9 L76.0,147.3 L77.0,148.7 L78.0,149.9 L79.0,151.0 L80.0,152.1 L81.0,153.0 L82.0,153.9 L83.0,154.6 L84.0,155.1 L85.0,155.5 L86.0,155.8 L87.0,156.0 L88.0,156.0 L89.0,155.8 L90.0,155.5 L91.0,155.1 L92.0,154.6 L93.0,153.9 L94.0,153.0 L95.0,152.1 L96.0,151.0 L97.0,149.9 L98.0,148.7 L99.0,147.3 L100.0,145.9 L101.0,144.5 L102.0,143.0 L103.0,141.5 L104.0,140.0 L105.0,138.5 L106.0,137.0 L107.0,135.5 L108.0,134.1 L109.0,132.7 L110.0,131.3 L111.0,130.1 L112.0,129.0 L113.0,127.9 L114.0,127.0 L115.0,126.1 L116.0,125.4 L117.0,124.9 L118.0,124.5 L119.0,124.2 L120.0,124.0 L121.0,124.0 L122.0,124.2 L123.0,124.5 L124.0,124.9 L125.0,125.4 L126.0,126.1 L127.0,127.0 L128.0,127.9 L129.0,129.0 L130.0,130.1 L131.0,131.3 L132.0,132.7 L133.0,134.1 L134.0,135.5 L135.0,137.0 L136.0,138.5 L137.0,140.0 L138.0,141.5 L139.0,143.0 L140.0,144.5 L141.0,145.9 L142.0,147.3 L143.0,148.7 L144.0,149.9 L145.0,151.0 L146.0,152.1 L147.0,153.0 L148.0,153.9 L149.0,154.6 L150.0,155.1 L151.0,155.5 L152.0,155.8 L153.0,156.0 L154.0,156.0 L155.0,155.8 L156.0,155.5 L157.0,155.1 L158.0,154.6 L159.0,153.9 L160.0,153.0 L161.0,152.1 L162.0,151.0 L163.0,149.9 L164.0,148.7 L165.0,147.3 L166.0,145.9 L167.0,144.5 L168.0,143.0 L169.0,141.5 L170.0,140.0" stroke="#D9822B" stroke-width="2.5" fill="none"/>
+<path d="M217 158 C237 158 237 122 257 130 S287 162 302 148 S332 118 357 134" stroke="#D9822B" stroke-width="2" fill="none"/>
+<circle cx="245.0" cy="136.0" r="14.0" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<ellipse cx="245" cy="136" rx="17" ry="8" fill="none" stroke="#D9822B" stroke-width="2.2" transform="rotate(-20 245 136)"/>
+<circle cx="289.0" cy="150.0" r="14.0" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<ellipse cx="289" cy="150" rx="17" ry="8" fill="none" stroke="#D9822B" stroke-width="2.2" transform="rotate(-20 289 150)"/>
+<circle cx="339.0" cy="130.0" r="14.0" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<ellipse cx="339" cy="130" rx="17" ry="8" fill="none" stroke="#D9822B" stroke-width="2.2" transform="rotate(-20 339 130)"/>
+<text x="287.0" y="186.0" font-size="13" text-anchor="middle" fill="#5B4D80">히스톤 8량체 + DNA</text>
+<path d="M465.9,139.9 L437.2,127.7 L461.2,136.3 L445.9,120.8 L453.8,113.8 L461.4,111.9 L462.8,113.2 L471.3,122.9 L480.3,129.4 L483.2,131.4 L487.9,140.6 L489.7,143.5 L505.1,146.5 L473.0,141.6 L476.0,149.8 L471.7,163.4 L469.4,152.4 L469.6,145.1 L468.7,142.0 L455.4,160.8 L468.1,142.3 L452.6,159.7 L443.4,161.5 L433.1,155.4 L453.8,143.4 L439.2,140.2" stroke="#D9822B" stroke-width="1.3" fill="none"/>
+<circle cx="465.9" cy="139.9" r="7.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1"/>
+<circle cx="437.2" cy="127.7" r="7.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1"/>
+<circle cx="461.2" cy="136.3" r="7.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1"/>
+<circle cx="445.9" cy="120.8" r="7.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1"/>
+<circle cx="453.8" cy="113.8" r="7.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1"/>
+<circle cx="461.4" cy="111.9" r="7.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1"/>
+<circle cx="462.8" cy="113.2" r="7.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1"/>
+<circle cx="471.3" cy="122.9" r="7.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1"/>
+<circle cx="480.3" cy="129.4" r="7.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1"/>
+<circle cx="483.2" cy="131.4" r="7.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1"/>
+<circle cx="487.9" cy="140.6" r="7.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1"/>
+<circle cx="489.7" cy="143.5" r="7.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1"/>
+<circle cx="505.1" cy="146.5" r="7.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1"/>
+<circle cx="473.0" cy="141.6" r="7.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1"/>
+<circle cx="476.0" cy="149.8" r="7.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1"/>
+<circle cx="471.7" cy="163.4" r="7.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1"/>
+<circle cx="469.4" cy="152.4" r="7.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1"/>
+<circle cx="469.6" cy="145.1" r="7.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1"/>
+<circle cx="468.7" cy="142.0" r="7.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1"/>
+<circle cx="455.4" cy="160.8" r="7.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1"/>
+<circle cx="468.1" cy="142.3" r="7.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1"/>
+<circle cx="452.6" cy="159.7" r="7.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1"/>
+<circle cx="443.4" cy="161.5" r="7.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1"/>
+<circle cx="433.1" cy="155.4" r="7.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1"/>
+<circle cx="453.8" cy="143.4" r="7.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1"/>
+<circle cx="439.2" cy="140.2" r="7.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1"/>
+<path d="M583.0 180 L618.0 180 C573.0 130 603.0 85 625.0 100 C643.0 115 633.0 160 623.0 178" stroke="#D9822B" stroke-width="2.2" fill="none"/>
+<path d="M658.0 180 C643.0 120 683.0 80 701.0 105 C718.0 130 703.0 165 691.0 178 L725.0 180" stroke="#D9822B" stroke-width="2.2" fill="none"/>
+<line x1="623.0" y1="180.0" x2="658.0" y2="180.0" stroke="#D9822B" stroke-width="2.2"/>
+<ellipse cx="620.0" cy="180" rx="7" ry="10" fill="none" stroke="#1F7A7A" stroke-width="2.5"/>
+<ellipse cx="655.0" cy="180" rx="7" ry="10" fill="none" stroke="#1F7A7A" stroke-width="2.5"/>
+<ellipse cx="693.0" cy="180" rx="7" ry="10" fill="none" stroke="#1F7A7A" stroke-width="2.5"/>
+<text x="653.0" y="204.0" font-size="13" text-anchor="middle" fill="#1F7A7A">고리 밑동</text>
+<rect x="824.0" y="80" width="24" height="120" rx="12" fill="#5B4D80" stroke="#ffffff" stroke-width="1.5" transform="rotate(-16 836.0 140)"/>
+<rect x="824.0" y="80" width="24" height="120" rx="12" fill="#5B4D80" stroke="#ffffff" stroke-width="1.5" transform="rotate(16 836.0 140)"/>
+<circle cx="836.0" cy="140.0" r="7.0" fill="#7A6A99" stroke="none" stroke-width="1"/>
+<rect x="20.0" y="262.0" width="435.0" height="190.0" rx="10" fill="#f7f6fa" stroke="#d9d3e6" stroke-width="1"/>
+<text x="40.0" y="290.0" font-size="16" text-anchor="start" fill="#333" font-weight="700">닫힌 염색질 (heterochromatin)</text>
+<rect x="485.0" y="262.0" width="435.0" height="190.0" rx="10" fill="#f7f6fa" stroke="#d9d3e6" stroke-width="1"/>
+<text x="505.0" y="290.0" font-size="16" text-anchor="start" fill="#333" font-weight="700">열린 염색질 (open chromatin)</text>
+<circle cx="70.0" cy="332.0" r="14.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="102.0" cy="332.0" r="14.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="134.0" cy="332.0" r="14.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="166.0" cy="332.0" r="14.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="198.0" cy="332.0" r="14.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="230.0" cy="332.0" r="14.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="262.0" cy="332.0" r="14.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="294.0" cy="332.0" r="14.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="326.0" cy="332.0" r="14.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="358.0" cy="332.0" r="14.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="390.0" cy="332.0" r="14.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="86.0" cy="358.0" r="14.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="118.0" cy="358.0" r="14.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="150.0" cy="358.0" r="14.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="182.0" cy="358.0" r="14.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="214.0" cy="358.0" r="14.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="246.0" cy="358.0" r="14.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="278.0" cy="358.0" r="14.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="310.0" cy="358.0" r="14.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="342.0" cy="358.0" r="14.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="374.0" cy="358.0" r="14.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="406.0" cy="358.0" r="14.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="70.0" cy="384.0" r="14.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="102.0" cy="384.0" r="14.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="134.0" cy="384.0" r="14.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="166.0" cy="384.0" r="14.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="198.0" cy="384.0" r="14.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="230.0" cy="384.0" r="14.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="262.0" cy="384.0" r="14.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="294.0" cy="384.0" r="14.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="326.0" cy="384.0" r="14.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="358.0" cy="384.0" r="14.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="390.0" cy="384.0" r="14.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1.5"/>
+<path d="M52 332 L70 324 L102 340 L134 324 L166 340 L198 324 L230 340 L262 324 L294 340 L326 324 L358 340 L390 324" stroke="#D9822B" stroke-width="1.5" fill="none"/>
+<text x="40.0" y="424.0" font-size="14" text-anchor="start" fill="#333">뉴클레오솜이 빽빽 → 전사인자가 DNA에 닿기 어려움</text>
+<text x="40.0" y="442.0" font-size="14" text-anchor="start" fill="#333">→ 유전자 발현이 억제됨</text>
+<line x1="505.0" y1="357.0" x2="900.0" y2="357.0" stroke="#D9822B" stroke-width="2.2"/>
+<circle cx="530.0" cy="357.0" r="15.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="580.0" cy="357.0" r="15.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="630.0" cy="357.0" r="15.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="800.0" cy="357.0" r="15.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="850.0" cy="357.0" r="15.0" fill="#5B4D80" stroke="#ffffff" stroke-width="1.5"/>
+<path d="M700 355 q12 -26 28 -18 q10 6 2 18 Z" fill="#1F7A7A"/>
+<text x="728.0" y="325.0" font-size="14" text-anchor="start" fill="#1F7A7A" font-weight="700">전사인자</text>
+<path d="M665 381 L665 389 L765 389 L765 381" stroke="#C0392B" stroke-width="1.6" fill="none"/>
+<text x="715.0" y="407.0" font-size="14" text-anchor="middle" fill="#C0392B" font-weight="700">뉴클레오솜이 비킨 짧은 구간</text>
+<text x="505.0" y="442.0" font-size="14" text-anchor="start" fill="#333">ATAC-seq은 이렇게 노출된 DNA를 잘라 읽음 (5장)</text>
+</svg>

@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 470" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" role="img" aria-label="레퍼런스 서열과 비교한 변이 종류. SNV는 한 글자 치환, 삽입과 결실은 짧은 글자 추가나 삭제이며 VCF에서는 앞 글자를 함께 씀. 50 bp 이상의 구조변이로 구간의 중복, 결실, 역위가 있으며 중복과 결실은 복사 수 변이(CNV)임">
+<rect width="940" height="470" fill="#ffffff"/>
+<text x="20.0" y="30.0" font-size="16" text-anchor="start" fill="#333" font-weight="700">짧은 변이 (50 bp 미만)</text>
+<text x="640.0" y="30.0" font-size="16" text-anchor="start" fill="#333" font-weight="700">VCF 한 줄로 쓰면</text>
+<text x="205.0" y="56.0" font-size="13" text-anchor="middle" fill="#888">1</text>
+<text x="235.0" y="56.0" font-size="13" text-anchor="middle" fill="#888">2</text>
+<text x="265.0" y="56.0" font-size="13" text-anchor="middle" fill="#888">3</text>
+<text x="295.0" y="56.0" font-size="13" text-anchor="middle" fill="#888">4</text>
+<text x="325.0" y="56.0" font-size="13" text-anchor="middle" fill="#888">5</text>
+<text x="355.0" y="56.0" font-size="13" text-anchor="middle" fill="#888">6</text>
+<text x="385.0" y="56.0" font-size="13" text-anchor="middle" fill="#888">7</text>
+<text x="415.0" y="56.0" font-size="13" text-anchor="middle" fill="#888">8</text>
+<text x="445.0" y="56.0" font-size="13" text-anchor="middle" fill="#888">9</text>
+<text x="475.0" y="56.0" font-size="13" text-anchor="middle" fill="#888">10</text>
+<text x="505.0" y="56.0" font-size="13" text-anchor="middle" fill="#888">11</text>
+<text x="535.0" y="56.0" font-size="13" text-anchor="middle" fill="#888">12</text>
+<text x="178.0" y="56.0" font-size="13" text-anchor="end" fill="#888">위치</text>
+<text x="660.0" y="56.0" font-size="13" text-anchor="middle" fill="#888">POS</text>
+<text x="740.0" y="56.0" font-size="13" text-anchor="middle" fill="#888">REF</text>
+<text x="830.0" y="56.0" font-size="13" text-anchor="middle" fill="#888">ALT</text>
+<text x="20.0" y="96.0" font-size="16" text-anchor="start" fill="#333" font-weight="700">레퍼런스</text>
+<text x="205.0" y="97.0" font-size="19" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">C</text>
+<text x="235.0" y="97.0" font-size="19" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">T</text>
+<text x="265.0" y="97.0" font-size="19" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">G</text>
+<text x="295.0" y="97.0" font-size="19" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">A</text>
+<text x="325.0" y="97.0" font-size="19" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">C</text>
+<text x="355.0" y="97.0" font-size="19" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">C</text>
+<text x="385.0" y="97.0" font-size="19" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">T</text>
+<text x="415.0" y="97.0" font-size="19" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">A</text>
+<text x="445.0" y="97.0" font-size="19" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">G</text>
+<text x="475.0" y="97.0" font-size="19" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">G</text>
+<text x="505.0" y="97.0" font-size="19" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">C</text>
+<text x="535.0" y="97.0" font-size="19" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">A</text>
+<line x1="20.0" y1="113.0" x2="920.0" y2="113.0" stroke="#e3e0ea" stroke-width="1"/>
+<text x="20.0" y="151.0" font-size="16" text-anchor="start" fill="#333" font-weight="700">SNV</text>
+<text x="20.0" y="169.0" font-size="13" text-anchor="start" fill="#555">한 글자 치환</text>
+<text x="205.0" y="152.0" font-size="19" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">C</text>
+<text x="235.0" y="152.0" font-size="19" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">T</text>
+<text x="265.0" y="152.0" font-size="19" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">G</text>
+<text x="295.0" y="152.0" font-size="19" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">A</text>
+<rect x="311.0" y="131.0" width="28.0" height="28.0" rx="3" fill="#f6d5d1" stroke="#C0392B" stroke-width="1.5"/>
+<text x="325.0" y="152.0" font-size="19" text-anchor="middle" fill="#C0392B" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">T</text>
+<text x="355.0" y="152.0" font-size="19" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">C</text>
+<text x="385.0" y="152.0" font-size="19" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">T</text>
+<text x="415.0" y="152.0" font-size="19" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">A</text>
+<text x="445.0" y="152.0" font-size="19" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">G</text>
+<text x="475.0" y="152.0" font-size="19" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">G</text>
+<text x="505.0" y="152.0" font-size="19" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">C</text>
+<text x="535.0" y="152.0" font-size="19" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">A</text>
+<text x="660.0" y="152.0" font-size="17" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">5</text>
+<text x="740.0" y="152.0" font-size="17" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">C</text>
+<text x="830.0" y="152.0" font-size="17" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">T</text>
+<text x="20.0" y="206.0" font-size="16" text-anchor="start" fill="#333" font-weight="700">삽입</text>
+<text x="20.0" y="224.0" font-size="13" text-anchor="start" fill="#555">insertion</text>
+<text x="205.0" y="207.0" font-size="19" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">C</text>
+<text x="235.0" y="207.0" font-size="19" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">T</text>
+<text x="265.0" y="207.0" font-size="19" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">G</text>
+<text x="295.0" y="207.0" font-size="19" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">A</text>
+<text x="325.0" y="207.0" font-size="19" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">C</text>
+<rect x="341.0" y="186.0" width="28.0" height="28.0" rx="3" fill="#e8f4f3" stroke="#1F7A7A" stroke-width="1.5"/>
+<text x="355.0" y="207.0" font-size="19" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">C</text>
+<rect x="371.0" y="186.0" width="28.0" height="28.0" rx="3" fill="#f6d5d1" stroke="#C0392B" stroke-width="1.5"/>
+<text x="385.0" y="207.0" font-size="19" text-anchor="middle" fill="#C0392B" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">G</text>
+<rect x="401.0" y="186.0" width="28.0" height="28.0" rx="3" fill="#f6d5d1" stroke="#C0392B" stroke-width="1.5"/>
+<text x="415.0" y="207.0" font-size="19" text-anchor="middle" fill="#C0392B" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">A</text>
+<text x="445.0" y="207.0" font-size="19" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">T</text>
+<text x="475.0" y="207.0" font-size="19" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">A</text>
+<text x="505.0" y="207.0" font-size="19" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">G</text>
+<text x="535.0" y="207.0" font-size="19" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">G</text>
+<text x="565.0" y="207.0" font-size="19" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">C</text>
+<text x="595.0" y="207.0" font-size="19" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">A</text>
+<text x="660.0" y="207.0" font-size="17" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">6</text>
+<text x="740.0" y="207.0" font-size="17" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">C</text>
+<text x="830.0" y="207.0" font-size="17" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">CGA</text>
+<text x="20.0" y="261.0" font-size="16" text-anchor="start" fill="#333" font-weight="700">결실</text>
+<text x="20.0" y="279.0" font-size="13" text-anchor="start" fill="#555">deletion</text>
+<text x="205.0" y="262.0" font-size="19" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">C</text>
+<text x="235.0" y="262.0" font-size="19" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">T</text>
+<text x="265.0" y="262.0" font-size="19" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">G</text>
+<text x="295.0" y="262.0" font-size="19" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">A</text>
+<text x="325.0" y="262.0" font-size="19" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">C</text>
+<rect x="341.0" y="241.0" width="28.0" height="28.0" rx="3" fill="#e8f4f3" stroke="#1F7A7A" stroke-width="1.5"/>
+<text x="355.0" y="262.0" font-size="19" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">C</text>
+<rect x="371.0" y="241.0" width="28.0" height="28.0" rx="3" fill="#ffffff" stroke="#C0392B" stroke-width="1.5" stroke-dasharray="3,2"/>
+<text x="385.0" y="262.0" font-size="19" text-anchor="middle" fill="#C0392B" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">–</text>
+<rect x="401.0" y="241.0" width="28.0" height="28.0" rx="3" fill="#ffffff" stroke="#C0392B" stroke-width="1.5" stroke-dasharray="3,2"/>
+<text x="415.0" y="262.0" font-size="19" text-anchor="middle" fill="#C0392B" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">–</text>
+<text x="445.0" y="262.0" font-size="19" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">G</text>
+<text x="475.0" y="262.0" font-size="19" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">G</text>
+<text x="505.0" y="262.0" font-size="19" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">C</text>
+<text x="535.0" y="262.0" font-size="19" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">A</text>
+<text x="660.0" y="262.0" font-size="17" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">6</text>
+<text x="740.0" y="262.0" font-size="17" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">CTA</text>
+<text x="830.0" y="262.0" font-size="17" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">C</text>
+<rect x="620.0" y="282.0" width="300.0" height="1.0" rx="0" fill="#ffffff" stroke="none" stroke-width="1"/>
+<text x="640.0" y="292.0" font-size="13" text-anchor="start" fill="#1F7A7A">청록 칸 = VCF가 함께 적는 앞 글자</text>
+<text x="640.0" y="310.0" font-size="13" text-anchor="start" fill="#1F7A7A">(POS = 이 앞 글자의 위치)</text>
+<line x1="20.0" y1="326.0" x2="920.0" y2="326.0" stroke="#e3e0ea" stroke-width="1"/>
+<text x="20.0" y="352.0" font-size="16" text-anchor="start" fill="#333" font-weight="700">구조변이 (SV, 50 bp 이상)</text>
+<text x="20.0" y="386.0" font-size="15" text-anchor="start" fill="#333" font-weight="700">레퍼런스</text>
+<path d="M190 369 L244 369 L254 380 L244 391 L190 391 Z" stroke="#ffffff" stroke-width="1.5" fill="#cfc4e2"/>
+<text x="219.0" y="386.0" font-size="15" text-anchor="middle" fill="#333" font-weight="700">A</text>
+<path d="M258 369 L312 369 L322 380 L312 391 L258 391 Z" stroke="#ffffff" stroke-width="1.5" fill="#D9822B"/>
+<text x="287.0" y="386.0" font-size="15" text-anchor="middle" fill="#ffffff" font-weight="700">B</text>
+<path d="M326 369 L380 369 L390 380 L380 391 L326 391 Z" stroke="#ffffff" stroke-width="1.5" fill="#cfc4e2"/>
+<text x="355.0" y="386.0" font-size="15" text-anchor="middle" fill="#333" font-weight="700">C</text>
+<path d="M394 369 L448 369 L458 380 L448 391 L394 391 Z" stroke="#ffffff" stroke-width="1.5" fill="#cfc4e2"/>
+<text x="423.0" y="386.0" font-size="15" text-anchor="middle" fill="#333" font-weight="700">D</text>
+<text x="20.0" y="418.0" font-size="15" text-anchor="start" fill="#333" font-weight="700">중복</text>
+<path d="M190 401 L244 401 L254 412 L244 423 L190 423 Z" stroke="#ffffff" stroke-width="1.5" fill="#cfc4e2"/>
+<text x="219.0" y="418.0" font-size="15" text-anchor="middle" fill="#333" font-weight="700">A</text>
+<path d="M258 401 L312 401 L322 412 L312 423 L258 423 Z" stroke="#ffffff" stroke-width="1.5" fill="#D9822B"/>
+<text x="287.0" y="418.0" font-size="15" text-anchor="middle" fill="#ffffff" font-weight="700">B</text>
+<path d="M326 401 L380 401 L390 412 L380 423 L326 423 Z" stroke="#ffffff" stroke-width="1.5" fill="#D9822B"/>
+<text x="355.0" y="418.0" font-size="15" text-anchor="middle" fill="#ffffff" font-weight="700">B</text>
+<path d="M394 401 L448 401 L458 412 L448 423 L394 423 Z" stroke="#ffffff" stroke-width="1.5" fill="#cfc4e2"/>
+<text x="423.0" y="418.0" font-size="15" text-anchor="middle" fill="#333" font-weight="700">C</text>
+<path d="M462 401 L516 401 L526 412 L516 423 L462 423 Z" stroke="#ffffff" stroke-width="1.5" fill="#cfc4e2"/>
+<text x="491.0" y="418.0" font-size="15" text-anchor="middle" fill="#333" font-weight="700">D</text>
+<text x="20.0" y="450.0" font-size="15" text-anchor="start" fill="#333" font-weight="700">결실</text>
+<path d="M190 433 L244 433 L254 444 L244 455 L190 455 Z" stroke="#ffffff" stroke-width="1.5" fill="#cfc4e2"/>
+<text x="219.0" y="450.0" font-size="15" text-anchor="middle" fill="#333" font-weight="700">A</text>
+<path d="M258 433 L312 433 L322 444 L312 455 L258 455 Z" stroke="#ffffff" stroke-width="1.5" fill="#cfc4e2"/>
+<text x="287.0" y="450.0" font-size="15" text-anchor="middle" fill="#333" font-weight="700">C</text>
+<path d="M326 433 L380 433 L390 444 L380 455 L326 455 Z" stroke="#ffffff" stroke-width="1.5" fill="#cfc4e2"/>
+<text x="355.0" y="450.0" font-size="15" text-anchor="middle" fill="#333" font-weight="700">D</text>
+<text x="20.0" y="450.0" font-size="15" text-anchor="start" fill="#333" font-weight="700"></text>
+<text x="560.0" y="412.0" font-size="13" text-anchor="start" fill="#555">← B 구간이 2개: 복사 수 증가</text>
+<text x="560.0" y="444.0" font-size="13" text-anchor="start" fill="#555">← B 구간이 없음: 복사 수 감소</text>
+<text x="640.0" y="372.0" font-size="14" text-anchor="start" fill="#333" font-weight="700">중복·결실 = 복사 수 변이 (CNV)</text>
+</svg>

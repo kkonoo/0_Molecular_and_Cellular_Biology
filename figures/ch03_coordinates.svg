@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 300" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" role="img" aria-label="염기 10개 위에 그린 두 좌표계. 1-based는 글자마다 1부터 번호를 붙이고 양끝을 포함하며, 0-based는 글자 사이 경계에 0부터 번호를 붙이고 끝을 포함하지 않음. 같은 구간 GTTG가 1-based로는 3부터 6, 0-based로는 2부터 6">
+<rect width="940" height="300" fill="#ffffff"/>
+<text x="40.0" y="30.0" font-size="15" text-anchor="start" fill="#5B4D80" font-weight="700">1-based, 양끝 포함 (GTF·GFF, VCF, SAM): 글자마다 번호</text>
+<rect x="40.0" y="118.0" width="56.0" height="50.0" rx="0" fill="#ffffff" stroke="#bbb" stroke-width="1"/>
+<text x="68.0" y="151.0" font-size="24" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">A</text>
+<text x="68.0" y="106.0" font-size="16" text-anchor="middle" fill="#5B4D80" font-weight="700">1</text>
+<rect x="96.0" y="118.0" width="56.0" height="50.0" rx="0" fill="#ffffff" stroke="#bbb" stroke-width="1"/>
+<text x="124.0" y="151.0" font-size="24" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">C</text>
+<text x="124.0" y="106.0" font-size="16" text-anchor="middle" fill="#5B4D80" font-weight="700">2</text>
+<rect x="152.0" y="118.0" width="56.0" height="50.0" rx="0" fill="#fbe3c7" stroke="#D9822B" stroke-width="2"/>
+<text x="180.0" y="151.0" font-size="24" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">G</text>
+<text x="180.0" y="106.0" font-size="16" text-anchor="middle" fill="#5B4D80" font-weight="700">3</text>
+<rect x="208.0" y="118.0" width="56.0" height="50.0" rx="0" fill="#fbe3c7" stroke="#D9822B" stroke-width="2"/>
+<text x="236.0" y="151.0" font-size="24" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">T</text>
+<text x="236.0" y="106.0" font-size="16" text-anchor="middle" fill="#5B4D80" font-weight="700">4</text>
+<rect x="264.0" y="118.0" width="56.0" height="50.0" rx="0" fill="#fbe3c7" stroke="#D9822B" stroke-width="2"/>
+<text x="292.0" y="151.0" font-size="24" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">T</text>
+<text x="292.0" y="106.0" font-size="16" text-anchor="middle" fill="#5B4D80" font-weight="700">5</text>
+<rect x="320.0" y="118.0" width="56.0" height="50.0" rx="0" fill="#fbe3c7" stroke="#D9822B" stroke-width="2"/>
+<text x="348.0" y="151.0" font-size="24" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">G</text>
+<text x="348.0" y="106.0" font-size="16" text-anchor="middle" fill="#5B4D80" font-weight="700">6</text>
+<rect x="376.0" y="118.0" width="56.0" height="50.0" rx="0" fill="#ffffff" stroke="#bbb" stroke-width="1"/>
+<text x="404.0" y="151.0" font-size="24" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">C</text>
+<text x="404.0" y="106.0" font-size="16" text-anchor="middle" fill="#5B4D80" font-weight="700">7</text>
+<rect x="432.0" y="118.0" width="56.0" height="50.0" rx="0" fill="#ffffff" stroke="#bbb" stroke-width="1"/>
+<text x="460.0" y="151.0" font-size="24" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">A</text>
+<text x="460.0" y="106.0" font-size="16" text-anchor="middle" fill="#5B4D80" font-weight="700">8</text>
+<rect x="488.0" y="118.0" width="56.0" height="50.0" rx="0" fill="#ffffff" stroke="#bbb" stroke-width="1"/>
+<text x="516.0" y="151.0" font-size="24" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">A</text>
+<text x="516.0" y="106.0" font-size="16" text-anchor="middle" fill="#5B4D80" font-weight="700">9</text>
+<rect x="544.0" y="118.0" width="56.0" height="50.0" rx="0" fill="#ffffff" stroke="#bbb" stroke-width="1"/>
+<text x="572.0" y="151.0" font-size="24" text-anchor="middle" fill="#333" font-weight="700" font-family="D2Coding, Menlo, Consolas, monospace">G</text>
+<text x="572.0" y="106.0" font-size="16" text-anchor="middle" fill="#5B4D80" font-weight="700">10</text>
+<path d="M158 88 L158 80 L370 80 L370 88" stroke="#5B4D80" stroke-width="1.8" fill="none"/>
+<text x="264.0" y="72.0" font-size="15" text-anchor="middle" fill="#5B4D80" font-weight="700">start 3, end 6 → [3, 6]</text>
+<line x1="40.0" y1="168.0" x2="40.0" y2="180.0" stroke="#1F7A7A" stroke-width="2"/>
+<text x="40.0" y="198.0" font-size="16" text-anchor="middle" fill="#1F7A7A" font-weight="700">0</text>
+<line x1="96.0" y1="168.0" x2="96.0" y2="180.0" stroke="#1F7A7A" stroke-width="2"/>
+<text x="96.0" y="198.0" font-size="16" text-anchor="middle" fill="#1F7A7A" font-weight="700">1</text>
+<line x1="152.0" y1="168.0" x2="152.0" y2="180.0" stroke="#1F7A7A" stroke-width="2"/>
+<text x="152.0" y="198.0" font-size="16" text-anchor="middle" fill="#1F7A7A" font-weight="700">2</text>
+<line x1="208.0" y1="168.0" x2="208.0" y2="180.0" stroke="#1F7A7A" stroke-width="2"/>
+<text x="208.0" y="198.0" font-size="16" text-anchor="middle" fill="#1F7A7A" font-weight="700">3</text>
+<line x1="264.0" y1="168.0" x2="264.0" y2="180.0" stroke="#1F7A7A" stroke-width="2"/>
+<text x="264.0" y="198.0" font-size="16" text-anchor="middle" fill="#1F7A7A" font-weight="700">4</text>
+<line x1="320.0" y1="168.0" x2="320.0" y2="180.0" stroke="#1F7A7A" stroke-width="2"/>
+<text x="320.0" y="198.0" font-size="16" text-anchor="middle" fill="#1F7A7A" font-weight="700">5</text>
+<line x1="376.0" y1="168.0" x2="376.0" y2="180.0" stroke="#1F7A7A" stroke-width="2"/>
+<text x="376.0" y="198.0" font-size="16" text-anchor="middle" fill="#1F7A7A" font-weight="700">6</text>
+<line x1="432.0" y1="168.0" x2="432.0" y2="180.0" stroke="#1F7A7A" stroke-width="2"/>
+<text x="432.0" y="198.0" font-size="16" text-anchor="middle" fill="#1F7A7A" font-weight="700">7</text>
+<line x1="488.0" y1="168.0" x2="488.0" y2="180.0" stroke="#1F7A7A" stroke-width="2"/>
+<text x="488.0" y="198.0" font-size="16" text-anchor="middle" fill="#1F7A7A" font-weight="700">8</text>
+<line x1="544.0" y1="168.0" x2="544.0" y2="180.0" stroke="#1F7A7A" stroke-width="2"/>
+<text x="544.0" y="198.0" font-size="16" text-anchor="middle" fill="#1F7A7A" font-weight="700">9</text>
+<line x1="600.0" y1="168.0" x2="600.0" y2="180.0" stroke="#1F7A7A" stroke-width="2"/>
+<text x="600.0" y="198.0" font-size="16" text-anchor="middle" fill="#1F7A7A" font-weight="700">10</text>
+<path d="M152 208 L152 216 L376 216 L376 208" stroke="#1F7A7A" stroke-width="1.8" fill="none"/>
+<text x="264.0" y="234.0" font-size="15" text-anchor="middle" fill="#1F7A7A" font-weight="700">start 2, end 6 → [2, 6)</text>
+<text x="40.0" y="288.0" font-size="15" text-anchor="start" fill="#1F7A7A" font-weight="700">0-based, 반열림 (BED): 글자 사이 경계에 번호, end 경계는 미포함</text>
+<rect x="630.0" y="50.0" width="290.0" height="200.0" rx="10" fill="#f7f6fa" stroke="#d9d3e6" stroke-width="1"/>
+<text x="648.0" y="80.0" font-size="16" text-anchor="start" fill="#333" font-weight="700">같은 구간 GTTG</text>
+<text x="648.0" y="110.0" font-size="15" text-anchor="start" fill="#5B4D80" font-weight="700">GTF: start 3, end 6</text>
+<text x="648.0" y="131.0" font-size="15" text-anchor="start" fill="#333">길이 = 6 − 3 + 1 = 4</text>
+<text x="648.0" y="163.0" font-size="15" text-anchor="start" fill="#1F7A7A" font-weight="700">BED: start 2, end 6</text>
+<text x="648.0" y="184.0" font-size="15" text-anchor="start" fill="#333">길이 = 6 − 2 = 4</text>
+<text x="648.0" y="216.0" font-size="15" text-anchor="start" fill="#C0392B" font-weight="700">BED start = GTF start − 1</text>
+<text x="648.0" y="237.0" font-size="14" text-anchor="start" fill="#555">end 숫자는 두 방식이 같음</text>
+</svg>

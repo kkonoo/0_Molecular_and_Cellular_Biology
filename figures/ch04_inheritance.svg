@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 370" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" role="img" aria-label="Punnett 표 두 개. 왼쪽은 상염색체 열성으로 보인자 부모 Aa와 Aa 사이에서 aa가 4분의 1. 오른쪽은 X연관 열성으로 보인자 어머니와 정상 아버지 사이에서 아들의 절반이 발현">
+<rect width="940" height="370" fill="#ffffff"/>
+<rect x="20.0" y="20.0" width="435.0" height="335.0" rx="10" fill="#f7f6fa" stroke="#d9d3e6" stroke-width="1"/>
+<text x="40.0" y="50.0" font-size="16" text-anchor="start" fill="#333" font-weight="700">상염색체 열성</text>
+<text x="40.0" y="72.0" font-size="14" text-anchor="start" fill="#555">보인자 부모 Aa × Aa</text>
+<text x="270.0" y="86.0" font-size="13" text-anchor="middle" fill="#555">부모 2의 allele</text>
+<text x="98.0" y="186.0" font-size="13" text-anchor="middle" fill="#555" transform="rotate(-90 98 182)">부모 1의 allele</text>
+<text x="215.0" y="114.0" font-size="18" text-anchor="middle" fill="#5B4D80" font-weight="700">A</text>
+<text x="325.0" y="114.0" font-size="18" text-anchor="middle" fill="#5B4D80" font-weight="700">a</text>
+<text x="146.0" y="157.0" font-size="18" text-anchor="end" fill="#5B4D80" font-weight="700">A</text>
+<text x="146.0" y="219.0" font-size="18" text-anchor="end" fill="#5B4D80" font-weight="700">a</text>
+<rect x="160.0" y="120.0" width="110.0" height="62.0" rx="0" fill="#ffffff" stroke="#bbb" stroke-width="1"/>
+<text x="215.0" y="148.0" font-size="18" text-anchor="middle" fill="#333" font-weight="700">AA</text>
+<rect x="270.0" y="120.0" width="110.0" height="62.0" rx="0" fill="#fdf0e2" stroke="#bbb" stroke-width="1"/>
+<text x="325.0" y="148.0" font-size="18" text-anchor="middle" fill="#333" font-weight="700">Aa</text>
+<text x="325.0" y="169.0" font-size="13" text-anchor="middle" fill="#555">보인자</text>
+<rect x="160.0" y="182.0" width="110.0" height="62.0" rx="0" fill="#fdf0e2" stroke="#bbb" stroke-width="1"/>
+<text x="215.0" y="210.0" font-size="18" text-anchor="middle" fill="#333" font-weight="700">Aa</text>
+<text x="215.0" y="231.0" font-size="13" text-anchor="middle" fill="#555">보인자</text>
+<rect x="270.0" y="182.0" width="110.0" height="62.0" rx="0" fill="#f6d5d1" stroke="#bbb" stroke-width="1"/>
+<text x="325.0" y="210.0" font-size="18" text-anchor="middle" fill="#C0392B" font-weight="700">aa</text>
+<text x="325.0" y="231.0" font-size="13" text-anchor="middle" fill="#C0392B">발현</text>
+<text x="40.0" y="290.0" font-size="14" text-anchor="start" fill="#C0392B" font-weight="700">자녀가 aa일 확률 1/4</text>
+<text x="40.0" y="314.0" font-size="14" text-anchor="start" fill="#333">Aa(보인자) 2/4: 겉으로는 드러나지 않음</text>
+<text x="40.0" y="338.0" font-size="14" text-anchor="start" fill="#333">남녀 차이 없음</text>
+<rect x="485.0" y="20.0" width="435.0" height="335.0" rx="10" fill="#f7f6fa" stroke="#d9d3e6" stroke-width="1"/>
+<text x="505.0" y="50.0" font-size="16" text-anchor="start" fill="#333" font-weight="700">X연관 열성</text>
+<text x="505.0" y="72.0" font-size="14" text-anchor="start" fill="#555">보인자 어머니 × 발현 없는 아버지</text>
+<text x="735.0" y="86.0" font-size="13" text-anchor="middle" fill="#555">아버지의 X 또는 Y</text>
+<text x="563.0" y="186.0" font-size="13" text-anchor="middle" fill="#555" transform="rotate(-90 563 182)">어머니의 X</text>
+<text x="680.0" y="114.0" font-size="18" text-anchor="middle" fill="#5B4D80" font-weight="700"><tspan dy="0">X</tspan><tspan dy="-8" font-size="13">A</tspan></text>
+<text x="790.0" y="114.0" font-size="18" text-anchor="middle" fill="#5B4D80" font-weight="700">Y</text>
+<text x="611.0" y="157.0" font-size="18" text-anchor="end" fill="#5B4D80" font-weight="700"><tspan dy="0">X</tspan><tspan dy="-8" font-size="13">A</tspan></text>
+<text x="611.0" y="219.0" font-size="18" text-anchor="end" fill="#5B4D80" font-weight="700"><tspan dy="0">X</tspan><tspan dy="-8" font-size="13">a</tspan></text>
+<rect x="625.0" y="120.0" width="110.0" height="62.0" rx="0" fill="#ffffff" stroke="#bbb" stroke-width="1"/>
+<text x="680.0" y="148.0" font-size="18" text-anchor="middle" fill="#333" font-weight="700"><tspan dy="0">X</tspan><tspan dy="-8" font-size="13">A</tspan><tspan dy="8">X</tspan><tspan dy="-8" font-size="13">A</tspan></text>
+<text x="680.0" y="169.0" font-size="13" text-anchor="middle" fill="#555">딸</text>
+<rect x="735.0" y="120.0" width="110.0" height="62.0" rx="0" fill="#ffffff" stroke="#bbb" stroke-width="1"/>
+<text x="790.0" y="148.0" font-size="18" text-anchor="middle" fill="#333" font-weight="700"><tspan dy="0">X</tspan><tspan dy="-8" font-size="13">A</tspan><tspan dy="8">Y</tspan></text>
+<text x="790.0" y="169.0" font-size="13" text-anchor="middle" fill="#555">아들</text>
+<rect x="625.0" y="182.0" width="110.0" height="62.0" rx="0" fill="#fdf0e2" stroke="#bbb" stroke-width="1"/>
+<text x="680.0" y="210.0" font-size="18" text-anchor="middle" fill="#333" font-weight="700"><tspan dy="0">X</tspan><tspan dy="-8" font-size="13">A</tspan><tspan dy="8">X</tspan><tspan dy="-8" font-size="13">a</tspan></text>
+<text x="680.0" y="231.0" font-size="13" text-anchor="middle" fill="#555">딸, 보인자</text>
+<rect x="735.0" y="182.0" width="110.0" height="62.0" rx="0" fill="#f6d5d1" stroke="#bbb" stroke-width="1"/>
+<text x="790.0" y="210.0" font-size="18" text-anchor="middle" fill="#C0392B" font-weight="700"><tspan dy="0">X</tspan><tspan dy="-8" font-size="13">a</tspan><tspan dy="8">Y</tspan></text>
+<text x="790.0" y="231.0" font-size="13" text-anchor="middle" fill="#C0392B">아들, 발현</text>
+<text x="505.0" y="290.0" font-size="14" text-anchor="start" fill="#C0392B" font-weight="700">아들의 1/2이 발현</text>
+<text x="505.0" y="314.0" font-size="14" text-anchor="start" fill="#333">아들은 X가 하나라 a 하나로도 발현</text>
+<text x="505.0" y="338.0" font-size="14" text-anchor="start" fill="#333">딸은 이 조합에서 발현 없음 (1/2 보인자)</text>
+</svg>

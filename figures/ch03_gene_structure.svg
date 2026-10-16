@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 400" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" role="img" aria-label="+ 가닥 유전자 하나의 구조: 멀리 있는 enhancer, promoter와 TSS, exon 3개와 intron 2개, 5'UTR·CDS·3'UTR, polyA 신호, 그리고 전사와 splicing을 거친 pre-mRNA와 성숙한 mRNA">
+<rect width="940" height="400" fill="#ffffff"/>
+<line x1="20.0" y1="95.0" x2="136.0" y2="95.0" stroke="#888" stroke-width="2"/>
+<line x1="156.0" y1="95.0" x2="920.0" y2="95.0" stroke="#888" stroke-width="2"/>
+<path d="M131 104 L141 86 M151 104 L161 86" stroke="#888" stroke-width="1.8" fill="none"/>
+<text x="14.0" y="100.0" font-size="13" text-anchor="middle" fill="#555">5'</text>
+<text x="928.0" y="100.0" font-size="13" text-anchor="middle" fill="#555">3'</text>
+<rect x="40.0" y="83.0" width="70.0" height="24.0" rx="3" fill="#D9822B" stroke="none" stroke-width="1"/>
+<text x="75.0" y="73.0" font-size="16" text-anchor="middle" fill="#D9822B" font-weight="700">enhancer</text>
+<text x="20.0" y="128.0" font-size="13" text-anchor="start" fill="#555">멀리 떨어져도 작동</text>
+<text x="20.0" y="145.0" font-size="13" text-anchor="start" fill="#555">(예: 약 1 Mb)</text>
+<rect x="185.0" y="83.0" width="62.0" height="24.0" rx="3" fill="#f6dcc2" stroke="#D9822B" stroke-width="1.5"/>
+<text x="212.0" y="73.0" font-size="16" text-anchor="middle" fill="#D9822B" font-weight="700">promoter</text>
+<path d="M250 80 L250 45 L283 45" stroke="#333" stroke-width="2" fill="none"/>
+<path d="M276 39 L284 45 L276 51" stroke="#333" stroke-width="2" fill="none"/>
+<text x="292.0" y="50.0" font-size="15" text-anchor="start" fill="#333" font-weight="700">TSS</text>
+<line x1="380.0" y1="95.0" x2="480.0" y2="95.0" stroke="#555" stroke-width="2"/>
+<path d="M398 90 L404 95 L398 100" stroke="#888" stroke-width="1.5" fill="none"/>
+<path d="M426 90 L432 95 L426 100" stroke="#888" stroke-width="1.5" fill="none"/>
+<path d="M454 90 L460 95 L454 100" stroke="#888" stroke-width="1.5" fill="none"/>
+<line x1="580.0" y1="95.0" x2="680.0" y2="95.0" stroke="#555" stroke-width="2"/>
+<path d="M598 90 L604 95 L598 100" stroke="#888" stroke-width="1.5" fill="none"/>
+<path d="M626 90 L632 95 L626 100" stroke="#888" stroke-width="1.5" fill="none"/>
+<path d="M654 90 L660 95 L654 100" stroke="#888" stroke-width="1.5" fill="none"/>
+<rect x="250.0" y="86.0" width="50.0" height="18.0" rx="0" fill="#d9d1e8" stroke="#7A6A99" stroke-width="1.2"/>
+<rect x="300.0" y="80.0" width="80.0" height="30.0" rx="0" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<rect x="480.0" y="80.0" width="100.0" height="30.0" rx="0" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<rect x="680.0" y="80.0" width="80.0" height="30.0" rx="0" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<rect x="760.0" y="86.0" width="110.0" height="18.0" rx="0" fill="#d9d1e8" stroke="#7A6A99" stroke-width="1.2"/>
+<path d="M845 84 L855 84 L850 92 Z" stroke="#C0392B" stroke-width="1" fill="#C0392B"/>
+<text x="850.0" y="73.0" font-size="15" text-anchor="middle" fill="#C0392B" font-weight="700">polyA 신호</text>
+<line x1="300.0" y1="111.0" x2="300.0" y2="121.0" stroke="#333" stroke-width="1.5"/>
+<text x="300.0" y="135.0" font-size="13" text-anchor="middle" fill="#333">start codon</text>
+<line x1="760.0" y1="111.0" x2="760.0" y2="121.0" stroke="#333" stroke-width="1.5"/>
+<text x="760.0" y="135.0" font-size="13" text-anchor="middle" fill="#333">stop codon</text>
+<text x="340.0" y="157.0" font-size="15" text-anchor="middle" fill="#5B4D80" font-weight="700">exon 1</text>
+<text x="430.0" y="157.0" font-size="15" text-anchor="middle" fill="#888">intron 1</text>
+<text x="530.0" y="157.0" font-size="15" text-anchor="middle" fill="#5B4D80" font-weight="700">exon 2</text>
+<text x="630.0" y="157.0" font-size="15" text-anchor="middle" fill="#888">intron 2</text>
+<text x="775.0" y="157.0" font-size="15" text-anchor="middle" fill="#5B4D80" font-weight="700">exon 3</text>
+<line x1="560.0" y1="168.0" x2="560.0" y2="190.0" stroke="#888" stroke-width="2"/>
+<line x1="560.0" y1="190.0" x2="556.4" y2="184.0" stroke="#888" stroke-width="2"/>
+<line x1="560.0" y1="190.0" x2="563.6" y2="184.0" stroke="#888" stroke-width="2"/>
+<text x="572.0" y="184.0" font-size="14" text-anchor="start" fill="#555">전사 (5장)</text>
+<text x="232.0" y="217.0" font-size="15" text-anchor="end" fill="#333" font-weight="700">pre-mRNA</text>
+<rect x="380.0" y="209.0" width="100.0" height="6.0" rx="0" fill="#e6e6e6" stroke="#bbb" stroke-width="1"/>
+<rect x="580.0" y="209.0" width="100.0" height="6.0" rx="0" fill="#e6e6e6" stroke="#bbb" stroke-width="1"/>
+<rect x="250.0" y="203.0" width="130.0" height="18.0" rx="0" fill="#b9add3" stroke="#7A6A99" stroke-width="1"/>
+<rect x="480.0" y="203.0" width="100.0" height="18.0" rx="0" fill="#b9add3" stroke="#7A6A99" stroke-width="1"/>
+<rect x="680.0" y="203.0" width="190.0" height="18.0" rx="0" fill="#b9add3" stroke="#7A6A99" stroke-width="1"/>
+<text x="232.0" y="234.0" font-size="13" text-anchor="end" fill="#555">(intron 포함)</text>
+<line x1="560.0" y1="232.0" x2="560.0" y2="254.0" stroke="#888" stroke-width="2"/>
+<line x1="560.0" y1="254.0" x2="556.4" y2="248.0" stroke="#888" stroke-width="2"/>
+<line x1="560.0" y1="254.0" x2="563.6" y2="248.0" stroke="#888" stroke-width="2"/>
+<text x="572.0" y="248.0" font-size="14" text-anchor="start" fill="#555">splicing으로 intron 제거, 꼬리 붙이기 (6장)</text>
+<text x="232.0" y="283.0" font-size="15" text-anchor="end" fill="#333" font-weight="700">성숙한 mRNA</text>
+<rect x="250.0" y="269.0" width="50.0" height="18.0" rx="0" fill="#d9d1e8" stroke="#7A6A99" stroke-width="1.2"/>
+<rect x="300.0" y="263.0" width="260.0" height="30.0" rx="0" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<rect x="560.0" y="269.0" width="110.0" height="18.0" rx="0" fill="#d9d1e8" stroke="#7A6A99" stroke-width="1.2"/>
+<text x="678.0" y="283.0" font-size="15" text-anchor="start" fill="#C0392B" font-weight="700">AAAA…</text>
+<line x1="380.0" y1="263.0" x2="380.0" y2="293.0" stroke="#ffffff" stroke-width="2"/>
+<line x1="480.0" y1="263.0" x2="480.0" y2="293.0" stroke="#ffffff" stroke-width="2"/>
+<text x="275.0" y="262.0" font-size="13" text-anchor="middle" fill="#7A6A99">5'UTR</text>
+<text x="615.0" y="262.0" font-size="13" text-anchor="middle" fill="#7A6A99">3'UTR</text>
+<text x="742.0" y="283.0" font-size="13" text-anchor="start" fill="#555">poly(A) 꼬리</text>
+<path d="M300 300 L300 306 L560 306 L560 300" stroke="#5B4D80" stroke-width="1.5" fill="none"/>
+<text x="430.0" y="324.0" font-size="14" text-anchor="middle" fill="#5B4D80" font-weight="700">CDS: 번역되는 부분 → 단백질 (7장)</text>
+<text x="430.0" y="342.0" font-size="13" text-anchor="middle" fill="#555">흰 세로선 = exon과 exon이 이어진 자리 (junction)</text>
+<rect x="250.0" y="371.0" width="34.0" height="14.0" rx="0" fill="#d9d1e8" stroke="#7A6A99" stroke-width="1.2"/>
+<text x="292.0" y="383.0" font-size="13" text-anchor="start" fill="#333">UTR (번역 안 됨)</text>
+<rect x="420.0" y="367.0" width="34.0" height="22.0" rx="0" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<text x="462.0" y="383.0" font-size="13" text-anchor="start" fill="#333">CDS</text>
+<line x1="520.0" y1="378.0" x2="556.0" y2="378.0" stroke="#555" stroke-width="2"/>
+<text x="564.0" y="383.0" font-size="13" text-anchor="start" fill="#333">intron</text>
+<rect x="630.0" y="371.0" width="34.0" height="14.0" rx="3" fill="#D9822B" stroke="none" stroke-width="1"/>
+<text x="672.0" y="383.0" font-size="13" text-anchor="start" fill="#333">조절 서열 (RNA에 없음)</text>
+</svg>
