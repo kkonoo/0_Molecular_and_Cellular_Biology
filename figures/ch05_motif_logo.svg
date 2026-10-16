@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 400" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" role="img" aria-label="가상의 TF 모티프. 왼쪽: 결합 서열 20개를 정렬해 위치마다 A, C, G, T를 센 표. 오른쪽: 같은 표로 그린 sequence logo. 2, 3, 4번 위치는 G, A, T가 크게 서고 1, 5, 6번 위치는 낮음">
+<rect width="920" height="400" fill="#ffffff"/>
+<rect x="10.0" y="10.0" width="360.0" height="380.0" rx="10" fill="#f7f6fa" stroke="#d9d3e6" stroke-width="1"/>
+<text x="26.0" y="40.0" font-size="16" text-anchor="start" fill="#333" font-weight="700">① 결합 서열 20개를 위치별로 센 표</text>
+<text x="102.0" y="82.0" font-size="15" text-anchor="middle" fill="#555" font-weight="700">1</text>
+<text x="146.0" y="82.0" font-size="15" text-anchor="middle" fill="#555" font-weight="700">2</text>
+<text x="190.0" y="82.0" font-size="15" text-anchor="middle" fill="#555" font-weight="700">3</text>
+<text x="234.0" y="82.0" font-size="15" text-anchor="middle" fill="#555" font-weight="700">4</text>
+<text x="278.0" y="82.0" font-size="15" text-anchor="middle" fill="#555" font-weight="700">5</text>
+<text x="322.0" y="82.0" font-size="15" text-anchor="middle" fill="#555" font-weight="700">6</text>
+<text x="50.0" y="82.0" font-size="13" text-anchor="middle" fill="#555">위치</text>
+<text x="50.0" y="128.0" font-size="17" text-anchor="middle" fill="#1F7A7A" font-weight="700">A</text>
+<rect x="80.0" y="100.0" width="44.0" height="44.0" rx="0" fill="#ece7f4" stroke="#d9d3e6" stroke-width="1"/>
+<text x="102.0" y="128.0" font-size="16" text-anchor="middle" fill="#333" font-weight="700">10</text>
+<rect x="124.0" y="100.0" width="44.0" height="44.0" rx="0" fill="#ffffff" stroke="#d9d3e6" stroke-width="1"/>
+<text x="146.0" y="128.0" font-size="16" text-anchor="middle" fill="#888">1</text>
+<rect x="168.0" y="100.0" width="44.0" height="44.0" rx="0" fill="#ece7f4" stroke="#d9d3e6" stroke-width="1"/>
+<text x="190.0" y="128.0" font-size="16" text-anchor="middle" fill="#333" font-weight="700">19</text>
+<rect x="212.0" y="100.0" width="44.0" height="44.0" rx="0" fill="#ffffff" stroke="#d9d3e6" stroke-width="1"/>
+<text x="234.0" y="128.0" font-size="16" text-anchor="middle" fill="#888">2</text>
+<rect x="256.0" y="100.0" width="44.0" height="44.0" rx="0" fill="#ece7f4" stroke="#d9d3e6" stroke-width="1"/>
+<text x="278.0" y="128.0" font-size="16" text-anchor="middle" fill="#333" font-weight="700">8</text>
+<rect x="300.0" y="100.0" width="44.0" height="44.0" rx="0" fill="#ece7f4" stroke="#d9d3e6" stroke-width="1"/>
+<text x="322.0" y="128.0" font-size="16" text-anchor="middle" fill="#333" font-weight="700">6</text>
+<text x="50.0" y="172.0" font-size="17" text-anchor="middle" fill="#5B4D80" font-weight="700">C</text>
+<rect x="80.0" y="144.0" width="44.0" height="44.0" rx="0" fill="#ffffff" stroke="#d9d3e6" stroke-width="1"/>
+<text x="102.0" y="172.0" font-size="16" text-anchor="middle" fill="#888">3</text>
+<rect x="124.0" y="144.0" width="44.0" height="44.0" rx="0" fill="#ffffff" stroke="#d9d3e6" stroke-width="1"/>
+<text x="146.0" y="172.0" font-size="16" text-anchor="middle" fill="#888">0</text>
+<rect x="168.0" y="144.0" width="44.0" height="44.0" rx="0" fill="#ffffff" stroke="#d9d3e6" stroke-width="1"/>
+<text x="190.0" y="172.0" font-size="16" text-anchor="middle" fill="#888">0</text>
+<rect x="212.0" y="144.0" width="44.0" height="44.0" rx="0" fill="#ffffff" stroke="#d9d3e6" stroke-width="1"/>
+<text x="234.0" y="172.0" font-size="16" text-anchor="middle" fill="#888">1</text>
+<rect x="256.0" y="144.0" width="44.0" height="44.0" rx="0" fill="#ffffff" stroke="#d9d3e6" stroke-width="1"/>
+<text x="278.0" y="172.0" font-size="16" text-anchor="middle" fill="#888">2</text>
+<rect x="300.0" y="144.0" width="44.0" height="44.0" rx="0" fill="#ffffff" stroke="#d9d3e6" stroke-width="1"/>
+<text x="322.0" y="172.0" font-size="16" text-anchor="middle" fill="#888">2</text>
+<text x="50.0" y="216.0" font-size="17" text-anchor="middle" fill="#D9822B" font-weight="700">G</text>
+<rect x="80.0" y="188.0" width="44.0" height="44.0" rx="0" fill="#ffffff" stroke="#d9d3e6" stroke-width="1"/>
+<text x="102.0" y="216.0" font-size="16" text-anchor="middle" fill="#888">4</text>
+<rect x="124.0" y="188.0" width="44.0" height="44.0" rx="0" fill="#ece7f4" stroke="#d9d3e6" stroke-width="1"/>
+<text x="146.0" y="216.0" font-size="16" text-anchor="middle" fill="#333" font-weight="700">18</text>
+<rect x="168.0" y="188.0" width="44.0" height="44.0" rx="0" fill="#ffffff" stroke="#d9d3e6" stroke-width="1"/>
+<text x="190.0" y="216.0" font-size="16" text-anchor="middle" fill="#888">0</text>
+<rect x="212.0" y="188.0" width="44.0" height="44.0" rx="0" fill="#ffffff" stroke="#d9d3e6" stroke-width="1"/>
+<text x="234.0" y="216.0" font-size="16" text-anchor="middle" fill="#888">0</text>
+<rect x="256.0" y="188.0" width="44.0" height="44.0" rx="0" fill="#ece7f4" stroke="#d9d3e6" stroke-width="1"/>
+<text x="278.0" y="216.0" font-size="16" text-anchor="middle" fill="#333" font-weight="700">8</text>
+<rect x="300.0" y="188.0" width="44.0" height="44.0" rx="0" fill="#ece7f4" stroke="#d9d3e6" stroke-width="1"/>
+<text x="322.0" y="216.0" font-size="16" text-anchor="middle" fill="#333" font-weight="700">6</text>
+<text x="50.0" y="260.0" font-size="17" text-anchor="middle" fill="#C0392B" font-weight="700">T</text>
+<rect x="80.0" y="232.0" width="44.0" height="44.0" rx="0" fill="#ffffff" stroke="#d9d3e6" stroke-width="1"/>
+<text x="102.0" y="260.0" font-size="16" text-anchor="middle" fill="#888">3</text>
+<rect x="124.0" y="232.0" width="44.0" height="44.0" rx="0" fill="#ffffff" stroke="#d9d3e6" stroke-width="1"/>
+<text x="146.0" y="260.0" font-size="16" text-anchor="middle" fill="#888">1</text>
+<rect x="168.0" y="232.0" width="44.0" height="44.0" rx="0" fill="#ffffff" stroke="#d9d3e6" stroke-width="1"/>
+<text x="190.0" y="260.0" font-size="16" text-anchor="middle" fill="#888">1</text>
+<rect x="212.0" y="232.0" width="44.0" height="44.0" rx="0" fill="#ece7f4" stroke="#d9d3e6" stroke-width="1"/>
+<text x="234.0" y="260.0" font-size="16" text-anchor="middle" fill="#333" font-weight="700">17</text>
+<rect x="256.0" y="232.0" width="44.0" height="44.0" rx="0" fill="#ffffff" stroke="#d9d3e6" stroke-width="1"/>
+<text x="278.0" y="260.0" font-size="16" text-anchor="middle" fill="#888">2</text>
+<rect x="300.0" y="232.0" width="44.0" height="44.0" rx="0" fill="#ece7f4" stroke="#d9d3e6" stroke-width="1"/>
+<text x="322.0" y="260.0" font-size="16" text-anchor="middle" fill="#333" font-weight="700">6</text>
+<text x="26.0" y="300.0" font-size="14" text-anchor="start" fill="#555">열마다 합 = 20 (서열 수)</text>
+<text x="26.0" y="324.0" font-size="14" text-anchor="start" fill="#555">÷ 20 → 위치별 염기 빈도</text>
+<text x="26.0" y="348.0" font-size="14" text-anchor="start" fill="#555">= PWM의 바탕</text>
+<text x="26.0" y="374.0" font-size="13" text-anchor="start" fill="#888">색칠한 칸 = 그 위치에서 가장 흔한 염기</text>
+<rect x="385.0" y="10.0" width="525.0" height="380.0" rx="10" fill="#f7f6fa" stroke="#d9d3e6" stroke-width="1"/>
+<text x="401.0" y="40.0" font-size="16" text-anchor="start" fill="#333" font-weight="700">② sequence logo</text>
+<line x1="470.0" y1="100.0" x2="470.0" y2="320.0" stroke="#555" stroke-width="1.5"/>
+<line x1="464.0" y1="320.0" x2="470.0" y2="320.0" stroke="#555" stroke-width="1.5"/>
+<text x="460.0" y="325.0" font-size="14" text-anchor="end" fill="#555">0</text>
+<line x1="464.0" y1="210.0" x2="470.0" y2="210.0" stroke="#555" stroke-width="1.5"/>
+<text x="460.0" y="215.0" font-size="14" text-anchor="end" fill="#555">1</text>
+<line x1="464.0" y1="100.0" x2="470.0" y2="100.0" stroke="#555" stroke-width="1.5"/>
+<text x="460.0" y="105.0" font-size="14" text-anchor="end" fill="#555">2</text>
+<text x="0" y="0" font-size="14" fill="#555" text-anchor="middle" transform="translate(425 210.0) rotate(-90)">정보량 (bits)</text>
+<text x="0" y="0" font-size="100" font-weight="700" fill="#5B4D80" textLength="56" lengthAdjust="spacingAndGlyphs" transform="translate(484.0 320.00) scale(1 0.0485)">C</text>
+<text x="0" y="0" font-size="100" font-weight="700" fill="#C0392B" textLength="56" lengthAdjust="spacingAndGlyphs" transform="translate(484.0 316.46) scale(1 0.0485)">T</text>
+<text x="0" y="0" font-size="100" font-weight="700" fill="#D9822B" textLength="56" lengthAdjust="spacingAndGlyphs" transform="translate(484.0 312.92) scale(1 0.0647)">G</text>
+<text x="0" y="0" font-size="100" font-weight="700" fill="#1F7A7A" textLength="56" lengthAdjust="spacingAndGlyphs" transform="translate(484.0 308.20) scale(1 0.1616)">A</text>
+<text x="512.0" y="344.0" font-size="15" text-anchor="middle" fill="#555" font-weight="700">1</text>
+<text x="512.0" y="364.0" font-size="13" text-anchor="middle" fill="#888">0.21</text>
+<text x="0" y="0" font-size="100" font-weight="700" fill="#1F7A7A" textLength="56" lengthAdjust="spacingAndGlyphs" transform="translate(548.0 320.00) scale(1 0.1078)">A</text>
+<text x="0" y="0" font-size="100" font-weight="700" fill="#C0392B" textLength="56" lengthAdjust="spacingAndGlyphs" transform="translate(548.0 312.13) scale(1 0.1078)">T</text>
+<text x="0" y="0" font-size="100" font-weight="700" fill="#D9822B" textLength="56" lengthAdjust="spacingAndGlyphs" transform="translate(548.0 304.26) scale(1 1.9407)">G</text>
+<text x="576.0" y="344.0" font-size="15" text-anchor="middle" fill="#555" font-weight="700">2</text>
+<text x="576.0" y="364.0" font-size="13" text-anchor="middle" fill="#888">1.43</text>
+<text x="0" y="0" font-size="100" font-weight="700" fill="#C0392B" textLength="56" lengthAdjust="spacingAndGlyphs" transform="translate(612.0 320.00) scale(1 0.1291)">T</text>
+<text x="0" y="0" font-size="100" font-weight="700" fill="#1F7A7A" textLength="56" lengthAdjust="spacingAndGlyphs" transform="translate(612.0 310.58) scale(1 2.4530)">A</text>
+<text x="640.0" y="344.0" font-size="15" text-anchor="middle" fill="#555" font-weight="700">3</text>
+<text x="640.0" y="364.0" font-size="13" text-anchor="middle" fill="#888">1.71</text>
+<text x="0" y="0" font-size="100" font-weight="700" fill="#5B4D80" textLength="56" lengthAdjust="spacingAndGlyphs" transform="translate(676.0 320.00) scale(1 0.0944)">C</text>
+<text x="0" y="0" font-size="100" font-weight="700" fill="#1F7A7A" textLength="56" lengthAdjust="spacingAndGlyphs" transform="translate(676.0 313.11) scale(1 0.1887)">A</text>
+<text x="0" y="0" font-size="100" font-weight="700" fill="#C0392B" textLength="56" lengthAdjust="spacingAndGlyphs" transform="translate(676.0 299.34) scale(1 1.6041)">T</text>
+<text x="704.0" y="344.0" font-size="15" text-anchor="middle" fill="#555" font-weight="700">4</text>
+<text x="704.0" y="364.0" font-size="13" text-anchor="middle" fill="#888">1.25</text>
+<text x="0" y="0" font-size="100" font-weight="700" fill="#5B4D80" textLength="56" lengthAdjust="spacingAndGlyphs" transform="translate(740.0 320.00) scale(1 0.0419)">C</text>
+<text x="0" y="0" font-size="100" font-weight="700" fill="#C0392B" textLength="56" lengthAdjust="spacingAndGlyphs" transform="translate(740.0 316.94) scale(1 0.0419)">T</text>
+<text x="0" y="0" font-size="100" font-weight="700" fill="#1F7A7A" textLength="56" lengthAdjust="spacingAndGlyphs" transform="translate(740.0 313.88) scale(1 0.1676)">A</text>
+<text x="0" y="0" font-size="100" font-weight="700" fill="#D9822B" textLength="56" lengthAdjust="spacingAndGlyphs" transform="translate(740.0 301.65) scale(1 0.1676)">G</text>
+<text x="768.0" y="344.0" font-size="15" text-anchor="middle" fill="#555" font-weight="700">5</text>
+<text x="768.0" y="364.0" font-size="13" text-anchor="middle" fill="#888">0.28</text>
+<text x="0" y="0" font-size="100" font-weight="700" fill="#5B4D80" textLength="56" lengthAdjust="spacingAndGlyphs" transform="translate(804.0 320.00) scale(1 0.0158)">C</text>
+<text x="0" y="0" font-size="100" font-weight="700" fill="#1F7A7A" textLength="56" lengthAdjust="spacingAndGlyphs" transform="translate(804.0 318.85) scale(1 0.0473)">A</text>
+<text x="0" y="0" font-size="100" font-weight="700" fill="#D9822B" textLength="56" lengthAdjust="spacingAndGlyphs" transform="translate(804.0 315.40) scale(1 0.0473)">G</text>
+<text x="0" y="0" font-size="100" font-weight="700" fill="#C0392B" textLength="56" lengthAdjust="spacingAndGlyphs" transform="translate(804.0 311.95) scale(1 0.0473)">T</text>
+<text x="832.0" y="344.0" font-size="15" text-anchor="middle" fill="#555" font-weight="700">6</text>
+<text x="832.0" y="364.0" font-size="13" text-anchor="middle" fill="#888">0.10</text>
+<text x="460.0" y="364.0" font-size="13" text-anchor="end" fill="#888">bits</text>
+<text x="484.0" y="64.0" font-size="14" text-anchor="start" fill="#555">열 높이 = 그 위치의 정보량 (최대 2 bits)</text>
+<text x="484.0" y="84.0" font-size="14" text-anchor="start" fill="#555">글자 높이 = 빈도 × 정보량</text>
+</svg>

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 545" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" role="img" aria-label="pre-mRNA 가공 모식도. 유전자 DNA가 전사되어 exon과 intron을 모두 가진 pre-mRNA가 되고, 5' cap이 붙고, intron이 GU로 시작해 AG로 끝나는 경계에서 잘려 나가며, 3' 끝이 잘린 뒤 poly(A) 꼬리가 붙어 성숙 mRNA가 됨">
+<rect width="920" height="545" fill="#ffffff"/>
+<text x="20.0" y="65.0" font-size="16" text-anchor="start" fill="#333" font-weight="700">유전자 (DNA)</text>
+<line x1="170.0" y1="60.0" x2="880.0" y2="60.0" stroke="#888" stroke-width="4"/>
+<rect x="200.0" y="49.0" width="40.0" height="22.0" rx="2" fill="#b9aed0" stroke="none" stroke-width="1"/>
+<rect x="240.0" y="49.0" width="60.0" height="22.0" rx="2" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<rect x="420.0" y="49.0" width="80.0" height="22.0" rx="2" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<rect x="640.0" y="49.0" width="60.0" height="22.0" rx="2" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<rect x="700.0" y="49.0" width="100.0" height="22.0" rx="2" fill="#b9aed0" stroke="none" stroke-width="1"/>
+<path d="M200 49 L200 26 L222 26" stroke="#333" stroke-width="2" fill="none"/>
+<path d="M216 21 L223 26 L216 31" stroke="#333" stroke-width="2" fill="none"/>
+<text x="228.0" y="31.0" font-size="14" text-anchor="start" fill="#333" font-weight="700">TSS</text>
+<text x="360.0" y="44.0" font-size="14" text-anchor="middle" fill="#555">intron 1</text>
+<text x="570.0" y="44.0" font-size="14" text-anchor="middle" fill="#555">intron 2</text>
+<text x="250.0" y="94.0" font-size="14" text-anchor="middle" fill="#5B4D80" font-weight="700">exon 1</text>
+<text x="460.0" y="94.0" font-size="14" text-anchor="middle" fill="#5B4D80" font-weight="700">exon 2</text>
+<text x="720.0" y="94.0" font-size="14" text-anchor="middle" fill="#5B4D80" font-weight="700">exon 3</text>
+<path d="M520.0 104.0 L520.0 130.0 M516.6 123.9 L520.0 130.0 L523.4 123.9" stroke="#888" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="530.0" y="124.0" font-size="13" text-anchor="start" fill="#555">전사 (Pol II)</text>
+<text x="20.0" y="170.0" font-size="16" text-anchor="start" fill="#333" font-weight="700">pre-mRNA</text>
+<text x="20.0" y="190.0" font-size="13" text-anchor="start" fill="#555">막 전사된 RNA</text>
+<line x1="200.0" y1="165.0" x2="830.0" y2="165.0" stroke="#bbb" stroke-width="3"/>
+<rect x="200.0" y="156.0" width="40.0" height="18.0" rx="2" fill="#b9aed0" stroke="none" stroke-width="1"/>
+<rect x="240.0" y="156.0" width="60.0" height="18.0" rx="2" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<rect x="420.0" y="156.0" width="80.0" height="18.0" rx="2" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<rect x="640.0" y="156.0" width="60.0" height="18.0" rx="2" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<rect x="700.0" y="156.0" width="100.0" height="18.0" rx="2" fill="#b9aed0" stroke="none" stroke-width="1"/>
+<text x="190.0" y="170.0" font-size="14" text-anchor="end" fill="#555" font-weight="700">5'</text>
+<text x="838.0" y="170.0" font-size="14" text-anchor="start" fill="#555" font-weight="700">3'</text>
+<text x="565.0" y="195.0" font-size="13" text-anchor="middle" fill="#555">intron까지 모두 들어 있음</text>
+<path d="M520.0 205.0 L520.0 231.0 M516.6 224.9 L520.0 231.0 L523.4 224.9" stroke="#888" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="530.0" y="225.0" font-size="13" text-anchor="start" fill="#555">가공 (핵 안)</text>
+<text x="20.0" y="335.0" font-size="16" text-anchor="start" fill="#333" font-weight="700">가공 단계</text>
+<line x1="200.0" y1="330.0" x2="300.0" y2="330.0" stroke="#bbb" stroke-width="3"/>
+<line x1="420.0" y1="330.0" x2="500.0" y2="330.0" stroke="#bbb" stroke-width="3"/>
+<line x1="640.0" y1="330.0" x2="800.0" y2="330.0" stroke="#bbb" stroke-width="3"/>
+<rect x="200.0" y="321.0" width="40.0" height="18.0" rx="2" fill="#b9aed0" stroke="none" stroke-width="1"/>
+<rect x="240.0" y="321.0" width="60.0" height="18.0" rx="2" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<rect x="420.0" y="321.0" width="80.0" height="18.0" rx="2" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<rect x="640.0" y="321.0" width="60.0" height="18.0" rx="2" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<rect x="700.0" y="321.0" width="100.0" height="18.0" rx="2" fill="#b9aed0" stroke="none" stroke-width="1"/>
+<path d="M300 330 C 310 260, 410 260, 420 330" stroke="#bbb" stroke-width="3" fill="none" stroke-dasharray="6,4"/>
+<text x="304.0" y="356.0" font-size="14" text-anchor="middle" fill="#C0392B" font-weight="700">GU</text>
+<text x="416.0" y="356.0" font-size="14" text-anchor="middle" fill="#C0392B" font-weight="700">AG</text>
+<path d="M500 330 C 510 260, 630 260, 640 330" stroke="#bbb" stroke-width="3" fill="none" stroke-dasharray="6,4"/>
+<text x="504.0" y="356.0" font-size="14" text-anchor="middle" fill="#C0392B" font-weight="700">GU</text>
+<text x="636.0" y="356.0" font-size="14" text-anchor="middle" fill="#C0392B" font-weight="700">AG</text>
+<text x="470.0" y="266.0" font-size="14" text-anchor="middle" fill="#C0392B" font-weight="700">② splicing: intron을 잘라 내고 exon끼리 이음</text>
+<circle cx="190.0" cy="330.0" r="10" fill="#D9822B" stroke="none" stroke-width="1"/>
+<text x="190.0" y="310.0" font-size="14" text-anchor="middle" fill="#D9822B" font-weight="700">① 5' cap</text>
+<path d="M806 314 L816 346 M816 314 L806 346" stroke="#333" stroke-width="2" fill="none"/>
+<text x="811.0" y="364.0" font-size="13" text-anchor="middle" fill="#555">3' 끝 자르기</text>
+<rect x="822.0" y="323.0" width="62.0" height="14.0" rx="7" fill="#f6e3cc" stroke="#D9822B" stroke-width="1"/>
+<text x="853.0" y="335.0" font-size="12" text-anchor="middle" fill="#D9822B" font-weight="700">AAAA</text>
+<text x="853.0" y="310.0" font-size="14" text-anchor="middle" fill="#D9822B" font-weight="700">③ poly(A) 꼬리</text>
+<path d="M520.0 376.0 L520.0 402.0 M516.6 395.9 L520.0 402.0 L523.4 395.9" stroke="#888" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="20.0" y="450.0" font-size="16" text-anchor="start" fill="#333" font-weight="700">성숙 mRNA</text>
+<text x="20.0" y="470.0" font-size="13" text-anchor="start" fill="#555">핵 밖으로 나감</text>
+<circle cx="218.0" cy="445.0" r="10" fill="#D9822B" stroke="none" stroke-width="1"/>
+<rect x="230.0" y="436.0" width="40.0" height="18.0" rx="2" fill="#b9aed0" stroke="none" stroke-width="1"/>
+<rect x="270.0" y="436.0" width="60.0" height="18.0" rx="2" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<rect x="330.0" y="436.0" width="80.0" height="18.0" rx="2" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<line x1="330.0" y1="433.0" x2="330.0" y2="457.0" stroke="#ffffff" stroke-width="2"/>
+<rect x="410.0" y="436.0" width="60.0" height="18.0" rx="2" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<rect x="470.0" y="436.0" width="100.0" height="18.0" rx="2" fill="#b9aed0" stroke="none" stroke-width="1"/>
+<line x1="410.0" y1="433.0" x2="410.0" y2="457.0" stroke="#ffffff" stroke-width="2"/>
+<rect x="572.0" y="437.0" width="150.0" height="16.0" rx="8" fill="#f6e3cc" stroke="#D9822B" stroke-width="1"/>
+<text x="647.0" y="450.0" font-size="12" text-anchor="middle" fill="#D9822B" font-weight="700">AAAAAAAA … A</text>
+<path d="M231 461 L231 467 L269 467 L269 461" stroke="#555" stroke-width="1.5" fill="none"/>
+<text x="250.0" y="487.0" font-size="14" text-anchor="middle" fill="#555" font-weight="700">5' UTR</text>
+<path d="M271 461 L271 467 L469 467 L469 461" stroke="#5B4D80" stroke-width="1.5" fill="none"/>
+<text x="370.0" y="487.0" font-size="14" text-anchor="middle" fill="#5B4D80" font-weight="700">단백질 암호 구간 (CDS)</text>
+<path d="M471 461 L471 467 L569 467 L569 461" stroke="#555" stroke-width="1.5" fill="none"/>
+<text x="520.0" y="487.0" font-size="14" text-anchor="middle" fill="#555" font-weight="700">3' UTR</text>
+<text x="647.0" y="487.0" font-size="14" text-anchor="middle" fill="#D9822B" font-weight="700">poly(A) 꼬리</text>
+<text x="880.0" y="527.0" font-size="13" text-anchor="end" fill="#555">exon 경계(흰 줄)를 걸치는 read = spliced read  ·  CDS와 번역은 7장</text>
+</svg>

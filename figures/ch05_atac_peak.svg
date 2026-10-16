@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 534" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" role="img" aria-label="ATAC-seq 모식도. 위: 뉴클레오솜이 촘촘한 닫힌 구간과 뉴클레오솜이 빠진 열린 구간, Tn5 삽입 자리는 열린 구간에 몰림. 가운데: 읽힌 fragment가 열린 구간에 쌓임. 아래: 쌓인 수(coverage)가 peak를 이루고 chromStart, chromEnd, summit이 표시됨">
+<rect width="920" height="534" fill="#ffffff"/>
+<text x="20.0" y="92.0" font-size="16" text-anchor="start" fill="#333" font-weight="700">① 염색질</text>
+<text x="20.0" y="114.0" font-size="14" text-anchor="start" fill="#555">원 = 뉴클레오솜</text>
+<text x="20.0" y="133.0" font-size="14" text-anchor="start" fill="#555">(DNA가 감긴 실패)</text>
+<line x1="175.0" y1="110.0" x2="900.0" y2="110.0" stroke="#888" stroke-width="3"/>
+<circle cx="195.0" cy="110.0" r="15" fill="#e6e0f0" stroke="#7A6A99" stroke-width="1.5"/>
+<circle cx="233.0" cy="110.0" r="15" fill="#e6e0f0" stroke="#7A6A99" stroke-width="1.5"/>
+<circle cx="271.0" cy="110.0" r="15" fill="#e6e0f0" stroke="#7A6A99" stroke-width="1.5"/>
+<circle cx="309.0" cy="110.0" r="15" fill="#e6e0f0" stroke="#7A6A99" stroke-width="1.5"/>
+<circle cx="347.0" cy="110.0" r="15" fill="#e6e0f0" stroke="#7A6A99" stroke-width="1.5"/>
+<circle cx="592.0" cy="110.0" r="15" fill="#e6e0f0" stroke="#7A6A99" stroke-width="1.5"/>
+<circle cx="630.0" cy="110.0" r="15" fill="#e6e0f0" stroke="#7A6A99" stroke-width="1.5"/>
+<circle cx="668.0" cy="110.0" r="15" fill="#e6e0f0" stroke="#7A6A99" stroke-width="1.5"/>
+<circle cx="706.0" cy="110.0" r="15" fill="#e6e0f0" stroke="#7A6A99" stroke-width="1.5"/>
+<circle cx="744.0" cy="110.0" r="15" fill="#e6e0f0" stroke="#7A6A99" stroke-width="1.5"/>
+<circle cx="782.0" cy="110.0" r="15" fill="#e6e0f0" stroke="#7A6A99" stroke-width="1.5"/>
+<circle cx="820.0" cy="110.0" r="15" fill="#e6e0f0" stroke="#7A6A99" stroke-width="1.5"/>
+<circle cx="858.0" cy="110.0" r="15" fill="#e6e0f0" stroke="#7A6A99" stroke-width="1.5"/>
+<ellipse cx="478.0" cy="97.0" rx="15" ry="12" fill="#1F7A7A" stroke="none" stroke-width="1"/>
+<text x="478.0" y="142.0" font-size="13" text-anchor="middle" fill="#1F7A7A" font-weight="700">TF</text>
+<text x="475.0" y="52.0" font-size="15" text-anchor="middle" fill="#1F7A7A" font-weight="700">열린 구간</text>
+<text x="271.0" y="52.0" font-size="15" text-anchor="middle" fill="#555" font-weight="700">닫힌 구간</text>
+<text x="725.0" y="52.0" font-size="15" text-anchor="middle" fill="#555" font-weight="700">닫힌 구간</text>
+<path d="M385 60 L385 66 L565 66 L565 60" stroke="#1F7A7A" stroke-width="1.5" fill="none"/>
+<path d="M182 60 L182 66 L362 66 L362 60" stroke="#bbb" stroke-width="1.5" fill="none"/>
+<path d="M577 60 L577 66 L873 66 L873 60" stroke="#bbb" stroke-width="1.5" fill="none"/>
+<path d="M391 80 L401 80 L396 89 Z" stroke="none" stroke-width="2" fill="#C0392B"/>
+<path d="M404 80 L414 80 L409 89 Z" stroke="none" stroke-width="2" fill="#C0392B"/>
+<path d="M416 80 L426 80 L421 89 Z" stroke="none" stroke-width="2" fill="#C0392B"/>
+<path d="M431 80 L441 80 L436 89 Z" stroke="none" stroke-width="2" fill="#C0392B"/>
+<path d="M447 80 L457 80 L452 89 Z" stroke="none" stroke-width="2" fill="#C0392B"/>
+<path d="M492 80 L502 80 L497 89 Z" stroke="none" stroke-width="2" fill="#C0392B"/>
+<path d="M504 80 L514 80 L509 89 Z" stroke="none" stroke-width="2" fill="#C0392B"/>
+<path d="M515 80 L525 80 L520 89 Z" stroke="none" stroke-width="2" fill="#C0392B"/>
+<path d="M528 80 L538 80 L533 89 Z" stroke="none" stroke-width="2" fill="#C0392B"/>
+<path d="M541 80 L551 80 L546 89 Z" stroke="none" stroke-width="2" fill="#C0392B"/>
+<path d="M552 80 L562 80 L557 89 Z" stroke="none" stroke-width="2" fill="#C0392B"/>
+<path d="M247 80 L257 80 L252 89 Z" stroke="none" stroke-width="2" fill="#C0392B"/>
+<path d="M323 80 L333 80 L328 89 Z" stroke="none" stroke-width="2" fill="#C0392B"/>
+<path d="M606 80 L616 80 L611 89 Z" stroke="none" stroke-width="2" fill="#C0392B"/>
+<path d="M720 80 L730 80 L725 89 Z" stroke="none" stroke-width="2" fill="#C0392B"/>
+<path d="M180 160 L190 160 L185 169 Z" stroke="none" stroke-width="2" fill="#C0392B"/>
+<text x="197.0" y="168.0" font-size="14" text-anchor="start" fill="#C0392B">Tn5가 DNA를 자르고 어댑터를 꽂은 자리 — 열린 구간에 몰림</text>
+<text x="20.0" y="206.0" font-size="16" text-anchor="start" fill="#333" font-weight="700">② 읽힌 fragment</text>
+<text x="20.0" y="228.0" font-size="14" text-anchor="start" fill="#555">막대 하나 = fragment 하나</text>
+<text x="20.0" y="247.0" font-size="14" text-anchor="start" fill="#555">(양 끝이 Tn5 자리)</text>
+<rect x="214.0" y="196.0" width="52.4" height="6.0" rx="2" fill="#1F7A7A" stroke="none" stroke-width="1"/>
+<rect x="290.0" y="196.0" width="60.0" height="6.0" rx="2" fill="#1F7A7A" stroke="none" stroke-width="1"/>
+<rect x="398.0" y="196.0" width="59.5" height="6.0" rx="2" fill="#1F7A7A" stroke="none" stroke-width="1"/>
+<rect x="400.0" y="205.0" width="53.0" height="6.0" rx="2" fill="#1F7A7A" stroke="none" stroke-width="1"/>
+<rect x="424.0" y="214.0" width="41.9" height="6.0" rx="2" fill="#1F7A7A" stroke="none" stroke-width="1"/>
+<rect x="428.9" y="223.0" width="41.7" height="6.0" rx="2" fill="#1F7A7A" stroke="none" stroke-width="1"/>
+<rect x="433.1" y="232.0" width="56.3" height="6.0" rx="2" fill="#1F7A7A" stroke="none" stroke-width="1"/>
+<rect x="439.3" y="241.0" width="24.1" height="6.0" rx="2" fill="#1F7A7A" stroke="none" stroke-width="1"/>
+<rect x="441.4" y="250.0" width="25.3" height="6.0" rx="2" fill="#1F7A7A" stroke="none" stroke-width="1"/>
+<rect x="443.3" y="259.0" width="23.0" height="6.0" rx="2" fill="#1F7A7A" stroke="none" stroke-width="1"/>
+<rect x="449.3" y="268.0" width="58.3" height="6.0" rx="2" fill="#1F7A7A" stroke="none" stroke-width="1"/>
+<rect x="450.8" y="277.0" width="18.1" height="6.0" rx="2" fill="#1F7A7A" stroke="none" stroke-width="1"/>
+<rect x="451.9" y="286.0" width="53.1" height="6.0" rx="2" fill="#1F7A7A" stroke="none" stroke-width="1"/>
+<rect x="452.8" y="295.0" width="61.2" height="6.0" rx="2" fill="#1F7A7A" stroke="none" stroke-width="1"/>
+<rect x="460.3" y="205.0" width="19.3" height="6.0" rx="2" fill="#1F7A7A" stroke="none" stroke-width="1"/>
+<rect x="460.5" y="304.0" width="43.3" height="6.0" rx="2" fill="#1F7A7A" stroke="none" stroke-width="1"/>
+<rect x="461.5" y="196.0" width="31.6" height="6.0" rx="2" fill="#1F7A7A" stroke="none" stroke-width="1"/>
+<rect x="466.0" y="313.0" width="44.5" height="6.0" rx="2" fill="#1F7A7A" stroke="none" stroke-width="1"/>
+<rect x="469.8" y="241.0" width="31.3" height="6.0" rx="2" fill="#1F7A7A" stroke="none" stroke-width="1"/>
+<rect x="476.1" y="214.0" width="56.4" height="6.0" rx="2" fill="#1F7A7A" stroke="none" stroke-width="1"/>
+<rect x="479.8" y="223.0" width="48.4" height="6.0" rx="2" fill="#1F7A7A" stroke="none" stroke-width="1"/>
+<rect x="480.1" y="250.0" width="31.9" height="6.0" rx="2" fill="#1F7A7A" stroke="none" stroke-width="1"/>
+<rect x="486.8" y="205.0" width="33.9" height="6.0" rx="2" fill="#1F7A7A" stroke="none" stroke-width="1"/>
+<rect x="490.1" y="259.0" width="30.3" height="6.0" rx="2" fill="#1F7A7A" stroke="none" stroke-width="1"/>
+<rect x="504.1" y="196.0" width="57.6" height="6.0" rx="2" fill="#1F7A7A" stroke="none" stroke-width="1"/>
+<rect x="522.8" y="232.0" width="32.9" height="6.0" rx="2" fill="#1F7A7A" stroke="none" stroke-width="1"/>
+<rect x="600.0" y="196.0" width="37.9" height="6.0" rx="2" fill="#1F7A7A" stroke="none" stroke-width="1"/>
+<rect x="690.0" y="196.0" width="69.2" height="6.0" rx="2" fill="#1F7A7A" stroke="none" stroke-width="1"/>
+<rect x="760.0" y="205.0" width="36.8" height="6.0" rx="2" fill="#1F7A7A" stroke="none" stroke-width="1"/>
+<rect x="838.0" y="196.0" width="61.5" height="6.0" rx="2" fill="#1F7A7A" stroke="none" stroke-width="1"/>
+<text x="20.0" y="377.0" font-size="16" text-anchor="start" fill="#333" font-weight="700">③ 쌓인 수</text>
+<text x="20.0" y="399.0" font-size="14" text-anchor="start" fill="#555">(coverage)</text>
+<text x="20.0" y="418.0" font-size="14" text-anchor="start" fill="#555">높이 솟은 곳 = peak</text>
+<path d="M175 472 L175 472.0 L176 472.0 L177 472.0 L178 472.0 L179 472.0 L180 472.0 L181 472.0 L182 472.0 L183 472.0 L184 472.0 L185 472.0 L186 472.0 L187 472.0 L188 472.0 L189 472.0 L190 472.0 L191 472.0 L192 472.0 L193 472.0 L194 472.0 L195 472.0 L196 472.0 L197 472.0 L198 472.0 L199 472.0 L200 472.0 L201 472.0 L202 472.0 L203 472.0 L204 472.0 L205 472.0 L206 472.0 L207 472.0 L208 472.0 L209 472.0 L210 472.0 L211 470.8 L212 469.6 L213 468.4 L214 467.2 L215 466.0 L216 464.8 L217 463.6 L218 463.6 L219 463.6 L220 463.6 L221 463.6 L222 463.6 L223 463.6 L224 463.6 L225 463.6 L226 463.6 L227 463.6 L228 463.6 L229 463.6 L230 463.6 L231 463.6 L232 463.6 L233 463.6 L234 463.6 L235 463.6 L236 463.6 L237 463.6 L238 463.6 L239 463.6 L240 463.6 L241 463.6 L242 463.6 L243 463.6 L244 463.6 L245 463.6 L246 463.6 L247 463.6 L248 463.6 L249 463.6 L250 463.6 L251 463.6 L252 463.6 L253 463.6 L254 463.6 L255 463.6 L256 463.6 L257 463.6 L258 463.6 L259 463.6 L260 463.6 L261 463.6 L262 463.6 L263 463.6 L264 464.8 L265 466.0 L266 467.2 L267 468.4 L268 469.6 L269 470.8 L270 472.0 L271 472.0 L272 472.0 L273 472.0 L274 472.0 L275 472.0 L276 472.0 L277 472.0 L278 472.0 L279 472.0 L280 472.0 L281 472.0 L282 472.0 L283 472.0 L284 472.0 L285 472.0 L286 472.0 L287 470.8 L288 469.6 L289 468.4 L290 467.2 L291 466.0 L292 464.8 L293 463.6 L294 463.6 L295 463.6 L296 463.6 L297 463.6 L298 463.6 L299 463.6 L300 463.6 L301 463.6 L302 463.6 L303 463.6 L304 463.6 L305 463.6 L306 463.6 L307 463.6 L308 463.6 L309 463.6 L310 463.6 L311 463.6 L312 463.6 L313 463.6 L314 463.6 L315 463.6 L316 463.6 L317 463.6 L318 463.6 L319 463.6 L320 463.6 L321 463.6 L322 463.6 L323 463.6 L324 463.6 L325 463.6 L326 463.6 L327 463.6 L328 463.6 L329 463.6 L330 463.6 L331 463.6 L332 463.6 L333 463.6 L334 463.6 L335 463.6 L336 463.6 L337 463.6 L338 463.6 L339 463.6 L340 463.6 L341 463.6 L342 463.6 L343 463.6 L344 463.6 L345 463.6 L346 463.6 L347 464.8 L348 466.0 L349 467.2 L350 468.4 L351 469.6 L352 470.8 L353 472.0 L354 472.0 L355 472.0 L356 472.0 L357 472.0 L358 472.0 L359 472.0 L360 472.0 L361 472.0 L362 472.0 L363 472.0 L364 472.0 L365 472.0 L366 472.0 L367 472.0 L368 472.0 L369 472.0 L370 472.0 L371 472.0 L372 472.0 L373 472.0 L374 472.0 L375 472.0 L376 472.0 L377 472.0 L378 472.0 L379 472.0 L380 472.0 L381 472.0 L382 472.0 L383 472.0 L384 472.0 L385 472.0 L386 472.0 L387 472.0 L388 472.0 L389 472.0 L390 472.0 L391 472.0 L392 472.0 L393 472.0 L394 472.0 L395 470.8 L396 468.4 L397 466.0 L398 463.6 L399 461.3 L400 458.9 L401 456.5 L402 455.3 L403 455.3 L404 455.3 L405 455.3 L406 455.3 L407 455.3 L408 455.3 L409 455.3 L410 455.3 L411 455.3 L412 455.3 L413 455.3 L414 455.3 L415 455.3 L416 455.3 L417 455.3 L418 455.3 L419 455.3 L420 455.3 L421 454.1 L422 452.9 L423 451.7 L424 450.5 L425 448.1 L426 445.8 L427 443.4 L428 442.2 L429 441.0 L430 438.6 L431 436.2 L432 435.0 L433 433.8 L434 432.6 L435 431.4 L436 429.0 L437 427.9 L438 425.5 L439 423.1 L440 419.5 L441 415.9 L442 412.3 L443 410.0 L444 407.6 L445 406.4 L446 404.0 L447 401.6 L448 398.0 L449 393.2 L450 389.7 L451 386.1 L452 382.5 L453 380.1 L454 378.9 L455 380.1 L456 382.5 L457 381.3 L458 378.9 L459 376.5 L460 374.2 L461 373.0 L462 369.4 L463 367.0 L464 369.4 L465 373.0 L466 376.5 L467 380.1 L468 383.7 L469 388.5 L470 392.1 L471 393.2 L472 394.4 L473 394.4 L474 394.4 L475 393.2 L476 390.9 L477 388.5 L478 386.1 L479 383.7 L480 382.5 L481 381.3 L482 380.1 L483 378.9 L484 377.7 L485 376.5 L486 375.4 L487 374.2 L488 373.0 L489 371.8 L490 371.8 L491 373.0 L492 374.2 L493 375.4 L494 376.5 L495 377.7 L496 378.9 L497 380.1 L498 380.1 L499 381.3 L500 382.5 L501 383.7 L502 386.1 L503 388.5 L504 390.9 L505 394.4 L506 396.8 L507 399.2 L508 402.8 L509 405.2 L510 408.8 L511 413.5 L512 417.1 L513 420.7 L514 424.3 L515 426.7 L516 429.0 L517 430.2 L518 432.6 L519 433.8 L520 435.0 L521 436.2 L522 437.4 L523 438.6 L524 439.8 L525 438.6 L526 439.8 L527 441.0 L528 442.2 L529 443.4 L530 445.8 L531 448.1 L532 450.5 L533 451.7 L534 452.9 L535 454.1 L536 455.3 L537 455.3 L538 455.3 L539 455.3 L540 455.3 L541 455.3 L542 455.3 L543 455.3 L544 455.3 L545 455.3 L546 455.3 L547 455.3 L548 455.3 L549 455.3 L550 455.3 L551 455.3 L552 455.3 L553 456.5 L554 457.7 L555 458.9 L556 460.1 L557 461.3 L558 462.5 L559 464.8 L560 466.0 L561 467.2 L562 468.4 L563 469.6 L564 470.8 L565 472.0 L566 472.0 L567 472.0 L568 472.0 L569 472.0 L570 472.0 L571 472.0 L572 472.0 L573 472.0 L574 472.0 L575 472.0 L576 472.0 L577 472.0 L578 472.0 L579 472.0 L580 472.0 L581 472.0 L582 472.0 L583 472.0 L584 472.0 L585 472.0 L586 472.0 L587 472.0 L588 472.0 L589 472.0 L590 472.0 L591 472.0 L592 472.0 L593 472.0 L594 472.0 L595 472.0 L596 472.0 L597 470.8 L598 469.6 L599 468.4 L600 467.2 L601 466.0 L602 464.8 L603 463.6 L604 463.6 L605 463.6 L606 463.6 L607 463.6 L608 463.6 L609 463.6 L610 463.6 L611 463.6 L612 463.6 L613 463.6 L614 463.6 L615 463.6 L616 463.6 L617 463.6 L618 463.6 L619 463.6 L620 463.6 L621 463.6 L622 463.6 L623 463.6 L624 463.6 L625 463.6 L626 463.6 L627 463.6 L628 463.6 L629 463.6 L630 463.6 L631 463.6 L632 463.6 L633 463.6 L634 463.6 L635 464.8 L636 466.0 L637 467.2 L638 468.4 L639 469.6 L640 470.8 L641 472.0 L642 472.0 L643 472.0 L644 472.0 L645 472.0 L646 472.0 L647 472.0 L648 472.0 L649 472.0 L650 472.0 L651 472.0 L652 472.0 L653 472.0 L654 472.0 L655 472.0 L656 472.0 L657 472.0 L658 472.0 L659 472.0 L660 472.0 L661 472.0 L662 472.0 L663 472.0 L664 472.0 L665 472.0 L666 472.0 L667 472.0 L668 472.0 L669 472.0 L670 472.0 L671 472.0 L672 472.0 L673 472.0 L674 472.0 L675 472.0 L676 472.0 L677 472.0 L678 472.0 L679 472.0 L680 472.0 L681 472.0 L682 472.0 L683 472.0 L684 472.0 L685 472.0 L686 472.0 L687 470.8 L688 469.6 L689 468.4 L690 467.2 L691 466.0 L692 464.8 L693 463.6 L694 463.6 L695 463.6 L696 463.6 L697 463.6 L698 463.6 L699 463.6 L700 463.6 L701 463.6 L702 463.6 L703 463.6 L704 463.6 L705 463.6 L706 463.6 L707 463.6 L708 463.6 L709 463.6 L710 463.6 L711 463.6 L712 463.6 L713 463.6 L714 463.6 L715 463.6 L716 463.6 L717 463.6 L718 463.6 L719 463.6 L720 463.6 L721 463.6 L722 463.6 L723 463.6 L724 463.6 L725 463.6 L726 463.6 L727 463.6 L728 463.6 L729 463.6 L730 463.6 L731 463.6 L732 463.6 L733 463.6 L734 463.6 L735 463.6 L736 463.6 L737 463.6 L738 463.6 L739 463.6 L740 463.6 L741 463.6 L742 463.6 L743 463.6 L744 463.6 L745 463.6 L746 463.6 L747 463.6 L748 463.6 L749 463.6 L750 463.6 L751 463.6 L752 463.6 L753 463.6 L754 463.6 L755 463.6 L756 463.6 L757 463.6 L758 463.6 L759 463.6 L760 463.6 L761 463.6 L762 463.6 L763 463.6 L764 463.6 L765 463.6 L766 463.6 L767 463.6 L768 463.6 L769 463.6 L770 463.6 L771 463.6 L772 463.6 L773 463.6 L774 463.6 L775 463.6 L776 463.6 L777 463.6 L778 463.6 L779 463.6 L780 463.6 L781 463.6 L782 463.6 L783 463.6 L784 463.6 L785 463.6 L786 463.6 L787 463.6 L788 463.6 L789 463.6 L790 463.6 L791 463.6 L792 463.6 L793 463.6 L794 464.8 L795 466.0 L796 467.2 L797 468.4 L798 469.6 L799 470.8 L800 472.0 L801 472.0 L802 472.0 L803 472.0 L804 472.0 L805 472.0 L806 472.0 L807 472.0 L808 472.0 L809 472.0 L810 472.0 L811 472.0 L812 472.0 L813 472.0 L814 472.0 L815 472.0 L816 472.0 L817 472.0 L818 472.0 L819 472.0 L820 472.0 L821 472.0 L822 472.0 L823 472.0 L824 472.0 L825 472.0 L826 472.0 L827 472.0 L828 472.0 L829 472.0 L830 472.0 L831 472.0 L832 472.0 L833 472.0 L834 472.0 L835 470.8 L836 469.6 L837 468.4 L838 467.2 L839 466.0 L840 464.8 L841 463.6 L842 463.6 L843 463.6 L844 463.6 L845 463.6 L846 463.6 L847 463.6 L848 463.6 L849 463.6 L850 463.6 L851 463.6 L852 463.6 L853 463.6 L854 463.6 L855 463.6 L856 463.6 L857 463.6 L858 463.6 L859 463.6 L860 463.6 L861 463.6 L862 463.6 L863 463.6 L864 463.6 L865 463.6 L866 463.6 L867 463.6 L868 463.6 L869 463.6 L870 463.6 L871 463.6 L872 463.6 L873 463.6 L874 463.6 L875 463.6 L876 463.6 L877 463.6 L878 463.6 L879 463.6 L880 463.6 L881 463.6 L882 463.6 L883 463.6 L884 463.6 L885 463.6 L886 463.6 L887 463.6 L888 463.6 L889 463.6 L890 463.6 L891 463.6 L892 463.6 L893 463.6 L894 463.6 L895 463.6 L896 463.6 L897 463.6 L898 463.6 L899 463.6 L900 472.0 L900 472 Z" stroke="#1F7A7A" stroke-width="1.5" fill="#d5ebe9"/>
+<line x1="175.0" y1="472.0" x2="900.0" y2="472.0" stroke="#555" stroke-width="1.5"/>
+<text x="900.0" y="524.0" font-size="14" text-anchor="end" fill="#555">유전체 좌표 →</text>
+<rect x="430.0" y="347.0" width="96.0" height="125.0" rx="0" fill="none" stroke="#D9822B" stroke-width="1.5" stroke-dasharray="5,4"/>
+<line x1="463.0" y1="344.0" x2="463.0" y2="472.0" stroke="#C0392B" stroke-width="2" stroke-dasharray="4,3"/>
+<text x="463.0" y="338.0" font-size="14" text-anchor="middle" fill="#C0392B" font-weight="700">summit</text>
+<path d="M430 480 L430 488 L526 488 L526 480" stroke="#D9822B" stroke-width="1.5" fill="none"/>
+<text x="428.0" y="506.0" font-size="14" text-anchor="end" fill="#D9822B" font-weight="700">chromStart</text>
+<text x="528.0" y="506.0" font-size="14" text-anchor="start" fill="#D9822B" font-weight="700">chromEnd</text>
+<text x="628.0" y="392.0" font-size="15" text-anchor="start" fill="#D9822B" font-weight="700">peak = read가 쌓인 구간</text>
+<text x="628.0" y="412.0" font-size="14" text-anchor="start" fill="#555">summit = chromStart + peak (10번째 열)</text>
+</svg>

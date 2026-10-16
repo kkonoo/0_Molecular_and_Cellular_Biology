@@ -208,3 +208,11 @@ a.src:hover {
 table {
   word-break: keep-all;
 }
+
+/* 좁은 화면(휴대폰)에서는 넓은 표만 가로로 스크롤 — 페이지 전체가 밀리지 않게 */
+@media (max-width: 767.98px) {
+  main table {
+    display: block;
+    overflow-x: auto;
+  }
+}

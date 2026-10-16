@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 530" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" role="img" aria-label="유전자 조절 모식도. 위: 한 줄로 펼친 DNA에서 enhancer, 이웃 유전자, promoter, TSS, 표적 유전자의 순서. 아래: DNA가 고리를 만들어 멀리 있던 enhancer와 그 위의 전사인자가 promoter의 RNA 중합효소 II 곁으로 옴">
+<rect width="920" height="530" fill="#ffffff"/>
+<rect x="10.0" y="10.0" width="900.0" height="165.0" rx="10" fill="#f7f6fa" stroke="#d9d3e6" stroke-width="1"/>
+<text x="26.0" y="38.0" font-size="16" text-anchor="start" fill="#333" font-weight="700">① 한 줄로 펼쳐 보면</text>
+<line x1="40.0" y1="112.0" x2="880.0" y2="112.0" stroke="#888" stroke-width="4"/>
+<rect x="90.0" y="102.0" width="90.0" height="20.0" rx="3" fill="#f6e3cc" stroke="#D9822B" stroke-width="1.5"/>
+<text x="135.0" y="92.0" font-size="15" text-anchor="middle" fill="#D9822B" font-weight="700">enhancer</text>
+<rect x="250.0" y="103.0" width="22.0" height="18.0" rx="2" fill="#bbb" stroke="none" stroke-width="1"/>
+<rect x="300.0" y="103.0" width="30.0" height="18.0" rx="2" fill="#bbb" stroke="none" stroke-width="1"/>
+<rect x="365.0" y="103.0" width="20.0" height="18.0" rx="2" fill="#bbb" stroke="none" stroke-width="1"/>
+<text x="318.0" y="92.0" font-size="15" text-anchor="middle" fill="#555">이웃 유전자</text>
+<rect x="520.0" y="102.0" width="80.0" height="20.0" rx="3" fill="#e6e0f0" stroke="#5B4D80" stroke-width="1.5"/>
+<text x="560.0" y="92.0" font-size="15" text-anchor="middle" fill="#5B4D80" font-weight="700">promoter</text>
+<path d="M600 112 L600 84 L622 84" stroke="#333" stroke-width="2" fill="none"/>
+<path d="M616 79 L623 84 L616 89" stroke="#333" stroke-width="2" fill="none"/>
+<text x="628.0" y="89.0" font-size="15" text-anchor="start" fill="#333" font-weight="700">TSS</text>
+<rect x="670.0" y="102.0" width="45.0" height="20.0" rx="2" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<rect x="745.0" y="102.0" width="25.0" height="20.0" rx="2" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<rect x="800.0" y="102.0" width="60.0" height="20.0" rx="2" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<text x="765.0" y="90.0" font-size="15" text-anchor="middle" fill="#5B4D80" font-weight="700">표적 유전자</text>
+<path d="M180 134 L180 142 L520 142 L520 134" stroke="#888" stroke-width="1.5" fill="none"/>
+<text x="350.0" y="164.0" font-size="14" text-anchor="middle" fill="#555">멀리 떨어져 있을 수 있음 (예: 약 1 Mb)</text>
+<rect x="10.0" y="190.0" width="900.0" height="330.0" rx="10" fill="#f7f6fa" stroke="#d9d3e6" stroke-width="1"/>
+<text x="26.0" y="218.0" font-size="16" text-anchor="start" fill="#333" font-weight="700">② 실제로는 DNA가 고리를 만들어 enhancer가 promoter 곁으로 옴</text>
+<line x1="40.0" y1="330.0" x2="305.0" y2="330.0" stroke="#888" stroke-width="4"/>
+<path d="M305 330 C 305 425, 150 488, 315 488 C 480 488, 325 425, 325 330" stroke="#888" stroke-width="4" fill="none"/>
+<line x1="325.0" y1="330.0" x2="880.0" y2="330.0" stroke="#888" stroke-width="4"/>
+<rect x="262.0" y="481.0" width="18.0" height="14.0" rx="2" fill="#bbb" stroke="none" stroke-width="1"/>
+<rect x="300.0" y="481.0" width="30.0" height="14.0" rx="2" fill="#bbb" stroke="none" stroke-width="1"/>
+<rect x="350.0" y="481.0" width="18.0" height="14.0" rx="2" fill="#bbb" stroke="none" stroke-width="1"/>
+<text x="235.0" y="470.0" font-size="14" text-anchor="end" fill="#555">이웃 유전자</text>
+<text x="425.0" y="440.0" font-size="14" text-anchor="start" fill="#555">DNA 고리 (loop)</text>
+<rect x="232.0" y="320.0" width="73.0" height="20.0" rx="3" fill="#f6e3cc" stroke="#D9822B" stroke-width="1.5"/>
+<text x="226.0" y="364.0" font-size="15" text-anchor="end" fill="#D9822B" font-weight="700">enhancer</text>
+<ellipse cx="252.0" cy="306.0" rx="17" ry="14" fill="#1F7A7A" stroke="none" stroke-width="1"/>
+<ellipse cx="287.0" cy="304.0" rx="18" ry="16" fill="#D9822B" stroke="none" stroke-width="1"/>
+<text x="150.0" y="276.0" font-size="15" text-anchor="middle" fill="#333" font-weight="700">특이 전사인자 (TF)</text>
+<line x1="178.0" y1="283.0" x2="238.0" y2="302.0" stroke="#888" stroke-width="1.2"/>
+<rect x="325.0" y="320.0" width="90.0" height="20.0" rx="3" fill="#e6e0f0" stroke="#5B4D80" stroke-width="1.5"/>
+<text x="372.0" y="364.0" font-size="15" text-anchor="middle" fill="#5B4D80" font-weight="700">promoter</text>
+<circle cx="336.0" cy="311.0" r="9" fill="#7A6A99" stroke="none" stroke-width="1"/>
+<circle cx="353.0" cy="313.0" r="9" fill="#7A6A99" stroke="none" stroke-width="1"/>
+<ellipse cx="382.0" cy="298.0" rx="32" ry="24" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<text x="382.0" y="303.0" font-size="14" text-anchor="middle" fill="#ffffff" font-weight="700">Pol II</text>
+<ellipse cx="333" cy="302" rx="96" ry="42" fill="none" stroke="#C0392B" stroke-width="1.5" stroke-dasharray="5,4"/>
+<text x="300.0" y="254.0" font-size="14" text-anchor="middle" fill="#C0392B" font-weight="700">서로 가까이 모임</text>
+<path d="M400 278 q 8 -6 4 -14 t 4 -14 t 4 -14" stroke="#C0392B" stroke-width="2.5" fill="none"/>
+<text x="418.0" y="244.0" font-size="14" text-anchor="start" fill="#C0392B">새로 만들어지는 RNA</text>
+<text x="470.0" y="286.0" font-size="15" text-anchor="start" fill="#5B4D80" font-weight="700">RNA 중합효소 II (Pol II)</text>
+<text x="470.0" y="306.0" font-size="14" text-anchor="start" fill="#555">+ 일반 전사인자</text>
+<line x1="466.0" y1="290.0" x2="414.0" y2="296.0" stroke="#888" stroke-width="1.2"/>
+<path d="M415 330 L415 356 L437 356" stroke="#333" stroke-width="2" fill="none"/>
+<path d="M431 351 L438 356 L431 361" stroke="#333" stroke-width="2" fill="none"/>
+<text x="443.0" y="361.0" font-size="14" text-anchor="start" fill="#333" font-weight="700">TSS</text>
+<rect x="470.0" y="320.0" width="60.0" height="20.0" rx="2" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<rect x="575.0" y="320.0" width="35.0" height="20.0" rx="2" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<rect x="660.0" y="320.0" width="70.0" height="20.0" rx="2" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<rect x="790.0" y="320.0" width="70.0" height="20.0" rx="2" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<text x="665.0" y="364.0" font-size="15" text-anchor="middle" fill="#5B4D80" font-weight="700">표적 유전자</text>
+</svg>
