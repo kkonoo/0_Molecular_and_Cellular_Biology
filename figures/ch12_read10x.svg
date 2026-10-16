@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 400" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" role="img" aria-label="10x Chromium 3프라임 라이브러리 조각 하나의 구조: 왼쪽부터 어댑터, 세포 바코드 16 bp, UMI 12 bp, poly(T), cDNA, 어댑터. Read 1은 세포 바코드와 UMI를, Read 2는 cDNA를, I1과 I2는 어댑터 안의 시료 index를 읽음. 아래는 각 read가 들어가는 FASTQ 파일 이름">
+<rect width="920" height="400" fill="#ffffff"/>
+<text x="460.0" y="30.0" font-size="17" text-anchor="middle" fill="#333" font-weight="700">10x Chromium 3′ 유전자 발현 library 조각 하나 (v3·v4 화학)</text>
+<rect x="40.0" y="100.0" width="80.0" height="40.0" rx="0" fill="#d6d3dc" stroke="#ffffff" stroke-width="2"/>
+<text x="80.0" y="126.0" font-size="14" text-anchor="middle" fill="#333" font-weight="700">어댑터</text>
+<rect x="120.0" y="100.0" width="128.0" height="40.0" rx="0" fill="#5B4D80" stroke="#ffffff" stroke-width="2"/>
+<text x="184.0" y="126.0" font-size="15" text-anchor="middle" fill="#ffffff" font-weight="700">세포 바코드 16 bp</text>
+<rect x="248.0" y="100.0" width="96.0" height="40.0" rx="0" fill="#7A6A99" stroke="#ffffff" stroke-width="2"/>
+<text x="296.0" y="126.0" font-size="15" text-anchor="middle" fill="#ffffff" font-weight="700">UMI 12 bp</text>
+<rect x="344.0" y="100.0" width="92.0" height="40.0" rx="0" fill="#c9c3d8" stroke="#ffffff" stroke-width="2"/>
+<text x="390.0" y="126.0" font-size="15" text-anchor="middle" fill="#333" font-weight="700">poly(T)</text>
+<rect x="436.0" y="100.0" width="300.0" height="40.0" rx="0" fill="#D9822B" stroke="#ffffff" stroke-width="2"/>
+<text x="586.0" y="126.0" font-size="15" text-anchor="middle" fill="#ffffff" font-weight="700">cDNA (mRNA 3′ 쪽 서열)</text>
+<rect x="736.0" y="100.0" width="84.0" height="40.0" rx="0" fill="#d6d3dc" stroke="#ffffff" stroke-width="2"/>
+<text x="778.0" y="126.0" font-size="14" text-anchor="middle" fill="#333" font-weight="700">어댑터</text>
+<rect x="54.0" y="148.0" width="52.0" height="22.0" rx="4" fill="#1F7A7A" stroke="none" stroke-width="1"/>
+<text x="80.0" y="164.0" font-size="14" text-anchor="middle" fill="#ffffff" font-weight="700">I2</text>
+<rect x="752.0" y="148.0" width="52.0" height="22.0" rx="4" fill="#1F7A7A" stroke="none" stroke-width="1"/>
+<text x="778.0" y="164.0" font-size="14" text-anchor="middle" fill="#ffffff" font-weight="700">I1</text>
+<text x="80.0" y="190.0" font-size="13" text-anchor="middle" fill="#1F7A7A">시료 index</text>
+<text x="778.0" y="190.0" font-size="13" text-anchor="middle" fill="#1F7A7A">시료 index</text>
+<path d="M120.0 78.0 L342.0 78.0 M334.8 81.5 L342.0 78.0 L334.8 74.5" stroke="#5B4D80" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="346.0" y1="78.0" x2="426.0" y2="78.0" stroke="#5B4D80" stroke-width="2" stroke-dasharray="5,4"/>
+<text x="120.0" y="66.0" font-size="15" text-anchor="start" fill="#5B4D80" font-weight="700">Read 1 → 처음 28 bp = 바코드 16 + UMI 12</text>
+<text x="348.0" y="66.0" font-size="13" text-anchor="start" fill="#333"></text>
+<path d="M736.0 162.0 L440.0 162.0 M447.2 158.5 L440.0 162.0 L447.2 165.5" stroke="#D9822B" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="732.0" y="188.0" font-size="15" text-anchor="end" fill="#D9822B" font-weight="700">Read 2: cDNA = 어느 유전자인지</text>
+<rect x="40.0" y="238.0" width="840.0" height="140.0" rx="10" fill="#f7f6fa" stroke="#d9d3e6" stroke-width="1"/>
+<text x="60.0" y="266.0" font-size="15" text-anchor="start" fill="#333" font-weight="700">FASTQ 파일</text>
+<text x="470.0" y="266.0" font-size="15" text-anchor="start" fill="#333" font-weight="700">안에 든 것</text>
+<text x="60.0" y="298.0" font-size="14" text-anchor="start" fill="#5B4D80" font-weight="700" font-family="D2Coding, Menlo, monospace">sample_S1_L001_R1_001.fastq.gz</text>
+<text x="470.0" y="298.0" font-size="14" text-anchor="start" fill="#333">세포 바코드 + UMI (+ 남는 길이는 poly(T))</text>
+<text x="60.0" y="326.0" font-size="14" text-anchor="start" fill="#D9822B" font-weight="700" font-family="D2Coding, Menlo, monospace">sample_S1_L001_R2_001.fastq.gz</text>
+<text x="470.0" y="326.0" font-size="14" text-anchor="start" fill="#333">cDNA 서열 → 정렬해서 유전자를 정함</text>
+<text x="60.0" y="354.0" font-size="14" text-anchor="start" fill="#1F7A7A" font-weight="700" font-family="D2Coding, Menlo, monospace">sample_S1_L001_I1_001.fastq.gz, …_I2_…</text>
+<text x="470.0" y="354.0" font-size="14" text-anchor="start" fill="#333">시료 index → 시료별로 나누는 데 씀</text>
+<text x="60.0" y="390.0" font-size="13" text-anchor="start" fill="#333"></text>
+<text x="880.0" y="392.0" font-size="13" text-anchor="end" fill="#888">v2 화학은 UMI 10 bp · 길이는 비율이 아님</text>
+</svg>

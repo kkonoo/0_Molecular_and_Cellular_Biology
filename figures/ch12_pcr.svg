@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 470" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" role="img" aria-label="PCR 모식도: 왼쪽은 변성, 결합, 신장 세 단계와 사이클마다 이중가닥 분자가 1, 2, 4, 8개로 늘어나는 모습. 오른쪽은 20사이클 동안 효율 100%, 95%, 80%일 때 분자 수를 로그 눈금으로 그린 그래프">
+<rect width="920" height="470" fill="#ffffff"/>
+<rect x="20.0" y="40.0" width="420.0" height="410.0" rx="10" fill="#f7f6fa" stroke="#d9d3e6" stroke-width="1"/>
+<text x="230.0" y="30.0" font-size="16" text-anchor="middle" fill="#333" font-weight="700">한 사이클 = 세 단계, 사이클마다 2배</text>
+<rect x="40.0" y="60.0" width="120.0" height="54.0" rx="8" fill="#ffffff" stroke="#d9d3e6" stroke-width="1"/>
+<text x="100.0" y="82.0" font-size="15" text-anchor="middle" fill="#5B4D80" font-weight="700">① 변성</text>
+<text x="100.0" y="103.0" font-size="13" text-anchor="middle" fill="#555">두 가닥 분리</text>
+<path d="M161.0 87.0 L173.0 87.0 M168.5 89.2 L173.0 87.0 L168.5 84.8" stroke="#888" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="175.0" y="60.0" width="120.0" height="54.0" rx="8" fill="#ffffff" stroke="#d9d3e6" stroke-width="1"/>
+<text x="235.0" y="82.0" font-size="15" text-anchor="middle" fill="#5B4D80" font-weight="700">② 결합</text>
+<text x="235.0" y="103.0" font-size="13" text-anchor="middle" fill="#555">primer가 붙음</text>
+<path d="M296.0 87.0 L308.0 87.0 M303.5 89.2 L308.0 87.0 L303.5 84.8" stroke="#888" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="310.0" y="60.0" width="120.0" height="54.0" rx="8" fill="#ffffff" stroke="#d9d3e6" stroke-width="1"/>
+<text x="370.0" y="82.0" font-size="15" text-anchor="middle" fill="#5B4D80" font-weight="700">③ 신장</text>
+<text x="370.0" y="103.0" font-size="13" text-anchor="middle" fill="#555">새 가닥 합성</text>
+<text x="40.0" y="162.0" font-size="15" text-anchor="start" fill="#333" font-weight="700">0 사이클</text>
+<line x1="125.0" y1="150.0" x2="169.0" y2="150.0" stroke="#5B4D80" stroke-width="4"/>
+<line x1="125.0" y1="158.0" x2="169.0" y2="158.0" stroke="#5B4D80" stroke-width="4"/>
+<text x="420.0" y="162.0" font-size="16" text-anchor="end" fill="#1F7A7A" font-weight="700">1개</text>
+<text x="40.0" y="228.0" font-size="15" text-anchor="start" fill="#333" font-weight="700">1 사이클</text>
+<line x1="125.0" y1="216.0" x2="169.0" y2="216.0" stroke="#5B4D80" stroke-width="4"/>
+<line x1="125.0" y1="224.0" x2="169.0" y2="224.0" stroke="#D9822B" stroke-width="4"/>
+<line x1="180.0" y1="216.0" x2="224.0" y2="216.0" stroke="#D9822B" stroke-width="4"/>
+<line x1="180.0" y1="224.0" x2="224.0" y2="224.0" stroke="#5B4D80" stroke-width="4"/>
+<text x="420.0" y="228.0" font-size="16" text-anchor="end" fill="#1F7A7A" font-weight="700">2개</text>
+<text x="40.0" y="294.0" font-size="15" text-anchor="start" fill="#333" font-weight="700">2 사이클</text>
+<line x1="125.0" y1="282.0" x2="169.0" y2="282.0" stroke="#5B4D80" stroke-width="4"/>
+<line x1="125.0" y1="290.0" x2="169.0" y2="290.0" stroke="#D9822B" stroke-width="4"/>
+<line x1="180.0" y1="282.0" x2="224.0" y2="282.0" stroke="#D9822B" stroke-width="4"/>
+<line x1="180.0" y1="290.0" x2="224.0" y2="290.0" stroke="#5B4D80" stroke-width="4"/>
+<line x1="235.0" y1="282.0" x2="279.0" y2="282.0" stroke="#D9822B" stroke-width="4"/>
+<line x1="235.0" y1="290.0" x2="279.0" y2="290.0" stroke="#D9822B" stroke-width="4"/>
+<line x1="290.0" y1="282.0" x2="334.0" y2="282.0" stroke="#D9822B" stroke-width="4"/>
+<line x1="290.0" y1="290.0" x2="334.0" y2="290.0" stroke="#D9822B" stroke-width="4"/>
+<text x="420.0" y="294.0" font-size="16" text-anchor="end" fill="#1F7A7A" font-weight="700">4개</text>
+<text x="40.0" y="360.0" font-size="15" text-anchor="start" fill="#333" font-weight="700">3 사이클</text>
+<line x1="125.0" y1="348.0" x2="151.0" y2="348.0" stroke="#5B4D80" stroke-width="4"/>
+<line x1="125.0" y1="356.0" x2="151.0" y2="356.0" stroke="#D9822B" stroke-width="4"/>
+<line x1="157.0" y1="348.0" x2="183.0" y2="348.0" stroke="#D9822B" stroke-width="4"/>
+<line x1="157.0" y1="356.0" x2="183.0" y2="356.0" stroke="#5B4D80" stroke-width="4"/>
+<line x1="189.0" y1="348.0" x2="215.0" y2="348.0" stroke="#D9822B" stroke-width="4"/>
+<line x1="189.0" y1="356.0" x2="215.0" y2="356.0" stroke="#D9822B" stroke-width="4"/>
+<line x1="221.0" y1="348.0" x2="247.0" y2="348.0" stroke="#D9822B" stroke-width="4"/>
+<line x1="221.0" y1="356.0" x2="247.0" y2="356.0" stroke="#D9822B" stroke-width="4"/>
+<line x1="253.0" y1="348.0" x2="279.0" y2="348.0" stroke="#D9822B" stroke-width="4"/>
+<line x1="253.0" y1="356.0" x2="279.0" y2="356.0" stroke="#D9822B" stroke-width="4"/>
+<line x1="285.0" y1="348.0" x2="311.0" y2="348.0" stroke="#D9822B" stroke-width="4"/>
+<line x1="285.0" y1="356.0" x2="311.0" y2="356.0" stroke="#D9822B" stroke-width="4"/>
+<line x1="317.0" y1="348.0" x2="343.0" y2="348.0" stroke="#D9822B" stroke-width="4"/>
+<line x1="317.0" y1="356.0" x2="343.0" y2="356.0" stroke="#D9822B" stroke-width="4"/>
+<line x1="349.0" y1="348.0" x2="375.0" y2="348.0" stroke="#D9822B" stroke-width="4"/>
+<line x1="349.0" y1="356.0" x2="375.0" y2="356.0" stroke="#D9822B" stroke-width="4"/>
+<text x="420.0" y="360.0" font-size="16" text-anchor="end" fill="#1F7A7A" font-weight="700">8개</text>
+<rect x="40.0" y="418.0" width="14.0" height="6.0" rx="0" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<text x="60.0" y="425.0" font-size="13" text-anchor="start" fill="#555">처음 있던 가닥</text>
+<rect x="180.0" y="418.0" width="14.0" height="6.0" rx="0" fill="#D9822B" stroke="none" stroke-width="1"/>
+<text x="200.0" y="425.0" font-size="13" text-anchor="start" fill="#555">새로 만든 가닥</text>
+<text x="420.0" y="425.0" font-size="14" text-anchor="end" fill="#333" font-weight="700">n 사이클 → 2ⁿ개</text>
+<rect x="460.0" y="40.0" width="440.0" height="410.0" rx="10" fill="#f7f6fa" stroke="#d9d3e6" stroke-width="1"/>
+<text x="680.0" y="30.0" font-size="16" text-anchor="middle" fill="#333" font-weight="700">효율이 조금 달라도 차이가 커짐</text>
+<line x1="535.0" y1="355.0" x2="865.0" y2="355.0" stroke="#e3e0ea" stroke-width="1"/>
+<text x="527.0" y="360.0" font-size="13" text-anchor="end" fill="#555">1</text>
+<line x1="535.0" y1="309.8" x2="865.0" y2="309.8" stroke="#e3e0ea" stroke-width="1"/>
+<text x="527.0" y="314.8" font-size="13" text-anchor="end" fill="#555">10¹</text>
+<line x1="535.0" y1="264.7" x2="865.0" y2="264.7" stroke="#e3e0ea" stroke-width="1"/>
+<text x="527.0" y="269.7" font-size="13" text-anchor="end" fill="#555">10²</text>
+<line x1="535.0" y1="219.5" x2="865.0" y2="219.5" stroke="#e3e0ea" stroke-width="1"/>
+<text x="527.0" y="224.5" font-size="13" text-anchor="end" fill="#555">10³</text>
+<line x1="535.0" y1="174.4" x2="865.0" y2="174.4" stroke="#e3e0ea" stroke-width="1"/>
+<text x="527.0" y="179.4" font-size="13" text-anchor="end" fill="#555">10⁴</text>
+<line x1="535.0" y1="129.2" x2="865.0" y2="129.2" stroke="#e3e0ea" stroke-width="1"/>
+<text x="527.0" y="134.2" font-size="13" text-anchor="end" fill="#555">10⁵</text>
+<line x1="535.0" y1="84.0" x2="865.0" y2="84.0" stroke="#e3e0ea" stroke-width="1"/>
+<text x="527.0" y="89.0" font-size="13" text-anchor="end" fill="#555">10⁶</text>
+<text x="535.0" y="375.0" font-size="13" text-anchor="middle" fill="#555">0</text>
+<text x="617.5" y="375.0" font-size="13" text-anchor="middle" fill="#555">5</text>
+<text x="700.0" y="375.0" font-size="13" text-anchor="middle" fill="#555">10</text>
+<text x="782.5" y="375.0" font-size="13" text-anchor="middle" fill="#555">15</text>
+<text x="865.0" y="375.0" font-size="13" text-anchor="middle" fill="#555">20</text>
+<line x1="535.0" y1="355.0" x2="865.0" y2="355.0" stroke="#888" stroke-width="1.5"/>
+<line x1="535.0" y1="75.0" x2="535.0" y2="355.0" stroke="#888" stroke-width="1.5"/>
+<text x="700.0" y="397.0" font-size="14" text-anchor="middle" fill="#333">사이클 수</text>
+<text x="478.0" y="63.0" font-size="13" text-anchor="start" fill="#555">분자 수 (로그 눈금)</text>
+<polyline points="535.0,355.0 551.5,341.4 568.0,327.8 584.5,314.2 601.0,300.6 617.5,287.0 634.0,273.4 650.5,259.8 667.0,246.2 683.5,232.6 700.0,219.1 716.5,205.5 733.0,191.9 749.5,178.3 766.0,164.7 782.5,151.1 799.0,137.5 815.5,123.9 832.0,110.3 848.5,96.7 865.0,83.1" fill="none" stroke="#888" stroke-width="2.5" stroke-dasharray="6,4"/>
+<polyline points="535.0,355.0 551.5,341.9 568.0,328.8 584.5,315.7 601.0,302.6 617.5,289.5 634.0,276.4 650.5,263.3 667.0,250.2 683.5,237.1 700.0,224.0 716.5,210.9 733.0,197.8 749.5,184.7 766.0,171.6 782.5,158.5 799.0,145.4 815.5,132.3 832.0,119.2 848.5,106.1 865.0,93.0" fill="none" stroke="#5B4D80" stroke-width="2.5"/>
+<polyline points="535.0,355.0 551.5,343.5 568.0,331.9 584.5,320.4 601.0,308.9 617.5,297.4 634.0,285.8 650.5,274.3 667.0,262.8 683.5,251.2 700.0,239.7 716.5,228.2 733.0,216.7 749.5,205.1 766.0,193.6 782.5,182.1 799.0,170.5 815.5,159.0 832.0,147.5 848.5,136.0 865.0,124.4" fill="none" stroke="#D9822B" stroke-width="2.5"/>
+<text x="545.0" y="93.0" font-size="14" text-anchor="start" fill="#888" font-weight="700">효율 100%: 2²⁰ ≈ 105만</text>
+<text x="545.0" y="115.0" font-size="14" text-anchor="start" fill="#5B4D80" font-weight="700">분자 A, 95%: 약 63만</text>
+<text x="545.0" y="137.0" font-size="14" text-anchor="start" fill="#D9822B" font-weight="700">분자 B, 80%: 약 13만</text>
+<text x="865.0" y="315.0" font-size="13" text-anchor="end" fill="#333">같은 1개에서 시작 →</text>
+<text x="865.0" y="335.0" font-size="14" text-anchor="end" fill="#C0392B" font-weight="700">20사이클 뒤 A가 B의 약 5배</text>
+</svg>
