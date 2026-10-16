@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 520" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" role="img" aria-label="GEO의 GSE·GSM·GPL 번호와 SRA의 SRP·SRX·SRR 번호가 연구, 시료, run 단위로 서로 대응하는 구조">
+<rect width="920" height="520" fill="#ffffff"/>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#888"/></marker></defs>
+<rect x="20" y="14" width="400" height="492" rx="10" fill="#f7f6fa" stroke="#d9d3e6" stroke-width="1.2"/>
+<rect x="500" y="14" width="400" height="492" rx="10" fill="#f7f6fa" stroke="#d9d3e6" stroke-width="1.2"/>
+<text x="40" y="44" font-size="18" fill="#5B4D80" text-anchor="start" font-weight="700">GEO</text>
+<text x="94" y="44" font-size="15" fill="#555" text-anchor="start" font-weight="400">실험 설명 · 처리된 데이터</text>
+<text x="520" y="44" font-size="18" fill="#1F7A7A" text-anchor="start" font-weight="700">SRA</text>
+<text x="570" y="44" font-size="15" fill="#555" text-anchor="start" font-weight="400">시퀀서가 낸 raw read</text>
+<rect x="50" y="72" width="250" height="62" rx="6" fill="#ffffff" stroke="#5B4D80" stroke-width="1.8"/>
+<text x="64" y="99" font-size="17" fill="#5B4D80" text-anchor="start" font-weight="700" font-family="'D2Coding', 'Fira Code', Menlo, Consolas, monospace">GSE…</text>
+<text x="64" y="122" font-size="14" fill="#333" text-anchor="start" font-weight="400">시리즈 = 연구 하나</text>
+<rect x="530" y="72" width="250" height="62" rx="6" fill="#ffffff" stroke="#1F7A7A" stroke-width="1.8"/>
+<text x="544" y="99" font-size="17" fill="#1F7A7A" text-anchor="start" font-weight="700" font-family="'D2Coding', 'Fira Code', Menlo, Consolas, monospace">SRP…</text>
+<text x="544" y="122" font-size="14" fill="#333" text-anchor="start" font-weight="400">study = 연구 하나</text>
+<rect x="62" y="188" width="250" height="62" rx="6" fill="#ffffff" stroke="#d9d3e6" stroke-width="1.2"/>
+<rect x="56" y="194" width="250" height="62" rx="6" fill="#ffffff" stroke="#d9d3e6" stroke-width="1.2"/>
+<rect x="50" y="200" width="250" height="62" rx="6" fill="#ffffff" stroke="#5B4D80" stroke-width="1.8"/>
+<text x="64" y="227" font-size="17" fill="#5B4D80" text-anchor="start" font-weight="700" font-family="'D2Coding', 'Fira Code', Menlo, Consolas, monospace">GSM…</text>
+<text x="64" y="250" font-size="14" fill="#333" text-anchor="start" font-weight="400">시료 하나 (시료 수만큼)</text>
+<rect x="542" y="188" width="250" height="62" rx="6" fill="#ffffff" stroke="#d9d3e6" stroke-width="1.2"/>
+<rect x="536" y="194" width="250" height="62" rx="6" fill="#ffffff" stroke="#d9d3e6" stroke-width="1.2"/>
+<rect x="530" y="200" width="250" height="62" rx="6" fill="#ffffff" stroke="#1F7A7A" stroke-width="1.8"/>
+<text x="544" y="227" font-size="17" fill="#1F7A7A" text-anchor="start" font-weight="700" font-family="'D2Coding', 'Fira Code', Menlo, Consolas, monospace">SRX…</text>
+<text x="544" y="250" font-size="14" fill="#333" text-anchor="start" font-weight="400">experiment (시료 기록 SRS)</text>
+<line x1="175.0" y1="138" x2="175.0" y2="182" stroke="#888" stroke-width="1.5" marker-end="url(#arr)"/>
+<line x1="655.0" y1="138" x2="655.0" y2="182" stroke="#888" stroke-width="1.5" marker-end="url(#arr)"/>
+<line x1="308" y1="103.0" x2="522" y2="103.0" stroke="#888" stroke-width="1.5" marker-end="url(#arr)" marker-start="url(#arr)" stroke-dasharray="6 5"/>
+<text x="460" y="93.0" font-size="14" fill="#555" text-anchor="middle" font-weight="400">같은 연구</text>
+<line x1="320" y1="231.0" x2="522" y2="231.0" stroke="#888" stroke-width="1.5" marker-end="url(#arr)" marker-start="url(#arr)" stroke-dasharray="6 5"/>
+<text x="460" y="221.0" font-size="14" fill="#555" text-anchor="middle" font-weight="400">같은 시료</text>
+<rect x="50" y="320" width="250" height="62" rx="6" fill="#ffffff" stroke="#7A6A99" stroke-width="1.8"/>
+<text x="64" y="347" font-size="17" fill="#7A6A99" text-anchor="start" font-weight="700" font-family="'D2Coding', 'Fira Code', Menlo, Consolas, monospace">GPL…</text>
+<text x="64" y="370" font-size="14" fill="#333" text-anchor="start" font-weight="400">플랫폼 = 측정 기기·칩</text>
+<line x1="175.0" y1="266" x2="175.0" y2="314" stroke="#bbb" stroke-width="1.5" stroke-dasharray="3 4"/>
+<text x="183.0" y="302" font-size="14" fill="#555" text-anchor="start" font-weight="400">어떤 기기로 쟀나</text>
+<rect x="50" y="406" width="350" height="88" rx="6" fill="#ffffff" stroke="#D9822B" stroke-width="1.6" stroke-dasharray="5 4"/>
+<text x="64" y="432" font-size="15" fill="#D9822B" text-anchor="start" font-weight="700">보충 파일 (supplementary file)</text>
+<text x="64" y="462" font-size="14" fill="#333" text-anchor="start" font-weight="400">저자가 올린 처리된 행렬·추가 결과 등</text>
+<text x="64" y="484" font-size="14" fill="#555" text-anchor="start" font-weight="400">→ R: GEOquery의 getGEOSuppFiles()</text>
+<rect x="520" y="320" width="150" height="62" rx="6" fill="#ffffff" stroke="#1F7A7A" stroke-width="1.8"/>
+<text x="534" y="347" font-size="17" fill="#1F7A7A" text-anchor="start" font-weight="700" font-family="'D2Coding', 'Fira Code', Menlo, Consolas, monospace">SRR…</text>
+<text x="534" y="370" font-size="14" fill="#333" text-anchor="start" font-weight="400">run</text>
+<rect x="690" y="320" width="150" height="62" rx="6" fill="#ffffff" stroke="#1F7A7A" stroke-width="1.8"/>
+<text x="704" y="347" font-size="17" fill="#1F7A7A" text-anchor="start" font-weight="700" font-family="'D2Coding', 'Fira Code', Menlo, Consolas, monospace">SRR…</text>
+<text x="704" y="370" font-size="14" fill="#333" text-anchor="start" font-weight="400">run</text>
+<line x1="655.0" y1="266" x2="595.0" y2="314" stroke="#888" stroke-width="1.5" marker-end="url(#arr)"/>
+<line x1="655.0" y1="266" x2="765.0" y2="314" stroke="#888" stroke-width="1.5" marker-end="url(#arr)"/>
+<text x="800" y="298" font-size="14" fill="#555" text-anchor="start" font-weight="400">1개 이상</text>
+<rect x="520" y="406" width="320" height="88" rx="6" fill="#ffffff" stroke="#1F7A7A" stroke-width="1.6" stroke-dasharray="5 4"/>
+<text x="534" y="432" font-size="15" fill="#1F7A7A" text-anchor="start" font-weight="700">FASTQ (read 파일)</text>
+<text x="534" y="462" font-size="14" fill="#333" text-anchor="start" font-weight="400">run(SRR) 단위로 내려받음</text>
+<text x="534" y="484" font-size="14" fill="#555" text-anchor="start" font-weight="400">EBI·DDBJ 쪽 번호는 ERR…·DRR…</text>
+<line x1="595.0" y1="386" x2="595.0" y2="400" stroke="#888" stroke-width="1.5" marker-end="url(#arr)"/>
+<line x1="765.0" y1="386" x2="765.0" y2="400" stroke="#888" stroke-width="1.5" marker-end="url(#arr)"/>
+</svg>

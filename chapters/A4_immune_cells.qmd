@@ -1,6 +1,6 @@
 ---
 title: "부록 D. 면역세포 지도"
-description: "면역세포 계통 요약과 HaLab Wiki 면역학 연결"
+description: "면역세포 계통 요약, PBMC scRNA-seq의 대표 표지, HaLab Wiki 면역학 연결"
 author: "Eunji Ha"
 date: today
 format:
@@ -9,19 +9,144 @@ format:
       text: |
         <meta name="ai-title" content="부록 D. 면역세포 지도">
         <meta name="ai-context" content="
-        이 챕터는 면역세포 계통 요약과 HaLab Wiki 면역학 연결을 다룹니다. (초안 작성 전)
+        이 부록은 면역세포 계통을 한 장으로 요약하고, PBMC single-cell 데이터에서 쓰는 대표 표지를 정리한 뒤 자세한 내용은 HaLab Wiki 면역학 문서로 연결합니다.
+        계통(고전 모델 단순화): 골수의 조혈줄기세포 HSC에서 공통 골수계 전구 CMP와 공통 림프계 전구 CLP로 갈립니다(Akashi 2000).
+        골수계: MEP에서 적혈구와 거핵세포(혈소판), GMP 쪽에서 호중구·호산구·호염기구, 단핵구(조직에서 대식세포), 수지상세포, 그리고 비만세포. 수지상세포는 림프계 전구에서도 나온다는 보고가 있습니다(Doulatov 2010).
+        림프계: T세포(흉선에서 선택, CD4·CD8, CD4 중 FOXP3를 가진 조절 T세포), B세포(형질세포로 분화해 항체 분비), NK세포와 ILC. NK·ILC는 림프계지만 재배열된 항원수용체가 없어 선천면역에 속합니다(Vivier 2018). NKT는 NK가 아니라 T세포의 하위입니다(Heller 2018).
+        PBMC(밀도구배로 분리한 말초혈액 단핵세포)는 림프구 70-90%, 단핵구 10-20%, 수지상세포 1-2%이고 호중구 등 과립구는 대부분 빠집니다(Kleiveland 2015).
+        Seurat PBMC3k 튜토리얼(PBMC 약 2700개) marker: Naive CD4 T는 IL7R·CCR7, Memory CD4 T는 IL7R·S100A4, CD14+ 단핵구는 CD14·LYZ, B는 MS4A1, CD8 T는 CD8A, FCGR3A+ 단핵구는 FCGR3A·MS4A7, NK는 GNLY·NKG7, DC는 FCER1A·CST3, 혈소판은 PPBP.
+        표면 단백질 CD 번호와 유전자 기호: CD20 = MS4A1, CD16 = FCGR3A(와 FCGR3B), CD56 = NCAM1, CD25 = IL2RA, CD127 = IL7R, CD138 = SDC1. CD3은 CD3D·CD3E·CD3G 복합체.
+        표면 단백질 표지: T세포 CD3, B세포 CD19·CD20, NK세포 CD56·CD16, 형질세포 CD38·CD138, Treg은 FOXP3(CD25는 Treg 전용이 아님).
+        RNA marker와 표면 단백질은 측정 대상이 다르며 단백질은 CITE-seq(ADT)로 따로 잴 수 있습니다. marker 하나가 0이어도 그 세포가 아니라는 뜻은 아닙니다.
+        같은 PPBP 클러스터를 Seurat은 Platelet, Scanpy는 Megakaryocytes라고 부릅니다. 주석 이름은 분석자의 해석이고, 공개 데이터는 Cell Ontology ID(CL)로도 적습니다.
+        HaLab Wiki 면역학: 면역계 전체 구조, 면역세포의 종류와 상태, 면역계의 발생, 림프절, cytokine 신호 문서로 연결합니다. 세포 정체성과 분화는 10장.
         ">
 ---
 
 ::: {.callout-note collapse="true"}
 ## 참고 자료
-- HaLab Wiki — [Immunology](https://halab-wiki.knu.ac.kr/disease/immunology/index.html)
+- 면역세포의 자세한 내용: HaLab Wiki — [Immunology](https://halab-wiki.knu.ac.kr/disease/immunology/index.html) (3절 목록)
+- 계통도는 고전 모델(HSC → CMP·CLP)을 단순화한 것. 본문의 사실은 옆의 배지가 출처
+- 계통도는 직접 그린 모식도(mermaid)
 :::
+
+# 1. 면역세포 계통 한눈에
+
+```{mermaid}
+%%| echo: false
+%%| fig-cap: "조혈 계통 모식도. 보라 = 골수계(myeloid), 청록 = 림프계(lymphoid). 고전 모델(HSC → CMP·CLP)을 단순화했고 중간 전구 단계와 아형은 생략. 점선은 경로를 크게 단순화한 것"
+%%{init: {"themeVariables": {"fontSize": "19px"}, "flowchart": {"nodeSpacing": 10, "rankSpacing": 30, "padding": 6}} }%%
+flowchart LR
+  HSC["조혈줄기세포<br>HSC"] --> CMP["골수계 전구<br>CMP"]
+  HSC --> CLP["림프계 전구<br>CLP"]
+  CMP --> MEP["MEP"]
+  CMP --> GMP["GMP"]
+  MEP --> RBC["적혈구"]
+  MEP --> MK["거핵세포"] --> PLT["혈소판"]
+  GMP --> NEU["호중구"]
+  GMP --> EOS["호산구"]
+  GMP --> BAS["호염기구"]
+  GMP -.-> MAST["비만세포 (조직)"]
+  GMP --> MONO["단핵구"] --> MAC["대식세포 (조직)"]
+  GMP --> DC["수지상세포"]
+  CLP --> T["T세포 (흉선)"]
+  T --> CD4["CD4 T"] --> TREG["조절 T (Treg)"]
+  T --> CD8["CD8 T"]
+  CLP --> B["B세포"] --> PC["형질세포"]
+  CLP --> NK["NK세포"]
+  CLP --> ILC["ILC"]
+  classDef stem fill:#ffffff,stroke:#5B4D80,stroke-width:2px,color:#333
+  classDef my fill:#f3f0f7,stroke:#7A6A99,color:#333
+  classDef ly fill:#e8f4f3,stroke:#1F7A7A,color:#333
+  class HSC stem
+  class CMP,MEP,GMP,RBC,MK,PLT,NEU,EOS,BAS,MAST,MONO,MAC,DC my
+  class CLP,T,CD4,CD8,TREG,B,PC,NK,ILC ly
+```
+
+| 갈래 | 세포 | 한 줄 요약 |
+|---|---|---|
+| 출발점 | 조혈줄기세포 (HSC) | 골수에 있는 모든 혈구의 출발점. 가장 이른 갈림 = CMP와 CLP [Akashi 2000](https://doi.org/10.1038/35004599){.src} |
+| 골수계 | 적혈구, 거핵세포 → 혈소판 | MEP(적혈구·거핵세포 전구)에서 [Akashi 2000](https://doi.org/10.1038/35004599){.src} |
+| 골수계 | 호중구·호산구·호염기구 (과립구), 단핵구 → 대식세포 | GMP(과립구·대식세포 전구)에서 [Akashi 2000](https://doi.org/10.1038/35004599){.src} |
+| 골수계 | 수지상세포 (DC) | 사람 전구세포 지도에서는 림프계 쪽 전구에서도 나온다는 보고 → 그림은 단순화 [Doulatov 2010](https://doi.org/10.1038/ni.1889){.src} |
+| 골수계 | 비만세포 | 선천면역 세포 [Aristizábal 2013](https://www.ncbi.nlm.nih.gov/books/NBK459455/){.src}. 기원 경로는 그림에서 점선으로 단순화 |
+| 림프계 | T세포 (CD4, CD8) | 흉선에서 선택을 거침: 자기 MHC를 읽는 것은 남기고, 자기 항원에 강하게 반응하는 것은 없애거나 조절 계통으로 돌림 [Ashby & Hogquist 2024](https://doi.org/10.1038/s41577-023-00911-8){.src} |
+| 림프계 | 조절 T세포 (Treg) | CD4 T세포 중 전사인자 FOXP3를 가진 갈래. 다른 T세포를 억제 [Sumida 2024](https://doi.org/10.1038/s41577-024-00994-x){.src} |
+| 림프계 | B세포 → 형질세포 | 배중심을 나가는 갈래 중 하나가 항체를 내는 형질세포 [Victora 2022](https://doi.org/10.1146/annurev-immunol-120419-022408){.src} |
+| 림프계 | NK세포, ILC | 림프계 출신이지만 재배열된 항원수용체가 없음 → 선천면역 [Vivier 2018](https://doi.org/10.1016/j.cell.2018.07.017){.src} |
+
+- 계통(어디서 왔나)과 역할(선천·적응)은 다른 축: NK·ILC는 림프계인데 선천면역 [Vivier 2018](https://doi.org/10.1016/j.cell.2018.07.017){.src}
+- 전체 지도를 계통 ↔ 역할로 바꿔 칠해 보는 그림: HaLab Wiki [면역계는 전체적으로 어떻게 짜여 있나?](https://halab-wiki.knu.ac.kr/disease/immunology/01-basics/overview.html)
 
 ::: {.callout-warning}
-## 작성 예정
-이 장은 아직 쓰는 중입니다. 다룰 내용:
-
-1. 면역세포 계통 한눈에 보기
-2. 자세한 내용: HaLab Wiki [면역세포의 종류와 상태](https://halab-wiki.knu.ac.kr/disease/immunology/01-basics/cells.html), [면역계의 발생](https://halab-wiki.knu.ac.kr/disease/immunology/01-basics/ontogeny.html)
+## 처음엔 여기서 헷갈려요
+| 헷갈리는 짝 | 차이 |
+|---|---|
+| 림프계 vs 적응면역 | NK·ILC는 림프계지만 선천면역 [Vivier 2018](https://doi.org/10.1016/j.cell.2018.07.017){.src} |
+| NK vs NKT | NKT는 NK의 하위가 아니라 TCR을 가진 T세포. NK 표지(CD161, CD56)를 함께 가질 뿐 [Heller 2018](https://www.ncbi.nlm.nih.gov/books/NBK532332/){.src} |
+| 단핵구 vs 대식세포 | 같은 계열. 혈액에서는 단핵구, 조직으로 들어가면 대식세포 |
+| plasma vs plasma cell | 혈장(혈액의 액체) vs 형질세포(항체를 내는 B세포 계열). 이름만 비슷 |
+| CD 번호 vs 유전자 기호 | CD20 = *MS4A1*, CD16 = *FCGR3A*·*FCGR3B* → [부록 B](A2_nomenclature.qmd) |
 :::
+
+# 2. 데이터에서는 이렇게 보여요
+
+::: {.callout-caution .data-box icon=false}
+## 데이터에서는 이렇게 보여요: PBMC 클러스터에 이름 붙이기
+
+**PBMC에는 무엇이 들어 있나**
+
+- PBMC (peripheral blood mononuclear cell, 말초혈액 단핵세포) = 혈액을 밀도구배로 분리한 단핵세포 층 [Kleiveland 2015](https://www.ncbi.nlm.nih.gov/books/NBK500157/){.src}
+  - 림프구 70–90%, 단핵구 10–20%, 수지상세포 1–2%
+  - 림프구 중 T세포(CD3+) 70–85%, B세포 5–10%, NK세포 5–20%, CD4 : CD8 ≈ 2 : 1
+  - 적혈구와 호중구 등 과립구는 밀도가 높아 아래 층으로 → **PBMC 데이터에는 거의 없음**
+- 대표 예제 PBMC3k: 건강한 공여자 한 명의 PBMC 약 2,700개 [10x PBMC3k](https://www.10xgenomics.com/datasets/3-k-pbm-cs-from-a-healthy-donor-1-standard-1-1-0){.src} [Seurat PBMC3k](https://satijalab.org/seurat/articles/pbmc3k_tutorial){.src}
+
+**대표 표지**
+
+| 세포 (Seurat 주석) | RNA marker (PBMC3k) | 표면 단백질 (CD) | CD ↔ 유전자 기호 |
+|---|---|---|---|
+| Naive CD4 T | *IL7R*, *CCR7* | CD3, CD4 | CD3 ↔ *CD3E* 등 여러 사슬, CD127 = *IL7R* |
+| Memory CD4 T | *IL7R*, *S100A4* | CD3, CD4 | |
+| CD8 T | *CD8A* | CD3, CD8 | CD8 = *CD8A* |
+| (Treg) | *FOXP3* | CD4, CD25 | CD25 = *IL2RA* |
+| B | *MS4A1* (*CD79A*) | CD19, CD20 | CD20 = *MS4A1* |
+| (형질세포) | | CD38, CD138 | CD138 = *SDC1* |
+| NK | *GNLY*, *NKG7* | CD56, CD16 | CD56 = *NCAM1*, CD16 = *FCGR3A* |
+| CD14+ Mono | *CD14*, *LYZ* | CD14 | |
+| FCGR3A+ Mono | *FCGR3A*, *MS4A7* | CD16 | |
+| DC | *FCER1A*, *CST3* | | |
+| Platelet | *PPBP* | | |
+
+- RNA marker와 주석 이름: [Seurat PBMC3k](https://satijalab.org/seurat/articles/pbmc3k_tutorial){.src} — 괄호 행은 PBMC3k 튜토리얼에 없는 세포
+- 표면 단백질: CD19 = B세포 표지 [Seurat CITE-seq](https://github.com/satijalab/seurat/blob/master/vignettes/multimodal_vignette.Rmd){.src} / T세포 = CD3+ [Kleiveland 2015](https://www.ncbi.nlm.nih.gov/books/NBK500157/){.src} / NK의 CD56·CD16 [Chen 2024](https://doi.org/10.1038/s41392-024-02005-w){.src} / 형질세포의 CD38·CD138 [Chung 2024](https://doi.org/10.1038/s41577-024-01035-3){.src}
+- Treg: FOXP3 [Sumida 2024](https://doi.org/10.1038/s41577-024-00994-x){.src}. CD25는 Treg 전용 표지가 아님 [Wardell 2025](https://doi.org/10.1038/s41573-024-01089-x){.src}
+- CD 번호 ↔ 유전자 기호: HGNC 기호표 [HGNChelper](https://github.com/waldronlab/HGNChelper){.src}. CD3 단백질은 Seurat CITE-seq 예제에서 *CD3E* RNA와 짝지어 비교됨 [Seurat CITE-seq](https://github.com/satijalab/seurat/blob/master/vignettes/multimodal_vignette.Rmd){.src}
+
+**읽을 때의 판단**
+
+- **RNA marker ≠ 표면 단백질**: 같은 이름이라도 측정 대상이 다름. 단백질은 CITE-seq(ADT)로 따로 잴 수 있음 [Seurat CITE-seq](https://github.com/satijalab/seurat/blob/master/vignettes/multimodal_vignette.Rmd){.src}
+- marker 하나가 0이라고 그 세포가 아닌 것은 아님 (포획되지 않았을 수 있음 → [0장](00_why_biology.qmd)) → 여러 marker를 함께 봄
+- **같은 클러스터, 다른 이름**: *PPBP* 클러스터를 Seurat 튜토리얼은 Platelet, Scanpy 튜토리얼은 Megakaryocytes로 부름 [Seurat PBMC3k](https://satijalab.org/seurat/articles/pbmc3k_tutorial){.src} [Scanpy PBMC3k](https://scanpy.readthedocs.io/en/stable/tutorials/basics/clustering-2017.html){.src} → 주석 이름은 분석자의 해석
+- 공개 데이터에서는 세포 종류를 Cell Ontology ID(`CL:…`)로도 적음 — CELLxGENE의 `cell_type_ontology_term_id` 열 [CELLxGENE 스키마](https://github.com/chanzuckerberg/single-cell-curation/blob/main/schema/5.0.0/schema.md){.src}
+- 클러스터 하나 = cell type 하나인가, 종류(type)와 상태(state)는 어떻게 다른가 → [10장](10_cell_identity.qmd)
+:::
+
+# 3. 더 읽을 곳
+
+## 1) HaLab Wiki — 면역학
+
+| 문서 | 이 부록과 이어지는 내용 |
+|---|---|
+| [Immunology (목차)](https://halab-wiki.knu.ac.kr/disease/immunology/index.html) | 면역학 문서 전체: 기초, 선천면역, 적응면역의 인식과 실행, 질환과 개입, 방법 |
+| [면역계는 전체적으로 어떻게 짜여 있나?](https://halab-wiki.knu.ac.kr/disease/immunology/01-basics/overview.html) | 1절 계통도의 원본 지도. 계통 ↔ 역할 색 전환, 용어의 포함 관계, 선천 ↔ 적응 연결 |
+| [면역세포의 종류와 상태는 어떻게 구분하나?](https://halab-wiki.knu.ac.kr/disease/immunology/01-basics/cells.html) | 혈액 분획(전혈·혈장·PBMC), 무엇을 100으로 놓았나에 따라 달라지는 세포 비율, PBMC3k 조성, 종류 vs 상태 |
+| [면역계는 언제 만들어지고 출생 전후에 어떻게 달라지나?](https://halab-wiki.knu.ac.kr/disease/immunology/01-basics/ontogeny.html) | 조혈 장소의 이동(난황낭 → 태아 간 → 골수), 모체 항체, 영아기 면역 |
+| [같은 림프절도 왜 서로 다른 면역반응을 만드나?](https://halab-wiki.knu.ac.kr/disease/immunology/01-basics/lymph-node.html) | 림프절의 구역과 세포의 이동 경로, 배수 장기에 따른 차이 |
+| [면역세포는 무엇으로 서로 신호를 주고받나?](https://halab-wiki.knu.ac.kr/disease/immunology/01-basics/cytokine.html) | cytokine의 작용 범위, 수용체 계열, 조합의 효과 |
+
+## 2) 이 책 안에서
+
+- [10장 세포 정체성과 분화](10_cell_identity.qmd): cell type이란 무엇인가, 조혈 분화, marker gene과 클러스터 주석
+- [8장 세포 신호전달](08_cell_signaling.qmd): 수용체와 신호 경로 (cytokine 신호의 바탕)
+- [부록 B](A2_nomenclature.qmd): CD 번호와 유전자 기호, 사람 ↔ 마우스 기호 / [부록 C](A3_databases.qmd): CELLxGENE, Human Cell Atlas

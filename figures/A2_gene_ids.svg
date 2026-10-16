@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 560" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" role="img" aria-label="Ensembl 유전자 ID를 접두, 종 코드, 객체 종류, 번호, 버전으로 나누어 읽는 법과, 같은 유전자에 유전자·전사체·단백질 층마다 다른 ID가 붙는 구조">
+<rect width="920" height="560" fill="#ffffff"/>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#888"/></marker></defs>
+<rect x="10" y="10" width="900" height="236" rx="10" fill="#f7f6fa" stroke="#d9d3e6" stroke-width="1.2"/>
+<text x="30" y="40" font-size="17" fill="#5B4D80" text-anchor="start" font-weight="700">① Ensembl ID 읽는 법</text>
+<text x="890" y="40" font-size="14" fill="#555" text-anchor="end" font-weight="400">예: Ensembl 문서의 마우스 유전자 ID</text>
+<rect x="204.0" y="92" width="76.5" height="50" rx="6" fill="#ffffff" stroke="#5B4D80" stroke-width="2"/>
+<text x="242.25" y="127" font-size="30" fill="#5B4D80" text-anchor="middle" font-weight="700" font-family="'D2Coding', 'Fira Code', Menlo, Consolas, monospace">ENS</text>
+<rect x="288.5" y="92" width="76.5" height="50" rx="6" fill="#ffffff" stroke="#7A6A99" stroke-width="2"/>
+<text x="326.75" y="127" font-size="30" fill="#7A6A99" text-anchor="middle" font-weight="700" font-family="'D2Coding', 'Fira Code', Menlo, Consolas, monospace">MUS</text>
+<rect x="373.0" y="92" width="37.5" height="50" rx="6" fill="#ffffff" stroke="#D9822B" stroke-width="2"/>
+<text x="391.75" y="127" font-size="30" fill="#D9822B" text-anchor="middle" font-weight="700" font-family="'D2Coding', 'Fira Code', Menlo, Consolas, monospace">G</text>
+<rect x="418.5" y="92" width="232.5" height="50" rx="6" fill="#ffffff" stroke="#555" stroke-width="2"/>
+<text x="534.75" y="127" font-size="30" fill="#555" text-anchor="middle" font-weight="700" font-family="'D2Coding', 'Fira Code', Menlo, Consolas, monospace">00000017167</text>
+<rect x="659.0" y="92" width="57.0" height="50" rx="6" fill="#ffffff" stroke="#C0392B" stroke-width="2"/>
+<text x="687.5" y="127" font-size="30" fill="#C0392B" text-anchor="middle" font-weight="700" font-family="'D2Coding', 'Fira Code', Menlo, Consolas, monospace">.6</text>
+<text x="242.25" y="80" font-size="16" fill="#5B4D80" text-anchor="middle" font-weight="700">출처</text>
+<text x="326.75" y="80" font-size="16" fill="#7A6A99" text-anchor="middle" font-weight="700">종</text>
+<text x="391.75" y="80" font-size="16" fill="#D9822B" text-anchor="middle" font-weight="700">객체 종류</text>
+<text x="534.75" y="80" font-size="16" fill="#555" text-anchor="middle" font-weight="700">번호</text>
+<text x="687.5" y="80" font-size="16" fill="#C0392B" text-anchor="middle" font-weight="700">버전</text>
+<line x1="242.25" y1="144" x2="242.25" y2="153" stroke="#5B4D80" stroke-width="1.2"/>
+<text x="242.25" y="168" font-size="15" fill="#333" text-anchor="middle" font-weight="400">Ensembl</text>
+<line x1="326.75" y1="144" x2="326.75" y2="153" stroke="#7A6A99" stroke-width="1.2"/>
+<text x="326.75" y="168" font-size="15" fill="#333" text-anchor="middle" font-weight="400">마우스</text>
+<line x1="391.75" y1="144" x2="391.75" y2="153" stroke="#D9822B" stroke-width="1.2"/>
+<text x="391.75" y="168" font-size="15" fill="#333" text-anchor="middle" font-weight="400">유전자</text>
+<line x1="534.75" y1="144" x2="534.75" y2="153" stroke="#555" stroke-width="1.2"/>
+<text x="534.75" y="168" font-size="15" fill="#333" text-anchor="middle" font-weight="400">고정</text>
+<line x1="687.5" y1="144" x2="687.5" y2="153" stroke="#C0392B" stroke-width="1.2"/>
+<text x="687.5" y="168" font-size="15" fill="#333" text-anchor="middle" font-weight="400">6번째</text>
+<text x="320" y="206" font-size="15" fill="#555" text-anchor="middle" font-weight="400">객체 종류: G 유전자 · T 전사체 · P 단백질 · E 엑손</text>
+<text x="705" y="206" font-size="15" fill="#555" text-anchor="middle" font-weight="400">버전: 모델이 바뀔 때 올라감</text>
+<text x="460" y="232" font-size="15" fill="#333" text-anchor="middle" font-weight="400">사람 예: ENSG00000141510 = <tspan font-style="italic">TP53</tspan> 유전자 (종 코드 없이 ENS 바로 뒤에 G, 버전을 뺀 형태)</text>
+<rect x="10" y="262" width="900" height="288" rx="10" fill="#f7f6fa" stroke="#d9d3e6" stroke-width="1.2"/>
+<text x="30" y="292" font-size="17" fill="#5B4D80" text-anchor="start" font-weight="700">② 같은 유전자, 층마다 다른 ID</text>
+<text x="890" y="292" font-size="14" fill="#555" text-anchor="end" font-weight="400">모식도 · 전사체 수는 유전자마다 다름</text>
+<text x="262" y="328" font-size="16" fill="#333" text-anchor="middle" font-weight="700">유전자</text>
+<text x="530" y="328" font-size="16" fill="#333" text-anchor="middle" font-weight="700">전사체 (여러 개일 수 있음)</text>
+<text x="790" y="328" font-size="16" fill="#333" text-anchor="middle" font-weight="700">단백질</text>
+<text x="30" y="372" font-size="15" fill="#555" text-anchor="start" font-weight="700">Ensembl</text>
+<rect x="157.0" y="346" width="210" height="40" rx="6" fill="#ffffff" stroke="#1F7A7A" stroke-width="1.6"/>
+<text x="262" y="372" font-size="15" fill="#333" text-anchor="middle" font-weight="400" font-family="'D2Coding', 'Fira Code', Menlo, Consolas, monospace">ENSG00000141510</text>
+<rect x="457.0" y="336" width="170" height="40" rx="6" fill="#ffffff" stroke="#d9d3e6" stroke-width="1.2"/>
+<rect x="451.0" y="341" width="170" height="40" rx="6" fill="#ffffff" stroke="#d9d3e6" stroke-width="1.2"/>
+<rect x="445.0" y="346" width="170" height="40" rx="6" fill="#ffffff" stroke="#1F7A7A" stroke-width="1.6"/>
+<text x="530" y="372" font-size="15" fill="#333" text-anchor="middle" font-weight="400" font-family="'D2Coding', 'Fira Code', Menlo, Consolas, monospace">ENST…</text>
+<rect x="695.0" y="346" width="190" height="40" rx="6" fill="#ffffff" stroke="#1F7A7A" stroke-width="1.6"/>
+<text x="790" y="372" font-size="15" fill="#333" text-anchor="middle" font-weight="400" font-family="'D2Coding', 'Fira Code', Menlo, Consolas, monospace">ENSP…</text>
+<line x1="371.0" y1="366.0" x2="439.0" y2="366.0" stroke="#888" stroke-width="1.4" marker-end="url(#arr)"/>
+<line x1="631.0" y1="366.0" x2="689.0" y2="366.0" stroke="#888" stroke-width="1.4" marker-end="url(#arr)"/>
+<text x="30" y="432" font-size="15" fill="#555" text-anchor="start" font-weight="700">NCBI</text>
+<rect x="157.0" y="406" width="210" height="40" rx="6" fill="#ffffff" stroke="#1F7A7A" stroke-width="1.6"/>
+<text x="262" y="432" font-size="15" fill="#333" text-anchor="middle" font-weight="400">Gene ID 7157</text>
+<rect x="457.0" y="396" width="170" height="40" rx="6" fill="#ffffff" stroke="#d9d3e6" stroke-width="1.2"/>
+<rect x="451.0" y="401" width="170" height="40" rx="6" fill="#ffffff" stroke="#d9d3e6" stroke-width="1.2"/>
+<rect x="445.0" y="406" width="170" height="40" rx="6" fill="#ffffff" stroke="#1F7A7A" stroke-width="1.6"/>
+<text x="530" y="432" font-size="15" fill="#333" text-anchor="middle" font-weight="400" font-family="'D2Coding', 'Fira Code', Menlo, Consolas, monospace">NM_…</text>
+<rect x="695.0" y="406" width="190" height="40" rx="6" fill="#ffffff" stroke="#1F7A7A" stroke-width="1.6"/>
+<text x="790" y="432" font-size="15" fill="#333" text-anchor="middle" font-weight="400" font-family="'D2Coding', 'Fira Code', Menlo, Consolas, monospace">NP_…</text>
+<line x1="371.0" y1="426.0" x2="439.0" y2="426.0" stroke="#888" stroke-width="1.4" marker-end="url(#arr)"/>
+<line x1="631.0" y1="426.0" x2="689.0" y2="426.0" stroke="#888" stroke-width="1.4" marker-end="url(#arr)"/>
+<text x="30" y="492" font-size="15" fill="#555" text-anchor="start" font-weight="700">HGNC · UniProt</text>
+<rect x="157.0" y="466" width="210" height="40" rx="6" fill="#ffffff" stroke="#1F7A7A" stroke-width="1.6"/>
+<text x="262" y="492" font-size="15" fill="#333" text-anchor="middle" font-weight="400">HGNC:11998 · <tspan font-style="italic">TP53</tspan></text>
+<rect x="695.0" y="466" width="190" height="40" rx="6" fill="#ffffff" stroke="#1F7A7A" stroke-width="1.6"/>
+<text x="790" y="492" font-size="15" fill="#333" text-anchor="middle" font-weight="400">UniProt accession</text>
+<line x1="371.0" y1="486.0" x2="689.0" y2="486.0" stroke="#888" stroke-width="1.4" marker-end="url(#arr)" stroke-dasharray="5 4"/>
+<text x="460" y="532" font-size="15" fill="#333" text-anchor="middle" font-weight="400">count matrix의 행은 대개 유전자 층(ENSG·symbol) · 전사체 단위 정량에서는 ENST가 행이 됨</text>
+</svg>
