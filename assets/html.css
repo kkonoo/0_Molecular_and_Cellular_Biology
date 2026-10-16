@@ -215,4 +215,9 @@ table {
     display: block;
     overflow-x: auto;
   }
+  /* 본문 속 긴 인라인 코드도 줄을 바꿈 */
+  main :not(pre) > code {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+  }
 }

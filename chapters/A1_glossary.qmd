@@ -1,6 +1,6 @@
 ---
 title: "부록 A. 한영 용어집"
-description: "장마다 나온 용어의 한국어·영어 대응"
+description: "장마다 나온 용어의 한국어·영어 대응과 한 줄 뜻, 약어 풀이"
 author: "Eunji Ha"
 date: today
 format:
@@ -9,14 +9,299 @@ format:
       text: |
         <meta name="ai-title" content="부록 A. 한영 용어집">
         <meta name="ai-context" content="
-        이 챕터는 장마다 나온 용어의 한국어·영어 대응을 다룹니다. (초안 작성 전)
+        이 부록은 0-12장에 나온 용어를 장별로 모아 한국어, 영어, 한 줄 뜻을 표로 정리하고, 약어를 풀이합니다.
+        정렬은 장 순서와 본문에 처음 나온 순서이며, 장 번호를 누르면 그 장으로 갑니다. 같은 용어가 여러 장에 나오면 처음 자세히 다룬 장에 둡니다.
+        본문에서 영어 그대로 쓰는 용어(promoter, exon, splicing, peak 등)는 한국어 칸에 흔히 쓰는 한글 표기를 적었습니다.
+        약어 표는 UMI, TSS, UTR, CDS, SNV, LD, GWAS, PTM, ORA, GSEA, ADT, PBMC 등 데이터 분석에서 자주 만나는 약어의 원래 이름과 처음 나오는 장을 정리합니다.
         ">
 ---
 
-::: {.callout-warning}
-## 작성 예정
-이 장은 아직 쓰는 중입니다. 다룰 내용:
-
-1. 장별 용어 모음
-2. 약어 풀이
+::: {.callout-note collapse="true"}
+## 이 용어집을 쓰는 법
+- 장 순서대로, 각 장 안에서는 본문에 처음 나온 순서대로 적음
+- 같은 용어가 여러 장에 나오면 **처음 자세히 다룬 장**에 둠
+- 본문에서 영어 그대로 쓰는 용어(promoter, exon, peak 등)는 한국어 칸에 흔히 쓰는 한글 표기를 적음
+- 뜻은 이 책 본문의 정의를 한 줄로 줄인 것 → 자세한 설명은 장 링크로
+- 유전자·단백질 기호 쓰는 법은 [부록 B](A2_nomenclature.qmd), 데이터베이스는 [부록 C](A3_databases.qmd), 면역세포는 [부록 D](A4_immune_cells.qmd)
+- 사이트 위쪽 검색창에 한국어나 영어 어느 쪽을 넣어도 찾을 수 있음
 :::
+
+# 1. 장별 용어
+
+## 1) 세포와 분자 (0–2장)
+
+| 한국어 | English | 뜻 | 장 |
+|---|---|---|---|
+| 발현 행렬 | count matrix | 행 = 유전자, 열 = 세포(또는 시료), 칸 = 센 수 | [0](00_why_biology.qmd) |
+| 세포 바코드 | cell barcode | 같은 세포에서 온 read를 묶어 주는 짧은 서열 | [0](00_why_biology.qmd) |
+| 분자 이름표 | unique molecular identifier, UMI | 포획한 분자 하나하나에 붙인 무작위 서열. PCR 복사본을 하나로 셈 | [0](00_why_biology.qmd) |
+| 리드 | read | 시퀀서가 읽은 서열 조각 하나 | [0](00_why_biology.qmd) |
+| 염기쌍 | base pair, bp | DNA 글자 한 쌍. 서열 길이의 단위 | [0](00_why_biology.qmd) |
+| 희소 행렬 | sparse matrix | 대부분이 0이라 0이 아닌 칸만 저장한 행렬 | [0](00_why_biology.qmd) |
+| 원핵세포 | prokaryote | 핵과 막으로 싸인 소기관이 없는 세포 (세균 등) | [1](01_cell_system.qmd) |
+| 진핵세포 | eukaryote | 핵과 소기관이 있는 세포 (사람, 마우스 등) | [1](01_cell_system.qmd) |
+| 구획 | compartment | 막으로 둘러싸여 따로 유지되는 세포 안 공간 | [1](01_cell_system.qmd) |
+| 핵 | nucleus | 유전체 DNA가 있고 전사가 일어나는 소기관 | [1](01_cell_system.qmd) |
+| 핵막 | nuclear envelope | 핵을 싸는 두 겹의 막 | [1](01_cell_system.qmd) |
+| 핵공 | nuclear pore | 핵막을 관통하는 통로. mRNA가 나가고 단백질이 들어옴 | [1](01_cell_system.qmd) |
+| 미토콘드리아 | mitochondrion | ATP를 만드는 소기관. 자체 DNA(mtDNA)가 있음 | [1](01_cell_system.qmd) |
+| 리보솜 | ribosome | mRNA를 읽어 단백질을 만드는 분자 기계. 막이 없음 | [1](01_cell_system.qmd) |
+| 소포체 | endoplasmic reticulum, ER | 거친 ER은 막·분비 단백질 합성, 매끈한 ER은 지질 합성 | [1](01_cell_system.qmd) |
+| 골지체 | Golgi apparatus | 단백질에 당사슬 등을 붙이고 목적지별로 분류 | [1](01_cell_system.qmd) |
+| 리소좀 | lysosome | 산성 환경과 분해 효소로 낡은 것을 분해하는 소기관 | [1](01_cell_system.qmd) |
+| 세포골격 | cytoskeleton | 세포 모양·이동·염색체 분리를 맡는 섬유 | [1](01_cell_system.qmd) |
+| 인지질 | phospholipid | 친수성 머리와 소수성 꼬리 두 개를 가진 막의 재료 | [1](01_cell_system.qmd) |
+| 인지질 이중층 | lipid bilayer | 인지질이 꼬리를 마주 보고 두 겹으로 늘어선 막 | [1](01_cell_system.qmd) |
+| 막단백질 | membrane protein | 막에 박혀 수송·신호 수용·표지를 맡는 단백질 | [1](01_cell_system.qmd) |
+| 단일핵 RNA-seq | single-nucleus RNA-seq, snRNA-seq | 세포 대신 핵만 잡아 읽는 방법. intron read가 많음 | [1](01_cell_system.qmd) |
+| 공유결합 | covalent bond | 원자가 전자를 공유하는 강한 결합. 서열을 담는 뼈대 | [2](02_biomolecules.qmd) |
+| 수소결합 | hydrogen bond | 하나하나는 약한 끌림. DNA 두 가닥의 짝과 단백질 모양을 유지 | [2](02_biomolecules.qmd) |
+| 친수성 / 소수성 | hydrophilic / hydrophobic | 물과 잘 어울림 / 물을 피해 서로 모임 | [2](02_biomolecules.qmd) |
+| 단량체 / 고분자 | monomer / polymer | 작은 단위 / 그 단위를 길게 이은 분자 | [2](02_biomolecules.qmd) |
+| 뉴클레오타이드 | nucleotide | 당 + 인산 + 염기. 핵산의 단위 | [2](02_biomolecules.qmd) |
+| 디옥시리보스 / 리보스 | deoxyribose / ribose | DNA의 당(2′에 OH 없음) / RNA의 당(2′에 OH 있음) | [2](02_biomolecules.qmd) |
+| 상보성 | complementarity | A–T(U), G–C로 짝을 짓는 규칙 | [2](02_biomolecules.qmd) |
+| 역평행 | antiparallel | 두 가닥이 서로 반대 방향(5′→3′)으로 놓임 | [2](02_biomolecules.qmd) |
+| 역상보 서열 | reverse complement | 짝 글자로 바꾸고 뒤집어 반대 가닥을 5′→3′으로 쓴 것 | [2](02_biomolecules.qmd) |
+| 회문 | palindrome | 역상보 서열이 자기 자신과 같은 서열 | [2](02_biomolecules.qmd) |
+| 아미노산 | amino acid | 단백질의 단위. 20종 | [2](02_biomolecules.qmd) |
+| 펩타이드 결합 | peptide bond | 아미노산을 잇는 공유결합. 사슬은 N말단 → C말단 | [2](02_biomolecules.qmd) |
+| 1–4차 구조 | primary–quaternary structure | 서열 / 국소 구조 / 사슬 전체 모양 / 여러 사슬의 조립 | [2](02_biomolecules.qmd) |
+| 도메인 | domain | 단백질 안에서 따로 접히고 대개 고유한 기능을 맡는 단위 | [2](02_biomolecules.qmd) |
+| 양친매성 | amphipathic | 친수성 부분과 소수성 부분을 함께 가진 성질 | [2](02_biomolecules.qmd) |
+| 당사슬 | glycan | 단백질·지질에 붙은 짧은 당 사슬. 세포 표면의 이름표 | [2](02_biomolecules.qmd) |
+
+: {tbl-colwidths="[22,26,44,8]"}
+
+## 2) 유전 정보 (3–4장)
+
+| 한국어 | English | 뜻 | 장 |
+|---|---|---|---|
+| 유전체 | genome | 한 세포가 가진 DNA 전체 | [3](03_genome_chromatin.qmd) |
+| 상염색체 / 성염색체 | autosome / sex chromosome | 1–22번 염색체 / X, Y 염색체 | [3](03_genome_chromatin.qmd) |
+| 유전자 | gene | RNA로 전사되는 유전체 위의 한 구간 | [3](03_genome_chromatin.qmd) |
+| 전사 시작점 | transcription start site, TSS | RNA의 첫 글자가 만들어지는 위치 | [3](03_genome_chromatin.qmd) |
+| 프로모터 | promoter | TSS 주변, 전사 기계가 자리 잡는 구간 | [3](03_genome_chromatin.qmd) |
+| 인핸서 | enhancer | 발현을 높이는 조절 서열. 유전자에서 멀리 있을 수 있음 | [3](03_genome_chromatin.qmd) |
+| 엑손 / 인트론 | exon / intron | 성숙 mRNA에 남는 구간 / 전사되지만 잘려 나가는 구간 | [3](03_genome_chromatin.qmd) |
+| 비번역 부위 | untranslated region, UTR | mRNA에 있지만 번역되지 않는 앞(5′)·뒤(3′) 부분 | [3](03_genome_chromatin.qmd) |
+| 암호화 서열 | coding sequence, CDS | 시작 코돈부터 종결 코돈까지, 단백질로 번역되는 부분 | [3](03_genome_chromatin.qmd) |
+| 히스톤 | histone | DNA를 감는 단백질 (H2A, H2B, H3, H4) | [3](03_genome_chromatin.qmd) |
+| 뉴클레오솜 | nucleosome | 히스톤 8량체에 DNA가 감긴 단위 | [3](03_genome_chromatin.qmd) |
+| 염색질 | chromatin | DNA + 히스톤 + 붙어 있는 단백질 | [3](03_genome_chromatin.qmd) |
+| 진정염색질 / 이질염색질 | euchromatin / heterochromatin | 느슨하고 발현이 활발 / 빽빽하고 발현이 억제 | [3](03_genome_chromatin.qmd) |
+| 열린 염색질 | open chromatin, accessible chromatin | 뉴클레오솜이 비켜 DNA가 드러난 구간. ATAC-seq이 잼 | [3](03_genome_chromatin.qmd) |
+| 위상 연관 도메인 | topologically associating domain, TAD | 안쪽끼리 자주 접촉하는 Mb 규모의 영역 | [3](03_genome_chromatin.qmd) |
+| 레퍼런스 유전체 | reference genome assembly | 좌표계를 정하는 기준 서열 (GRCh38 등) | [3](03_genome_chromatin.qmd) |
+| 주석 | annotation | 서열 위 어디에 유전자·exon이 있는지 적은 지도 (GTF) | [3](03_genome_chromatin.qmd) |
+| 주형 | template | 짝이 맞는 새 가닥을 만들 때 기준이 되는 가닥 | [4](04_replication_mutation_inheritance.qmd) |
+| 반보존적 복제 | semiconservative replication | 새 이중나선 = 원래 가닥 하나 + 새 가닥 하나 | [4](04_replication_mutation_inheritance.qmd) |
+| DNA 중합효소 | DNA polymerase | 주형을 따라 새 DNA 가닥을 만드는 효소 | [4](04_replication_mutation_inheritance.qmd) |
+| 교정 / 불일치 수선 | proofreading / mismatch repair | 복제 중 틀린 염기를 떼어 냄 / 복제 뒤 짝이 안 맞는 자리를 고침 | [4](04_replication_mutation_inheritance.qmd) |
+| 단일염기 변이 | single nucleotide variant, SNV | 한 글자가 다른 글자로 바뀐 변이 | [4](04_replication_mutation_inheritance.qmd) |
+| 단일염기 다형성 | single nucleotide polymorphism, SNP | 집단에서 어느 정도 흔한 SNV | [4](04_replication_mutation_inheritance.qmd) |
+| 삽입·결실 | insertion/deletion, indel | 50 bp 미만의 짧은 삽입이나 결실 | [4](04_replication_mutation_inheritance.qmd) |
+| 구조변이 | structural variant, SV | 50 bp 이상의 큰 결실·삽입·중복·역위·전좌 | [4](04_replication_mutation_inheritance.qmd) |
+| 복제수 변이 | copy number variant, CNV | 한 구간의 복사 수가 늘거나 줄어든 변이 | [4](04_replication_mutation_inheritance.qmd) |
+| 생식세포 변이 / 체세포 변이 | germline / somatic variant | 몸 전체에 있고 유전됨 / 일부 세포에만 있고 유전 안 됨 | [4](04_replication_mutation_inheritance.qmd) |
+| 새로 생긴 변이 | de novo mutation | 부모에게 없고 자녀에게 처음 나타난 변이 | [4](04_replication_mutation_inheritance.qmd) |
+| 대립유전자 | allele | 한 자리에 올 수 있는 서로 다른 서열 | [4](04_replication_mutation_inheritance.qmd) |
+| 유전자형 / 표현형 | genotype / phenotype | 한 사람이 가진 allele 두 개의 조합 / 관찰되는 형질 | [4](04_replication_mutation_inheritance.qmd) |
+| 동형접합 / 이형접합 | homozygous / heterozygous | 두 allele이 같음 / 다름 | [4](04_replication_mutation_inheritance.qmd) |
+| 우성 / 열성 | dominant / recessive | allele 하나로 형질이 나타남 / 두 개 모두 있어야 나타남 | [4](04_replication_mutation_inheritance.qmd) |
+| 보인자 | carrier | 열성 allele을 하나 가졌지만 형질은 없는 사람 | [4](04_replication_mutation_inheritance.qmd) |
+| 재조합 / 연관 | recombination / linkage | 짝 염색체가 조각을 맞바꿈 / 가까운 자리가 함께 전달됨 | [4](04_replication_mutation_inheritance.qmd) |
+| 연관불평형 | linkage disequilibrium, LD | 집단에서 가까운 변이끼리 함께 다니는 정도 (r²) | [4](04_replication_mutation_inheritance.qmd) |
+| 일배체형 | haplotype | 염색체 하나 위에 함께 놓인 allele들의 조합 | [4](04_replication_mutation_inheritance.qmd) |
+| 전장유전체 연관분석 | genome-wide association study, GWAS | 유전체 전체의 변이와 형질의 연관을 검정 | [4](04_replication_mutation_inheritance.qmd) |
+
+: {tbl-colwidths="[22,26,44,8]"}
+
+## 3) 유전자 발현 (5–7장)
+
+| 한국어 | English | 뜻 | 장 |
+|---|---|---|---|
+| 전사 | transcription | DNA 한 가닥을 주형으로 RNA를 만드는 일 | [5](05_transcription.qmd) |
+| RNA 중합효소 | RNA polymerase | 전사를 하는 효소. Pol II가 mRNA를 만듦 | [5](05_transcription.qmd) |
+| 전사 조절 | transcriptional regulation | 어느 유전자를, 언제, 얼마나 전사할지 정하는 일 | [5](05_transcription.qmd) |
+| 전사인자 | transcription factor, TF | DNA의 짧은 서열에 붙어 전사를 켜거나 끄는 단백질 | [5](05_transcription.qmd) |
+| 일반 전사인자 / 특이 전사인자 | general / sequence-specific TF | 모든 promoter의 공통 장치 / 어느 유전자를 켤지 고르는 TF | [5](05_transcription.qmd) |
+| 모티프 | motif | TF가 잘 붙는 짧은 DNA 서열의 패턴 | [5](05_transcription.qmd) |
+| 위치 가중 행렬 | position weight matrix, PWM | 모티프의 위치별 염기 선호도를 log 비로 적은 표 | [5](05_transcription.qmd) |
+| 후성유전 | epigenetics | 서열을 바꾸지 않고 발현 상태를 정하고 분열 뒤에도 이어지는 표지 | [5](05_transcription.qmd) |
+| DNA 메틸화 | DNA methylation | C(주로 CpG의 C)에 메틸기가 붙는 것 | [5](05_transcription.qmd) |
+| CpG 섬 | CpG island | CpG가 몰려 있는 구간. 대개 promoter에 있고 메틸화되지 않음 | [5](05_transcription.qmd) |
+| 히스톤 변형 | histone modification | 히스톤 꼬리에 붙는 화학 표지 (H3K4me3, H3K27ac 등) | [5](05_transcription.qmd) |
+| 염색질 상태 | chromatin state | 히스톤 표지의 조합으로 나눈 구간의 상태 | [5](05_transcription.qmd) |
+| 전이효소 | transposase | DNA를 자르며 서열을 꽂는 효소. ATAC-seq의 Tn5 | [5](05_transcription.qmd) |
+| 피크 | peak | read가 배경보다 많이 쌓인 구간 | [5](05_transcription.qmd) |
+| 전구 mRNA / 성숙 mRNA | pre-mRNA / mature mRNA | intron이 남은 막 전사된 RNA / 가공을 마친 mRNA | [6](06_rna_processing.qmd) |
+| 5′ 캡 | 5′ cap | mRNA 5′ 끝의 변형된 G. 끝을 보호하고 번역 시작에 쓰임 | [6](06_rna_processing.qmd) |
+| 스플라이싱 | splicing | intron을 잘라 내고 exon을 이음 | [6](06_rna_processing.qmd) |
+| 스플라이세오좀 | spliceosome | splicing을 하는 snRNA + 단백질 복합체 | [6](06_rna_processing.qmd) |
+| 대체 스플라이싱 | alternative splicing | 같은 pre-mRNA에서 exon 조합을 다르게 이음 | [6](06_rna_processing.qmd) |
+| 아이소폼 | isoform (transcript) | 같은 유전자에서 나온 서로 다른 RNA 하나하나 | [6](06_rna_processing.qmd) |
+| 엑손 건너뛰기 / 인트론 남기기 | exon skipping / intron retention | exon 하나를 빼고 이음 / intron을 자르지 않고 남김 | [6](06_rna_processing.qmd) |
+| 폴리(A) 꼬리 | poly(A) tail | mRNA 3′ 끝에 붙는 A의 줄. 유전체에는 없음 | [6](06_rna_processing.qmd) |
+| 대체 폴리아데닐화 | alternative polyadenylation | poly(A)를 붙이는 자리가 달라 3′ 끝이 다른 isoform | [6](06_rna_processing.qmd) |
+| 비암호화 RNA | non-coding RNA, ncRNA | mRNA가 아닌 RNA 전부 (rRNA, tRNA, miRNA, lncRNA 등) | [6](06_rna_processing.qmd) |
+| 마이크로 RNA | microRNA, miRNA | 약 22 nt의 작은 RNA. 표적 mRNA를 억제 | [6](06_rna_processing.qmd) |
+| 긴 비암호화 RNA | long non-coding RNA, lncRNA | 단백질을 만들지 않는 긴 RNA | [6](06_rna_processing.qmd) |
+| RNA 속도 | RNA velocity | unspliced와 spliced의 비로 발현 변화 방향을 추정하는 방법 | [6](06_rna_processing.qmd) |
+| 번역 | translation | mRNA의 염기 서열을 아미노산 서열로 바꾸는 과정 | [7](07_translation_protein.qmd) |
+| 코돈 / 안티코돈 | codon / anticodon | mRNA 위의 세 글자 / tRNA 위에서 그것과 짝짓는 세 글자 | [7](07_translation_protein.qmd) |
+| 시작 코돈 / 종결 코돈 | start / stop codon | AUG / UAA, UAG, UGA | [7](07_translation_protein.qmd) |
+| 중복성 | degeneracy | 아미노산 하나를 코돈 여러 개가 지정하는 성질 | [7](07_translation_protein.qmd) |
+| 읽기틀 | reading frame | 어디서부터 세 글자씩 끊어 읽느냐 | [7](07_translation_protein.qmd) |
+| 읽기틀 이동 | frameshift | 3의 배수가 아닌 indel로 그 뒤 읽기틀이 바뀜 | [7](07_translation_protein.qmd) |
+| 열린 읽기틀 | open reading frame, ORF | 시작 코돈부터 종결 코돈까지 끊기지 않는 구간 | [7](07_translation_protein.qmd) |
+| 접힘 / 샤페론 | folding / chaperone | 사슬이 3차원 모양을 이룸 / 그것을 돕는 단백질 | [7](07_translation_protein.qmd) |
+| 번역 후 변형 | post-translational modification, PTM | 다 만든 단백질에 화학 그룹을 붙이거나 떼어 성질을 바꿈 | [7](07_translation_protein.qmd) |
+| 인산화 | phosphorylation | 세린·트레오닌·타이로신에 인산기를 붙임. 활성 스위치 | [7](07_translation_protein.qmd) |
+| 당화 | glycosylation | 단백질에 당 사슬을 붙임. ER에서 시작 | [7](07_translation_protein.qmd) |
+| 유비퀴틴화 | ubiquitination | 유비퀴틴을 붙임. K48 사슬은 분해 표지 | [7](07_translation_protein.qmd) |
+| 아세틸화 | acetylation | 라이신에 아세틸기를 붙임 (히스톤 등) | [7](07_translation_protein.qmd) |
+| 신호 서열 | signal sequence, signal peptide | 단백질을 ER로 보내는 N말단의 짧은 구간 | [7](07_translation_protein.qmd) |
+| 막관통 구간 | transmembrane domain | 단백질을 막에 박는 소수성 구간 | [7](07_translation_protein.qmd) |
+| 핵 위치 신호 | nuclear localization signal, NLS | 단백질을 핵으로 보내는 짧은 구간 | [7](07_translation_protein.qmd) |
+| 프로테아좀 / 자가포식 | proteasome / autophagy | 표지된 단백질을 분해하는 복합체 / 막으로 싸서 리소좀으로 보내 분해 | [7](07_translation_protein.qmd) |
+| 반감기 | half-life | 분자의 절반이 분해되는 데 걸리는 시간 | [7](07_translation_protein.qmd) |
+| 항체 유래 태그 | antibody-derived tag, ADT | CITE-seq에서 항체에 단 DNA 바코드. 표면 단백질을 셈 | [7](07_translation_protein.qmd) |
+
+: {tbl-colwidths="[22,26,44,8]"}
+
+## 4) 세포의 결정과 상호작용 (8–11장)
+
+| 한국어 | English | 뜻 | 장 |
+|---|---|---|---|
+| 리간드 / 수용체 | ligand / receptor | 신호 분자 / 그것을 알아보는 단백질 | [8](08_cell_signaling.qmd) |
+| 신호전달 | signal transduction | 세포 밖 신호를 세포 안의 다른 형태의 신호로 바꿔 전하는 과정 | [8](08_cell_signaling.qmd) |
+| 내분비 / 측분비 / 자가분비 / 접촉 신호 | endocrine / paracrine / autocrine / juxtacrine | 혈액으로 먼 곳에 / 이웃 세포에 / 자기 자신에 / 맞닿은 세포에 | [8](08_cell_signaling.qmd) |
+| G 단백질 연결 수용체 | G protein-coupled receptor, GPCR | 막을 7번 관통하고 G 단백질을 켜는 수용체 | [8](08_cell_signaling.qmd) |
+| 수용체 티로신 키나아제 | receptor tyrosine kinase, RTK | 안쪽에 kinase가 있는 수용체 (EGFR 등) | [8](08_cell_signaling.qmd) |
+| 핵 수용체 | nuclear receptor | 리간드가 붙으면 수용체 자체가 전사인자로 일함 | [8](08_cell_signaling.qmd) |
+| 키나아제 / 탈인산화효소 | kinase / phosphatase | 인산기를 붙이는 효소 / 떼는 효소 | [8](08_cell_signaling.qmd) |
+| 연쇄 | cascade | kinase가 다음 kinase를 차례로 켜는 구조 (MAPK) | [8](08_cell_signaling.qmd) |
+| 2차 전달자 | second messenger | 세포 안에서 빠르게 생겨 신호를 퍼뜨리는 작은 분자 (cAMP, Ca²⁺) | [8](08_cell_signaling.qmd) |
+| 음성 되먹임 | negative feedback | 켜진 신호가 자신을 끄는 장치도 켜는 것 (SOCS, DUSP) | [8](08_cell_signaling.qmd) |
+| 사이토카인 | cytokine | 면역세포끼리 주고받는 작은 단백질 신호 | [8](08_cell_signaling.qmd) |
+| 과대표현 분석 | over-representation analysis, ORA | 유전자 목록과 유전자 집합의 겹침을 초기하 분포로 검정 | [8](08_cell_signaling.qmd) |
+| 유전자 집합 농축 분석 | gene set enrichment analysis, GSEA | 순위 목록의 위나 아래에 집합 유전자가 몰렸는지 검정 | [8](08_cell_signaling.qmd) |
+| 세포주기 | cell cycle | G1 → S → G2 → M. 자라고 복제하고 나뉘는 순서 | [9](09_cell_cycle_death_cancer.qmd) |
+| 휴지기 | quiescence (G0) | 주기에서 빠져 분열을 멈춘 상태 | [9](09_cell_cycle_death_cancer.qmd) |
+| 자매염색분체 | sister chromatid | S기 복제로 생긴, 붙어 있는 똑같은 염색체 두 가닥 | [9](09_cell_cycle_death_cancer.qmd) |
+| 사이클린 / 사이클린 의존성 키나아제 | cyclin / cyclin-dependent kinase, CDK | 주기에 따라 오르내리는 단백질 / 그것이 붙어야 켜지는 kinase | [9](09_cell_cycle_death_cancer.qmd) |
+| 검문점 | checkpoint | 다음 단계로 넘어가기 전에 조건을 확인하고 멈추는 장치 | [9](09_cell_cycle_death_cancer.qmd) |
+| 염색체 수 이상 | aneuploidy | 염색체 수가 정상과 다른 상태 | [9](09_cell_cycle_death_cancer.qmd) |
+| 세포사멸 / 괴사 | apoptosis / necrosis | 프로그램에 따라 조용히 해체되는 죽음 / 터지며 염증을 일으키는 죽음 | [9](09_cell_cycle_death_cancer.qmd) |
+| 카스페이스 | caspase | 단백질을 잘라 세포를 해체하는 효소 무리 | [9](09_cell_cycle_death_cancer.qmd) |
+| 종양유전자 / 원종양유전자 | oncogene / proto-oncogene | 지나치게 켜져 암을 일으키는 형태 / 정상일 때의 그 유전자 | [9](09_cell_cycle_death_cancer.qmd) |
+| 종양억제유전자 | tumor suppressor gene | 증식을 막는 유전자. 대개 두 벌 모두 잃어야 효과 | [9](09_cell_cycle_death_cancer.qmd) |
+| 이형접합성 소실 | loss of heterozygosity, LOH | 남은 정상 allele이 사라져 이형접합이 동형접합처럼 보임 | [9](09_cell_cycle_death_cancer.qmd) |
+| 암의 특징 | hallmarks of cancer | 암세포가 얻는 능력 목록 (Hanahan & Weinberg) | [9](09_cell_cycle_death_cancer.qmd) |
+| 세포 유형 / 세포 상태 | cell type / cell state | 안정적인 정체성 / 맥락에 따라 바뀌는 프로그램 | [10](10_cell_identity.qmd) |
+| 수정란 / 포배 | zygote / blastocyst | 수정된 세포 하나 / 내세포괴와 영양외배엽으로 된 초기 배아 | [10](10_cell_identity.qmd) |
+| 낭배 형성 | gastrulation | 내세포괴에서 세 배엽이 생기는 과정 | [10](10_cell_identity.qmd) |
+| 외배엽 / 중배엽 / 내배엽 | ectoderm / mesoderm / endoderm | 표피·신경 / 근육·뼈·혈액 / 소화관 상피·간 | [10](10_cell_identity.qmd) |
+| 전능성 / 만능성 / 다능성 | totipotent / pluripotent / multipotent | 태반까지 / 세 배엽 모두 / 한 계통의 여러 세포를 만들 수 있음 | [10](10_cell_identity.qmd) |
+| 줄기세포 / 전구세포 | stem cell / progenitor | 자기 재생 + 분화 / 분화는 하지만 자기 재생이 제한된 세포 | [10](10_cell_identity.qmd) |
+| 배아줄기세포 | embryonic stem cell, ESC | 포배의 내세포괴에서 얻은 만능 줄기세포 | [10](10_cell_identity.qmd) |
+| 유도만능줄기세포 | induced pluripotent stem cell, iPSC | 분화된 세포에 전사인자를 넣어 만능 상태로 되돌린 세포 | [10](10_cell_identity.qmd) |
+| 조혈 / 조혈줄기세포 | hematopoiesis / hematopoietic stem cell, HSC | 혈액세포를 만드는 과정 / 그 출발점인 줄기세포 | [10](10_cell_identity.qmd) |
+| 말초혈액 단핵세포 | peripheral blood mononuclear cell, PBMC | 밀도구배로 모은 림프구 + 단핵구 + 수지상세포 | [10](10_cell_identity.qmd) |
+| 이중 세포 | doublet | 세포 두 개가 한 방울에 들어가 하나로 잡힌 것 | [10](10_cell_identity.qmd) |
+| 궤적 / 의사시간 | trajectory / pseudotime | 세포를 분화 길 위에 늘어세운 것 / 그 길 위의 상대 위치 | [10](10_cell_identity.qmd) |
+| 조직 / 기관 | tissue / organ | 함께 일하는 비슷한 세포의 단위 / 여러 조직의 조합 | [11](11_tissue_interaction.qmd) |
+| 세포외기질 | extracellular matrix, ECM | 세포 밖에 쌓인 단백질과 당의 그물 | [11](11_tissue_interaction.qmd) |
+| 기저막 | basement membrane | 상피 아래의 얇은 판 모양 ECM | [11](11_tissue_interaction.qmd) |
+| 콜라겐 / 피브로넥틴 / 라미닌 / 프로테오글리칸 | collagen / fibronectin / laminin / proteoglycan | ECM의 주요 성분 | [11](11_tissue_interaction.qmd) |
+| 밀착연접 / 부착연접 / 데스모솜 / 간극연접 | tight / adherens junction / desmosome / gap junction | 틈을 막음 / actin에 연결 / 중간섬유에 연결 / 작은 분자가 지나는 통로 | [11](11_tissue_interaction.qmd) |
+| 꼭대기면 / 바닥옆면 | apical / basolateral | 상피세포 막에서 바깥을 향한 면 / 이웃과 기저막을 향한 면 | [11](11_tissue_interaction.qmd) |
+| 실질세포 / 기질세포 | parenchymal / stromal cell | 기관의 주된 일을 하는 세포 / 틀을 만드는 세포 (섬유모세포 등) | [11](11_tissue_interaction.qmd) |
+| 섬유모세포 | fibroblast | 결합조직의 ECM을 주로 만드는 기질세포 | [11](11_tissue_interaction.qmd) |
+| 종양 미세환경 | tumor microenvironment | 암세포 + 기질세포 + 침윤 면역세포 | [11](11_tissue_interaction.qmd) |
+| 분해 추정 | deconvolution | spot의 count에서 cell type 비율을 추정하는 일 | [11](11_tissue_interaction.qmd) |
+| 세포 경계 그리기 | segmentation | 이미징 데이터에서 세포 경계를 정해 분자를 세포에 배정 | [11](11_tissue_interaction.qmd) |
+
+: {tbl-colwidths="[22,26,44,8]"}
+
+## 5) 데이터가 만들어지기까지 (12장)
+
+| 한국어 | English | 뜻 | 장 |
+|---|---|---|---|
+| 역전사효소 | reverse transcriptase | RNA를 주형으로 DNA를 만드는 효소 | [12](12_data_generation.qmd) |
+| 상보적 DNA | complementary DNA, cDNA | RNA를 복사해 만든 DNA | [12](12_data_generation.qmd) |
+| 중합효소 연쇄 반응 | polymerase chain reaction, PCR | 원하는 DNA 구간을 반복 복사해 불리는 방법 | [12](12_data_generation.qmd) |
+| 변성 / 결합 / 신장 | denaturation / annealing / extension | 두 가닥을 떼고 / primer를 붙이고 / 새 가닥을 이음 | [12](12_data_generation.qmd) |
+| 증폭 편향 | amplification bias | 분자마다 PCR로 불어나는 정도가 다른 것 | [12](12_data_generation.qmd) |
+| 라이브러리 / 어댑터 | library / adapter | 시퀀싱할 조각들의 모음 / 조각 양 끝에 붙이는 서열 | [12](12_data_generation.qmd) |
+| 역다중화 | demultiplexing | index로 여러 시료의 read를 나누는 일 | [12](12_data_generation.qmd) |
+| 양 끝 읽기 | paired-end | 같은 조각을 양쪽 끝에서 한 번씩 읽음 (Read 1, Read 2) | [12](12_data_generation.qmd) |
+| 가닥 특이적 | stranded | read가 원래 RNA의 어느 가닥에서 왔는지 남기는 라이브러리 | [12](12_data_generation.qmd) |
+| 품질 점수 | Phred quality score | Q = −10 log₁₀ P. Q30 = 틀릴 확률 1/1,000 | [12](12_data_generation.qmd) |
+| 항체 | antibody | 특정 분자의 특정 부위(epitope)에 결합하는 단백질 | [12](12_data_generation.qmd) |
+| 단클론 / 다클론 항체 | monoclonal / polyclonal antibody | B세포 클론 하나에서 / 여러 B세포 항체의 혼합 | [12](12_data_generation.qmd) |
+| 특이성 | specificity | 원하는 표적에만 붙는 정도 | [12](12_data_generation.qmd) |
+| 가이드 RNA | guide RNA | Cas9을 표적으로 안내하는 RNA (표적과 짝짓는 20염기) | [12](12_data_generation.qmd) |
+| 비상동 말단 연결 | non-homologous end joining, NHEJ | 끊긴 DNA 끝을 그냥 잇는 수선. indel을 남기기 쉬움 | [12](12_data_generation.qmd) |
+| 표적 외 절단 | off-target | 비슷한 서열이 있는 다른 곳을 자르는 것 | [12](12_data_generation.qmd) |
+| 세포주 / 일차세포 | cell line / primary cell | 계속 키울 수 있게 된 세포 / 조직에서 바로 떼어 낸 세포 | [12](12_data_generation.qmd) |
+| 계대 | passage | 일부를 덜어 새 용기로 옮겨 키우는 것 | [12](12_data_generation.qmd) |
+| 감염 다중도 | multiplicity of infection, MOI | 세포당 평균 바이러스(guide) 수 | [12](12_data_generation.qmd) |
+
+: {tbl-colwidths="[22,26,44,8]"}
+
+# 2. 약어 풀이
+
+| 약어 | 원래 이름 | 장 |
+|---|---|---|
+| ADT | antibody-derived tag | [7](07_translation_protein.qmd) |
+| ATAC-seq | assay for transposase-accessible chromatin using sequencing | [5](05_transcription.qmd) |
+| BED | Browser Extensible Data (구간 파일 형식) | [3](03_genome_chromatin.qmd) |
+| bp | base pair | [0](00_why_biology.qmd) |
+| CDK | cyclin-dependent kinase | [9](09_cell_cycle_death_cancer.qmd) |
+| cDNA | complementary DNA | [12](12_data_generation.qmd) |
+| CDS | coding sequence | [3](03_genome_chromatin.qmd) |
+| ChIP-seq | chromatin immunoprecipitation sequencing | [5](05_transcription.qmd) |
+| CITE-seq | cellular indexing of transcriptomes and epitopes by sequencing | [7](07_translation_protein.qmd) |
+| CNV | copy number variant | [4](04_replication_mutation_inheritance.qmd) |
+| ECM | extracellular matrix | [11](11_tissue_interaction.qmd) |
+| ER | endoplasmic reticulum | [1](01_cell_system.qmd) |
+| ESC | embryonic stem cell | [10](10_cell_identity.qmd) |
+| GO | Gene Ontology | [부록 C](A3_databases.qmd) |
+| GPCR | G protein-coupled receptor | [8](08_cell_signaling.qmd) |
+| GSEA | gene set enrichment analysis | [8](08_cell_signaling.qmd) |
+| GTF | Gene Transfer Format (유전자 주석 파일 형식) | [3](03_genome_chromatin.qmd) |
+| GWAS | genome-wide association study | [4](04_replication_mutation_inheritance.qmd) |
+| HSC | hematopoietic stem cell | [10](10_cell_identity.qmd) |
+| indel | insertion/deletion | [4](04_replication_mutation_inheritance.qmd) |
+| iPSC | induced pluripotent stem cell | [10](10_cell_identity.qmd) |
+| LD | linkage disequilibrium | [4](04_replication_mutation_inheritance.qmd) |
+| lncRNA | long non-coding RNA | [6](06_rna_processing.qmd) |
+| LOH | loss of heterozygosity | [9](09_cell_cycle_death_cancer.qmd) |
+| miRNA | microRNA | [6](06_rna_processing.qmd) |
+| MOI | multiplicity of infection | [12](12_data_generation.qmd) |
+| mtDNA | mitochondrial DNA | [1](01_cell_system.qmd) |
+| NHEJ | non-homologous end joining | [12](12_data_generation.qmd) |
+| NLS | nuclear localization signal | [7](07_translation_protein.qmd) |
+| ORA | over-representation analysis | [8](08_cell_signaling.qmd) |
+| ORF | open reading frame | [7](07_translation_protein.qmd) |
+| PAM | protospacer adjacent motif (Cas9이 요구하는 표적 옆 서열, NGG) | [12](12_data_generation.qmd) |
+| PBMC | peripheral blood mononuclear cell | [10](10_cell_identity.qmd) |
+| PCR | polymerase chain reaction | [12](12_data_generation.qmd) |
+| PTM | post-translational modification | [7](07_translation_protein.qmd) |
+| PWM | position weight matrix | [5](05_transcription.qmd) |
+| RTK | receptor tyrosine kinase | [8](08_cell_signaling.qmd) |
+| scRNA-seq / snRNA-seq | single-cell / single-nucleus RNA sequencing | [0](00_why_biology.qmd), [1](01_cell_system.qmd) |
+| SNP | single nucleotide polymorphism | [4](04_replication_mutation_inheritance.qmd) |
+| SNV | single nucleotide variant | [4](04_replication_mutation_inheritance.qmd) |
+| SV | structural variant | [4](04_replication_mutation_inheritance.qmd) |
+| TAD | topologically associating domain | [3](03_genome_chromatin.qmd) |
+| TF | transcription factor | [5](05_transcription.qmd) |
+| TPM | transcripts per million | [6](06_rna_processing.qmd) |
+| TSS | transcription start site | [3](03_genome_chromatin.qmd) |
+| UMI | unique molecular identifier | [0](00_why_biology.qmd) |
+| UTR | untranslated region | [3](03_genome_chromatin.qmd) |
+| VCF | Variant Call Format (변이 파일 형식) | [4](04_replication_mutation_inheritance.qmd) |
+
+: {tbl-colwidths="[18,70,12]"}

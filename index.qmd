@@ -34,22 +34,22 @@ format:
 | Part | 장 | 주제 | 데이터에서는 | 상태 |
 |---|---|---|---|---|
 | **1** 세포와 분자 | [0](chapters/00_why_biology.qmd) | 왜 생물학을 알아야 하나 | count matrix 한 칸 = UMI 수 | 초안 |
-| | [1](chapters/01_cell_system.qmd) | 세포라는 시스템 | mito read 비율, scRNA vs snRNA | 작성 예정 |
-| | [2](chapters/02_biomolecules.qmd) | 생체분자 | 서열 문자열, 5'→3', 단백질 도메인 | 작성 예정 |
-| **2** 유전 정보 | [3](chapters/03_genome_chromatin.qmd) | 유전체와 염색질 | GTF, 0-based vs 1-based, 레퍼런스 버전 | 작성 예정 |
-| | [4](chapters/04_replication_mutation_inheritance.qmd) | 복제·돌연변이·유전 | VCF, GWAS 결과표 | 작성 예정 |
-| **3** 유전자 발현 | [5](chapters/05_transcription.qmd) | 전사와 전사 조절 | ATAC·ChIP peak, TF motif | 작성 예정 |
-| | [6](chapters/06_rna_processing.qmd) | RNA 가공 | isoform 정량, intron read, 3' 편향 | 작성 예정 |
-| | [7](chapters/07_translation_protein.qmd) | 번역과 단백질의 일생 | mRNA ≠ 단백질 양, CITE-seq | 작성 예정 |
-| **4** 세포의 결정과 상호작용 | [8](chapters/08_cell_signaling.qmd) | 세포 신호전달 | KEGG 그림, pathway 분석 결과 | 작성 예정 |
-| | [9](chapters/09_cell_cycle_death_cancer.qmd) | 세포주기·세포사멸·암 | cell cycle score (S/G2M) | 작성 예정 |
-| | [10](chapters/10_cell_identity.qmd) | 세포 정체성과 분화 | 클러스터 = cell type?, marker, trajectory | 작성 예정 |
-| | [11](chapters/11_tissue_interaction.qmd) | 조직과 세포 간 상호작용 | spatial, cell-cell communication | 작성 예정 |
-| **5** 데이터가 만들어지기까지 | [12](chapters/12_data_generation.qmd) | 데이터는 어떻게 만들어지나 | library prep → FASTQ, Perturb-seq | 작성 예정 |
-| **부록** | [A](chapters/A1_glossary.qmd) | 한영 용어집 | — | 작성 예정 |
-| | [B](chapters/A2_nomenclature.qmd) | 유전자·단백질 표기 규칙 | — | 작성 예정 |
-| | [C](chapters/A3_databases.qmd) | 자주 쓰는 데이터베이스 | — | 작성 예정 |
-| | [D](chapters/A4_immune_cells.qmd) | 면역세포 지도 | — | 작성 예정 |
+| | [1](chapters/01_cell_system.qmd) | 세포라는 시스템 | mito read 비율, scRNA vs snRNA | 초안 |
+| | [2](chapters/02_biomolecules.qmd) | 생체분자 | 서열 문자열, 5'→3', 단백질 도메인 | 초안 |
+| **2** 유전 정보 | [3](chapters/03_genome_chromatin.qmd) | 유전체와 염색질 | GTF, 0-based vs 1-based, 레퍼런스 버전 | 초안 |
+| | [4](chapters/04_replication_mutation_inheritance.qmd) | 복제·돌연변이·유전 | VCF, GWAS 결과표 | 초안 |
+| **3** 유전자 발현 | [5](chapters/05_transcription.qmd) | 전사와 전사 조절 | ATAC·ChIP peak, TF motif | 초안 |
+| | [6](chapters/06_rna_processing.qmd) | RNA 가공 | isoform 정량, intron read, 3' 편향 | 초안 |
+| | [7](chapters/07_translation_protein.qmd) | 번역과 단백질의 일생 | mRNA ≠ 단백질 양, CITE-seq | 초안 |
+| **4** 세포의 결정과 상호작용 | [8](chapters/08_cell_signaling.qmd) | 세포 신호전달 | KEGG 그림, pathway 분석 결과 | 초안 |
+| | [9](chapters/09_cell_cycle_death_cancer.qmd) | 세포주기·세포사멸·암 | cell cycle score (S/G2M) | 초안 |
+| | [10](chapters/10_cell_identity.qmd) | 세포 정체성과 분화 | 클러스터 = cell type?, marker, trajectory | 초안 |
+| | [11](chapters/11_tissue_interaction.qmd) | 조직과 세포 간 상호작용 | spatial, cell-cell communication | 초안 |
+| **5** 데이터가 만들어지기까지 | [12](chapters/12_data_generation.qmd) | 데이터는 어떻게 만들어지나 | library prep → FASTQ, Perturb-seq | 초안 |
+| **부록** | [A](chapters/A1_glossary.qmd) | 한영 용어집 | — | 초안 |
+| | [B](chapters/A2_nomenclature.qmd) | 유전자·단백질 표기 규칙 | — | 초안 |
+| | [C](chapters/A3_databases.qmd) | 자주 쓰는 데이터베이스 | — | 초안 |
+| | [D](chapters/A4_immune_cells.qmd) | 면역세포 지도 | — | 초안 |
 
 : {tbl-colwidths="[18,6,26,37,13]"}
 
