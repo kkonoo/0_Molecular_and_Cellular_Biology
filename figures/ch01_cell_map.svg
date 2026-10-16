@@ -1,0 +1,204 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 560" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" role="img" aria-label="진핵세포 모식도: 세포막, 핵, 핵공, 거친 소포체, 골지체, 미토콘드리아, 리소좀과 각 구획에 있는 RNA의 종류">
+<rect width="940" height="560" fill="#ffffff"/>
+<ellipse cx="300" cy="285" rx="278" ry="245" fill="#fdfcfe" stroke="#7A6A99" stroke-width="2.2"/>
+<ellipse cx="300" cy="285" rx="270" ry="237" fill="none" stroke="#7A6A99" stroke-width="1.2"/>
+<path d="M380 160 C398 200 366 240 386 280 S370 350 388 390" fill="none" stroke="#9a8fb3" stroke-width="7" stroke-linecap="round" opacity="0.55"/>
+<circle cx="387" cy="168" r="3" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<circle cx="393" cy="194" r="3" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<circle cx="387" cy="220" r="3" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<circle cx="393" cy="246" r="3" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<circle cx="387" cy="272" r="3" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<circle cx="393" cy="298" r="3" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<circle cx="387" cy="324" r="3" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<circle cx="393" cy="350" r="3" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<circle cx="387" cy="376" r="3" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<path d="M401 160 C419 200 387 240 407 280 S391 350 409 390" fill="none" stroke="#9a8fb3" stroke-width="7" stroke-linecap="round" opacity="0.55"/>
+<circle cx="408" cy="168" r="3" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<circle cx="414" cy="194" r="3" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<circle cx="408" cy="220" r="3" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<circle cx="414" cy="246" r="3" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<circle cx="408" cy="272" r="3" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<circle cx="414" cy="298" r="3" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<circle cx="408" cy="324" r="3" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<circle cx="414" cy="350" r="3" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<circle cx="408" cy="376" r="3" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<path d="M422 160 C440 200 408 240 428 280 S412 350 430 390" fill="none" stroke="#9a8fb3" stroke-width="7" stroke-linecap="round" opacity="0.55"/>
+<circle cx="429" cy="168" r="3" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<circle cx="435" cy="194" r="3" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<circle cx="429" cy="220" r="3" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<circle cx="435" cy="246" r="3" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<circle cx="429" cy="272" r="3" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<circle cx="435" cy="298" r="3" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<circle cx="429" cy="324" r="3" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<circle cx="435" cy="350" r="3" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<circle cx="429" cy="376" r="3" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<path d="M426 455 Q470 429 514 455" fill="none" stroke="#7A6A99" stroke-width="5" stroke-linecap="round"/>
+<path d="M433 464 Q470 438 507 464" fill="none" stroke="#7A6A99" stroke-width="5" stroke-linecap="round"/>
+<path d="M440 473 Q470 447 500 473" fill="none" stroke="#7A6A99" stroke-width="5" stroke-linecap="round"/>
+<path d="M447 482 Q470 456 493 482" fill="none" stroke="#7A6A99" stroke-width="5" stroke-linecap="round"/>
+<text x="470" y="507" font-size="15" text-anchor="middle" fill="#333" font-weight="700">골지체</text>
+<circle cx="245" cy="255" r="108" fill="#efeaf6" stroke="#5B4D80" stroke-width="2.2"/>
+<circle cx="245" cy="255" r="100" fill="#efeaf6" stroke="#5B4D80" stroke-width="1.4"/>
+<rect x="325.2" y="188.3" width="10" height="14" fill="#ffffff" stroke="#5B4D80" stroke-width="1.2" transform="rotate(-35 330.2 195.3)"/>
+<rect x="337.7" y="283.6" width="10" height="14" fill="#ffffff" stroke="#5B4D80" stroke-width="1.2" transform="rotate(20 342.7 290.6)"/>
+<rect x="266.9" y="348.5" width="10" height="14" fill="#ffffff" stroke="#5B4D80" stroke-width="1.2" transform="rotate(75 271.9 355.5)"/>
+<rect x="160.3" y="314.8" width="10" height="14" fill="#ffffff" stroke="#5B4D80" stroke-width="1.2" transform="rotate(140 165.3 321.8)"/>
+<rect x="142.3" y="212.4" width="10" height="14" fill="#ffffff" stroke="#5B4D80" stroke-width="1.2" transform="rotate(200 147.3 219.4)"/>
+<rect x="213.1" y="147.5" width="10" height="14" fill="#ffffff" stroke="#5B4D80" stroke-width="1.2" transform="rotate(255 218.1 154.5)"/>
+<path d="M175 210 C195 185 215 240 235 205 S275 190 285 225 S250 265 230 250 S190 270 200 300 S250 320 275 295" fill="none" stroke="#9d9d9d" stroke-width="2.5"/>
+<text x="245" y="179" font-size="17" text-anchor="middle" fill="#5B4D80" font-weight="700">핵</text>
+<line x1="178" y1="322" x2="306" y2="322" stroke="#bbb" stroke-width="3"/>
+<rect x="178" y="317" width="16" height="10" rx="3" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<rect x="212" y="317" width="16" height="10" rx="3" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<rect x="252" y="317" width="16" height="10" rx="3" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<rect x="290" y="317" width="16" height="10" rx="3" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<line x1="196" y1="275" x2="324" y2="275" stroke="#bbb" stroke-width="3"/>
+<rect x="196" y="270" width="16" height="10" rx="3" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<rect x="230" y="270" width="16" height="10" rx="3" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<rect x="270" y="270" width="16" height="10" rx="3" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<rect x="308" y="270" width="16" height="10" rx="3" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<text x="245" y="351" font-size="14" text-anchor="middle" fill="#555">DNA · pre-mRNA</text>
+<line x1="338.3833330489451" y1="189.61228625598073" x2="374.3833330489451" y2="155.61228625598073" stroke="#555" stroke-width="2" stroke-dasharray="5,3"/>
+<path d="M371.9 162.2 L374.4 155.6 L367.7 157.7" fill="none" stroke="#555" stroke-width="2"/>
+<text x="344.3833330489451" y="139.61228625598073" font-size="14" text-anchor="start" fill="#555">핵공으로 나감</text>
+<rect x="300" y="450" width="50" height="10" rx="5" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<circle cx="312" cy="447" r="4.5" fill="#9a8fb3" stroke="none" stroke-width="1"/>
+<circle cx="332" cy="447" r="4.5" fill="#9a8fb3" stroke="none" stroke-width="1"/>
+<rect x="150" y="450" width="50" height="10" rx="5" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<circle cx="162" cy="447" r="4.5" fill="#9a8fb3" stroke="none" stroke-width="1"/>
+<circle cx="182" cy="447" r="4.5" fill="#9a8fb3" stroke="none" stroke-width="1"/>
+<rect x="385" y="95" width="50" height="10" rx="5" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<circle cx="397" cy="92" r="4.5" fill="#9a8fb3" stroke="none" stroke-width="1"/>
+<circle cx="417" cy="92" r="4.5" fill="#9a8fb3" stroke="none" stroke-width="1"/>
+<rect x="470" y="263" width="50" height="10" rx="5" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<circle cx="482" cy="260" r="4.5" fill="#9a8fb3" stroke="none" stroke-width="1"/>
+<circle cx="502" cy="260" r="4.5" fill="#9a8fb3" stroke="none" stroke-width="1"/>
+<text x="150" y="488" font-size="15" text-anchor="start" fill="#5B4D80" font-weight="700">세포질: 성숙 mRNA</text>
+<g transform="rotate(-25 112 165)">
+<ellipse cx="112" cy="165" rx="50" ry="24" fill="#fbeee0" stroke="#D9822B" stroke-width="2"/>
+<path d="M74.0 149.0 L86.7 181.0 L99.3 149.0 L112.0 181.0 L124.7 149.0 L137.3 181.0 L150.0 149.0" fill="none" stroke="#e3b27a" stroke-width="1.6"/>
+<circle cx="89.5" cy="165" r="6" fill="#fbeee0" stroke="#555" stroke-width="1.6"/>
+<rect x="119.5" y="162" width="22" height="6" rx="3" fill="#D9822B" stroke="none" stroke-width="1"/>
+</g>
+<g transform="rotate(70 490 360)">
+<ellipse cx="490" cy="360" rx="42" ry="21" fill="#fbeee0" stroke="#D9822B" stroke-width="2"/>
+<path d="M460.0 347.0 L470.0 373.0 L480.0 347.0 L490.0 373.0 L500.0 347.0 L510.0 373.0 L520.0 347.0" fill="none" stroke="#e3b27a" stroke-width="1.6"/>
+<circle cx="471.1" cy="360" r="6" fill="#fbeee0" stroke="#555" stroke-width="1.6"/>
+<rect x="496.3" y="357" width="22" height="6" rx="3" fill="#D9822B" stroke="none" stroke-width="1"/>
+</g>
+<text x="80" y="215" font-size="15" text-anchor="middle" fill="#a8601c" font-weight="700">미토콘드리아</text>
+<circle cx="205" cy="108" r="17" fill="#f4dede" stroke="#C0392B" stroke-width="1.6"/>
+<circle cx="199" cy="104" r="2.2" fill="#C0392B" stroke="none" stroke-width="1"/>
+<circle cx="210" cy="111" r="2.2" fill="#C0392B" stroke="none" stroke-width="1"/>
+<circle cx="203" cy="115" r="2.2" fill="#C0392B" stroke="none" stroke-width="1"/>
+<text x="232" y="98" font-size="15" text-anchor="start" fill="#333" font-weight="700">리소좀</text>
+<text x="452" y="196" font-size="15" text-anchor="start" fill="#333" font-weight="700">거친 ER</text>
+<text x="452" y="214" font-size="13" text-anchor="start" fill="#555">(리보솜이 붙음)</text>
+<line x1="300" y1="530" x2="300" y2="548" stroke="#888" stroke-width="1"/>
+<text x="312" y="546" font-size="15" text-anchor="start" fill="#333" font-weight="700">세포막</text>
+<rect x="610" y="22" width="312" height="300" rx="10" fill="#f7f6fa" stroke="#d9d3e6" stroke-width="1"/>
+<text x="626" y="50" font-size="16" text-anchor="start" fill="#333" font-weight="700">RNA는 어디에 있나</text>
+<line x1="626" y1="88" x2="706" y2="88" stroke="#bbb" stroke-width="3"/>
+<rect x="626" y="83" width="12" height="10" rx="3" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<rect x="652" y="83" width="12" height="10" rx="3" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<rect x="678" y="83" width="12" height="10" rx="3" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<rect x="698" y="83" width="12" height="10" rx="3" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<text x="722" y="86" font-size="15" text-anchor="start" fill="#333" font-weight="700">핵: pre-mRNA</text>
+<text x="722" y="105" font-size="13" text-anchor="start" fill="#555">막 전사됨, intron(회색) 포함</text>
+<rect x="626" y="153" width="60" height="10" rx="5" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<circle cx="640" cy="150" r="4.5" fill="#9a8fb3" stroke="none" stroke-width="1"/>
+<circle cx="664" cy="150" r="4.5" fill="#9a8fb3" stroke="none" stroke-width="1"/>
+<text x="722" y="156" font-size="15" text-anchor="start" fill="#333" font-weight="700">세포질: 성숙 mRNA</text>
+<text x="722" y="175" font-size="13" text-anchor="start" fill="#555">intron 제거, 리보솜이 번역</text>
+<ellipse cx="656" cy="228" rx="30" ry="15" fill="#fbeee0" stroke="#D9822B" stroke-width="2"/>
+<rect x="654" y="225" width="20" height="6" rx="3" fill="#D9822B" stroke="none" stroke-width="1"/>
+<circle cx="642" cy="228" r="4.5" fill="#fbeee0" stroke="#555" stroke-width="1.4"/>
+<text x="722" y="226" font-size="15" text-anchor="start" fill="#333" font-weight="700">미토콘드리아:</text>
+<text x="722" y="245" font-size="13" text-anchor="start" fill="#555">mtDNA 전사체(MT- 유전자)</text>
+<text x="722" y="262" font-size="13" text-anchor="start" fill="#555">미토콘드리아 막 안에 있음</text>
+<text x="626" y="304" font-size="13" text-anchor="start" fill="#888">회색 선과 고리 = DNA (핵 DNA, mtDNA)</text>
+<rect x="610" y="342" width="312" height="196" rx="10" fill="#f7f6fa" stroke="#d9d3e6" stroke-width="1"/>
+<text x="626" y="370" font-size="16" text-anchor="start" fill="#333" font-weight="700">세포막 확대</text>
+<circle cx="632" cy="412" r="6.5" fill="#7A6A99" stroke="none" stroke-width="1"/>
+<line x1="629.5" y1="418" x2="629.5" y2="444" stroke="#888" stroke-width="1.6"/>
+<line x1="634.5" y1="418" x2="634.5" y2="444" stroke="#888" stroke-width="1.6"/>
+<circle cx="632" cy="492" r="6.5" fill="#7A6A99" stroke="none" stroke-width="1"/>
+<line x1="629.5" y1="486" x2="629.5" y2="460" stroke="#888" stroke-width="1.6"/>
+<line x1="634.5" y1="486" x2="634.5" y2="460" stroke="#888" stroke-width="1.6"/>
+<circle cx="650" cy="412" r="6.5" fill="#7A6A99" stroke="none" stroke-width="1"/>
+<line x1="647.5" y1="418" x2="647.5" y2="444" stroke="#888" stroke-width="1.6"/>
+<line x1="652.5" y1="418" x2="652.5" y2="444" stroke="#888" stroke-width="1.6"/>
+<circle cx="650" cy="492" r="6.5" fill="#7A6A99" stroke="none" stroke-width="1"/>
+<line x1="647.5" y1="486" x2="647.5" y2="460" stroke="#888" stroke-width="1.6"/>
+<line x1="652.5" y1="486" x2="652.5" y2="460" stroke="#888" stroke-width="1.6"/>
+<circle cx="668" cy="412" r="6.5" fill="#7A6A99" stroke="none" stroke-width="1"/>
+<line x1="665.5" y1="418" x2="665.5" y2="444" stroke="#888" stroke-width="1.6"/>
+<line x1="670.5" y1="418" x2="670.5" y2="444" stroke="#888" stroke-width="1.6"/>
+<circle cx="668" cy="492" r="6.5" fill="#7A6A99" stroke="none" stroke-width="1"/>
+<line x1="665.5" y1="486" x2="665.5" y2="460" stroke="#888" stroke-width="1.6"/>
+<line x1="670.5" y1="486" x2="670.5" y2="460" stroke="#888" stroke-width="1.6"/>
+<circle cx="686" cy="412" r="6.5" fill="#7A6A99" stroke="none" stroke-width="1"/>
+<line x1="683.5" y1="418" x2="683.5" y2="444" stroke="#888" stroke-width="1.6"/>
+<line x1="688.5" y1="418" x2="688.5" y2="444" stroke="#888" stroke-width="1.6"/>
+<circle cx="686" cy="492" r="6.5" fill="#7A6A99" stroke="none" stroke-width="1"/>
+<line x1="683.5" y1="486" x2="683.5" y2="460" stroke="#888" stroke-width="1.6"/>
+<line x1="688.5" y1="486" x2="688.5" y2="460" stroke="#888" stroke-width="1.6"/>
+<circle cx="704" cy="412" r="6.5" fill="#7A6A99" stroke="none" stroke-width="1"/>
+<line x1="701.5" y1="418" x2="701.5" y2="444" stroke="#888" stroke-width="1.6"/>
+<line x1="706.5" y1="418" x2="706.5" y2="444" stroke="#888" stroke-width="1.6"/>
+<circle cx="704" cy="492" r="6.5" fill="#7A6A99" stroke="none" stroke-width="1"/>
+<line x1="701.5" y1="486" x2="701.5" y2="460" stroke="#888" stroke-width="1.6"/>
+<line x1="706.5" y1="486" x2="706.5" y2="460" stroke="#888" stroke-width="1.6"/>
+<circle cx="722" cy="412" r="6.5" fill="#7A6A99" stroke="none" stroke-width="1"/>
+<line x1="719.5" y1="418" x2="719.5" y2="444" stroke="#888" stroke-width="1.6"/>
+<line x1="724.5" y1="418" x2="724.5" y2="444" stroke="#888" stroke-width="1.6"/>
+<circle cx="722" cy="492" r="6.5" fill="#7A6A99" stroke="none" stroke-width="1"/>
+<line x1="719.5" y1="486" x2="719.5" y2="460" stroke="#888" stroke-width="1.6"/>
+<line x1="724.5" y1="486" x2="724.5" y2="460" stroke="#888" stroke-width="1.6"/>
+<circle cx="794" cy="412" r="6.5" fill="#7A6A99" stroke="none" stroke-width="1"/>
+<line x1="791.5" y1="418" x2="791.5" y2="444" stroke="#888" stroke-width="1.6"/>
+<line x1="796.5" y1="418" x2="796.5" y2="444" stroke="#888" stroke-width="1.6"/>
+<circle cx="794" cy="492" r="6.5" fill="#7A6A99" stroke="none" stroke-width="1"/>
+<line x1="791.5" y1="486" x2="791.5" y2="460" stroke="#888" stroke-width="1.6"/>
+<line x1="796.5" y1="486" x2="796.5" y2="460" stroke="#888" stroke-width="1.6"/>
+<circle cx="812" cy="412" r="6.5" fill="#7A6A99" stroke="none" stroke-width="1"/>
+<line x1="809.5" y1="418" x2="809.5" y2="444" stroke="#888" stroke-width="1.6"/>
+<line x1="814.5" y1="418" x2="814.5" y2="444" stroke="#888" stroke-width="1.6"/>
+<circle cx="812" cy="492" r="6.5" fill="#7A6A99" stroke="none" stroke-width="1"/>
+<line x1="809.5" y1="486" x2="809.5" y2="460" stroke="#888" stroke-width="1.6"/>
+<line x1="814.5" y1="486" x2="814.5" y2="460" stroke="#888" stroke-width="1.6"/>
+<circle cx="830" cy="412" r="6.5" fill="#7A6A99" stroke="none" stroke-width="1"/>
+<line x1="827.5" y1="418" x2="827.5" y2="444" stroke="#888" stroke-width="1.6"/>
+<line x1="832.5" y1="418" x2="832.5" y2="444" stroke="#888" stroke-width="1.6"/>
+<circle cx="830" cy="492" r="6.5" fill="#7A6A99" stroke="none" stroke-width="1"/>
+<line x1="827.5" y1="486" x2="827.5" y2="460" stroke="#888" stroke-width="1.6"/>
+<line x1="832.5" y1="486" x2="832.5" y2="460" stroke="#888" stroke-width="1.6"/>
+<circle cx="848" cy="412" r="6.5" fill="#7A6A99" stroke="none" stroke-width="1"/>
+<line x1="845.5" y1="418" x2="845.5" y2="444" stroke="#888" stroke-width="1.6"/>
+<line x1="850.5" y1="418" x2="850.5" y2="444" stroke="#888" stroke-width="1.6"/>
+<circle cx="848" cy="492" r="6.5" fill="#7A6A99" stroke="none" stroke-width="1"/>
+<line x1="845.5" y1="486" x2="845.5" y2="460" stroke="#888" stroke-width="1.6"/>
+<line x1="850.5" y1="486" x2="850.5" y2="460" stroke="#888" stroke-width="1.6"/>
+<circle cx="866" cy="412" r="6.5" fill="#7A6A99" stroke="none" stroke-width="1"/>
+<line x1="863.5" y1="418" x2="863.5" y2="444" stroke="#888" stroke-width="1.6"/>
+<line x1="868.5" y1="418" x2="868.5" y2="444" stroke="#888" stroke-width="1.6"/>
+<circle cx="866" cy="492" r="6.5" fill="#7A6A99" stroke="none" stroke-width="1"/>
+<line x1="863.5" y1="486" x2="863.5" y2="460" stroke="#888" stroke-width="1.6"/>
+<line x1="868.5" y1="486" x2="868.5" y2="460" stroke="#888" stroke-width="1.6"/>
+<circle cx="884" cy="412" r="6.5" fill="#7A6A99" stroke="none" stroke-width="1"/>
+<line x1="881.5" y1="418" x2="881.5" y2="444" stroke="#888" stroke-width="1.6"/>
+<line x1="886.5" y1="418" x2="886.5" y2="444" stroke="#888" stroke-width="1.6"/>
+<circle cx="884" cy="492" r="6.5" fill="#7A6A99" stroke="none" stroke-width="1"/>
+<line x1="881.5" y1="486" x2="881.5" y2="460" stroke="#888" stroke-width="1.6"/>
+<line x1="886.5" y1="486" x2="886.5" y2="460" stroke="#888" stroke-width="1.6"/>
+<circle cx="902" cy="412" r="6.5" fill="#7A6A99" stroke="none" stroke-width="1"/>
+<line x1="899.5" y1="418" x2="899.5" y2="444" stroke="#888" stroke-width="1.6"/>
+<line x1="904.5" y1="418" x2="904.5" y2="444" stroke="#888" stroke-width="1.6"/>
+<circle cx="902" cy="492" r="6.5" fill="#7A6A99" stroke="none" stroke-width="1"/>
+<line x1="899.5" y1="486" x2="899.5" y2="460" stroke="#888" stroke-width="1.6"/>
+<line x1="904.5" y1="486" x2="904.5" y2="460" stroke="#888" stroke-width="1.6"/>
+<rect x="738" y="394" width="46" height="116" rx="14" fill="#d5ecea" stroke="#1F7A7A" stroke-width="1.8"/>
+<text x="761" y="458" font-size="13" text-anchor="middle" fill="#1F7A7A" font-weight="700">막</text>
+<text x="761" y="474" font-size="13" text-anchor="middle" fill="#1F7A7A" font-weight="700">단백질</text>
+<text x="626" y="528" font-size="13" text-anchor="start" fill="#555">인지질 이중층: 머리는 물 쪽, 꼬리는 안쪽</text>
+</svg>

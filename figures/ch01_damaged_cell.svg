@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 520" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" role="img" aria-label="온전한 세포와 막이 손상된 세포에서 잡히는 mRNA 구성 비교. 손상된 세포는 세포질 mRNA가 빠져나가 전체 UMI가 줄고, 미토콘드리아 안의 전사체는 남아 MT- 비율이 올라감">
+<rect width="940" height="520" fill="#ffffff"/>
+<text x="235" y="30" font-size="17" text-anchor="middle" fill="#333" font-weight="700">온전한 세포</text>
+<text x="705" y="30" font-size="17" text-anchor="middle" fill="#333" font-weight="700">막이 손상된 세포</text>
+<ellipse cx="235" cy="190" rx="150" ry="135" fill="#fdfcfe" stroke="#7A6A99" stroke-width="2.4"/>
+<circle cx="230" cy="195" r="40" fill="#efeaf6" stroke="#5B4D80" stroke-width="1.6"/>
+<text x="230" y="200" font-size="14" text-anchor="middle" fill="#5B4D80" font-weight="700">핵</text>
+<g transform="rotate(-20 150 165)">
+<ellipse cx="150" cy="165" rx="34" ry="17" fill="#fbeee0" stroke="#D9822B" stroke-width="2"/>
+<rect x="132" y="162" width="14" height="6" rx="3" fill="#D9822B" stroke="none" stroke-width="1"/>
+<rect x="152" y="162" width="14" height="6" rx="3" fill="#D9822B" stroke="none" stroke-width="1"/>
+</g>
+<g transform="rotate(25 315 240)">
+<ellipse cx="315" cy="240" rx="34" ry="17" fill="#fbeee0" stroke="#D9822B" stroke-width="2"/>
+<rect x="297" y="237" width="14" height="6" rx="3" fill="#D9822B" stroke="none" stroke-width="1"/>
+<rect x="317" y="237" width="14" height="6" rx="3" fill="#D9822B" stroke="none" stroke-width="1"/>
+</g>
+<g transform="rotate(10 295 115)">
+<ellipse cx="295" cy="115" rx="34" ry="17" fill="#fbeee0" stroke="#D9822B" stroke-width="2"/>
+<rect x="277" y="112" width="14" height="6" rx="3" fill="#D9822B" stroke="none" stroke-width="1"/>
+<rect x="297" y="112" width="14" height="6" rx="3" fill="#D9822B" stroke="none" stroke-width="1"/>
+</g>
+<rect x="180" y="86" width="30" height="8" rx="4" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<rect x="225" y="86" width="30" height="8" rx="4" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<rect x="105" y="226" width="30" height="8" rx="4" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<rect x="330" y="166" width="30" height="8" rx="4" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<rect x="140" y="266" width="30" height="8" rx="4" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<rect x="200" y="286" width="30" height="8" rx="4" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<rect x="260" y="286" width="30" height="8" rx="4" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<rect x="190" y="131" width="30" height="8" rx="4" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<rect x="280" y="186" width="30" height="8" rx="4" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<rect x="110" y="116" width="30" height="8" rx="4" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<path d="M854.8 196.7 A150 135 0 0 1 843.2 242.4" fill="none" stroke="#7A6A99" stroke-width="2.4"/>
+<path d="M792.5 299.6 A150 135 0 0 1 745.6 319.9" fill="none" stroke="#7A6A99" stroke-width="2.4"/>
+<path d="M731.0 323.0 A150 135 0 0 1 679.0 323.0" fill="none" stroke="#7A6A99" stroke-width="2.4"/>
+<path d="M664.4 319.9 A150 135 0 0 1 617.5 299.6" fill="none" stroke="#7A6A99" stroke-width="2.4"/>
+<path d="M566.8 242.4 A150 135 0 0 1 555.2 196.7" fill="none" stroke="#7A6A99" stroke-width="2.4"/>
+<path d="M555.2 183.3 A150 135 0 0 1 566.8 137.6" fill="none" stroke="#7A6A99" stroke-width="2.4"/>
+<path d="M573.3 125.4 A150 135 0 0 1 605.7 88.8" fill="none" stroke="#7A6A99" stroke-width="2.4"/>
+<path d="M679.0 57.0 A150 135 0 0 1 731.0 57.0" fill="none" stroke="#7A6A99" stroke-width="2.4"/>
+<path d="M745.6 60.1 A150 135 0 0 1 792.5 80.4" fill="none" stroke="#7A6A99" stroke-width="2.4"/>
+<path d="M843.2 137.6 A150 135 0 0 1 854.8 183.3" fill="none" stroke="#7A6A99" stroke-width="2.4"/>
+<ellipse cx="705" cy="190" rx="150" ry="135" fill="#fdfcfe" stroke="none" stroke-width="1" opacity="0.6"/>
+<circle cx="700" cy="195" r="40" fill="#efeaf6" stroke="#5B4D80" stroke-width="1.6"/>
+<text x="700" y="200" font-size="14" text-anchor="middle" fill="#5B4D80" font-weight="700">핵</text>
+<g transform="rotate(-20 620 165)">
+<ellipse cx="620" cy="165" rx="34" ry="17" fill="#fbeee0" stroke="#D9822B" stroke-width="2"/>
+<rect x="602" y="162" width="14" height="6" rx="3" fill="#D9822B" stroke="none" stroke-width="1"/>
+<rect x="622" y="162" width="14" height="6" rx="3" fill="#D9822B" stroke="none" stroke-width="1"/>
+</g>
+<g transform="rotate(25 785 240)">
+<ellipse cx="785" cy="240" rx="34" ry="17" fill="#fbeee0" stroke="#D9822B" stroke-width="2"/>
+<rect x="767" y="237" width="14" height="6" rx="3" fill="#D9822B" stroke="none" stroke-width="1"/>
+<rect x="787" y="237" width="14" height="6" rx="3" fill="#D9822B" stroke="none" stroke-width="1"/>
+</g>
+<g transform="rotate(10 765 115)">
+<ellipse cx="765" cy="115" rx="34" ry="17" fill="#fbeee0" stroke="#D9822B" stroke-width="2"/>
+<rect x="747" y="112" width="14" height="6" rx="3" fill="#D9822B" stroke="none" stroke-width="1"/>
+<rect x="767" y="112" width="14" height="6" rx="3" fill="#D9822B" stroke="none" stroke-width="1"/>
+</g>
+<rect x="575" y="226" width="30" height="8" rx="4" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<rect x="750" y="186" width="30" height="8" rx="4" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<line x1="575" y1="120" x2="559.5" y2="109.5" stroke="#888" stroke-width="1.6"/>
+<path d="M565.4 110.4 L559.5 109.5 L562.5 114.7" fill="none" stroke="#888" stroke-width="1.6"/>
+<line x1="840" y1="128" x2="859.5" y2="121.0" stroke="#888" stroke-width="1.6"/>
+<path d="M855.3 125.3 L859.5 121.0 L853.5 120.4" fill="none" stroke="#888" stroke-width="1.6"/>
+<line x1="560" y1="270" x2="542.0" y2="282.0" stroke="#888" stroke-width="1.6"/>
+<path d="M545.0 276.8 L542.0 282.0 L547.9 281.2" fill="none" stroke="#888" stroke-width="1.6"/>
+<line x1="845" y1="282" x2="864.5" y2="293.0" stroke="#888" stroke-width="1.6"/>
+<path d="M858.5 292.6 L864.5 293.0 L861.1 288.1" fill="none" stroke="#888" stroke-width="1.6"/>
+<line x1="700" y1="322" x2="702.0" y2="335.5" stroke="#888" stroke-width="1.6"/>
+<path d="M698.6 330.5 L702.0 335.5 L703.8 329.8" fill="none" stroke="#888" stroke-width="1.6"/>
+<rect x="515" y="88" width="30" height="8" rx="4" fill="#5B4D80" stroke="none" stroke-width="1" opacity="0.55"/>
+<rect x="868" y="100" width="30" height="8" rx="4" fill="#5B4D80" stroke="none" stroke-width="1" opacity="0.55"/>
+<rect x="493" y="292" width="30" height="8" rx="4" fill="#5B4D80" stroke="none" stroke-width="1" opacity="0.55"/>
+<rect x="872" y="304" width="30" height="8" rx="4" fill="#5B4D80" stroke="none" stroke-width="1" opacity="0.55"/>
+<rect x="688" y="348" width="30" height="8" rx="4" fill="#5B4D80" stroke="none" stroke-width="1" opacity="0.55"/>
+<text x="705" y="380" font-size="16" text-anchor="middle" fill="#555">세포질 mRNA는 구멍으로 빠져나감</text>
+<text x="705" y="401" font-size="16" text-anchor="middle" fill="#a8601c">미토콘드리아 안의 전사체는 남음</text>
+<text x="235" y="380" font-size="16" text-anchor="middle" fill="#555">막이 mRNA를 가두고 있음</text>
+<line x1="20" y1="420" x2="920" y2="420" stroke="#e3e0ea" stroke-width="1"/>
+<text x="20" y="446" font-size="16" text-anchor="start" fill="#333" font-weight="700">잡힌 UMI (가상의 숫자, 막대 길이 = UMI 수)</text>
+<rect x="560" y="434" width="14" height="14" rx="0" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<text x="580" y="446" font-size="15" text-anchor="start" fill="#555">그 밖의 유전자</text>
+<rect x="700" y="434" width="14" height="14" rx="0" fill="#D9822B" stroke="none" stroke-width="1"/>
+<text x="720" y="446" font-size="15" text-anchor="start" fill="#555">MT- 유전자</text>
+<text x="128" y="478" font-size="16" text-anchor="end" fill="#333" font-weight="700">온전한 세포</text>
+<rect x="140" y="462" width="537.6" height="22" rx="0" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<rect x="677.6" y="462" width="22.400000000000002" height="22" rx="0" fill="#D9822B" stroke="none" stroke-width="1"/>
+<text x="710.0" y="478" font-size="16" text-anchor="start" fill="#333">5,000 UMI 중 MT- 200 (4%)</text>
+<text x="128" y="510" font-size="16" text-anchor="end" fill="#333" font-weight="700">손상된 세포</text>
+<rect x="140" y="494" width="67.2" height="22" rx="0" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<rect x="207.20000000000002" y="494" width="22.400000000000002" height="22" rx="0" fill="#D9822B" stroke="none" stroke-width="1"/>
+<text x="239.60000000000002" y="510" font-size="16" text-anchor="start" fill="#333">800 UMI 중 MT- 200 (25%)</text>
+</svg>
