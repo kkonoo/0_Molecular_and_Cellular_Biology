@@ -80,7 +80,7 @@ format:
 - 핵 수용체 경로는 짧음: 리간드 → 수용체(= 전사인자) → 표적 유전자. 중간의 cascade가 없음
 - 수용체 유전자의 mRNA가 있다 = 그 신호를 **받을 수 있는** 세포 후보. 지금 신호를 받고 있다는 뜻은 아님
 
-::: {.callout-warning}
+::: {.callout-warning collapse="true"}
 ## 처음엔 여기서 헷갈려요: 수용체와 신호
 | 헷갈리는 짝 | 차이 |
 |---|---|
@@ -110,7 +110,7 @@ format:
 | 반응 | ELK1·SRF | *FOS* 등 표적 유전자 발현 | expression |
 
 - MAPKKK → MAPKK → MAPK = "kinase의 kinase의 kinase" [KEGG](https://www.kegg.jp/entry/hsa04010){.src}
-- 표의 연결은 KEGG MAPK 지도의 KGML 파일에 적힌 관계와 같음 [KEGGgraph](https://github.com/Accio/KEGGgraph){.src} → 5절의 그림 아래 줄이 같은 줄기
+- 표의 연결은 KEGG MAPK 지도의 KGML 파일에 적힌 관계와 같음 [KEGGgraph](https://github.com/Accio/KEGGgraph){.src} → 장 끝 데이터 상자의 그림 아래 줄이 같은 줄기
 - KEGG MAPK 지도에는 ERK 말고도 JNK, p38, ERK5 줄기가 있음 [KEGG](https://www.kegg.jp/entry/hsa04010){.src} → "MAPK가 켜졌다"는 말은 어느 줄기인지 따져야 함
 - 이 줄기의 유전자(*KRAS*, *BRAF* 등)는 암에서 자주 돌연변이 → 수용체 신호 없이도 늘 켜진 상태가 됨 → [9장](09_cell_cycle_death_cancer.qmd)
 
@@ -152,7 +152,7 @@ format:
 | JAK–STAT | SOCS | STAT이 *SOCS* 유전자를 켜고, SOCS 단백질이 JAK을 억제 | [Biomarker Res 2013](https://doi.org/10.1186/2050-7771-1-5){.src} |
 | MAPK (ERK) | DUSP (탈인산화효소) | ERK에서 인산기를 떼어 끔 | [KEGGgraph](https://github.com/Accio/KEGGgraph){.src} |
 
-- 데이터에서: 되먹임 유전자(*SOCS3* 등)의 mRNA가 올라가 있으면 그 경로가 최근에 켜졌다는 **간접 단서**가 될 수 있음 → 표적 유전자로 경로 활성을 추정하는 방법의 아이디어 (5절)
+- 데이터에서: 되먹임 유전자(*SOCS3* 등)의 mRNA가 올라가 있으면 그 경로가 최근에 켜졌다는 **간접 단서**가 될 수 있음 → 표적 유전자로 경로 활성을 추정하는 방법의 아이디어 (장 끝 데이터 상자)
 - 되먹임 때문에 같은 경로의 유전자도 시점에 따라 오르기도 내리기도 함 → 한 시점의 결과만으로 방향을 단정하지 않기
 
 ## 3) 면역 신호의 예: JAK–STAT
@@ -164,8 +164,6 @@ format:
   3. 인산화된 STAT이 짝(이량체)을 지어 핵으로 → 전사인자로 표적 유전자를 켬
   4. 표적 중 *SOCS* → JAK 억제 (되먹임)
 - MAPK보다 단계가 짧음: 수용체 → JAK → STAT → 핵
-
-# 5. 데이터에서는 이렇게 보여요
 
 ::: {.callout-caution .data-box icon=false}
 ## 데이터에서는 이렇게 보여요: KEGG 그림의 상자 하나는 유전자 하나가 아닐 수 있다
@@ -283,7 +281,7 @@ phyper(k - 1, M, N2 - M, n, lower.tail = FALSE)
 | 경로 이름 | 질병 이름이 붙은 지도도 유전자 묶음일 뿐 | 이름보다 `geneID`의 실제 유전자를 읽기 |
 :::
 
-# 6. 정리
+# 5. 정리
 
 - 신호전달 = 신호(리간드) → 수용체 → 전달 → 반응. 반응의 끝은 대개 전사인자 → 표적 유전자 발현
 - 수용체 네 종류: GPCR(약 800개), RTK(58개), 리간드 개폐 이온 통로, 핵 수용체(48개)

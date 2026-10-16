@@ -90,7 +90,7 @@ format:
 - 길이는 짧음 — 대개 6–12 bp [DREAM5](https://dreamchallenges.org/dream-5-transcription-factor-dna-motif-recognition-challenge/){.src}
 - 정확히 한 서열이 아니라 **위치마다 허용하는 정도가 다른 선호도**
   - 어떤 위치는 거의 한 염기로 고정, 어떤 위치는 아무 염기나 괜찮음
-  - 이 선호도를 표로 적은 것 = PWM, 그림으로 그린 것 = sequence logo (5절 데이터 상자 2)
+  - 이 선호도를 표로 적은 것 = PWM, 그림으로 그린 것 = sequence logo (장 끝 데이터 상자 2)
 - 짧은 패턴이라 유전체에서 **우연히도 매우 자주** 나타남 → "서열이 맞는다"만으로는 결합을 설명하지 못함
 
 # 3. enhancer와 세포 종류
@@ -112,9 +112,9 @@ format:
   - 두 세포 모두 PU.1(유전자 *SPI1*)을 가짐
   - 그런데 PU.1이 붙는 자리는 세포마다 다름 — 각 세포의 계통 TF(대식세포용, B 세포용)와 **함께** 붙는 곳에서 enhancer가 열림 [Heinz 2010](https://pmc.ncbi.nlm.nih.gov/articles/PMC2898526){.src}
 - 그래서 같은 유전체에서 세포 종류마다 다른 enhancer 지도가 생김 → 세포 정체성 ([10장](10_cell_identity.qmd))
-- 데이터에서: 세포 종류별로 열린 구간(ATAC peak)이 다르고, 그 구간에 많은 모티프로 "이 세포를 움직이는 TF"를 추정함 (5절)
+- 데이터에서: 세포 종류별로 열린 구간(ATAC peak)이 다르고, 그 구간에 많은 모티프로 "이 세포를 움직이는 TF"를 추정함 (장 끝 데이터 상자)
 
-::: {.callout-tip}
+::: {.callout-tip collapse="true"}
 ## 비유: 같은 악보, 다른 연주
 - 유전체 = 모든 단원이 같은 총보를 가짐
 - TF 조합 = 지휘자가 고른 "이번에 연주할 파트"
@@ -132,7 +132,7 @@ format:
 - TF와 Pol II가 DNA에 붙으려면 그 자리가 **드러나 있어야** 함
 - 열린 염색질 (open chromatin, accessible chromatin): 뉴클레오솜이 비켜서 DNA가 드러난 짧은 구간
   - 활성 promoter, 일하는 enhancer가 대표적
-- 열린 구간을 재는 방법이 ATAC-seq → 5절 데이터 상자 1
+- 열린 구간을 재는 방법이 ATAC-seq → 장 끝 데이터 상자 1
 
 ## 2) DNA 메틸화
 
@@ -160,9 +160,9 @@ format:
 | H3K9me3 | 이질염색질, 반복 서열 | 오래 닫혀 있는 구간 |
 
 - 사람 참조 후성유전체 프로젝트 (Roadmap Epigenomics)는 H3K4me3, H3K4me1, H3K36me3, H3K27me3, H3K9me3 다섯 표지를 핵심으로 재고, H3K27ac는 일부 시료에서 더 잼. 표지의 조합으로 염색질 상태 (chromatin state)를 나눔 [Roadmap 2015](https://pubmed.ncbi.nlm.nih.gov/25693563/){.src}
-- 히스톤 표지는 항체로 잡아 ChIP-seq으로 잼 → 5절 데이터 상자 1
+- 히스톤 표지는 항체로 잡아 ChIP-seq으로 잼 → 장 끝 데이터 상자 1
 
-::: {.callout-warning}
+::: {.callout-warning collapse="true"}
 ## 처음엔 여기서 헷갈려요: 전사 조절
 | 헷갈리는 짝 | 차이 |
 |---|---|
@@ -173,8 +173,6 @@ format:
 | DNA 메틸화 vs 히스톤 메틸화 | 이름은 비슷하지만 대상이 다름. DNA 메틸화는 C에, H3K4me3 등은 히스톤 단백질에 |
 | 가장 가까운 유전자 vs 표적 유전자 | enhancer는 고리로 멀리 있는 유전자를 조절할 수 있음 |
 :::
-
-# 5. 데이터에서는 이렇게 보여요
 
 ::: {.callout-caution .data-box icon=false}
 ## 데이터에서는 이렇게 보여요: peak = read가 쌓인 구간, narrowPeak 한 줄 = peak 하나
@@ -291,7 +289,7 @@ genome * 2 / 4^k     # 두 가닥, 네 염기가 같은 비율이라고 가정
 - 배경(background) peak 선택이 결과를 바꿈 → GC 비율이 비슷한 배경을 쓰는 이유
 :::
 
-# 6. 정리
+# 5. 정리
 
 - 전사 = DNA를 주형으로 RNA를 만드는 일. mRNA는 Pol II가, rRNA와 tRNA는 Pol I·III가 만듦
 - 일반 전사인자는 모든 promoter의 공통 장치, 특이 전사인자(TF)는 짧은 모티프를 읽어 어느 유전자를 켤지 고름

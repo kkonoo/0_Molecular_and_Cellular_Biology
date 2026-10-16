@@ -61,7 +61,7 @@ format:
 | 이름 (name) | tumor protein p53 | 풀어 쓴 이름 |
 | ID (identifier) | HGNC:11998, 7157, ENSG00000141510 | 데이터베이스가 붙인 번호. 기호가 바뀌어도 같은 유전자를 가리키게 만든 것 |
 
-- 행렬의 행을 **합치고 비교할 때는 ID**, 그림·표에 **보여 줄 때는 기호** (4절)
+- 행렬의 행을 **합치고 비교할 때는 ID**, 그림·표에 **보여 줄 때는 기호** (아래 데이터 상자)
 :::
 
 # 2. 유전자 ID
@@ -91,7 +91,7 @@ format:
 - 같은 유전자가 파일마다 버전이 붙기도, 안 붙기도 함
   - GENCODE GTF: `ENSG00000223972.5`처럼 버전이 붙음
   - 10x Cell Ranger 참조: 예전 참조 패키지와 맞추려고 버전을 떼어 냄 [10x 참조 제작](https://www.10xgenomics.com/support/software/cell-ranger/downloads/cr-ref-build-steps){.src}
-  - → 두 파일을 합치기 전에 **버전 접미사를 맞춤** (4절 코드)
+  - → 두 파일을 합치기 전에 **버전 접미사를 맞춤** (아래 데이터 상자의 코드)
 
 ## 3) 전사체·단백질 ID
 
@@ -167,7 +167,7 @@ format:
   - 사람 유전자 1,469개는 마우스 ortholog가 **둘 이상**
 - 해결: ortholog 표로 매핑하고, 1:1이 아닌 유전자를 어떻게 처리했는지(버림, 합침) 기록
 
-::: {.callout-warning}
+::: {.callout-warning collapse="true"}
 ## 처음엔 여기서 헷갈려요
 | 헷갈리는 짝 | 차이 |
 |---|---|
@@ -194,8 +194,6 @@ format:
 - 접두와 c. 번호 매기기: [GeneReviews](https://ncbi.nlm.nih.gov/books/NBK1528){.src}
 - `A66G`처럼 쓰면 단백질 변화인지 염기 변화인지 모호 → `p.Ala66Gly`처럼 접두를 붙임 [GeneReviews](https://ncbi.nlm.nih.gov/books/NBK1528){.src}
 - VCF 파일은 HGVS가 아니라 **염색체 좌표 + 참조/대체 염기**로 적음 → [4장](04_replication_mutation_inheritance.qmd)
-
-# 4. 데이터에서는 이렇게 보여요
 
 ::: {.callout-caution .data-box icon=false}
 ## 데이터에서는 이렇게 보여요: 행 이름은 symbol, 열쇠는 Ensembl ID

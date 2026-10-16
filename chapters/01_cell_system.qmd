@@ -55,9 +55,9 @@ format:
 
 - 구획 (compartment) = 막으로 둘러싸인 공간
 - 구획마다 다른 분자, 다른 화학 환경을 유지함 (예: 리소좀 안은 산성)
-- 막은 큰 분자를 가둠 → 막이 **온전한지**, 어느 구획을 **골라 잡았는지**가 시퀀싱 결과를 바꿈 (5절)
+- 막은 큰 분자를 가둠 → 막이 **온전한지**, 어느 구획을 **골라 잡았는지**가 시퀀싱 결과를 바꿈 (장 끝 데이터 상자)
 
-::: {.callout-tip}
+::: {.callout-tip collapse="true"}
 ## 비유: 세포 = 공장
 - 핵 = 설계도 보관실. 원본(DNA)은 밖으로 나가지 않고 **복사본(mRNA)만** 나감
 - 리보솜 = 조립 라인, ER과 골지체 = 포장·배송 부서
@@ -72,7 +72,7 @@ format:
 | 소기관 | 하는 일 | 데이터와의 연결 |
 |---|---|---|
 | 핵 (nucleus) | 유전체 DNA 보관, 전사, RNA 가공 | snRNA-seq, ATAC-seq → [3장](03_genome_chromatin.qmd), [5장](05_transcription.qmd) |
-| 미토콘드리아 (mitochondrion) | ATP(세포의 에너지 화폐) 생산, 자체 DNA | `MT-` 유전자, QC 지표 → 5절 |
+| 미토콘드리아 (mitochondrion) | ATP(세포의 에너지 화폐) 생산, 자체 DNA | `MT-` 유전자, QC 지표 → 장 끝 데이터 상자 |
 | 리보솜 (ribosome) | mRNA를 읽어 단백질 합성. 막이 없는 분자 기계 | [7장](07_translation_protein.qmd) |
 | 소포체 (endoplasmic reticulum, ER) | 거친 ER: 막·분비 단백질 합성 / 매끈한 ER: 지질 합성 | 표면 단백질, 분비 단백질 → [7장](07_translation_protein.qmd) |
 | 골지체 (Golgi apparatus) | 단백질에 당사슬 등을 붙이고 목적지별로 분류 | [7장](07_translation_protein.qmd) |
@@ -120,7 +120,7 @@ format:
 - 리소좀: 안이 산성이고 분해 효소가 있음 → 낡은 소기관, 세포가 삼킨 것을 분해
 - 세포골격: 액틴 섬유, 미세소관, 중간섬유의 세 가지 섬유. 세포 모양, 이동, 염색체 분리 ([9장](09_cell_cycle_death_cancer.qmd))
 
-::: {.callout-warning}
+::: {.callout-warning collapse="true"}
 ## 처음엔 여기서 헷갈려요
 | 헷갈리는 짝 | 차이 |
 |---|---|
@@ -158,7 +158,7 @@ format:
 ## 막이 온전하다 = 분자가 갇혀 있다
 - 온전한 세포막은 mRNA 같은 큰 분자를 세포 안에 가둠
 - 막에 구멍이 나면 세포질의 mRNA가 빠져나감
-- 미토콘드리아 안의 RNA는 미토콘드리아 막에 한 번 더 싸여 있음 → 5절 데이터 상자의 원리
+- 미토콘드리아 안의 RNA는 미토콘드리아 막에 한 번 더 싸여 있음 → 장 끝 데이터 상자의 원리
 :::
 
 # 4. 구획과 RNA의 위치
@@ -183,9 +183,7 @@ format:
 | snRNA-seq (single-nucleus) | 핵만 → pre-mRNA 비중이 큼 | exon + **intron** |
 
 - read를 레퍼런스에 정렬하면 exon에 떨어졌는지 intron에 떨어졌는지 알 수 있음 ([3장](03_genome_chromatin.qmd))
-- 같은 조직이라도 무엇을 잡았는지에 따라 count matrix의 성격이 달라짐 → 5절 데이터 상자 2
-
-# 5. 데이터에서는 이렇게 보여요
+- 같은 조직이라도 무엇을 잡았는지에 따라 count matrix의 성격이 달라짐 → 장 끝 데이터 상자 2
 
 ::: {.callout-caution .data-box icon=false}
 ## 데이터에서는 이렇게 보여요: mitochondrial read 비율은 막이 온전했는지 보는 간접 지표
@@ -270,7 +268,7 @@ rbind(total, mt, pct_mt = mt / total * 100)
 - snRNA-seq 데이터와 scRNA-seq 데이터를 합칠 때: 세포 종류 비율과 intron 비중 차이를 기술적 차이로 먼저 의심
 :::
 
-# 6. 정리
+# 5. 정리
 
 - 진핵세포는 막으로 나뉜 구획의 시스템: 핵(전사), 세포질(번역), 미토콘드리아(에너지, 자체 DNA)
 - 사람 mtDNA는 16,569 bp에 유전자 37개(단백질 13개) — `MT-` 유전자는 이 37개 중 일부일 뿐, 미토콘드리아 단백질 전체가 아님

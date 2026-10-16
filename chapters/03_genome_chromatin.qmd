@@ -51,7 +51,7 @@ format:
 | 유전자 | 전체 약 7.9만 개, 그중 단백질 암호화 약 2만 개 ([0장](00_why_biology.qmd)) | 37개 |
 | 파일 속 이름 | `chr1`–`chr22`, `chrX`, `chrY` (UCSC·GENCODE) 또는 `1`–`22`, `X`, `Y` (Ensembl) | `chrM` 또는 `MT` |
 
-- 같은 염색체를 파일마다 다르게 부르는 이유 → 5절 데이터 상자
+- 같은 염색체를 파일마다 다르게 부르는 이유 → 장 끝 데이터 상자
 
 ## 2) 단백질 정보는 1.5%뿐
 
@@ -108,7 +108,7 @@ format:
   - ATAC peak나 GWAS 변이를 "가장 가까운 유전자"에 붙이는 것은 편하지만 틀릴 수 있음 ([4장](04_replication_mutation_inheritance.qmd), [5장](05_transcription.qmd))
   - 멀리 떨어진 enhancer와 promoter가 만나려면 DNA가 3차원으로 접혀야 함 → 3절
 
-::: {.callout-warning}
+::: {.callout-warning collapse="true"}
 ## 처음엔 여기서 헷갈려요: 유전자 부품
 | 헷갈리는 짝 | 차이 |
 |---|---|
@@ -160,7 +160,7 @@ format:
   - ATAC-seq은 이런 구간을 잘라 읽어 peak로 보여 줌 ([5장](05_transcription.qmd))
 - 우리 몸의 세포는 거의 같은 유전체를 갖지만 **어디가 열려 있는지**는 세포 종류마다 다름 → 세포 정체성 ([10장](10_cell_identity.qmd))
 
-::: {.callout-tip}
+::: {.callout-tip collapse="true"}
 ## 비유: 같은 백과사전, 다른 펼친 페이지
 - 유전체 = 모든 세포가 똑같이 가진 백과사전 한 질
 - 닫힌 염색질 = 끈으로 묶어 꽂아 둔 권, 열린 염색질 = 책상 위에 펼쳐 둔 페이지
@@ -178,12 +178,10 @@ format:
 | 파일 | 담은 것 | 좌표 | 자세히 |
 |---|---|---|---|
 | FASTA | 염기 서열 | 서열 순서 그대로 | [12장](12_data_generation.qmd) |
-| GTF / GFF3 | 유전자 구조 | 1-based | 5절 |
-| BED | 구간 목록 (peak 등) | 0-based | 5절, [5장](05_transcription.qmd) |
+| GTF / GFF3 | 유전자 구조 | 1-based | 장 끝 데이터 상자 |
+| BED | 구간 목록 (peak 등) | 0-based | 장 끝 데이터 상자, [5장](05_transcription.qmd) |
 | SAM / BAM | read 정렬 결과 | SAM은 1-based (BAM 내부는 0-based) | [12장](12_data_generation.qmd) |
 | VCF | 변이 | 1-based | [4장](04_replication_mutation_inheritance.qmd) |
-
-# 5. 데이터에서는 이렇게 보여요
 
 ::: {.callout-caution .data-box icon=false}
 ## 데이터에서는 이렇게 보여요: GTF 한 줄 = 유전체 위 구간 하나 + 그 구간의 이름표
@@ -362,7 +360,7 @@ attr9[c("gene_id", "gene_name", "exon_number")]
   - UCSC 문서는 SNP 좌표 변환에는 liftOver를 권하지 않음 → 가능하면 원자료를 새 레퍼런스로 다시 처리
 :::
 
-::: {.callout-warning}
+::: {.callout-warning collapse="true"}
 ## 처음엔 여기서 헷갈려요: 좌표와 버전
 | 헷갈리는 짝 | 차이 |
 |---|---|
@@ -373,7 +371,7 @@ attr9[c("gene_id", "gene_name", "exon_number")]
 | `chr1` vs `1` | 이름 규칙의 차이일 뿐. assembly가 같을 때만 바꿔 써도 됨 |
 :::
 
-# 6. 정리
+# 5. 정리
 
 - 사람 핵 유전체 = 상염색체 22쌍 + 성염색체 1쌍, 한 벌 약 31억 bp. 단백질 정보는 약 1.5%뿐
 - 유전자 = promoter·TSS부터 exon/intron, UTR, CDS, polyA 신호까지. enhancer는 멀리 있을 수 있음

@@ -25,7 +25,7 @@ format:
 
 ::: {.callout-note collapse="true"}
 ## 참고 자료
-- 면역세포의 자세한 내용: HaLab Wiki — [Immunology](https://halab-wiki.knu.ac.kr/disease/immunology/index.html) (3절 목록)
+- 면역세포의 자세한 내용: HaLab Wiki — [Immunology](https://halab-wiki.knu.ac.kr/disease/immunology/index.html) (2절 목록)
 - 계통도는 고전 모델(HSC → CMP·CLP)을 단순화한 것. 본문의 사실은 옆의 배지가 출처
 - 계통도는 직접 그린 모식도(mermaid)
 :::
@@ -78,7 +78,7 @@ flowchart LR
 - 계통(어디서 왔나)과 역할(선천·적응)은 다른 축: NK·ILC는 림프계인데 선천면역 [Vivier 2018](https://doi.org/10.1016/j.cell.2018.07.017){.src}
 - 전체 지도를 계통 ↔ 역할로 바꿔 칠해 보는 그림: HaLab Wiki [면역계는 전체적으로 어떻게 짜여 있나?](https://halab-wiki.knu.ac.kr/disease/immunology/01-basics/overview.html)
 
-::: {.callout-warning}
+::: {.callout-warning collapse="true"}
 ## 처음엔 여기서 헷갈려요
 | 헷갈리는 짝 | 차이 |
 |---|---|
@@ -88,8 +88,6 @@ flowchart LR
 | plasma vs plasma cell | 혈장(혈액의 액체) vs 형질세포(항체를 내는 B세포 계열). 이름만 비슷 |
 | CD 번호 vs 유전자 기호 | CD20 = *MS4A1*, CD16 = *FCGR3A*·*FCGR3B* → [부록 B](A2_nomenclature.qmd) |
 :::
-
-# 2. 데이터에서는 이렇게 보여요
 
 ::: {.callout-caution .data-box icon=false}
 ## 데이터에서는 이렇게 보여요: PBMC 클러스터에 이름 붙이기
@@ -132,7 +130,7 @@ flowchart LR
 - 클러스터 하나 = cell type 하나인가, 종류(type)와 상태(state)는 어떻게 다른가 → [10장](10_cell_identity.qmd)
 :::
 
-# 3. 더 읽을 곳
+# 2. 더 읽을 곳
 
 ## 1) HaLab Wiki — 면역학
 

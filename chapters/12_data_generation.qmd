@@ -88,7 +88,7 @@ format:
 - 해결: 증폭 **전에** 분자마다 붙인 UMI로 같은 분자의 read를 하나로 셈 → [0장](00_why_biology.qmd)
 - UMI가 없는 bulk RNA-seq: 같은 위치에 정렬된 read를 중복으로 볼 수도 있지만, 많이 발현된 유전자는 서로 다른 분자가 우연히 같은 위치에서 나올 수 있어 판단이 어려움
 
-::: {.callout-warning}
+::: {.callout-warning collapse="true"}
 ## 처음엔 여기서 헷갈려요
 | 헷갈리는 짝 | 차이 |
 |---|---|
@@ -188,7 +188,7 @@ format:
 - guide가 안내한 자리에서 그 유전자의 전사를 낮추거나 (CRISPRi), 높임 (CRISPRa) → [5장](05_transcription.qmd)
 - DNA 서열은 그대로 → 효과가 **mRNA 양**으로 나타남
 
-::: {.callout-tip}
+::: {.callout-tip collapse="true"}
 ## 비유: 문서 편집
 - knockout = 문장 중간에 글자 하나를 넣거나 빼서 뒤 문장을 전부 읽을 수 없게 만듦 (원본 파일이 바뀜)
 - CRISPRi = 그 문단을 덜 인쇄하게 프린터 설정을 바꿈 (원본은 그대로)
@@ -213,8 +213,6 @@ format:
 - 시료 준비도 흔적을 남김
   - 실험 전 살아 있는 세포의 비율을 확인 → 죽어 가는 세포는 품질 지표가 나쁨 ([1장](01_cell_system.qmd))
   - 조직 해리·처리 과정 자체가 세포에 스트레스를 줄 수 있음 → 스트레스 반응 유전자의 높은 발현이 실험 흔적일 수 있음 ([7장](07_translation_protein.qmd), [11장](11_tissue_interaction.qmd))
-
-# 7. 데이터에서는 이렇게 보여요
 
 ::: {.callout-caution .data-box icon=false}
 ## 데이터에서는 이렇게 보여요: FASTQ 한 레코드 = 4줄, 품질 문자 하나 = 숫자 하나
@@ -333,7 +331,7 @@ round(tab, 3)
 - 교란 수 × 유전자 수만큼 검정이 생김 → 다중검정 ([1. Basic Statistics 10장](https://kkonoo.github.io/1_Basic_Statistics/chapters/10_multiple_testing.html))
 :::
 
-# 8. 정리
+# 7. 정리
 
 - RNA는 역전사로 cDNA가 된 뒤에야 시퀀싱됨. oligo(dT)로 poly(A)를 잡으면 mRNA의 3' 쪽이 읽힘
 - PCR은 사이클마다 이상적으로 2배 → 작은 효율 차이가 큰 read 수 차이로 → UMI로 바로잡음

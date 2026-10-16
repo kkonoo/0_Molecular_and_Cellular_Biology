@@ -70,7 +70,7 @@ format:
 - 전사체로 나눈 집단이 곧 기능적으로 독립된 cell type이라고 바로 동일시하지 않기 [Papalexi & Satija 2018](https://doi.org/10.1038/nri.2017.76){.src}
 - 경계가 흐린 경우도 많음: naive T와 memory T를 type으로 볼지 state로 볼지는 연구 질문에 따라 다르게 다룸 → 자세히 [HaLab Wiki: 면역세포의 종류와 상태](https://halab-wiki.knu.ac.kr/disease/immunology/01-basics/cells.html)
 
-::: {.callout-tip}
+::: {.callout-tip collapse="true"}
 ## 비유: 같은 악보집, 다른 악기와 다른 연주
 - 유전체 = 모든 연주자가 똑같이 받은 두꺼운 악보집
 - type = 맡은 악기 (바이올린 연주자가 내일 첼로를 잡지 않음)
@@ -99,11 +99,11 @@ format:
 - 분화가 진행될수록 선택지가 줄어들고, 보통 한 방향으로만 감
 - 다능성·단능성 세포는 주로 다 자란 몸의 조직 안에서 그 조직을 유지
 
-::: {.callout-tip}
+::: {.callout-tip collapse="true"}
 ## 비유: 언덕을 굴러 내려가는 공 (Waddington 지형)
 - 꼭대기의 공(만능 세포)은 어느 골짜기로든 갈 수 있음
 - 굴러 내려가며 갈림길마다 한쪽을 고르면, 골짜기 바닥(분화된 세포)에서는 다른 골짜기로 넘어가기 어려움
-- 5절의 궤적(trajectory) 분석은 이 내리막길을 데이터에서 다시 그려 보려는 시도
+- 장 끝 데이터 상자의 궤적(trajectory) 분석은 이 내리막길을 데이터에서 다시 그려 보려는 시도
 :::
 
 # 3. 줄기세포
@@ -148,8 +148,6 @@ format:
 - **PBMC** (말초혈액 단핵세포)는 밀도구배로 모은 단핵세포 = 림프구 + 단핵구 + 수지상세포 → 과립구와 적혈구는 대부분 빠짐 ([HaLab Wiki: 면역세포의 종류와 상태](https://halab-wiki.knu.ac.kr/disease/immunology/01-basics/cells.html))
   - PBMC scRNA-seq에 호중구가 거의 없는 이유 = 생물학이 아니라 **시료 준비** 단계
 - 면역세포 아형·상태·혈액 속 비율·발생 시기는 위키 세 페이지와 [부록 D](A4_immune_cells.qmd)에서
-
-# 5. 데이터에서는 이렇게 보여요
 
 ::: {.callout-caution .data-box icon=false}
 ## 데이터에서는 이렇게 보여요: 클러스터는 계산 결과, cell type은 해석
@@ -273,7 +271,7 @@ c(pct.1 = pct.1, pct.2 = pct.2,
 - 궤적은 **추론**: 실제로 그 세포가 그 세포에서 나왔는지는 계통추적(lineage tracing) 실험으로 따로 확인해야 함 ([HaLab Wiki: 면역계의 발생](https://halab-wiki.knu.ac.kr/disease/immunology/01-basics/ontogeny.html))
 :::
 
-# 6. 정리
+# 5. 정리
 
 - 세포는 거의 같은 유전체를 갖고 **발현 프로그램**이 다름. type은 안정적 정체성, state는 맥락에 따라 바뀌는 프로그램
 - 수정란 → 포배 → 세 배엽 → 조직. 분화 능력은 전능성 → 만능성 → 다능성 → 단능성으로 좁아지고, iPSC는 전사인자 4개로 이를 거꾸로 돌림

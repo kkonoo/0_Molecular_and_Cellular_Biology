@@ -54,8 +54,8 @@ format:
 |---|---|---|
 | Gene | 유전자 기록 | 7157 (*TP53*) |
 | RefSeq | 참조 서열: `NM_` mRNA, `NR_` 비암호화 RNA, `NP_` 단백질, `NC_` 염색체 | `NM_004006.2` |
-| GEO | 기능 유전체 실험의 시료 정보와 처리된 데이터 | `GSE…` (4절) |
-| SRA | 시퀀서가 낸 raw read | `SRR…` (4절) |
+| GEO | 기능 유전체 실험의 시료 정보와 처리된 데이터 | `GSE…` (아래 데이터 상자) |
+| SRA | 시퀀서가 낸 raw read | `SRR…` (아래 데이터 상자) |
 | ClinVar | 변이와 건강의 관계 | 2절 |
 
 - RefSeq 접두와 예: [GeneReviews](https://ncbi.nlm.nih.gov/books/NBK1528){.src}
@@ -109,7 +109,7 @@ format:
 
 - 증거 코드: [GO 증거 코드](https://geneontology.org/docs/guide-go-evidence-codes/){.src}
 
-::: {.callout-warning}
+::: {.callout-warning collapse="true"}
 ## 처음엔 여기서 헷갈려요
 | 헷갈리는 짝 | 차이 |
 |---|---|
@@ -149,7 +149,7 @@ format:
 |---|---|---|
 | 이 유전자는 무슨 일을 하나? | NCBI Gene 요약 | UniProt 기능, GO 주석 |
 | 이 유전자의 공식 기호는? 옛 이름은? | HGNC(사람) / MGI(마우스) | [부록 B](A2_nomenclature.qmd) |
-| 이 Ensembl ID는 어느 유전자인가? ID를 바꾸려면? | Ensembl / BioMart | biomaRt, org.Hs.eg.db (4절) |
+| 이 Ensembl ID는 어느 유전자인가? ID를 바꾸려면? | Ensembl / BioMart | biomaRt, org.Hs.eg.db (아래 데이터 상자) |
 | 이 유전자의 전사체는 몇 개, 구조는? | Ensembl | UCSC Genome Browser |
 | 이 단백질의 서열·도메인·변형은? | UniProt (reviewed entry) | 단백질 family·signature 모음 InterPro |
 | 이 변이는 얼마나 흔한가? | gnomAD | |
@@ -159,11 +159,9 @@ format:
 | 이 유전자는 어느 세포 종류에서 발현되나? | CELLxGENE Discover | Human Cell Atlas, [부록 D](A4_immune_cells.qmd) |
 | 내 유전자 목록은 어떤 기능·pathway에 몰리나? | GO | KEGG, Reactome, MSigDB → [8장](08_cell_signaling.qmd) |
 | 이 마우스 유전자의 사람 ortholog는? | MGI ortholog 표 | [부록 B](A2_nomenclature.qmd) |
-| 이 논문의 원자료는? | 논문의 Data availability → GEO | SRA (4절) |
+| 이 논문의 원자료는? | 논문의 Data availability → GEO | SRA (아래 데이터 상자) |
 
 - InterPro: 서로 닮은 단백질 무리의 서열 특징(signature)에 GO 용어를 연결해 자동 주석의 바탕이 됨 [GO 증거 코드](https://geneontology.org/docs/guide-go-evidence-codes/){.src}
-
-# 4. 데이터에서는 이렇게 보여요
 
 ::: {.callout-caution .data-box icon=false}
 ## 데이터에서는 이렇게 보여요: 논문의 원자료는 GSE에서 SRR까지 따라간다

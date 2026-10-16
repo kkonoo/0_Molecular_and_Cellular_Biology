@@ -22,7 +22,8 @@ HaLab에 들어온 CS·통계 전공 대학원생을 위한 분자세포생물�
 - 그림은 직접 만든 SVG(인라인 SVG, mermaid)나 OpenStax Biology 2e(CC BY 4.0) 그림을 출처와 함께 씁니다.
 - 외부 교재 링크는 4장의 [Human Genetics](https://chaek.org/books/human-genetics) 하나만 둡니다. 면역세포는 [HaLab Wiki](https://halab-wiki.knu.ac.kr/disease/immunology/index.html)로 연결합니다.
 - 숫자와 명칭은 확인한 출처를 `[출처](url){.src}` 배지로 붙입니다.
-- 장마다 "데이터에서는 이렇게 보여요" 상자(`::: {.callout-caution .data-box icon=false}`)를 하나 이상 둡니다.
+- 장마다 "데이터에서는 이렇게 보여요" 상자(`::: {.callout-caution .data-box icon=false}`)를 장 끝(정리 앞)에 하나 이상 둡니다. 따로 절 제목을 달지 않습니다.
+- important와 데이터 상자는 펼쳐 두고, warning·tip·note는 `collapse="true"`로 접어 둡니다.
 - 코드는 데이터 상자에서 꼭 필요할 때만 짧게, base R로 씁니다. 그림에 상호작용이 필요하면 그 장에만 작은 JS를 넣습니다.
 - 각 장 YAML의 `ai-context`에 그 장의 핵심 내용을 적습니다.
 

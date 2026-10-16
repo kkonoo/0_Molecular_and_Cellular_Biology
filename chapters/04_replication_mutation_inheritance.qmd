@@ -135,7 +135,7 @@ format:
 ## genotype은 숫자 0, 1, 2로 바뀐다
 - 분석에서는 genotype을 **ALT allele의 개수**로 셈: `0/0` → 0, `0/1` → 1, `1/1` → 2
 - GWAS는 대개 이 0/1/2를 설명변수로 형질을 회귀함 → allele 하나당 효과 = BETA ([1. Basic Statistics 9장](https://kkonoo.github.io/1_Basic_Statistics/chapters/09_correlation_regression.html))
-- 같은 숫자라도 기준 allele을 바꾸면 0과 2가 뒤바뀜 → 5절 GWAS 상자
+- 같은 숫자라도 기준 allele을 바꾸면 0과 2가 뒤바뀜 → 장 끝 GWAS 데이터 상자
 :::
 
 ## 2) 유전 양식
@@ -149,7 +149,7 @@ format:
 | X연관 열성 | 남성은 X가 하나라 allele 하나로 발현 → 남성 환자가 훨씬 많음 | 혈우병 A (*F8*) [GeneReviews](https://pubmed.ncbi.nlm.nih.gov/20301578/){.src} |
 
 - 멘델 양식을 따르는 것은 유전자 하나가 크게 좌우하는 형질
-- 키, 2형 당뇨 같은 흔한 형질은 효과가 작은 많은 변이 + 환경이 함께 작용 (복합 형질, complex trait) → GWAS가 찾는 대상 (5절)
+- 키, 2형 당뇨 같은 흔한 형질은 효과가 작은 많은 변이 + 환경이 함께 작용 (복합 형질, complex trait) → GWAS가 찾는 대상 (장 끝 데이터 상자)
 
 # 4. 연관과 연관불평형
 
@@ -157,7 +157,7 @@ format:
 
 - 정자·난자를 만들 때 (감수분열, meiosis) 부모 쪽 짝 염색체 두 개가 조각을 맞바꿈 = 재조합 (recombination)
 - 가까운 두 자리 사이에서는 재조합이 잘 일어나지 않음 → 두 자리의 allele이 함께 전달됨 = 연관 (linkage)
-- haplotype: 염색체 하나 위에 함께 놓인 allele들의 조합 → VCF의 `|`(phased)가 이 정보 (5절)
+- haplotype: 염색체 하나 위에 함께 놓인 allele들의 조합 → VCF의 `|`(phased)가 이 정보 (장 끝 데이터 상자)
 
 ## 2) 연관불평형 (LD)
 
@@ -172,14 +172,12 @@ format:
   - 가장 작은 P를 가진 변이(lead SNP)가 원인이라는 보장은 없음 → 후보를 좁히는 작업 = fine-mapping
   - 여러 집단의 데이터를 함께 보면 묶인 변이가 줄어 후보를 좁히기 쉬움
 
-::: {.callout-tip}
+::: {.callout-tip collapse="true"}
 ## 비유: 늘 같이 다니는 친구 무리
 - 가까운 변이들 = 늘 함께 다니는 친구 무리
 - GWAS = 사건 현장 근처 CCTV에 찍힌 사람 목록. 무리 전체가 찍힘
 - 가장 선명하게 찍힌 한 명(lead SNP)이 범인이라고 단정할 수 없음 → 다른 증거(기능 실험, 다른 집단)가 필요
 :::
-
-# 5. 데이터에서는 이렇게 보여요
 
 ::: {.callout-caution .data-box icon=false}
 ## 데이터에서는 이렇게 보여요: VCF 한 줄 = 변이 하나, 샘플 칸 = 그 사람의 genotype
@@ -308,7 +306,7 @@ exp(0.18)       # BETA(로그 오즈) 0.18 → OR
 - 탑에 가장 가까운 유전자 이름을 붙여 부르는 경우가 많지만, 조절 대상 유전자는 멀리 있을 수 있음 ([3장](03_genome_chromatin.qmd)의 enhancer)
 :::
 
-::: {.callout-warning}
+::: {.callout-warning collapse="true"}
 ## 처음엔 여기서 헷갈려요: GWAS 결과 합치기
 | 헷갈리는 짝 | 차이 |
 |---|---|
@@ -320,7 +318,7 @@ exp(0.18)       # BETA(로그 오즈) 0.18 → OR
 | VCF의 POS vs 결과표의 위치 | 둘 다 assembly에 따라 다름. 합치기 전에 assembly부터 확인 ([3장](03_genome_chromatin.qmd)) |
 :::
 
-# 6. 정리
+# 5. 정리
 
 - DNA 복제는 반보존적. 염기 선택·교정·불일치 수선을 거쳐 오류는 염기쌍당 10⁻⁹–10⁻¹¹ (대장균)
 - 변이는 크기로 SNV, indel(50 bp 미만), SV(50 bp 이상)로 나누고, CNV는 복사 수가 바뀌는 SV
