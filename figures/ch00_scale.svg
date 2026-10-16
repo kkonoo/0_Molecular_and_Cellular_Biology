@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" role="img" aria-label="1 nm부터 100 µm까지 로그 눈금 위에 놓은 DNA, 단백질, 리보솜, 미토콘드리아, 핵, 림프구, Visium spot의 크기">
+<rect width="900" height="320" fill="#ffffff"/>
+<line x1="50" y1="160" x2="850.0" y2="160" stroke="#444" stroke-width="1.5"/>
+<line x1="70" y1="154" x2="70" y2="166" stroke="#444" stroke-width="1.5"/>
+<text x="70" y="184" font-size="15" text-anchor="middle" fill="#555">1 nm</text>
+<line x1="115.8" y1="157" x2="115.8" y2="163" stroke="#999" stroke-width="1"/>
+<line x1="142.5" y1="157" x2="142.5" y2="163" stroke="#999" stroke-width="1"/>
+<line x1="161.5" y1="157" x2="161.5" y2="163" stroke="#999" stroke-width="1"/>
+<line x1="176.2" y1="157" x2="176.2" y2="163" stroke="#999" stroke-width="1"/>
+<line x1="188.3" y1="157" x2="188.3" y2="163" stroke="#999" stroke-width="1"/>
+<line x1="198.5" y1="157" x2="198.5" y2="163" stroke="#999" stroke-width="1"/>
+<line x1="207.3" y1="157" x2="207.3" y2="163" stroke="#999" stroke-width="1"/>
+<line x1="215.0" y1="157" x2="215.0" y2="163" stroke="#999" stroke-width="1"/>
+<line x1="222" y1="154" x2="222" y2="166" stroke="#444" stroke-width="1.5"/>
+<text x="222" y="184" font-size="15" text-anchor="middle" fill="#555">10 nm</text>
+<line x1="267.8" y1="157" x2="267.8" y2="163" stroke="#999" stroke-width="1"/>
+<line x1="294.5" y1="157" x2="294.5" y2="163" stroke="#999" stroke-width="1"/>
+<line x1="313.5" y1="157" x2="313.5" y2="163" stroke="#999" stroke-width="1"/>
+<line x1="328.2" y1="157" x2="328.2" y2="163" stroke="#999" stroke-width="1"/>
+<line x1="340.3" y1="157" x2="340.3" y2="163" stroke="#999" stroke-width="1"/>
+<line x1="350.5" y1="157" x2="350.5" y2="163" stroke="#999" stroke-width="1"/>
+<line x1="359.3" y1="157" x2="359.3" y2="163" stroke="#999" stroke-width="1"/>
+<line x1="367.0" y1="157" x2="367.0" y2="163" stroke="#999" stroke-width="1"/>
+<line x1="374" y1="154" x2="374" y2="166" stroke="#444" stroke-width="1.5"/>
+<text x="374" y="184" font-size="15" text-anchor="middle" fill="#555">100 nm</text>
+<line x1="419.8" y1="157" x2="419.8" y2="163" stroke="#999" stroke-width="1"/>
+<line x1="446.5" y1="157" x2="446.5" y2="163" stroke="#999" stroke-width="1"/>
+<line x1="465.5" y1="157" x2="465.5" y2="163" stroke="#999" stroke-width="1"/>
+<line x1="480.2" y1="157" x2="480.2" y2="163" stroke="#999" stroke-width="1"/>
+<line x1="492.3" y1="157" x2="492.3" y2="163" stroke="#999" stroke-width="1"/>
+<line x1="502.5" y1="157" x2="502.5" y2="163" stroke="#999" stroke-width="1"/>
+<line x1="511.3" y1="157" x2="511.3" y2="163" stroke="#999" stroke-width="1"/>
+<line x1="519.0" y1="157" x2="519.0" y2="163" stroke="#999" stroke-width="1"/>
+<line x1="526" y1="154" x2="526" y2="166" stroke="#444" stroke-width="1.5"/>
+<text x="526" y="184" font-size="15" text-anchor="middle" fill="#555">1 µm</text>
+<line x1="571.8" y1="157" x2="571.8" y2="163" stroke="#999" stroke-width="1"/>
+<line x1="598.5" y1="157" x2="598.5" y2="163" stroke="#999" stroke-width="1"/>
+<line x1="617.5" y1="157" x2="617.5" y2="163" stroke="#999" stroke-width="1"/>
+<line x1="632.2" y1="157" x2="632.2" y2="163" stroke="#999" stroke-width="1"/>
+<line x1="644.3" y1="157" x2="644.3" y2="163" stroke="#999" stroke-width="1"/>
+<line x1="654.5" y1="157" x2="654.5" y2="163" stroke="#999" stroke-width="1"/>
+<line x1="663.3" y1="157" x2="663.3" y2="163" stroke="#999" stroke-width="1"/>
+<line x1="671.0" y1="157" x2="671.0" y2="163" stroke="#999" stroke-width="1"/>
+<line x1="678" y1="154" x2="678" y2="166" stroke="#444" stroke-width="1.5"/>
+<text x="678" y="184" font-size="15" text-anchor="middle" fill="#555">10 µm</text>
+<line x1="723.8" y1="157" x2="723.8" y2="163" stroke="#999" stroke-width="1"/>
+<line x1="750.5" y1="157" x2="750.5" y2="163" stroke="#999" stroke-width="1"/>
+<line x1="769.5" y1="157" x2="769.5" y2="163" stroke="#999" stroke-width="1"/>
+<line x1="784.2" y1="157" x2="784.2" y2="163" stroke="#999" stroke-width="1"/>
+<line x1="796.3" y1="157" x2="796.3" y2="163" stroke="#999" stroke-width="1"/>
+<line x1="806.5" y1="157" x2="806.5" y2="163" stroke="#999" stroke-width="1"/>
+<line x1="815.3" y1="157" x2="815.3" y2="163" stroke="#999" stroke-width="1"/>
+<line x1="823.0" y1="157" x2="823.0" y2="163" stroke="#999" stroke-width="1"/>
+<line x1="830" y1="154" x2="830" y2="166" stroke="#444" stroke-width="1.5"/>
+<text x="830" y="184" font-size="15" text-anchor="middle" fill="#555">100 µm</text>
+<text x="850.0" y="206" font-size="14" text-anchor="end" fill="#888">눈금 한 칸 = 10배</text>
+<circle cx="115.8" cy="160" r="6" fill="#5B4D80"/>
+<line x1="115.8" y1="88" x2="115.8" y2="151" stroke="#5B4D80" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="115.8" y="62" font-size="17" font-weight="700" text-anchor="middle" fill="#333">DNA 이중나선 지름</text>
+<text x="115.8" y="82" font-size="16" text-anchor="middle" fill="#5B4D80">2 nm</text>
+<circle cx="161.5" cy="160" r="6" fill="#5B4D80"/>
+<line x1="161.5" y1="202" x2="161.5" y2="169" stroke="#5B4D80" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="161.5" y="222" font-size="17" font-weight="700" text-anchor="middle" fill="#333">단백질 하나</text>
+<text x="161.5" y="242" font-size="16" text-anchor="middle" fill="#5B4D80">약 4 nm</text>
+<rect x="267.8" y="155" width="26.8" height="10" rx="5" fill="#5B4D80"/>
+<line x1="281.1" y1="124" x2="281.1" y2="151" stroke="#5B4D80" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="281.1" y="98" font-size="17" font-weight="700" text-anchor="middle" fill="#333">리보솜</text>
+<text x="281.1" y="118" font-size="16" text-anchor="middle" fill="#5B4D80">20–30 nm</text>
+<rect x="526.0" y="155" width="45.8" height="10" rx="5" fill="#7A6A99"/>
+<line x1="548.9" y1="202" x2="548.9" y2="169" stroke="#7A6A99" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="548.9" y="222" font-size="17" font-weight="700" text-anchor="middle" fill="#333">미토콘드리아 길이</text>
+<text x="548.9" y="242" font-size="16" text-anchor="middle" fill="#7A6A99">1–2 µm</text>
+<circle cx="632.2" cy="160" r="6" fill="#7A6A99"/>
+<line x1="632.2" y1="88" x2="632.2" y2="151" stroke="#7A6A99" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="632.2" y="62" font-size="17" font-weight="700" text-anchor="middle" fill="#333">핵</text>
+<text x="632.2" y="82" font-size="16" text-anchor="middle" fill="#7A6A99">약 5 µm</text>
+<circle cx="654.5" cy="160" r="6" fill="#7A6A99"/>
+<line x1="654.5" y1="238" x2="654.5" y2="169" stroke="#7A6A99" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="654.5" y="258" font-size="17" font-weight="700" text-anchor="middle" fill="#333">림프구</text>
+<text x="654.5" y="278" font-size="16" text-anchor="middle" fill="#7A6A99">약 7 µm</text>
+<circle cx="790.5" cy="160" r="6" fill="#1F7A7A"/>
+<line x1="790.5" y1="124" x2="790.5" y2="151" stroke="#1F7A7A" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="790.5" y="98" font-size="17" font-weight="700" text-anchor="middle" fill="#333">Visium spot 지름</text>
+<text x="790.5" y="118" font-size="16" text-anchor="middle" fill="#1F7A7A">55 µm</text>
+</svg>

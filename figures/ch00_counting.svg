@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 412" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" role="img" aria-label="세포 속 mRNA가 포획, PCR 증폭, 시퀀싱, UMI 합치기를 거쳐 count가 되는 과정">
+<rect width="940" height="412" fill="#ffffff"/>
+<rect x="20" y="40" width="160" height="250" rx="10" fill="#f7f6fa" stroke="#d9d3e6"/>
+<text x="100.0" y="28" font-size="16" font-weight="700" text-anchor="middle" fill="#333">① 세포 속 mRNA</text>
+<rect x="205" y="40" width="160" height="250" rx="10" fill="#f7f6fa" stroke="#d9d3e6"/>
+<text x="285.0" y="28" font-size="16" font-weight="700" text-anchor="middle" fill="#333">② 포획 + UMI 이름표</text>
+<rect x="390" y="40" width="160" height="250" rx="10" fill="#f7f6fa" stroke="#d9d3e6"/>
+<text x="470.0" y="28" font-size="16" font-weight="700" text-anchor="middle" fill="#333">③ PCR로 불리기</text>
+<rect x="575" y="40" width="160" height="250" rx="10" fill="#f7f6fa" stroke="#d9d3e6"/>
+<text x="655.0" y="28" font-size="16" font-weight="700" text-anchor="middle" fill="#333">④ 시퀀싱 → read</text>
+<rect x="760" y="40" width="160" height="250" rx="10" fill="#f7f6fa" stroke="#d9d3e6"/>
+<text x="840.0" y="28" font-size="16" font-weight="700" text-anchor="middle" fill="#333">⑤ UMI로 합치기</text>
+<path d="M183 165 l16 0 m-6 -6 l6 6 l-6 6" stroke="#888" stroke-width="2" fill="none"/>
+<path d="M368 165 l16 0 m-6 -6 l6 6 l-6 6" stroke="#888" stroke-width="2" fill="none"/>
+<path d="M553 165 l16 0 m-6 -6 l6 6 l-6 6" stroke="#888" stroke-width="2" fill="none"/>
+<path d="M738 165 l16 0 m-6 -6 l6 6 l-6 6" stroke="#888" stroke-width="2" fill="none"/>
+<ellipse cx="100" cy="165" rx="72" ry="110" fill="#ffffff" stroke="#bbb" stroke-dasharray="4,3"/>
+<rect x="60" y="80" width="40" height="10" rx="5" fill="#5B4D80"/>
+<rect x="102" y="95" width="40" height="10" rx="5" fill="#5B4D80"/>
+<rect x="55" y="120" width="40" height="10" rx="5" fill="#5B4D80"/>
+<rect x="105" y="145" width="40" height="10" rx="5" fill="#5B4D80"/>
+<rect x="60" y="175" width="40" height="10" rx="5" fill="#5B4D80"/>
+<rect x="102" y="200" width="40" height="10" rx="5" fill="#5B4D80"/>
+<rect x="58" y="225" width="40" height="10" rx="5" fill="#1F7A7A"/>
+<rect x="105" y="120" width="40" height="10" rx="5" fill="#1F7A7A"/>
+<rect x="80" y="250" width="40" height="10" rx="5" fill="#1F7A7A"/>
+<rect x="105" y="173" width="40" height="10" rx="5" fill="#D9822B"/>
+<rect x="251" y="93" width="22" height="14" rx="3" fill="#e9e9e9" stroke="#888" stroke-width="0.8"/><text x="262" y="104" font-size="11" text-anchor="middle" fill="#333">u1</text><rect x="275" y="95" width="40" height="10" rx="5" fill="#5B4D80"/>
+<rect x="251" y="143" width="22" height="14" rx="3" fill="#e9e9e9" stroke="#888" stroke-width="0.8"/><text x="262" y="154" font-size="11" text-anchor="middle" fill="#333">u2</text><rect x="275" y="145" width="40" height="10" rx="5" fill="#5B4D80"/>
+<rect x="251" y="193" width="22" height="14" rx="3" fill="#e9e9e9" stroke="#888" stroke-width="0.8"/><text x="262" y="204" font-size="11" text-anchor="middle" fill="#333">u3</text><rect x="275" y="195" width="40" height="10" rx="5" fill="#1F7A7A"/>
+<text x="285" y="262" font-size="13" text-anchor="middle" fill="#777">C는 잡히지 않음</text>
+<rect x="441" y="61" width="22" height="14" rx="3" fill="#e9e9e9" stroke="#888" stroke-width="0.8"/><text x="452" y="72" font-size="11" text-anchor="middle" fill="#333">u1</text><rect x="465" y="63" width="40" height="10" rx="5" fill="#5B4D80"/>
+<rect x="441" y="85" width="22" height="14" rx="3" fill="#e9e9e9" stroke="#888" stroke-width="0.8"/><text x="452" y="96" font-size="11" text-anchor="middle" fill="#333">u1</text><rect x="465" y="87" width="40" height="10" rx="5" fill="#5B4D80"/>
+<rect x="441" y="109" width="22" height="14" rx="3" fill="#e9e9e9" stroke="#888" stroke-width="0.8"/><text x="452" y="120" font-size="11" text-anchor="middle" fill="#333">u1</text><rect x="465" y="111" width="40" height="10" rx="5" fill="#5B4D80"/>
+<rect x="441" y="133" width="22" height="14" rx="3" fill="#e9e9e9" stroke="#888" stroke-width="0.8"/><text x="452" y="144" font-size="11" text-anchor="middle" fill="#333">u2</text><rect x="465" y="135" width="40" height="10" rx="5" fill="#5B4D80"/>
+<rect x="441" y="157" width="22" height="14" rx="3" fill="#e9e9e9" stroke="#888" stroke-width="0.8"/><text x="452" y="168" font-size="11" text-anchor="middle" fill="#333">u2</text><rect x="465" y="159" width="40" height="10" rx="5" fill="#5B4D80"/>
+<rect x="441" y="181" width="22" height="14" rx="3" fill="#e9e9e9" stroke="#888" stroke-width="0.8"/><text x="452" y="192" font-size="11" text-anchor="middle" fill="#333">u3</text><rect x="465" y="183" width="40" height="10" rx="5" fill="#1F7A7A"/>
+<rect x="441" y="205" width="22" height="14" rx="3" fill="#e9e9e9" stroke="#888" stroke-width="0.8"/><text x="452" y="216" font-size="11" text-anchor="middle" fill="#333">u3</text><rect x="465" y="207" width="40" height="10" rx="5" fill="#1F7A7A"/>
+<rect x="441" y="229" width="22" height="14" rx="3" fill="#e9e9e9" stroke="#888" stroke-width="0.8"/><text x="452" y="240" font-size="11" text-anchor="middle" fill="#333">u3</text><rect x="465" y="231" width="40" height="10" rx="5" fill="#1F7A7A"/>
+<rect x="441" y="253" width="22" height="14" rx="3" fill="#e9e9e9" stroke="#888" stroke-width="0.8"/><text x="452" y="264" font-size="11" text-anchor="middle" fill="#333">u3</text><rect x="465" y="255" width="40" height="10" rx="5" fill="#1F7A7A"/>
+<text x="655" y="100" font-size="17" text-anchor="middle" fill="#5B4D80" font-weight="700">A: read 5개</text>
+<text x="655" y="150" font-size="17" text-anchor="middle" fill="#1F7A7A" font-weight="700">B: read 4개</text>
+<text x="655" y="200" font-size="17" text-anchor="middle" fill="#D9822B" font-weight="700">C: read 0개</text>
+<text x="655" y="250" font-size="13" text-anchor="middle" fill="#777">read마다 UMI가 같이 읽힘</text>
+<text x="840" y="100" font-size="17" text-anchor="middle" fill="#5B4D80" font-weight="700">A: UMI 2개</text>
+<text x="840" y="150" font-size="17" text-anchor="middle" fill="#1F7A7A" font-weight="700">B: UMI 1개</text>
+<text x="840" y="200" font-size="17" text-anchor="middle" fill="#D9822B" font-weight="700">C: 0</text>
+<text x="840" y="250" font-size="13" text-anchor="middle" fill="#777">이 숫자가 count matrix로</text>
+<text x="340" y="318" font-size="13" fill="#555" text-anchor="end"></text>
+<text x="420" y="318" font-size="15" font-weight="700" text-anchor="middle" fill="#5B4D80">유전자 A</text>
+<text x="530" y="318" font-size="15" font-weight="700" text-anchor="middle" fill="#1F7A7A">유전자 B</text>
+<text x="640" y="318" font-size="15" font-weight="700" text-anchor="middle" fill="#D9822B">유전자 C</text>
+<text x="340" y="344" font-size="15" text-anchor="end" fill="#333">세포 속 실제 분자 수</text>
+<text x="420" y="344" font-size="15" text-anchor="middle" fill="#333">6</text>
+<text x="530" y="344" font-size="15" text-anchor="middle" fill="#333">3</text>
+<text x="640" y="344" font-size="15" text-anchor="middle" fill="#333">1</text>
+<text x="340" y="368" font-size="15" text-anchor="end" fill="#333">read 수</text>
+<text x="420" y="368" font-size="15" text-anchor="middle" fill="#333">5</text>
+<text x="530" y="368" font-size="15" text-anchor="middle" fill="#333">4</text>
+<text x="640" y="368" font-size="15" text-anchor="middle" fill="#333">0</text>
+<text x="340" y="392" font-size="15" text-anchor="end" fill="#333" font-weight="700">UMI 수 (count)</text>
+<text x="420" y="392" font-size="15" text-anchor="middle" fill="#333" font-weight="700">2</text>
+<text x="530" y="392" font-size="15" text-anchor="middle" fill="#333" font-weight="700">1</text>
+<text x="640" y="392" font-size="15" text-anchor="middle" fill="#333" font-weight="700">0</text>
+<line x1="200" y1="324" x2="700" y2="324" stroke="#ccc"/>
+</svg>

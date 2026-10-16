@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 404" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" role="img" aria-label="유전자를 행, 세포 바코드를 열로 한 count matrix. 칸마다 UMI 수가 들어 있고 대부분 0">
+<rect width="840" height="404" fill="#ffffff"/>
+<text x="480" y="24" font-size="15" font-weight="700" text-anchor="middle" fill="#333">열 = 세포 (세포 바코드)</text>
+<text x="22" y="166.0" font-size="15" font-weight="700" text-anchor="middle" fill="#333" transform="rotate(-90 22 166.0)">행 = 유전자</text>
+<text x="205.0" y="66" font-size="13" text-anchor="middle" font-family="'D2Coding', 'Fira Code', Menlo, Consolas, monospace" fill="#555">AAACCTGA…-1</text>
+<text x="315.0" y="66" font-size="13" text-anchor="middle" font-family="'D2Coding', 'Fira Code', Menlo, Consolas, monospace" fill="#555">AAACCTGC…-1</text>
+<text x="425.0" y="66" font-size="13" text-anchor="middle" font-family="'D2Coding', 'Fira Code', Menlo, Consolas, monospace" fill="#555">AAACGGGA…-1</text>
+<text x="535.0" y="66" font-size="13" text-anchor="middle" font-family="'D2Coding', 'Fira Code', Menlo, Consolas, monospace" fill="#555">AAAGATGT…-1</text>
+<text x="645.0" y="66" font-size="13" text-anchor="middle" font-family="'D2Coding', 'Fira Code', Menlo, Consolas, monospace" fill="#555">AAAGCAAG…-1</text>
+<text x="755.0" y="66" font-size="13" text-anchor="middle" font-family="'D2Coding', 'Fira Code', Menlo, Consolas, monospace" fill="#555">AACACGTC…-1</text>
+<text x="138" y="99.0" font-size="16" font-style="italic" text-anchor="end" fill="#333">CD3E</text>
+<rect x="150" y="76" width="110" height="36" fill="#eeeaf5" stroke="#d9d3e6"/>
+<text x="205.0" y="99.0" font-size="16" font-weight="700" text-anchor="middle" fill="#333">3</text>
+<rect x="260" y="76" width="110" height="36" fill="#eeeaf5" stroke="#d9d3e6"/>
+<text x="315.0" y="99.0" font-size="16" font-weight="700" text-anchor="middle" fill="#333">5</text>
+<rect x="370" y="76" width="110" height="36" fill="#ffffff" stroke="#d9d3e6"/>
+<text x="425.0" y="99.0" font-size="16" font-weight="400" text-anchor="middle" fill="#bbbbbb">0</text>
+<rect x="480" y="76" width="110" height="36" fill="#ffffff" stroke="#d9d3e6"/>
+<text x="535.0" y="99.0" font-size="16" font-weight="400" text-anchor="middle" fill="#bbbbbb">0</text>
+<rect x="590" y="76" width="110" height="36" fill="#ffffff" stroke="#d9d3e6"/>
+<text x="645.0" y="99.0" font-size="16" font-weight="400" text-anchor="middle" fill="#bbbbbb">0</text>
+<rect x="700" y="76" width="110" height="36" fill="#eeeaf5" stroke="#d9d3e6"/>
+<text x="755.0" y="99.0" font-size="16" font-weight="700" text-anchor="middle" fill="#333">2</text>
+<text x="138" y="135.0" font-size="16" font-style="italic" text-anchor="end" fill="#333">MS4A1</text>
+<rect x="150" y="112" width="110" height="36" fill="#ffffff" stroke="#d9d3e6"/>
+<text x="205.0" y="135.0" font-size="16" font-weight="400" text-anchor="middle" fill="#bbbbbb">0</text>
+<rect x="260" y="112" width="110" height="36" fill="#ffffff" stroke="#d9d3e6"/>
+<text x="315.0" y="135.0" font-size="16" font-weight="400" text-anchor="middle" fill="#bbbbbb">0</text>
+<rect x="370" y="112" width="110" height="36" fill="#eeeaf5" stroke="#d9d3e6"/>
+<text x="425.0" y="135.0" font-size="16" font-weight="700" text-anchor="middle" fill="#333">4</text>
+<rect x="480" y="112" width="110" height="36" fill="#ffffff" stroke="#d9d3e6"/>
+<text x="535.0" y="135.0" font-size="16" font-weight="400" text-anchor="middle" fill="#bbbbbb">0</text>
+<rect x="590" y="112" width="110" height="36" fill="#ffffff" stroke="#d9d3e6"/>
+<text x="645.0" y="135.0" font-size="16" font-weight="400" text-anchor="middle" fill="#bbbbbb">0</text>
+<rect x="700" y="112" width="110" height="36" fill="#ffffff" stroke="#d9d3e6"/>
+<text x="755.0" y="135.0" font-size="16" font-weight="400" text-anchor="middle" fill="#bbbbbb">0</text>
+<text x="138" y="171.0" font-size="16" font-style="italic" text-anchor="end" fill="#333">LYZ</text>
+<rect x="150" y="148" width="110" height="36" fill="#ffffff" stroke="#d9d3e6"/>
+<text x="205.0" y="171.0" font-size="16" font-weight="400" text-anchor="middle" fill="#bbbbbb">0</text>
+<rect x="260" y="148" width="110" height="36" fill="#eeeaf5" stroke="#d9d3e6"/>
+<text x="315.0" y="171.0" font-size="16" font-weight="700" text-anchor="middle" fill="#333">1</text>
+<rect x="370" y="148" width="110" height="36" fill="#ffffff" stroke="#d9d3e6"/>
+<text x="425.0" y="171.0" font-size="16" font-weight="400" text-anchor="middle" fill="#bbbbbb">0</text>
+<rect x="480" y="148" width="110" height="36" fill="#eeeaf5" stroke="#d9d3e6"/>
+<text x="535.0" y="171.0" font-size="16" font-weight="700" text-anchor="middle" fill="#333">18</text>
+<rect x="590" y="148" width="110" height="36" fill="#ffffff" stroke="#d9d3e6"/>
+<text x="645.0" y="171.0" font-size="16" font-weight="400" text-anchor="middle" fill="#bbbbbb">0</text>
+<rect x="700" y="148" width="110" height="36" fill="#ffffff" stroke="#d9d3e6"/>
+<text x="755.0" y="171.0" font-size="16" font-weight="400" text-anchor="middle" fill="#bbbbbb">0</text>
+<text x="138" y="207.0" font-size="16" font-style="italic" text-anchor="end" fill="#333">NKG7</text>
+<rect x="150" y="184" width="110" height="36" fill="#ffffff" stroke="#d9d3e6"/>
+<text x="205.0" y="207.0" font-size="16" font-weight="400" text-anchor="middle" fill="#bbbbbb">0</text>
+<rect x="260" y="184" width="110" height="36" fill="#ffffff" stroke="#d9d3e6"/>
+<text x="315.0" y="207.0" font-size="16" font-weight="400" text-anchor="middle" fill="#bbbbbb">0</text>
+<rect x="370" y="184" width="110" height="36" fill="#ffffff" stroke="#d9d3e6"/>
+<text x="425.0" y="207.0" font-size="16" font-weight="400" text-anchor="middle" fill="#bbbbbb">0</text>
+<rect x="480" y="184" width="110" height="36" fill="#ffffff" stroke="#d9d3e6"/>
+<text x="535.0" y="207.0" font-size="16" font-weight="400" text-anchor="middle" fill="#bbbbbb">0</text>
+<rect x="590" y="184" width="110" height="36" fill="#eeeaf5" stroke="#d9d3e6"/>
+<text x="645.0" y="207.0" font-size="16" font-weight="700" text-anchor="middle" fill="#333">7</text>
+<rect x="700" y="184" width="110" height="36" fill="#eeeaf5" stroke="#d9d3e6"/>
+<text x="755.0" y="207.0" font-size="16" font-weight="700" text-anchor="middle" fill="#333">1</text>
+<text x="138" y="243.0" font-size="16" font-style="italic" text-anchor="end" fill="#333">FOXP3</text>
+<rect x="150" y="220" width="110" height="36" fill="#ffffff" stroke="#d9d3e6"/>
+<text x="205.0" y="243.0" font-size="16" font-weight="400" text-anchor="middle" fill="#bbbbbb">0</text>
+<rect x="260" y="220" width="110" height="36" fill="#ffffff" stroke="#d9d3e6"/>
+<text x="315.0" y="243.0" font-size="16" font-weight="400" text-anchor="middle" fill="#bbbbbb">0</text>
+<rect x="370" y="220" width="110" height="36" fill="#ffffff" stroke="#d9d3e6"/>
+<text x="425.0" y="243.0" font-size="16" font-weight="400" text-anchor="middle" fill="#bbbbbb">0</text>
+<rect x="480" y="220" width="110" height="36" fill="#ffffff" stroke="#d9d3e6"/>
+<text x="535.0" y="243.0" font-size="16" font-weight="400" text-anchor="middle" fill="#bbbbbb">0</text>
+<rect x="590" y="220" width="110" height="36" fill="#ffffff" stroke="#d9d3e6"/>
+<text x="645.0" y="243.0" font-size="16" font-weight="400" text-anchor="middle" fill="#bbbbbb">0</text>
+<rect x="700" y="220" width="110" height="36" fill="#eeeaf5" stroke="#d9d3e6"/>
+<text x="755.0" y="243.0" font-size="16" font-weight="700" text-anchor="middle" fill="#333">1</text>
+<text x="138" y="279.0" font-size="14" text-anchor="end" fill="#888">⋮</text>
+<text x="205.0" y="279.0" font-size="14" text-anchor="middle" fill="#888">⋮</text>
+<text x="315.0" y="279.0" font-size="14" text-anchor="middle" fill="#888">⋮</text>
+<text x="425.0" y="279.0" font-size="14" text-anchor="middle" fill="#888">⋮</text>
+<text x="535.0" y="279.0" font-size="14" text-anchor="middle" fill="#888">⋮</text>
+<text x="645.0" y="279.0" font-size="14" text-anchor="middle" fill="#888">⋮</text>
+<text x="755.0" y="279.0" font-size="14" text-anchor="middle" fill="#888">⋮</text>
+<line x1="150" y1="292" x2="810" y2="292" stroke="#555" stroke-width="1.5"/>
+<text x="138" y="315.0" font-size="13" text-anchor="end" fill="#1F7A7A" font-weight="700">열 합</text>
+<text x="205.0" y="315.0" font-size="16" text-anchor="middle" fill="#1F7A7A" font-weight="700">3,105</text>
+<text x="315.0" y="315.0" font-size="16" text-anchor="middle" fill="#1F7A7A" font-weight="700">4,422</text>
+<text x="425.0" y="315.0" font-size="16" text-anchor="middle" fill="#1F7A7A" font-weight="700">2,890</text>
+<text x="535.0" y="315.0" font-size="16" text-anchor="middle" fill="#1F7A7A" font-weight="700">6,317</text>
+<text x="645.0" y="315.0" font-size="16" text-anchor="middle" fill="#1F7A7A" font-weight="700">3,560</text>
+<text x="755.0" y="315.0" font-size="16" text-anchor="middle" fill="#1F7A7A" font-weight="700">2,974</text>
+<text x="810" y="342" font-size="14" text-anchor="end" fill="#1F7A7A">열 합 = 그 세포에서 잡힌 전체 UMI (모든 유전자)</text>
+<rect x="261.5" y="77.5" width="107" height="33" fill="none" stroke="#C0392B" stroke-width="3"/>
+<text x="810" y="390" font-size="15" text-anchor="end" fill="#C0392B" font-weight="700">빨간 칸: 둘째 세포에서 잡힌 CD3E mRNA 5분자 (UMI 5개)</text>
+</svg>
