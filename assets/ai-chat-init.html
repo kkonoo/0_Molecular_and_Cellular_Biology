@@ -15,4 +15,13 @@
     chapterTitle:   metaTitle  ? metaTitle.content   : document.title,
   };
 </script>
-<script src="../_extensions/ai-chat/ai-chat.js" defer></script>
+<script>
+  // 홈(index.html)과 chapters/ 모두에서 사이트 루트 기준으로 위젯을 불러옵니다
+  // (quarto:offset = 현재 페이지에서 사이트 루트까지의 상대경로)
+  (function () {
+    const offset = document.querySelector('meta[name="quarto:offset"]');
+    const s = document.createElement("script");
+    s.src = (offset ? offset.content : "./") + "_extensions/ai-chat/ai-chat.js";
+    document.body.appendChild(s);
+  })();
+</script>

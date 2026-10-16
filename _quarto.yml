@@ -5,6 +5,8 @@ project:
   render:
     - index.qmd
     - chapters/*.qmd
+  resources:
+    - _extensions/ai-chat/ai-chat.js   # _로 시작하는 폴더는 자동으로 복사되지 않음
 
 website:
   title: "0. Molecular and Cellular Biology"
