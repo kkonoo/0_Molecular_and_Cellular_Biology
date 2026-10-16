@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 440" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" role="img" aria-label="apoptosis의 외재 경로와 내재 경로가 실행 caspase에서 만나는 흐름도">
+<rect width="920" height="440" fill="#ffffff"/>
+<rect x="14.0" y="14.0" width="272.0" height="290.0" rx="10" fill="#f7f6fa" stroke="#d9d3e6" stroke-width="1"/>
+<text x="30.0" y="40.0" font-size="16" fill="#a85f15" text-anchor="start" font-weight="700">외재 경로</text>
+<text x="30.0" y="59.0" font-size="13" fill="#555" text-anchor="start">다른 세포가 보낸 사멸 신호</text>
+<rect x="300.0" y="14.0" width="606.0" height="290.0" rx="10" fill="#f7f6fa" stroke="#d9d3e6" stroke-width="1"/>
+<text x="316.0" y="40.0" font-size="16" fill="#5B4D80" text-anchor="start" font-weight="700">내재 경로</text>
+<text x="316.0" y="59.0" font-size="13" fill="#555" text-anchor="start">세포 안에서 감지한 문제 · 미토콘드리아가 스위치</text>
+<rect x="34.0" y="76.0" width="232.0" height="52.0" rx="8" fill="#ffffff" stroke="#D9822B" stroke-width="1.6"/>
+<text x="150.0" y="98.0" font-size="15" fill="#333" text-anchor="middle" font-weight="700">사멸 리간드</text>
+<text x="150.0" y="117.0" font-size="13" fill="#555" text-anchor="middle">FAS 리간드 · TNF</text>
+<rect x="34.0" y="152.0" width="232.0" height="52.0" rx="8" fill="#ffffff" stroke="#D9822B" stroke-width="1.6"/>
+<text x="150.0" y="174.0" font-size="15" fill="#333" text-anchor="middle" font-weight="700">사멸 수용체</text>
+<text x="150.0" y="193.0" font-size="13" fill="#555" text-anchor="middle">FAS · TNFR1 (+ FADD)</text>
+<rect x="34.0" y="228.0" width="232.0" height="46.0" rx="8" fill="#ffffff" stroke="#D9822B" stroke-width="1.6"/>
+<text x="150.0" y="256.0" font-size="15" fill="#333" text-anchor="middle" font-weight="700">caspase-8 (개시)</text>
+<line x1="150.0" y1="128.0" x2="150.0" y2="150.0" stroke="#888" stroke-width="2"/>
+<path d="M146.0 143.1 L150.0 150.0 L154.0 143.1" stroke="#888" stroke-width="2" fill="none"/>
+<line x1="150.0" y1="204.0" x2="150.0" y2="226.0" stroke="#888" stroke-width="2"/>
+<path d="M146.0 219.1 L150.0 226.0 L154.0 219.1" stroke="#888" stroke-width="2" fill="none"/>
+<rect x="316.0" y="76.0" width="178.0" height="52.0" rx="8" fill="#ffffff" stroke="#5B4D80" stroke-width="1.6"/>
+<text x="405.0" y="98.0" font-size="15" fill="#333" text-anchor="middle" font-weight="700">스트레스</text>
+<text x="405.0" y="117.0" font-size="13" fill="#555" text-anchor="middle">DNA 손상(p53) · 신호 끊김</text>
+<rect x="516.0" y="76.0" width="178.0" height="52.0" rx="8" fill="#ffffff" stroke="#5B4D80" stroke-width="1.6"/>
+<text x="605.0" y="98.0" font-size="15" fill="#333" text-anchor="middle" font-weight="700">BH3-only</text>
+<text x="605.0" y="117.0" font-size="13" fill="#555" text-anchor="middle">PUMA · NOXA · BIM · BID</text>
+<rect x="716.0" y="76.0" width="176.0" height="52.0" rx="8" fill="#ffffff" stroke="#5B4D80" stroke-width="1.6"/>
+<text x="804.0" y="98.0" font-size="15" fill="#333" text-anchor="middle" font-weight="700">BAX · BAK</text>
+<text x="804.0" y="117.0" font-size="13" fill="#555" text-anchor="middle">외막에 구멍을 냄</text>
+<line x1="494.0" y1="102.0" x2="514.0" y2="102.0" stroke="#888" stroke-width="2"/>
+<path d="M507.1 106.0 L514.0 102.0 L507.1 98.0" stroke="#888" stroke-width="2" fill="none"/>
+<line x1="694.0" y1="102.0" x2="714.0" y2="102.0" stroke="#888" stroke-width="2"/>
+<path d="M707.1 106.0 L714.0 102.0 L707.1 98.0" stroke="#888" stroke-width="2" fill="none"/>
+<rect x="516.0" y="168.0" width="178.0" height="52.0" rx="8" fill="#ffffff" stroke="#888" stroke-width="1.6"/>
+<text x="605.0" y="190.0" font-size="15" fill="#333" text-anchor="middle" font-weight="700">BCL-2 · BCL-XL · MCL-1</text>
+<text x="605.0" y="209.0" font-size="13" fill="#555" text-anchor="middle">BAX·BAK을 붙잡음</text>
+<line x1="694.0" y1="180.0" x2="734.0" y2="134.0" stroke="#555" stroke-width="2"/>
+<line x1="726.0" y1="128.0" x2="742.0" y2="140.0" stroke="#555" stroke-width="3"/>
+<text x="708.0" y="154.0" font-size="13" fill="#555" text-anchor="end" font-weight="700">억제</text>
+<rect x="716.0" y="168.0" width="176.0" height="46.0" rx="8" fill="#ffffff" stroke="#5B4D80" stroke-width="1.6"/>
+<text x="804.0" y="196.0" font-size="15" fill="#333" text-anchor="middle" font-weight="700">cytochrome c 방출</text>
+<rect x="716.0" y="240.0" width="176.0" height="52.0" rx="8" fill="#ffffff" stroke="#5B4D80" stroke-width="1.6"/>
+<text x="804.0" y="262.0" font-size="15" fill="#333" text-anchor="middle" font-weight="700">APAF1 + caspase-9</text>
+<text x="804.0" y="281.0" font-size="13" fill="#555" text-anchor="middle">apoptosome (개시)</text>
+<line x1="804.0" y1="128.0" x2="804.0" y2="166.0" stroke="#888" stroke-width="2"/>
+<path d="M800.0 159.1 L804.0 166.0 L808.0 159.1" stroke="#888" stroke-width="2" fill="none"/>
+<line x1="804.0" y1="214.0" x2="804.0" y2="238.0" stroke="#888" stroke-width="2"/>
+<path d="M800.0 231.1 L804.0 238.0 L808.0 231.1" stroke="#888" stroke-width="2" fill="none"/>
+<path d="M266 251 C 420 251, 470 200, 560 130" stroke="#a85f15" stroke-width="1.8" stroke-dasharray="5,4" fill="none"/>
+<line x1="552.0" y1="138.0" x2="560.0" y2="130.0" stroke="#a85f15" stroke-width="1.8"/>
+<path d="M557.9 137.7 L560.0 130.0 L552.3 132.1" stroke="#a85f15" stroke-width="1.8" fill="none"/>
+<text x="440.0" y="284.0" font-size="13" fill="#a85f15" text-anchor="middle" font-weight="700">caspase-8이 BID를 잘라 내재 경로로 증폭</text>
+<rect x="330.0" y="340.0" width="210.0" height="52.0" rx="8" fill="#ffffff" stroke="#C0392B" stroke-width="1.6"/>
+<text x="435.0" y="362.0" font-size="15" fill="#C0392B" text-anchor="middle" font-weight="700">실행 caspase</text>
+<text x="435.0" y="381.0" font-size="13" fill="#555" text-anchor="middle">caspase-3 · caspase-7</text>
+<path d="M150 274 L150 366 L326 366" stroke="#888" stroke-width="2" fill="none"/>
+<line x1="300.0" y1="366.0" x2="328.0" y2="366.0" stroke="#888" stroke-width="2"/>
+<path d="M321.1 370.0 L328.0 366.0 L321.1 362.0" stroke="#888" stroke-width="2" fill="none"/>
+<path d="M804 292 L804 322 L435 322 L435 336" stroke="#888" stroke-width="2" fill="none"/>
+<line x1="435.0" y1="326.0" x2="435.0" y2="338.0" stroke="#888" stroke-width="2"/>
+<path d="M431.0 331.1 L435.0 338.0 L439.0 331.1" stroke="#888" stroke-width="2" fill="none"/>
+<rect x="580.0" y="340.0" width="326.0" height="52.0" rx="8" fill="#ffffff" stroke="#C0392B" stroke-width="1.6"/>
+<text x="743.0" y="362.0" font-size="15" fill="#333" text-anchor="middle" font-weight="700">단백질 절단 → 세포 해체</text>
+<text x="743.0" y="381.0" font-size="13" fill="#555" text-anchor="middle">조각을 식세포가 먹음 · 염증 거의 없음</text>
+<line x1="540.0" y1="366.0" x2="578.0" y2="366.0" stroke="#888" stroke-width="2"/>
+<path d="M571.1 370.0 L578.0 366.0 L571.1 362.0" stroke="#888" stroke-width="2" fill="none"/>
+<text x="14.0" y="428.0" font-size="13" fill="#888" text-anchor="start">개시 caspase가 실행 caspase를 잘라 켜는 연쇄 반응. 단순화한 흐름도로, 실제로는 더 많은 조절 단백질이 관여</text>
+</svg>

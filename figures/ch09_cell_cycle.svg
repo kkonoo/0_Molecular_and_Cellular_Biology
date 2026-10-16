@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 530" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" role="img" aria-label="세포주기 원형 모식도: G1, S, G2, M 단계와 G0, 세 검문점, 단계별 DNA 양 2C에서 4C">
+<rect width="920" height="530" fill="#ffffff"/>
+<path d="M291.0 118.0 A150 150 0 0 1 329.8 412.6" stroke="#c9bfe0" stroke-width="46" fill="none"/>
+<path d="M327.8 413.2 A150 150 0 0 1 144.8 230.2" stroke="#1F7A7A" stroke-width="46" fill="none"/>
+<path d="M145.4 228.2 A150 150 0 0 1 250.2 123.4" stroke="#efc08f" stroke-width="46" fill="none"/>
+<path d="M252.2 122.8 A150 150 0 0 1 289.0 118.0" stroke="#C0392B" stroke-width="46" fill="none"/>
+<text x="438.7" y="254.4" font-size="18" fill="#333" text-anchor="middle" font-weight="700">G1</text>
+<text x="183.9" y="380.1" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="700">S</text>
+<text x="183.9" y="167.9" font-size="18" fill="#333" text-anchor="middle" font-weight="700">G2</text>
+<text x="259.2" y="81.6" font-size="18" fill="#C0392B" text-anchor="middle" font-weight="700">M</text>
+<text x="476.3" y="280.3" font-size="15" fill="#333" text-anchor="start" font-weight="700">G1 · 자라며 준비</text>
+<text x="476.3" y="299.3" font-size="13" fill="#555" text-anchor="start">약 11시간</text>
+<text x="153.8" y="410.2" font-size="15" fill="#1F7A7A" text-anchor="end" font-weight="700">S · DNA 복제</text>
+<text x="153.8" y="429.2" font-size="13" fill="#555" text-anchor="end">약 8시간</text>
+<text x="133.0" y="163.4" font-size="15" fill="#a85f15" text-anchor="end" font-weight="700">G2 · 분열 준비</text>
+<text x="133.0" y="182.4" font-size="13" fill="#555" text-anchor="end">약 4시간</text>
+<text x="245.2" y="61.6" font-size="13" fill="#555" text-anchor="end">분열 → 딸세포 2개 · 약 1시간</text>
+<text x="380.0" y="254.9" font-size="17" fill="#5B4D80" text-anchor="middle" font-weight="700">2C</text>
+<text x="227.8" y="336.2" font-size="17" fill="#1F7A7A" text-anchor="middle" font-weight="700">2C → 4C</text>
+<text x="233.4" y="201.5" font-size="17" fill="#a85f15" text-anchor="middle" font-weight="700">4C</text>
+<rect x="344.7" y="239.5" width="8" height="32" rx="4" fill="#5B4D80"/>
+<g transform="translate(253.1,220.7)"><rect x="-9" y="-16" width="8" height="32" rx="4" fill="#a85f15"/><rect x="1" y="-16" width="8" height="32" rx="4" fill="#a85f15"/><rect x="-3" y="-3" width="6" height="6" fill="#555"/></g>
+<text x="290.0" y="262.0" font-size="17" fill="#333" text-anchor="middle" font-weight="700">세포주기</text>
+<text x="290.0" y="284.0" font-size="13" fill="#555" text-anchor="middle">빠르게 분열하는</text>
+<text x="290.0" y="302.0" font-size="13" fill="#555" text-anchor="middle">사람 세포 예: 약 24시간</text>
+<line x1="321.8" y1="386.8" x2="335.8" y2="439.0" stroke="#C0392B" stroke-width="4"/>
+<line x1="335.8" y1="439.0" x2="355.4" y2="458.0" stroke="#C0392B" stroke-width="1.2"/>
+<circle cx="355.4" cy="458.0" r="12.0" fill="#ffffff" stroke="#C0392B" stroke-width="2"/>
+<text x="355.4" y="463.0" font-size="14" fill="#C0392B" text-anchor="middle" font-weight="700">1</text>
+<line x1="258.2" y1="149.2" x2="244.2" y2="97.0" stroke="#C0392B" stroke-width="4"/>
+<line x1="244.2" y1="97.0" x2="190.5" y2="95.7" stroke="#C0392B" stroke-width="1.2"/>
+<circle cx="190.5" cy="95.7" r="12.0" fill="#ffffff" stroke="#C0392B" stroke-width="2"/>
+<text x="190.5" y="100.7" font-size="14" fill="#C0392B" text-anchor="middle" font-weight="700">2</text>
+<line x1="273.9" y1="146.1" x2="266.9" y2="92.5" stroke="#C0392B" stroke-width="4"/>
+<line x1="266.9" y1="92.5" x2="341.5" y2="75.8" stroke="#C0392B" stroke-width="1.2"/>
+<circle cx="341.5" cy="75.8" r="12.0" fill="#ffffff" stroke="#C0392B" stroke-width="2"/>
+<text x="341.5" y="80.8" font-size="14" fill="#C0392B" text-anchor="middle" font-weight="700">3</text>
+<ellipse cx="488" cy="84" rx="52" ry="30" fill="#f7f6fa" stroke="#7A6A99" stroke-width="1.5" stroke-dasharray="5,3"/>
+<text x="488.0" y="81.0" font-size="17" fill="#7A6A99" text-anchor="middle" font-weight="700">G0</text>
+<text x="488.0" y="100.0" font-size="13" fill="#555" text-anchor="middle">쉬는 상태</text>
+<line x1="409.8" y1="133.4" x2="442.0" y2="102.0" stroke="#7A6A99" stroke-width="1.6"/>
+<path d="M440.1 108.7 L442.0 102.0 L435.2 103.7" stroke="#7A6A99" stroke-width="1.6" fill="none"/>
+<line x1="468.0" y1="114.0" x2="435.8" y2="145.4" stroke="#7A6A99" stroke-width="1.6" stroke-dasharray="4,3"/>
+<path d="M437.7 138.7 L435.8 145.4 L442.5 143.7" stroke="#7A6A99" stroke-width="1.6" fill="none"/>
+<text x="548.0" y="80.0" font-size="13" fill="#555" text-anchor="start">신호가 오면</text>
+<text x="548.0" y="97.0" font-size="13" fill="#555" text-anchor="start">돌아오기도 함</text>
+<rect x="622.0" y="124.0" width="296.0" height="352.0" rx="10" fill="#f7f6fa" stroke="#d9d3e6" stroke-width="1"/>
+<text x="638.0" y="152.0" font-size="16" fill="#333" text-anchor="start" font-weight="700">검문점: 넘어가도 되나?</text>
+<circle cx="650.0" cy="185.0" r="12.0" fill="#ffffff" stroke="#C0392B" stroke-width="2"/>
+<text x="650.0" y="190.0" font-size="14" fill="#C0392B" text-anchor="middle" font-weight="700">1</text>
+<text x="670.0" y="190.0" font-size="15" fill="#333" text-anchor="start" font-weight="700">G1/S 검문점 (제한점)</text>
+<text x="670.0" y="212.0" font-size="13" fill="#555" text-anchor="start">성장 신호가 충분한가?</text>
+<text x="670.0" y="231.0" font-size="13" fill="#555" text-anchor="start">DNA 손상은 없나?</text>
+<text x="670.0" y="252.0" font-size="13" fill="#1F7A7A" text-anchor="start" font-weight="700">Rb–E2F, p53 → p21</text>
+<circle cx="650.0" cy="287.0" r="12.0" fill="#ffffff" stroke="#C0392B" stroke-width="2"/>
+<text x="650.0" y="292.0" font-size="14" fill="#C0392B" text-anchor="middle" font-weight="700">2</text>
+<text x="670.0" y="292.0" font-size="15" fill="#333" text-anchor="start" font-weight="700">G2/M 검문점</text>
+<text x="670.0" y="314.0" font-size="13" fill="#555" text-anchor="start">DNA 복제가 끝났나?</text>
+<text x="670.0" y="333.0" font-size="13" fill="#555" text-anchor="start">손상은 없나?</text>
+<text x="670.0" y="354.0" font-size="13" fill="#1F7A7A" text-anchor="start" font-weight="700">ATM·ATR → CHK1·CHK2</text>
+<circle cx="650.0" cy="389.0" r="12.0" fill="#ffffff" stroke="#C0392B" stroke-width="2"/>
+<text x="650.0" y="394.0" font-size="14" fill="#C0392B" text-anchor="middle" font-weight="700">3</text>
+<text x="670.0" y="394.0" font-size="15" fill="#333" text-anchor="start" font-weight="700">방추사 검문점 (M기 안)</text>
+<text x="670.0" y="416.0" font-size="13" fill="#555" text-anchor="start">모든 염색체가 방추사에</text>
+<text x="670.0" y="435.0" font-size="13" fill="#555" text-anchor="start">붙었나?</text>
+<text x="670.0" y="456.0" font-size="13" fill="#1F7A7A" text-anchor="start" font-weight="700">MAD2·BUBR1 → APC/C 억제</text>
+<text x="20.0" y="516.0" font-size="13" fill="#888" text-anchor="start">호 길이 = 24시간 주기 예시의 단계별 시간 비율. C = 세포 하나의 DNA 양 단위(G1의 이배체 세포 = 2C)</text>
+</svg>

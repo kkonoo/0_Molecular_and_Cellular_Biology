@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 582" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" role="img" aria-label="조혈 계통 개요: 조혈줄기세포가 골수계와 림프계 전구세포로 갈라져 혈액세포가 되고, 일부는 조직에서 마지막 분화. PBMC에 들어 있는 세포를 청록으로 표시">
+<rect width="920" height="582" fill="#ffffff"/>
+<rect x="14.0" y="44.0" width="476.0" height="500.0" rx="10" fill="#f7f6fa" stroke="#d9d3e6" stroke-width="1"/>
+<rect x="498.0" y="44.0" width="230.0" height="500.0" rx="10" fill="#fbfaf7" stroke="#d9d3e6" stroke-width="1"/>
+<rect x="736.0" y="44.0" width="170.0" height="500.0" rx="10" fill="#f7f6fa" stroke="#d9d3e6" stroke-width="1"/>
+<text x="30.0" y="32.0" font-size="15" fill="#333" text-anchor="start" font-weight="700">골수 · 줄기세포와 전구세포</text>
+<text x="512.0" y="32.0" font-size="15" fill="#333" text-anchor="start" font-weight="700">혈액 속 세포</text>
+<text x="750.0" y="32.0" font-size="15" fill="#333" text-anchor="start" font-weight="700">조직에서 마지막 분화</text>
+<rect x="506.0" y="283.0" width="214.0" height="226.0" rx="8" fill="#e8f4f3" stroke="#1F7A7A" stroke-width="1.8"/>
+<text x="613.0" y="529.0" font-size="13" fill="#1F7A7A" text-anchor="middle" font-weight="700">PBMC로 모이는 세포</text>
+<rect x="530.0" y="57.0" width="166.0" height="34.0" rx="7" fill="#ffffff" stroke="#D9822B" stroke-width="1.6"/>
+<text x="613.0" y="79.0" font-size="15" fill="#333" text-anchor="middle" font-weight="700">적혈구</text>
+<rect x="530.0" y="100.0" width="166.0" height="40.0" rx="7" fill="#ffffff" stroke="#D9822B" stroke-width="1.6"/>
+<text x="613.0" y="119.0" font-size="14" fill="#333" text-anchor="middle" font-weight="700">혈소판</text>
+<text x="613.0" y="133.0" font-size="13" fill="#555" text-anchor="middle">거핵세포의 조각</text>
+<rect x="530.0" y="149.0" width="166.0" height="34.0" rx="7" fill="#ffffff" stroke="#D9822B" stroke-width="1.6"/>
+<text x="613.0" y="171.0" font-size="15" fill="#333" text-anchor="middle" font-weight="700">호중구</text>
+<rect x="530.0" y="195.0" width="166.0" height="34.0" rx="7" fill="#ffffff" stroke="#D9822B" stroke-width="1.6"/>
+<text x="613.0" y="217.0" font-size="15" fill="#333" text-anchor="middle" font-weight="700">호산구</text>
+<rect x="530.0" y="241.0" width="166.0" height="34.0" rx="7" fill="#ffffff" stroke="#D9822B" stroke-width="1.6"/>
+<text x="613.0" y="263.0" font-size="15" fill="#333" text-anchor="middle" font-weight="700">호염기구</text>
+<rect x="530.0" y="287.0" width="166.0" height="34.0" rx="7" fill="#ffffff" stroke="#D9822B" stroke-width="1.6"/>
+<text x="613.0" y="309.0" font-size="15" fill="#333" text-anchor="middle" font-weight="700">단핵구</text>
+<rect x="530.0" y="333.0" width="166.0" height="34.0" rx="7" fill="#ffffff" stroke="#D9822B" stroke-width="1.6"/>
+<text x="613.0" y="355.0" font-size="15" fill="#333" text-anchor="middle" font-weight="700">수지상세포</text>
+<rect x="530.0" y="379.0" width="166.0" height="34.0" rx="7" fill="#ffffff" stroke="#7A6A99" stroke-width="1.6"/>
+<text x="613.0" y="401.0" font-size="15" fill="#333" text-anchor="middle" font-weight="700">NK세포</text>
+<rect x="530.0" y="425.0" width="166.0" height="34.0" rx="7" fill="#ffffff" stroke="#7A6A99" stroke-width="1.6"/>
+<text x="613.0" y="447.0" font-size="15" fill="#333" text-anchor="middle" font-weight="700">B세포</text>
+<rect x="530.0" y="471.0" width="166.0" height="34.0" rx="7" fill="#ffffff" stroke="#7A6A99" stroke-width="1.6"/>
+<text x="613.0" y="493.0" font-size="15" fill="#333" text-anchor="middle" font-weight="700">T세포</text>
+<rect x="28.0" y="257.0" width="120.0" height="48.0" rx="7" fill="#5B4D80" stroke="#5B4D80" stroke-width="1.6"/>
+<text x="88.0" y="280.0" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700">HSC</text>
+<text x="88.0" y="294.0" font-size="13" fill="#555" text-anchor="middle">조혈줄기세포</text>
+<rect x="30" y="284.0" width="116" height="18" fill="#5B4D80"/>
+<text x="88.0" y="296.0" font-size="13" fill="#ffffff" text-anchor="middle">조혈줄기세포</text>
+<rect x="182.0" y="195.0" width="130.0" height="34.0" rx="7" fill="#ffffff" stroke="#D9822B" stroke-width="1.6"/>
+<text x="247.0" y="211.0" font-size="14" fill="#333" text-anchor="middle" font-weight="700">CMP</text>
+<text x="247.0" y="225.0" font-size="13" fill="#555" text-anchor="middle">골수계 전구</text>
+<rect x="182.0" y="425.0" width="130.0" height="34.0" rx="7" fill="#ffffff" stroke="#7A6A99" stroke-width="1.6"/>
+<text x="247.0" y="441.0" font-size="14" fill="#333" text-anchor="middle" font-weight="700">CLP</text>
+<text x="247.0" y="455.0" font-size="13" fill="#555" text-anchor="middle">림프계 전구</text>
+<rect x="346.0" y="80.0" width="120.0" height="34.0" rx="7" fill="#ffffff" stroke="#D9822B" stroke-width="1.6"/>
+<text x="406.0" y="96.0" font-size="14" fill="#333" text-anchor="middle" font-weight="700">MEP</text>
+<text x="406.0" y="110.0" font-size="13" fill="#555" text-anchor="middle">적혈구·거핵 전구</text>
+<rect x="346.0" y="264.0" width="120.0" height="34.0" rx="7" fill="#ffffff" stroke="#D9822B" stroke-width="1.6"/>
+<text x="406.0" y="280.0" font-size="14" fill="#333" text-anchor="middle" font-weight="700">GMP</text>
+<text x="406.0" y="294.0" font-size="13" fill="#555" text-anchor="middle">과립구·단핵구 전구</text>
+<path d="M148 281.0 L165.0 281.0 L165.0 212.0 L174 212.0" stroke="#888" stroke-width="1.6" fill="none"/>
+<path d="M174 207.0 L182 212.0 L174 217.0" stroke="#888" stroke-width="1.6" fill="none"/>
+<path d="M148 281.0 L165.0 281.0 L165.0 442 L174 442" stroke="#888" stroke-width="1.6" fill="none"/>
+<path d="M174 437 L182 442 L174 447" stroke="#888" stroke-width="1.6" fill="none"/>
+<path d="M312 212.0 L329.0 212.0 L329.0 97.0 L338 97.0" stroke="#888" stroke-width="1.6" fill="none"/>
+<path d="M338 92.0 L346 97.0 L338 102.0" stroke="#888" stroke-width="1.6" fill="none"/>
+<path d="M312 212.0 L329.0 212.0 L329.0 281.0 L338 281.0" stroke="#888" stroke-width="1.6" fill="none"/>
+<path d="M338 276.0 L346 281.0 L338 286.0" stroke="#888" stroke-width="1.6" fill="none"/>
+<path d="M466 97.0 L498.0 97.0 L498.0 74 L522 74" stroke="#D9822B" stroke-width="1.6" fill="none"/>
+<path d="M522 69 L530 74 L522 79" stroke="#D9822B" stroke-width="1.6" fill="none"/>
+<path d="M466 97.0 L498.0 97.0 L498.0 120 L522 120" stroke="#D9822B" stroke-width="1.6" fill="none"/>
+<path d="M522 115 L530 120 L522 125" stroke="#D9822B" stroke-width="1.6" fill="none"/>
+<path d="M466 281.0 L498.0 281.0 L498.0 166 L522 166" stroke="#D9822B" stroke-width="1.6" fill="none"/>
+<path d="M522 161 L530 166 L522 171" stroke="#D9822B" stroke-width="1.6" fill="none"/>
+<path d="M466 281.0 L498.0 281.0 L498.0 212 L522 212" stroke="#D9822B" stroke-width="1.6" fill="none"/>
+<path d="M522 207 L530 212 L522 217" stroke="#D9822B" stroke-width="1.6" fill="none"/>
+<path d="M466 281.0 L498.0 281.0 L498.0 258 L522 258" stroke="#D9822B" stroke-width="1.6" fill="none"/>
+<path d="M522 253 L530 258 L522 263" stroke="#D9822B" stroke-width="1.6" fill="none"/>
+<path d="M466 281.0 L498.0 281.0 L498.0 304 L522 304" stroke="#D9822B" stroke-width="1.6" fill="none"/>
+<path d="M522 299 L530 304 L522 309" stroke="#D9822B" stroke-width="1.6" fill="none"/>
+<path d="M466 281.0 L498.0 281.0 L498.0 350 L522 350" stroke="#D9822B" stroke-width="1.6" fill="none"/>
+<path d="M522 345 L530 350 L522 355" stroke="#D9822B" stroke-width="1.6" fill="none"/>
+<path d="M312 442 L421.0 442 L421.0 396 L522 396" stroke="#7A6A99" stroke-width="1.6" fill="none"/>
+<path d="M522 391 L530 396 L522 401" stroke="#7A6A99" stroke-width="1.6" fill="none"/>
+<path d="M312 442 L421.0 442 L421.0 442 L522 442" stroke="#7A6A99" stroke-width="1.6" fill="none"/>
+<path d="M522 437 L530 442 L522 447" stroke="#7A6A99" stroke-width="1.6" fill="none"/>
+<path d="M312 442 L400 442 L400 488 L522 488" stroke="#7A6A99" stroke-width="1.6" fill="none"/>
+<path d="M522 483 L530 488 L522 493" stroke="#7A6A99" stroke-width="1.6" fill="none"/>
+<rect x="410.0" y="475.0" width="64.0" height="26.0" rx="13" fill="#ffffff" stroke="#7A6A99" stroke-width="1"/>
+<text x="442.0" y="493.0" font-size="13" fill="#5B4D80" text-anchor="middle" font-weight="700">흉선</text>
+<rect x="750.0" y="287.0" width="142.0" height="34.0" rx="7" fill="#ffffff" stroke="#D9822B" stroke-width="1.6"/>
+<text x="821.0" y="309.0" font-size="15" fill="#333" text-anchor="middle" font-weight="700">대식세포</text>
+<line x1="696.0" y1="304.0" x2="748.0" y2="304.0" stroke="#D9822B" stroke-width="1.6"/>
+<path d="M741.1 308.0 L748.0 304.0 L741.1 300.0" stroke="#D9822B" stroke-width="1.6" fill="none"/>
+<rect x="750.0" y="241.0" width="142.0" height="34.0" rx="7" fill="#ffffff" stroke="#D9822B" stroke-width="1.6"/>
+<text x="821.0" y="263.0" font-size="15" fill="#333" text-anchor="middle" font-weight="700">비만세포</text>
+<path d="M466 281.0 L486 281.0 L486 230 L730 230 L730 258 L742 258" stroke="#D9822B" stroke-width="1.4" stroke-dasharray="4,3" fill="none"/>
+<path d="M742 253 L750 258 L742 263" stroke="#D9822B" stroke-width="1.4" fill="none"/>
+<rect x="750.0" y="422.0" width="142.0" height="40.0" rx="7" fill="#ffffff" stroke="#7A6A99" stroke-width="1.6"/>
+<text x="821.0" y="441.0" font-size="14" fill="#333" text-anchor="middle" font-weight="700">형질세포</text>
+<text x="821.0" y="455.0" font-size="13" fill="#555" text-anchor="middle">항체 분비</text>
+<line x1="696.0" y1="442.0" x2="748.0" y2="442.0" stroke="#7A6A99" stroke-width="1.6"/>
+<path d="M741.1 446.0 L748.0 442.0 L741.1 438.0" stroke="#7A6A99" stroke-width="1.6" fill="none"/>
+<rect x="750.0" y="471.0" width="142.0" height="34.0" rx="7" fill="#ffffff" stroke="#7A6A99" stroke-width="1.6"/>
+<text x="821.0" y="493.0" font-size="15" fill="#333" text-anchor="middle" font-weight="700">작동 T세포</text>
+<line x1="696.0" y1="488.0" x2="748.0" y2="488.0" stroke="#7A6A99" stroke-width="1.6"/>
+<path d="M741.1 492.0 L748.0 488.0 L741.1 484.0" stroke="#7A6A99" stroke-width="1.6" fill="none"/>
+<text x="821.0" y="214.0" font-size="13" fill="#555" text-anchor="middle">비만세포: 전구세포가</text>
+<text x="821.0" y="231.0" font-size="13" fill="#555" text-anchor="middle">조직으로 가서 분화</text>
+<rect x="30.0" y="559.0" width="16.0" height="12.0" rx="3" fill="#ffffff" stroke="#D9822B" stroke-width="1.6"/>
+<text x="52.0" y="570.0" font-size="13" fill="#555" text-anchor="start">골수계 (myeloid)</text>
+<rect x="180.0" y="559.0" width="16.0" height="12.0" rx="3" fill="#ffffff" stroke="#7A6A99" stroke-width="1.6"/>
+<text x="202.0" y="570.0" font-size="13" fill="#555" text-anchor="start">림프계 (lymphoid)</text>
+<text x="340.0" y="570.0" font-size="13" fill="#888" text-anchor="start">고전적 계통도를 단순화한 모식도. 중간 전구 단계와 아형 생략</text>
+</svg>

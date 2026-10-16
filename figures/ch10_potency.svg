@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 470" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" role="img" aria-label="분화 능력의 단계: 전능성, 만능성, 다능성, 단능성, 분화된 세포. 아래로 갈수록 만들 수 있는 세포 종류가 줄어들고, iPSC는 분화된 세포를 만능성으로 되돌린 것">
+<rect width="920" height="470" fill="#ffffff"/>
+<text x="60.0" y="30.0" font-size="15" fill="#333" text-anchor="start" font-weight="700">단계</text>
+<text x="262.0" y="30.0" font-size="15" fill="#333" text-anchor="start" font-weight="700">만들 수 있는 범위 (폭은 개념적)</text>
+<text x="600.0" y="30.0" font-size="15" fill="#333" text-anchor="start" font-weight="700">무엇을 만들 수 있나</text>
+<rect x="46.0" y="56.0" width="828.0" height="66.0" rx="8" fill="#f7f6fa" stroke="#d9d3e6" stroke-width="1"/>
+<text x="60.0" y="84.0" font-size="17" fill="#5B4D80" text-anchor="start" font-weight="700">전능성</text>
+<text x="60.0" y="104.0" font-size="13" fill="#555" text-anchor="start">totipotent</text>
+<rect x="262.0" y="70.0" width="320.0" height="28.0" rx="6" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<text x="262.0" y="116.0" font-size="13" fill="#555" text-anchor="start">수정란, 아주 초기 배아 세포</text>
+<text x="600.0" y="90.0" font-size="14" fill="#333" text-anchor="start">몸 전체 + 태반 등 배아 밖 조직</text>
+<rect x="46.0" y="134.0" width="828.0" height="66.0" rx="8" fill="#ffffff" stroke="#d9d3e6" stroke-width="1"/>
+<text x="60.0" y="162.0" font-size="17" fill="#5B4D80" text-anchor="start" font-weight="700">만능성</text>
+<text x="60.0" y="182.0" font-size="13" fill="#555" text-anchor="start">pluripotent</text>
+<rect x="262.0" y="148.0" width="255.0" height="28.0" rx="6" fill="#6E5F93" stroke="none" stroke-width="1"/>
+<text x="262.0" y="194.0" font-size="13" fill="#555" text-anchor="start">내세포괴, 배아줄기세포, iPSC</text>
+<text x="600.0" y="168.0" font-size="14" fill="#333" text-anchor="start">세 배엽의 모든 세포 (태반은 못 만듦)</text>
+<rect x="46.0" y="212.0" width="828.0" height="66.0" rx="8" fill="#f7f6fa" stroke="#d9d3e6" stroke-width="1"/>
+<text x="60.0" y="240.0" font-size="17" fill="#5B4D80" text-anchor="start" font-weight="700">다능성</text>
+<text x="60.0" y="260.0" font-size="13" fill="#555" text-anchor="start">multipotent</text>
+<rect x="262.0" y="226.0" width="175.0" height="28.0" rx="6" fill="#8577A8" stroke="none" stroke-width="1"/>
+<text x="262.0" y="272.0" font-size="13" fill="#555" text-anchor="start">조혈줄기세포 등 성체줄기세포</text>
+<text x="600.0" y="246.0" font-size="14" fill="#333" text-anchor="start">한 계통 안의 여러 세포 (예: 모든 혈액세포)</text>
+<rect x="46.0" y="290.0" width="828.0" height="66.0" rx="8" fill="#ffffff" stroke="#d9d3e6" stroke-width="1"/>
+<text x="60.0" y="318.0" font-size="17" fill="#5B4D80" text-anchor="start" font-weight="700">단능성</text>
+<text x="60.0" y="338.0" font-size="13" fill="#555" text-anchor="start">unipotent</text>
+<rect x="262.0" y="304.0" width="95.0" height="28.0" rx="6" fill="#A396C0" stroke="none" stroke-width="1"/>
+<text x="262.0" y="350.0" font-size="13" fill="#555" text-anchor="start">정원줄기세포 등</text>
+<text x="600.0" y="324.0" font-size="14" fill="#333" text-anchor="start">한 종류 (예: 정자)</text>
+<rect x="46.0" y="368.0" width="828.0" height="66.0" rx="8" fill="#f7f6fa" stroke="#d9d3e6" stroke-width="1"/>
+<text x="60.0" y="396.0" font-size="17" fill="#5B4D80" text-anchor="start" font-weight="700">분화된 세포</text>
+<text x="60.0" y="416.0" font-size="13" fill="#555" text-anchor="start">differentiated</text>
+<rect x="262.0" y="382.0" width="26.0" height="28.0" rx="6" fill="#C3B9D8" stroke="none" stroke-width="1"/>
+<text x="262.0" y="428.0" font-size="13" fill="#555" text-anchor="start">림프구, 신경세포, 간세포 …</text>
+<text x="600.0" y="402.0" font-size="14" fill="#333" text-anchor="start">자기 일을 함 — 대개 다른 종류로 바뀌지 않음</text>
+<line x1="36.0" y1="62.0" x2="36.0" y2="430.0" stroke="#5B4D80" stroke-width="2.5"/>
+<path d="M31.0 421.3 L36.0 430.0 L41.0 421.3" stroke="#5B4D80" stroke-width="2.5" fill="none"/>
+<text x="20" y="246" font-size="15" fill="#5B4D80" font-weight="700" text-anchor="middle" transform="rotate(-90 20 246)">분화 → 선택지가 줄어듦</text>
+<line x1="886.0" y1="401.0" x2="886.0" y2="170.0" stroke="#C0392B" stroke-width="2.5" stroke-dasharray="7,4"/>
+<path d="M891.0 178.7 L886.0 170.0 L881.0 178.7" stroke="#C0392B" stroke-width="2.5" fill="none"/>
+<text x="906" y="286" font-size="15" fill="#C0392B" font-weight="700" text-anchor="middle" transform="rotate(-90 906 286)">재프로그래밍: iPSC (전사인자 4개)</text>
+<text x="46.0" y="462.0" font-size="13" fill="#888" text-anchor="start">단계 이름과 예는 대표적인 경우. 실제 세포의 분화 능력은 연속적이고 조건에 따라 달라짐</text>
+</svg>

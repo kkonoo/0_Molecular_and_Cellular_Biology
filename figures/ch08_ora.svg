@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 360" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" role="img" aria-label="과대표현 분석의 2×2 표: universe 1만 2천 개 중 DE 유전자 300개와 경로 유전자 200개가 12개 겹침">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker><marker id="ahp" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5B4D80"/></marker><marker id="aht" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F7A7A"/></marker><marker id="aho" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D9822B"/></marker><marker id="bar" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="9" markerHeight="9" orient="auto"><path d="M5,0 L5,10" stroke="#C0392B" stroke-width="2.4"/></marker><marker id="bark" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="9" markerHeight="9" orient="auto"><path d="M5,0 L5,10" stroke="#333" stroke-width="2.4"/></marker></defs>
+<rect width="920" height="360" fill="#ffffff"/>
+<rect x="20" y="40" width="380" height="300" rx="8" fill="#f7f6fa" stroke="#d9d3e6" stroke-width="1"/>
+<text x="36" y="70" font-size="16" fill="#333" text-anchor="start" font-weight="700">universe: 검정 대상 유전자 전체</text>
+<text x="36" y="92" font-size="15" fill="#555" text-anchor="start">N = 12,000 (예: 발현된 유전자)</text>
+<circle cx="160" cy="210" r="92" fill="#1F7A7A" stroke="none" stroke-width="1" fill-opacity="0.16"/>
+<circle cx="160" cy="210" r="92" fill="none" stroke="#1F7A7A" stroke-width="2"/>
+<circle cx="272" cy="210" r="72" fill="#5B4D80" stroke="none" stroke-width="1" fill-opacity="0.14"/>
+<circle cx="272" cy="210" r="72" fill="none" stroke="#5B4D80" stroke-width="2"/>
+<text x="116" y="205" font-size="16" fill="#1F7A7A" text-anchor="middle" font-weight="700">DE 유전자</text>
+<text x="116" y="227" font-size="15" fill="#1F7A7A" text-anchor="middle">n = 300</text>
+<text x="298" y="205" font-size="16" fill="#5B4D80" text-anchor="middle" font-weight="700">경로 유전자</text>
+<text x="298" y="227" font-size="15" fill="#5B4D80" text-anchor="middle">M = 200</text>
+<text x="220" y="205" font-size="14" fill="#C0392B" text-anchor="middle" font-weight="700">겹침</text>
+<text x="220" y="227" font-size="16" fill="#C0392B" text-anchor="middle" font-weight="700">k = 12</text>
+<text x="210" y="326" font-size="14" fill="#888" text-anchor="middle">원의 크기는 비율과 무관</text>
+<text x="490.0" y="77" font-size="16" fill="#333" text-anchor="middle" font-weight="700"></text>
+<text x="610.0" y="77" font-size="16" fill="#333" text-anchor="middle" font-weight="700">DE 유전자</text>
+<text x="730.0" y="77" font-size="16" fill="#333" text-anchor="middle" font-weight="700">DE 아님</text>
+<text x="845.0" y="77" font-size="16" fill="#333" text-anchor="middle" font-weight="700">합</text>
+<text x="490.0" y="119" font-size="16" fill="#555" text-anchor="middle" font-weight="700">경로 안</text>
+<rect x="554" y="96" width="112" height="34" rx="6" fill="#fbeaea" stroke="#C0392B" stroke-width="1"/>
+<text x="610.0" y="119" font-size="16" fill="#C0392B" text-anchor="middle" font-weight="700">12</text>
+<text x="730.0" y="119" font-size="16" fill="#333" text-anchor="middle">188</text>
+<text x="845.0" y="119" font-size="16" fill="#333" text-anchor="middle" font-weight="700">200</text>
+<text x="490.0" y="161" font-size="16" fill="#555" text-anchor="middle" font-weight="700">경로 밖</text>
+<text x="610.0" y="161" font-size="16" fill="#333" text-anchor="middle">288</text>
+<text x="730.0" y="161" font-size="16" fill="#333" text-anchor="middle">11,512</text>
+<text x="845.0" y="161" font-size="16" fill="#333" text-anchor="middle" font-weight="700">11,800</text>
+<text x="490.0" y="203" font-size="16" fill="#555" text-anchor="middle" font-weight="700">합</text>
+<text x="610.0" y="203" font-size="16" fill="#333" text-anchor="middle" font-weight="700">300</text>
+<text x="730.0" y="203" font-size="16" fill="#333" text-anchor="middle" font-weight="700">11,700</text>
+<text x="845.0" y="203" font-size="16" fill="#333" text-anchor="middle" font-weight="700">12,000</text>
+<line x1="430" y1="50" x2="900" y2="50" stroke="#cccccc" stroke-width="1"/>
+<line x1="430" y1="92" x2="900" y2="92" stroke="#888" stroke-width="1"/>
+<line x1="430" y1="134" x2="900" y2="134" stroke="#cccccc" stroke-width="1"/>
+<line x1="430" y1="176" x2="900" y2="176" stroke="#888" stroke-width="1"/>
+<line x1="430" y1="218" x2="900" y2="218" stroke="#cccccc" stroke-width="1"/>
+<line x1="550" y1="50" x2="550" y2="218" stroke="#cccccc" stroke-width="1.5"/>
+<line x1="790" y1="50" x2="790" y2="218" stroke="#cccccc" stroke-width="1.5"/>
+<text x="430" y="258" font-size="15.5" fill="#333" text-anchor="start">GeneRatio = k/n = 12/300</text>
+<text x="430" y="282" font-size="15.5" fill="#333" text-anchor="start">BgRatio = M/N = 200/12000</text>
+<text x="676" y="258" font-size="15.5" fill="#333" text-anchor="start">기대 겹침 = n × M / N = 5</text>
+<text x="676" y="282" font-size="15.5" fill="#333" text-anchor="start">관찰 12 → p = P(겹침 ≥ 12)</text>
+<text x="430" y="322" font-size="14.5" fill="#555" text-anchor="start">p는 초기하분포로 계산 (Fisher 정확검정 단측과 같음)</text>
+</svg>

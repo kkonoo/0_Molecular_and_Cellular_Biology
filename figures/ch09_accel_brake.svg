@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 428" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" role="img" aria-label="종양유전자와 종양억제유전자 비교: 가속기는 한 벌 변이로 켜지고, 브레이크는 두 벌 모두 고장 나야 풀림">
+<rect width="920" height="428" fill="#ffffff"/>
+<text x="368.0" y="30.0" font-size="15" fill="#333" text-anchor="middle" font-weight="700">두 벌 모두 정상</text>
+<text x="582.0" y="30.0" font-size="15" fill="#333" text-anchor="middle" font-weight="700">한 벌에 변이</text>
+<text x="796.0" y="30.0" font-size="15" fill="#333" text-anchor="middle" font-weight="700">두 벌 모두 변이</text>
+<rect x="14.0" y="58.0" width="892.0" height="158.0" rx="10" fill="#f7f6fa" stroke="#d9d3e6" stroke-width="1"/>
+<text x="30.0" y="90.0" font-size="17" fill="#a85f15" text-anchor="start" font-weight="700">가속기</text>
+<text x="30.0" y="112.0" font-size="14" fill="#333" text-anchor="start">종양유전자 (oncogene)</text>
+<text x="30.0" y="138.0" font-size="15" fill="#333" text-anchor="start" font-weight="700" font-style="italic">KRAS · MYC</text>
+<text x="30.0" y="168.0" font-size="13" fill="#555" text-anchor="start">정상일 때: 신호가 올 때만</text>
+<text x="30.0" y="187.0" font-size="13" fill="#555" text-anchor="start">증식을 켬 (원종양유전자)</text>
+<rect x="286.0" y="84.0" width="164.0" height="16.0" rx="8" fill="#ece9f2" stroke="#bbb" stroke-width="1"/>
+<rect x="378" y="84" width="20" height="16" fill="#D9822B"/>
+<rect x="286.0" y="114.0" width="164.0" height="16.0" rx="8" fill="#ece9f2" stroke="#bbb" stroke-width="1"/>
+<rect x="378" y="114" width="20" height="16" fill="#D9822B"/>
+<text x="368.0" y="170.0" font-size="15" fill="#555" text-anchor="middle">신호 있을 때만 켜짐</text>
+<rect x="500.0" y="84.0" width="164.0" height="16.0" rx="8" fill="#ece9f2" stroke="#bbb" stroke-width="1"/>
+<rect x="592" y="84" width="20" height="16" fill="#C0392B"/>
+<text x="622.0" y="97.0" font-size="13" fill="#C0392B" text-anchor="start" font-weight="700">변이</text>
+<rect x="500.0" y="114.0" width="164.0" height="16.0" rx="8" fill="#ece9f2" stroke="#bbb" stroke-width="1"/>
+<rect x="592" y="114" width="20" height="16" fill="#D9822B"/>
+<text x="582.0" y="170.0" font-size="15" fill="#C0392B" text-anchor="middle" font-weight="700">신호 없이도 계속 켜짐</text>
+<text x="582.0" y="192.0" font-size="13" fill="#555" text-anchor="middle">한 벌로 충분 (우성처럼)</text>
+<rect x="714.0" y="84.0" width="164.0" height="16.0" rx="8" fill="#ece9f2" stroke="#bbb" stroke-width="1"/>
+<rect x="806" y="84" width="20" height="16" fill="#C0392B"/>
+<text x="836.0" y="97.0" font-size="13" fill="#C0392B" text-anchor="start" font-weight="700">변이</text>
+<rect x="714.0" y="114.0" width="164.0" height="16.0" rx="8" fill="#ece9f2" stroke="#bbb" stroke-width="1"/>
+<rect x="806" y="114" width="20" height="16" fill="#C0392B"/>
+<text x="836.0" y="127.0" font-size="13" fill="#C0392B" text-anchor="start" font-weight="700">변이</text>
+<text x="796.0" y="170.0" font-size="15" fill="#C0392B" text-anchor="middle" font-weight="700">계속 켜짐</text>
+<rect x="14.0" y="234.0" width="892.0" height="158.0" rx="10" fill="#f7f6fa" stroke="#d9d3e6" stroke-width="1"/>
+<text x="30.0" y="266.0" font-size="17" fill="#1F7A7A" text-anchor="start" font-weight="700">브레이크</text>
+<text x="30.0" y="288.0" font-size="14" fill="#333" text-anchor="start">종양억제유전자 (tumor suppressor)</text>
+<text x="30.0" y="314.0" font-size="15" fill="#333" text-anchor="start" font-weight="700" font-style="italic">TP53 · RB1</text>
+<text x="30.0" y="344.0" font-size="13" fill="#555" text-anchor="start">정상일 때: 손상·과잉 증식이면</text>
+<text x="30.0" y="363.0" font-size="13" fill="#555" text-anchor="start">멈추거나 세포를 없앰</text>
+<rect x="286.0" y="260.0" width="164.0" height="16.0" rx="8" fill="#ece9f2" stroke="#bbb" stroke-width="1"/>
+<rect x="378" y="260" width="20" height="16" fill="#1F7A7A"/>
+<rect x="286.0" y="290.0" width="164.0" height="16.0" rx="8" fill="#ece9f2" stroke="#bbb" stroke-width="1"/>
+<rect x="378" y="290" width="20" height="16" fill="#1F7A7A"/>
+<text x="368.0" y="346.0" font-size="15" fill="#555" text-anchor="middle">브레이크 작동</text>
+<rect x="500.0" y="260.0" width="164.0" height="16.0" rx="8" fill="#ece9f2" stroke="#bbb" stroke-width="1"/>
+<rect x="592" y="260" width="20" height="16" fill="#C0392B"/>
+<text x="622.0" y="273.0" font-size="13" fill="#C0392B" text-anchor="start" font-weight="700">변이</text>
+<rect x="500.0" y="290.0" width="164.0" height="16.0" rx="8" fill="#ece9f2" stroke="#bbb" stroke-width="1"/>
+<rect x="592" y="290" width="20" height="16" fill="#1F7A7A"/>
+<text x="582.0" y="346.0" font-size="15" fill="#a85f15" text-anchor="middle" font-weight="700">남은 한 벌로 아직 작동</text>
+<text x="582.0" y="368.0" font-size="13" fill="#555" text-anchor="middle">첫 번째 hit</text>
+<rect x="714.0" y="260.0" width="164.0" height="16.0" rx="8" fill="#ece9f2" stroke="#bbb" stroke-width="1"/>
+<rect x="806" y="260" width="20" height="16" fill="#C0392B"/>
+<text x="836.0" y="273.0" font-size="13" fill="#C0392B" text-anchor="start" font-weight="700">변이</text>
+<rect x="714.0" y="290.0" width="164.0" height="16.0" rx="8" fill="#ece9f2" stroke="#bbb" stroke-width="1"/>
+<rect x="806" y="290" width="20" height="16" fill="#C0392B"/>
+<text x="836.0" y="303.0" font-size="13" fill="#C0392B" text-anchor="start" font-weight="700">변이</text>
+<text x="796.0" y="346.0" font-size="15" fill="#C0392B" text-anchor="middle" font-weight="700">브레이크 없음</text>
+<text x="796.0" y="368.0" font-size="13" fill="#555" text-anchor="middle">두 번째 hit (열성처럼)</text>
+<text x="460.0" y="418.0" font-size="13" fill="#888" text-anchor="middle">같은 유전자의 두 벌(allele) 중 몇 벌이 고장 나야 효과가 나는지 보여 주는 단순화한 모식도</text>
+</svg>

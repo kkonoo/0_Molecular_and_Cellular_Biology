@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 380" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" role="img" aria-label="단백질의 일생: 합성, 접힘, 수식, 위치, 분해의 다섯 단계와 각 단계가 데이터에서 보이는지">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker><marker id="ahp" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5B4D80"/></marker><marker id="aht" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F7A7A"/></marker><marker id="aho" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D9822B"/></marker><marker id="bar" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="9" markerHeight="9" orient="auto"><path d="M5,0 L5,10" stroke="#C0392B" stroke-width="2.4"/></marker><marker id="bark" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="9" markerHeight="9" orient="auto"><path d="M5,0 L5,10" stroke="#333" stroke-width="2.4"/></marker></defs>
+<rect width="920" height="380" fill="#ffffff"/>
+<rect x="20" y="40" width="164" height="196" rx="8" fill="#f7f6fa" stroke="#d9d3e6" stroke-width="1"/>
+<text x="102.0" y="28" font-size="16" fill="#333" text-anchor="middle" font-weight="700">① 합성</text>
+<text x="102.0" y="198" font-size="14" fill="#555" text-anchor="middle">리보솜이 mRNA를 읽어</text>
+<text x="102.0" y="217" font-size="14" fill="#555" text-anchor="middle">아미노산 사슬을 만듦</text>
+<path d="M185 138 l12 0 m-5 -5 l5 5 l-5 5" stroke="#888" stroke-width="2" fill="none"/>
+<rect x="20" y="262" width="164" height="58" rx="8" fill="#e8f4f3" stroke="#b9dcd8" stroke-width="1"/>
+<text x="102.0" y="284" font-size="14" fill="#1F7A7A" text-anchor="middle">RNA-seq은 이 단계의</text>
+<text x="102.0" y="303" font-size="14" fill="#1F7A7A" text-anchor="middle">재료(mRNA)를 셈</text>
+<rect x="199" y="40" width="164" height="196" rx="8" fill="#f7f6fa" stroke="#d9d3e6" stroke-width="1"/>
+<text x="281.0" y="28" font-size="16" fill="#333" text-anchor="middle" font-weight="700">② 접힘</text>
+<text x="281.0" y="198" font-size="14" fill="#555" text-anchor="middle">사슬이 3차원 모양으로</text>
+<text x="281.0" y="217" font-size="14" fill="#555" text-anchor="middle">접힘, 샤페론이 도움</text>
+<path d="M364 138 l12 0 m-5 -5 l5 5 l-5 5" stroke="#888" stroke-width="2" fill="none"/>
+<rect x="199" y="262" width="164" height="58" rx="8" fill="#e8f4f3" stroke="#b9dcd8" stroke-width="1"/>
+<text x="281.0" y="284" font-size="14" fill="#1F7A7A" text-anchor="middle">접힘 상태는</text>
+<text x="281.0" y="303" font-size="14" fill="#1F7A7A" text-anchor="middle">시퀀싱에 안 보임</text>
+<rect x="378" y="40" width="164" height="196" rx="8" fill="#f7f6fa" stroke="#d9d3e6" stroke-width="1"/>
+<text x="460.0" y="28" font-size="16" fill="#333" text-anchor="middle" font-weight="700">③ 수식 (PTM)</text>
+<text x="460.0" y="198" font-size="14" fill="#555" text-anchor="middle">인산화·당화·</text>
+<text x="460.0" y="217" font-size="14" fill="#555" text-anchor="middle">유비퀴틴화·아세틸화</text>
+<path d="M543 138 l12 0 m-5 -5 l5 5 l-5 5" stroke="#888" stroke-width="2" fill="none"/>
+<rect x="378" y="262" width="164" height="58" rx="8" fill="#e8f4f3" stroke="#b9dcd8" stroke-width="1"/>
+<text x="460.0" y="284" font-size="14" fill="#1F7A7A" text-anchor="middle">mRNA에 흔적 없음</text>
+<text x="460.0" y="303" font-size="14" fill="#1F7A7A" text-anchor="middle">→ 단백질을 직접 재야</text>
+<rect x="557" y="40" width="164" height="196" rx="8" fill="#f7f6fa" stroke="#d9d3e6" stroke-width="1"/>
+<text x="639.0" y="28" font-size="16" fill="#333" text-anchor="middle" font-weight="700">④ 위치</text>
+<text x="639.0" y="198" font-size="14" fill="#555" text-anchor="middle">신호 서열을 따라</text>
+<text x="639.0" y="217" font-size="14" fill="#555" text-anchor="middle">핵·막·분비 등으로</text>
+<path d="M722 138 l12 0 m-5 -5 l5 5 l-5 5" stroke="#888" stroke-width="2" fill="none"/>
+<rect x="557" y="262" width="164" height="58" rx="8" fill="#e8f4f3" stroke="#b9dcd8" stroke-width="1"/>
+<text x="639.0" y="284" font-size="14" fill="#1F7A7A" text-anchor="middle">세포 표면 단백질은</text>
+<text x="639.0" y="303" font-size="14" fill="#1F7A7A" text-anchor="middle">CITE-seq으로 셀 수 있음</text>
+<rect x="736" y="40" width="164" height="196" rx="8" fill="#f7f6fa" stroke="#d9d3e6" stroke-width="1"/>
+<text x="818.0" y="28" font-size="16" fill="#333" text-anchor="middle" font-weight="700">⑤ 분해</text>
+<text x="818.0" y="198" font-size="14" fill="#555" text-anchor="middle">프로테아좀 또는</text>
+<text x="818.0" y="217" font-size="14" fill="#555" text-anchor="middle">리소좀에서 분해</text>
+<rect x="736" y="262" width="164" height="58" rx="8" fill="#e8f4f3" stroke="#b9dcd8" stroke-width="1"/>
+<text x="818.0" y="284" font-size="14" fill="#1F7A7A" text-anchor="middle">분해 속도가</text>
+<text x="818.0" y="303" font-size="14" fill="#1F7A7A" text-anchor="middle">단백질 양을 좌우</text>
+<text x="20" y="254" font-size="14" fill="#1F7A7A" text-anchor="start" font-weight="700">데이터에서는</text>
+<line x1="40.0" y1="150" x2="164.0" y2="150" stroke="#5B4D80" stroke-width="3"/>
+<ellipse cx="102.0" cy="158" rx="26" ry="11" fill="#ece8f4" stroke="#bdb3d3" stroke-width="1.2"/>
+<ellipse cx="102.0" cy="134" rx="32" ry="20" fill="#ece8f4" stroke="#bdb3d3" stroke-width="1.2"/>
+<path d="M102.0 128 L98.0 118 L84.0 104 L70.0 94 L54.0 88" stroke="#555" stroke-width="2" fill="none"/>
+<circle cx="98.0" cy="118" r="6" fill="#1F7A7A" stroke="none" stroke-width="1"/>
+<circle cx="84.0" cy="104" r="6" fill="#1F7A7A" stroke="none" stroke-width="1"/>
+<circle cx="70.0" cy="94" r="6" fill="#1F7A7A" stroke="none" stroke-width="1"/>
+<circle cx="54.0" cy="88" r="6" fill="#1F7A7A" stroke="none" stroke-width="1"/>
+<text x="142.0" y="168" font-size="12.5" fill="#5B4D80" text-anchor="start">mRNA</text>
+<path d="M219.0 110 q8 -14 16 0 t16 0 t16 0" stroke="#1F7A7A" stroke-width="3" fill="none"/>
+<path d="M269.0 110 l14 0" stroke="#888" stroke-width="1.5" fill="none" marker-end="url(#ah)"/>
+<path d="M299.0 100 q14 -22 30 -4 q16 18 -2 26 q-18 10 -26 -4 q-8 -12 -2 -18" stroke="#1F7A7A" stroke-width="3" fill="#d6ecea"/>
+<path d="M245.0 140 q36 44 72 0" stroke="#D9822B" stroke-width="5" fill="none"/>
+<text x="281.0" y="176" font-size="13" fill="#9a5512" text-anchor="middle" font-weight="700">샤페론</text>
+<ellipse cx="460.0" cy="128" rx="34" ry="24" fill="#d6ecea" stroke="#1F7A7A" stroke-width="2.5"/>
+<line x1="436.0" y1="110.0" x2="420.0" y2="98" stroke="#C0392B" stroke-width="1.5"/>
+<circle cx="420.0" cy="98" r="13" fill="#ffffff" stroke="#C0392B" stroke-width="2"/>
+<text x="420.0" y="102.5" font-size="12.5" fill="#C0392B" text-anchor="middle" font-weight="700">P</text>
+<line x1="484.0" y1="110.0" x2="500.0" y2="98" stroke="#D9822B" stroke-width="1.5"/>
+<circle cx="500.0" cy="98" r="13" fill="#ffffff" stroke="#D9822B" stroke-width="2"/>
+<text x="500.0" y="102.5" font-size="12.5" fill="#D9822B" text-anchor="middle" font-weight="700">당</text>
+<line x1="434.8" y1="143.6" x2="418.0" y2="154" stroke="#5B4D80" stroke-width="1.5"/>
+<circle cx="418.0" cy="154" r="13" fill="#ffffff" stroke="#5B4D80" stroke-width="2"/>
+<text x="418.0" y="158.5" font-size="12.5" fill="#5B4D80" text-anchor="middle" font-weight="700">Ub</text>
+<line x1="485.2" y1="143.6" x2="502.0" y2="154" stroke="#555" stroke-width="1.5"/>
+<circle cx="502.0" cy="154" r="13" fill="#ffffff" stroke="#555" stroke-width="2"/>
+<text x="502.0" y="158.5" font-size="12.5" fill="#555" text-anchor="middle" font-weight="700">Ac</text>
+<ellipse cx="627.0" cy="128" rx="54" ry="48" fill="#ffffff" stroke="#888" stroke-width="2"/>
+<ellipse cx="617.0" cy="134" rx="20" ry="17" fill="#efecf5" stroke="#7A6A99" stroke-width="1.5"/>
+<text x="617.0" y="139" font-size="12.5" fill="#5B4D80" text-anchor="middle" font-weight="700">핵</text>
+<rect x="671.0" y="104" width="18" height="10" rx="3" fill="#1F7A7A" stroke="#1F7A7A" stroke-width="1"/>
+<rect x="593.0" y="78" width="10" height="18" rx="3" fill="#1F7A7A" stroke="#1F7A7A" stroke-width="1"/>
+<circle cx="691.0" cy="142" r="4" fill="#D9822B" stroke="none" stroke-width="1"/>
+<circle cx="699.0" cy="128" r="4" fill="#D9822B" stroke="none" stroke-width="1"/>
+<circle cx="697.0" cy="156" r="4" fill="#D9822B" stroke="none" stroke-width="1"/>
+<text x="673.0" y="98" font-size="12.5" fill="#1F7A7A" text-anchor="end" font-weight="700">막</text>
+<text x="697.0" y="180" font-size="12.5" fill="#9a5512" text-anchor="middle" font-weight="700">분비</text>
+<rect x="766.0" y="92" width="40" height="13" rx="4" fill="#efecf5" stroke="#7A6A99" stroke-width="1"/>
+<rect x="766.0" y="107" width="40" height="13" rx="4" fill="#efecf5" stroke="#7A6A99" stroke-width="1"/>
+<rect x="766.0" y="122" width="40" height="13" rx="4" fill="#efecf5" stroke="#7A6A99" stroke-width="1"/>
+<rect x="766.0" y="137" width="40" height="13" rx="4" fill="#efecf5" stroke="#7A6A99" stroke-width="1"/>
+<circle cx="764.0" cy="80" r="6" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<circle cx="776.0" cy="76" r="6" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<circle cx="788.0" cy="72" r="6" fill="#5B4D80" stroke="none" stroke-width="1"/>
+<text x="786.0" y="168" font-size="12.5" fill="#5B4D80" text-anchor="middle" font-weight="700">프로테아좀</text>
+<circle cx="854.0" cy="124" r="26" fill="#fbeee0" stroke="#D9822B" stroke-width="2"/>
+<circle cx="848.0" cy="118" r="5" fill="#1F7A7A" stroke="none" stroke-width="1"/>
+<circle cx="861.0" cy="130" r="5" fill="#1F7A7A" stroke="none" stroke-width="1"/>
+<circle cx="851.0" cy="134" r="4" fill="#1F7A7A" stroke="none" stroke-width="1"/>
+<text x="854.0" y="168" font-size="12.5" fill="#9a5512" text-anchor="middle" font-weight="700">리소좀</text>
+<text x="460" y="352" font-size="14" fill="#555" text-anchor="middle">시간 →  합성에서 분해까지 걸리는 시간(반감기)은 단백질마다 분 단위에서 수십 일까지 다름</text>
+</svg>

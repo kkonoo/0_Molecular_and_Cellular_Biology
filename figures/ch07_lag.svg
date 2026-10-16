@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 400" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Noto Sans CJK KR', sans-serif" role="img" aria-label="가상의 mRNA가 12시간부터 36시간까지 4배로 올랐다 내려올 때 반감기 4시간과 46시간인 단백질이 따라가는 곡선">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker><marker id="ahp" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5B4D80"/></marker><marker id="aht" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1F7A7A"/></marker><marker id="aho" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D9822B"/></marker><marker id="bar" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="9" markerHeight="9" orient="auto"><path d="M5,0 L5,10" stroke="#C0392B" stroke-width="2.4"/></marker><marker id="bark" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="9" markerHeight="9" orient="auto"><path d="M5,0 L5,10" stroke="#333" stroke-width="2.4"/></marker></defs>
+<rect width="920" height="400" fill="#ffffff"/>
+<line x1="90" y1="330" x2="700" y2="330" stroke="#333" stroke-width="1.5"/>
+<line x1="90" y1="330" x2="90" y2="50" stroke="#333" stroke-width="1.5"/>
+<line x1="90.0" y1="330" x2="90.0" y2="336" stroke="#333" stroke-width="1.5"/>
+<text x="90.0" y="354" font-size="14" fill="#555" text-anchor="middle">0</text>
+<line x1="212.0" y1="330" x2="212.0" y2="336" stroke="#333" stroke-width="1.5"/>
+<text x="212.0" y="354" font-size="14" fill="#555" text-anchor="middle">24</text>
+<line x1="334.0" y1="330" x2="334.0" y2="336" stroke="#333" stroke-width="1.5"/>
+<text x="334.0" y="354" font-size="14" fill="#555" text-anchor="middle">48</text>
+<line x1="456.0" y1="330" x2="456.0" y2="336" stroke="#333" stroke-width="1.5"/>
+<text x="456.0" y="354" font-size="14" fill="#555" text-anchor="middle">72</text>
+<line x1="578.0" y1="330" x2="578.0" y2="336" stroke="#333" stroke-width="1.5"/>
+<text x="578.0" y="354" font-size="14" fill="#555" text-anchor="middle">96</text>
+<line x1="700.0" y1="330" x2="700.0" y2="336" stroke="#333" stroke-width="1.5"/>
+<text x="700.0" y="354" font-size="14" fill="#555" text-anchor="middle">120</text>
+<line x1="84" y1="330.0" x2="90" y2="330.0" stroke="#333" stroke-width="1.5"/>
+<text x="78" y="335.0" font-size="14" fill="#555" text-anchor="end">0</text>
+<line x1="84" y1="267.77777777777777" x2="90" y2="267.77777777777777" stroke="#333" stroke-width="1.5"/>
+<text x="78" y="272.77777777777777" font-size="14" fill="#555" text-anchor="end">1</text>
+<line x1="90" y1="267.77777777777777" x2="700" y2="267.77777777777777" stroke="#eeeeee" stroke-width="1"/>
+<line x1="84" y1="205.55555555555554" x2="90" y2="205.55555555555554" stroke="#333" stroke-width="1.5"/>
+<text x="78" y="210.55555555555554" font-size="14" fill="#555" text-anchor="end">2</text>
+<line x1="90" y1="205.55555555555554" x2="700" y2="205.55555555555554" stroke="#eeeeee" stroke-width="1"/>
+<line x1="84" y1="143.33333333333334" x2="90" y2="143.33333333333334" stroke="#333" stroke-width="1.5"/>
+<text x="78" y="148.33333333333334" font-size="14" fill="#555" text-anchor="end">3</text>
+<line x1="90" y1="143.33333333333334" x2="700" y2="143.33333333333334" stroke="#eeeeee" stroke-width="1"/>
+<line x1="84" y1="81.11111111111111" x2="90" y2="81.11111111111111" stroke="#333" stroke-width="1.5"/>
+<text x="78" y="86.11111111111111" font-size="14" fill="#555" text-anchor="end">4</text>
+<line x1="90" y1="81.11111111111111" x2="700" y2="81.11111111111111" stroke="#eeeeee" stroke-width="1"/>
+<text x="395.0" y="380" font-size="15" fill="#333" text-anchor="middle">시간 (h)</text>
+<text x="30" y="190.0" font-size="15" fill="#333" text-anchor="middle" transform="rotate(-90 30 190.0)">평소 대비 배수</text>
+<line x1="191.66666666666669" y1="60" x2="191.66666666666669" y2="330" stroke="#888" stroke-width="1.2" stroke-dasharray="5,4"/>
+<text x="191.66666666666669" y="52" font-size="14" fill="#333" text-anchor="middle" font-weight="700">t₁ = 20 h</text>
+<line x1="344.16666666666663" y1="60" x2="344.16666666666663" y2="330" stroke="#888" stroke-width="1.2" stroke-dasharray="5,4"/>
+<text x="344.16666666666663" y="52" font-size="14" fill="#333" text-anchor="middle" font-weight="700">t₂ = 50 h</text>
+<polyline points="90.0,267.8 151.0,267.8 151.0,81.1 273.0,81.1 273.0,267.8 700.0,267.8" fill="none" stroke="#1F7A7A" stroke-width="3.5"/>
+<polyline points="90.0,267.8 95.1,267.8 100.2,267.8 105.2,267.8 110.3,267.8 115.4,267.8 120.5,267.8 125.6,267.8 130.7,267.8 135.8,267.8 140.8,267.8 145.9,267.8 151.0,267.8 156.1,235.4 161.2,208.7 166.2,186.6 171.3,168.3 176.4,153.2 181.5,140.7 186.6,130.4 191.7,121.8 196.8,114.8 201.8,108.9 206.9,104.1 212.0,100.1 217.1,96.8 222.2,94.1 227.2,91.9 232.3,90.0 237.4,88.5 242.5,87.2 247.6,86.1 252.7,85.3 257.8,84.5 262.8,83.9 267.9,83.5 273.0,83.1 278.1,115.1 283.2,141.5 288.2,163.4 293.3,181.5 298.4,196.4 303.5,208.8 308.6,219.0 313.7,227.5 318.8,234.5 323.8,240.2 328.9,245.0 334.0,249.0 339.1,252.2 344.2,254.9 349.2,257.1 354.3,259.0 359.4,260.5 364.5,261.8 369.6,262.8 374.7,263.7 379.8,264.4 384.8,265.0 389.9,265.5 395.0,265.9 400.1,266.2 405.2,266.5 410.2,266.7 415.3,266.9 420.4,267.0 425.5,267.2 430.6,267.3 435.7,267.4 440.8,267.4 445.8,267.5 450.9,267.5 456.0,267.6 461.1,267.6 466.2,267.6 471.2,267.7 476.3,267.7 481.4,267.7 486.5,267.7 491.6,267.7 496.7,267.7 501.8,267.7 506.8,267.7 511.9,267.8 517.0,267.8 522.1,267.8 527.2,267.8 532.2,267.8 537.3,267.8 542.4,267.8 547.5,267.8 552.6,267.8 557.7,267.8 562.8,267.8 567.8,267.8 572.9,267.8 578.0,267.8 583.1,267.8 588.2,267.8 593.2,267.8 598.3,267.8 603.4,267.8 608.5,267.8 613.6,267.8 618.7,267.8 623.8,267.8 628.8,267.8 633.9,267.8 639.0,267.8 644.1,267.8 649.2,267.8 654.2,267.8 659.3,267.8 664.4,267.8 669.5,267.8 674.6,267.8 679.7,267.8 684.8,267.8 689.8,267.8 694.9,267.8 700.0,267.8" fill="none" stroke="#D9822B" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="90.0,267.8 95.1,267.8 100.2,267.8 105.2,267.8 110.3,267.8 115.4,267.8 120.5,267.8 125.6,267.8 130.7,267.8 135.8,267.8 140.8,267.8 145.9,267.8 151.0,267.8 156.1,265.0 161.2,262.2 166.2,259.5 171.3,256.8 176.4,254.1 181.5,251.5 186.6,249.0 191.7,246.4 196.8,243.9 201.8,241.5 206.9,239.1 212.0,236.7 217.1,234.3 222.2,232.0 227.2,229.8 232.3,227.5 237.4,225.3 242.5,223.1 247.6,221.0 252.7,218.9 257.8,216.8 262.8,214.8 267.9,212.8 273.0,210.8 278.1,211.6 283.2,212.5 288.2,213.3 293.3,214.1 298.4,214.9 303.5,215.7 308.6,216.5 313.7,217.3 318.8,218.1 323.8,218.8 328.9,219.5 334.0,220.3 339.1,221.0 344.2,221.7 349.2,222.4 354.3,223.1 359.4,223.7 364.5,224.4 369.6,225.1 374.7,225.7 379.8,226.3 384.8,227.0 389.9,227.6 395.0,228.2 400.1,228.8 405.2,229.4 410.2,229.9 415.3,230.5 420.4,231.1 425.5,231.6 430.6,232.2 435.7,232.7 440.8,233.2 445.8,233.8 450.9,234.3 456.0,234.8 461.1,235.3 466.2,235.8 471.2,236.2 476.3,236.7 481.4,237.2 486.5,237.7 491.6,238.1 496.7,238.6 501.8,239.0 506.8,239.4 511.9,239.9 517.0,240.3 522.1,240.7 527.2,241.1 532.2,241.5 537.3,241.9 542.4,242.3 547.5,242.7 552.6,243.0 557.7,243.4 562.8,243.8 567.8,244.1 572.9,244.5 578.0,244.9 583.1,245.2 588.2,245.5 593.2,245.9 598.3,246.2 603.4,246.5 608.5,246.9 613.6,247.2 618.7,247.5 623.8,247.8 628.8,248.1 633.9,248.4 639.0,248.7 644.1,249.0 649.2,249.2 654.2,249.5 659.3,249.8 664.4,250.1 669.5,250.3 674.6,250.6 679.7,250.9 684.8,251.1 689.8,251.4 694.9,251.6 700.0,251.9" fill="none" stroke="#5B4D80" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="191.66666666666669" cy="81.11111111111111" r="4.5" fill="#1F7A7A" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="191.66666666666669" cy="121.8403006902303" r="4.5" fill="#D9822B" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="191.66666666666669" cy="246.4272613203995" r="4.5" fill="#5B4D80" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="344.16666666666663" cy="267.77777777777777" r="4.5" fill="#1F7A7A" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="344.16666666666663" cy="254.9101015201801" r="4.5" fill="#D9822B" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="344.16666666666663" cy="221.68888868234848" r="4.5" fill="#5B4D80" stroke="#ffffff" stroke-width="1.2"/>
+<rect x="722" y="50" width="186" height="128" rx="8" fill="#f7f6fa" stroke="#d9d3e6" stroke-width="1"/>
+<line x1="736" y1="76" x2="766" y2="76" stroke="#1F7A7A" stroke-width="3.5"/>
+<text x="774" y="81" font-size="15" fill="#333" text-anchor="start">mRNA</text>
+<line x1="736" y1="104" x2="766" y2="104" stroke="#D9822B" stroke-width="3"/>
+<text x="774" y="109" font-size="15" fill="#333" text-anchor="start">단백질 (반감기 4 h)</text>
+<line x1="736" y1="132" x2="766" y2="132" stroke="#5B4D80" stroke-width="3"/>
+<text x="774" y="137" font-size="15" fill="#333" text-anchor="start">단백질 (반감기 46 h)</text>
+<text x="736" y="163" font-size="14" fill="#888" text-anchor="start">mRNA 신호는 가상</text>
+<rect x="722" y="196" width="186" height="134" rx="8" fill="#ffffff" stroke="#d9d3e6" stroke-width="1"/>
+<text x="736" y="220" font-size="15" fill="#333" text-anchor="start" font-weight="700">t₁: mRNA 4배</text>
+<text x="736" y="240" font-size="14" fill="#5B4D80" text-anchor="start">단백질(46 h) 1.3배</text>
+<text x="736" y="270" font-size="15" fill="#333" text-anchor="start" font-weight="700">t₂: mRNA 1배 (복귀)</text>
+<text x="736" y="290" font-size="14" fill="#5B4D80" text-anchor="start">단백질(46 h) 1.7배</text>
+<text x="736" y="316" font-size="14" fill="#C0392B" text-anchor="start">같은 시점 비교는 어긋남</text>
+</svg>
