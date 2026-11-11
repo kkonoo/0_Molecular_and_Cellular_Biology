@@ -97,7 +97,7 @@ format:
 
 ## 1) enhancer와 DNA 고리
 
-![유전자 조절 모식도. 위: 한 줄로 펼친 DNA에서 enhancer는 표적 유전자에서 멀리 떨어져 있고 사이에 다른 유전자가 있을 수 있음. 아래: DNA가 고리를 만들어 enhancer에 붙은 TF가 promoter의 Pol II 곁으로 옴. 모식도이며 크기·거리 비율은 실제와 다름](../figures/ch05_regulation.svg){fig-alt="위 패널은 enhancer, 이웃 유전자, promoter, TSS, 표적 유전자가 한 줄로 놓인 DNA. 아래 패널은 사이의 DNA가 고리로 빠지면서 enhancer 위의 두 TF와 promoter 위의 일반 전사인자, RNA 중합효소 II가 가까이 모이고 새 RNA가 나오는 모습"}
+![유전자 조절 모식도. 위: 한 줄로 펼친 DNA에서 enhancer는 표적 유전자에서 멀리 떨어져 있고 사이에 다른 유전자가 있을 수 있음. 아래: DNA가 고리를 만들어 enhancer에 붙은 TF가 promoter의 Pol II 곁으로 옴. 모식도이며 크기·거리 비율은 실제와 다름](../figures/ch05_regulation.png){fig-alt="위 패널은 enhancer, 회색 이웃 유전자, promoter, TSS, 파란 표적 유전자가 한 줄로 놓인 DNA. 아래 패널은 사이의 DNA가 이웃 유전자를 품은 고리로 빠지면서 enhancer 위의 두 TF와 promoter 위의 일반 전사인자, RNA 중합효소 II가 점선 타원 안에 가까이 모이고 새 RNA가 나오는 모습"}
 
 - enhancer: TF 여러 개가 모여 붙어 **전사를 높이는** 조절 구간
 - 표적 유전자에서 멀리 있을 수 있음, 중간에 다른 유전자가 끼어 있기도 함
@@ -190,7 +190,7 @@ format:
 
 : {tbl-colwidths="[14,43,43]"}
 
-![ATAC-seq이 peak를 만드는 과정. 위: 뉴클레오솜(원)이 빠진 열린 구간에서 Tn5 자리가 몰림. 가운데: 읽힌 fragment가 그 구간에 쌓임. 아래: 쌓인 수가 peak가 되고, peak caller가 그 구간(chromStart–chromEnd)과 가장 높은 점(summit)을 적음. 모식도](../figures/ch05_atac_peak.svg){fig-alt="세 줄짜리 트랙 모식도. 첫 줄은 뉴클레오솜 사이 열린 구간에 TF가 붙어 있고 빨간 삼각형(Tn5 자리)이 열린 구간에 몰림. 둘째 줄은 fragment 막대가 열린 구간에 많이 쌓임. 셋째 줄은 coverage가 솟은 peak와 chromStart, chromEnd, summit 표시"}
+![ATAC-seq이 peak를 만드는 과정. 위: 뉴클레오솜(원)이 빠진 열린 구간에서 Tn5 자리(초록 삼각형)가 몰림. 가운데: 읽힌 fragment가 그 구간에 쌓임. 아래: 쌓인 수가 peak가 되고, peak caller가 그 구간(chromStart–chromEnd)과 가장 높은 점(summit)을 적음. 모식도](../figures/ch05_atac_peak.png){fig-alt="세 줄짜리 트랙 모식도. 첫 줄은 뉴클레오솜 사이 열린 구간에 TF가 붙어 있고 초록 삼각형(Tn5 자리)이 열린 구간에 몰림. 둘째 줄은 파란 fragment 막대가 열린 구간에 많이 쌓임. 셋째 줄은 coverage가 솟은 peak와 chromStart, chromEnd, summit 표시"}
 
 **peak 파일: narrowPeak**
 
@@ -241,7 +241,7 @@ chr1   1000   1400   sampleA_peak_17   312   .   8.21   34.6   31.2   210
   - 열 전체 높이 = 그 위치가 얼마나 고정되어 있는지 (정보량, bits). DNA는 네 글자라 최대 log₂4 = **2 bits**
   - 글자 높이 = 그 염기의 빈도 × 정보량
 
-![가상의 TF 모티프. 왼쪽 표의 숫자(결합 서열 20개를 정렬해 센 값)로 오른쪽 logo를 그림. 2–4번 위치는 G, A, T로 거의 고정, 6번 위치는 정보가 거의 없음](../figures/ch05_motif_logo.svg){fig-alt="왼쪽은 6개 위치에서 A, C, G, T의 개수를 센 표. 오른쪽은 같은 표로 그린 sequence logo로, 2번 G, 3번 A, 4번 T가 크게 서 있고 각 위치 아래에 정보량 0.21, 1.43, 1.71, 1.25, 0.28, 0.10 bits가 적혀 있음"}
+![가상의 TF 모티프. 왼쪽 표의 숫자(결합 서열 20개를 정렬해 센 값)로 오른쪽 logo를 그림. 2–4번 위치는 G, A, T로 거의 고정, 6번 위치는 정보가 거의 없음](../figures/ch05_motif_logo.png){fig-alt="왼쪽은 6개 위치에서 A, C, G, T의 개수를 센 표로, 위치마다 가장 흔한 염기 칸이 회색으로 옅게 칠해져 있음. 오른쪽은 같은 표로 그린 sequence logo로, 2번 G, 3번 A, 4번 T가 크게 서 있고 각 위치 아래에 정보량 0.21, 1.43, 1.71, 1.25, 0.28, 0.10 bits가 적혀 있음"}
 
 **서열 하나에 점수 매기기 — 작은 PWM**
 
