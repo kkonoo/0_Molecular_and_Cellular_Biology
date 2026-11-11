@@ -60,7 +60,7 @@ format:
 | spatial 데이터의 spot 하나에는 세포가 몇 개인가? | [11장](11_tissue_interaction.qmd) |
 | FASTQ 파일은 어떻게 만들어졌나? | [12장](12_data_generation.qmd) |
 
-- 이 장은 그 전에 필요한 두 가지 감각을 잡음
+- 이 장에서는 그 전에 필요한 두 가지 감각을 잡음
   1. 세포와 분자는 **얼마나 작고 얼마나 많은가** (2–3절)
   2. 시퀀싱은 **무엇을 세는가** (4절, 장 끝 데이터 상자)
 
@@ -155,7 +155,7 @@ format:
 ::: {.callout-important}
 ## UMI (unique molecular identifier)
 - 포획 단계에서 분자 하나하나에 붙이는 **무작위 짧은 서열** = 분자 이름표
-- PCR 복사본은 원본과 같은 UMI를 가짐 → 같은 UMI의 read를 하나로 합치면 **복사 전 분자 수**를 셀 수 있음
+- PCR 복사본에는 원본과 같은 UMI가 있음 → 같은 UMI의 read를 하나로 합치면 **복사 전 분자 수**를 셀 수 있음
 - scRNA-seq count matrix의 한 칸 = 그 세포에서 그 유전자의 **서로 다른 UMI 개수**
 :::
 
