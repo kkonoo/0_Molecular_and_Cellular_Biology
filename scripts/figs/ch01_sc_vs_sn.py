@@ -46,15 +46,15 @@ def read_bar(x0, y0, parts, w=3.2, h=0.32):
 # ── ① scRNA-seq ───────────────────────────────────────────────
 box(ax, 0.1, 2.35, 3.6, 2.65, fc=FAINT, ec="none", r=0.1, z=1)
 label(ax, 1.9, 4.74, "scRNA-seq · 세포 통째", fs=13, w="bold")
-ax.add_patch(mp.Ellipse((1.9, 3.42), 3.0, 1.9, fc="white", ec=STEPS[0], lw=1.6, zorder=2))
-nucleus(2.05, 3.4)
-for x1, x2, y in [(0.72, 1.02, 3.5), (0.8, 1.1, 3.0), (1.15, 1.45, 2.72),
-                  (2.72, 3.02, 3.95), (2.55, 2.85, 2.82), (1.85, 2.15, 2.6)]:
+ax.add_patch(mp.Ellipse((1.9, 3.46), 3.0, 1.84, fc="white", ec=STEPS[0], lw=1.6, zorder=2))
+nucleus(2.05, 3.42)
+for x1, x2, y in [(0.72, 1.02, 3.5), (0.8, 1.1, 3.0), (1.15, 1.45, 2.74),
+                  (2.72, 3.02, 3.95), (2.55, 2.85, 2.85), (1.85, 2.15, 2.68)]:
     mrna(x1, x2, y)
 mito(1.15, 4.0, 20)
-mito(3.0, 3.3, 15)
+mito(3.0, 3.32, 15)
 box(ax, 0.28, 2.42, 3.24, 2.04, fc="none", ec=CAPT, lw=1.4, r=0.1, z=6, ls=(0, (4, 3)))
-label(ax, 3.44, 2.56, "잡는 범위", fs=11, w="bold", c=CAPT, ha="right")
+label(ax, 3.44, 2.55, "잡는 범위", fs=11, w="bold", c=CAPT, ha="right")
 
 read_bar(0.3, 1.62, [("exon", 0.66, EXON), ("intron", 0.18, INTRON), ("MT-", 0.16, MITO)])
 label(ax, 0.3, 1.33, "exon read 위주", fs=11, ha="left")

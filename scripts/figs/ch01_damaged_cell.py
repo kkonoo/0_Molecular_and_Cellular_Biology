@@ -14,8 +14,8 @@ A, B = 1.4, 1.1          # cell ellipse semi-axes
 CY = 3.6
 
 def mrna(x, y):
-    ax.plot([x - 0.13, x + 0.13], [y, y], color=C_MRNA, lw=4.5,
-            solid_capstyle="round", zorder=4)
+    # a patch (not a line) so the cropping in save() sees it
+    box(ax, x - 0.15, y - 0.045, 0.30, 0.09, fc=C_MRNA, ec="none", r=0.045, z=4)
 
 def mito(x, y, ang):
     ax.add_patch(mp.Ellipse((x, y), 0.62, 0.32, angle=ang, fc=mix(C_MT, 0.12),
@@ -60,7 +60,7 @@ label(ax, X1, 1.95, "온전한 세포", fs=12.5, w="bold")
 label(ax, X1, 1.66, "막이 mRNA를 가둠", fs=11, c=TEXT2)
 
 # ── damaged cell ──────────────────────────────────────────────────
-X2 = 6.2
+X2 = 6.0
 holes = [25, 95, 155, 210, 275, 335]
 gap = 9
 for i, h0 in enumerate(holes):
@@ -75,9 +75,9 @@ for dx, dy in [(0.55, 0.05), (-0.3, -0.75)]:
     mrna(X2 + dx, CY + dy)
 for h in holes:
     c, s = np.cos(np.radians(h)), np.sin(np.radians(h))
-    arrow(ax, X2 + 1.06 * A * c, CY + 1.06 * B * s, X2 + 1.2 * A * c, CY + 1.2 * B * s,
+    arrow(ax, X2 + 1.05 * A * c, CY + 1.05 * B * s, X2 + 1.17 * A * c, CY + 1.17 * B * s,
           color="#9AA1AB", lw=1.2, ms=9)
-    mrna(X2 + 1.32 * A * c, CY + 1.32 * B * s)
+    mrna(X2 + 1.28 * A * c, CY + 1.28 * B * s)
 
 label(ax, X2, 1.95, "막이 손상된 세포", fs=12.5, w="bold")
 label(ax, X2, 1.66, "mRNA는 빠져나가고 미토콘드리아는 남음", fs=11, c=TEXT2)
@@ -85,7 +85,6 @@ label(ax, X2, 1.66, "mRNA는 빠져나가고 미토콘드리아는 남음", fs=1
 # ── UMI bars (illustrative numbers from the chapter's R example) ─
 X0, SCALE, BH = 1.7, 3.6 / 5000, 0.3
 rows = [("온전한 세포", 5000, 200, 1.12), ("손상된 세포", 800, 200, 0.55)]
-ax.plot([0.3, W - 0.2], [1.42 + 0.05, 1.42 + 0.05], color="white", lw=0)  # spacer
 for name, total, mt, y in rows:
     label(ax, 0.3, y, name, fs=12, w="bold", ha="left")
     other_w = (total - mt) * SCALE
