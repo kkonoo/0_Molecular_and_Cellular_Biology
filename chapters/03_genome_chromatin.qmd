@@ -76,7 +76,7 @@ format:
 
 ## 1) 부품과 이름
 
-![+ 가닥 유전자 하나의 구조 모식도. 위: 유전체 위의 부품(주황 = 조절 서열, 보라 = 전사되는 부분), 아래: 전사와 RNA 가공을 거쳐 성숙한 mRNA가 되는 과정. 길이 비율은 실제와 다름](../figures/ch03_gene_structure.svg){fig-alt="enhancer, promoter, TSS, exon 3개와 intron 2개, 5'UTR, CDS, 3'UTR, polyA 신호가 있는 유전자와, intron을 포함한 pre-mRNA, intron이 빠지고 poly(A) 꼬리가 붙은 성숙한 mRNA"}
+![+ 가닥 유전자 하나의 구조 모식도. 위: 유전체 위의 부품(청록 = 조절 서열, 파랑 = 전사되는 부분), 아래: 전사와 RNA 가공을 거쳐 성숙한 mRNA가 되는 과정. 길이 비율은 실제와 다름](../figures/ch03_gene_structure.png){fig-alt="멀리 있는 enhancer, promoter, TSS, exon 3개와 intron 2개, start codon·stop codon, 5'UTR·CDS·3'UTR, polyA 신호가 있는 유전자가 위에 있는 모식도. 그 아래로 intron을 포함한 pre-mRNA, 맨 아래에 intron이 빠져 exon이 이어지고 poly(A) 꼬리가 붙은 성숙한 mRNA가 놓여 있음."}
 
 | 부품 | 무엇 | 데이터에서 | 자세히 |
 |---|---|---|---|
@@ -133,7 +133,7 @@ format:
 
 ## 2) 접힘 단계
 
-![DNA가 압축되는 단계(위)와 닫힌 염색질과 열린 염색질(아래) 모식도. 크기 비율은 실제와 다름](../figures/ch03_chromatin.svg){fig-alt="DNA 이중나선, 뉴클레오솜 사슬, 접힌 염색질, 고리와 TAD, 분열기 염색체의 다섯 단계와, 뉴클레오솜이 빽빽한 닫힌 염색질과 뉴클레오솜이 비킨 자리에 전사인자가 붙은 열린 염색질"}
+![DNA가 압축되는 단계(위)와 닫힌 염색질과 열린 염색질(아래) 모식도. 크기 비율은 실제와 다름](../figures/ch03_chromatin.png){fig-alt="위쪽에 DNA 이중나선, 뉴클레오솜 사슬, 접힌 염색질, 고리·TAD, 분열기 염색체의 다섯 단계가 화살표로 이어진 모식도. 아래 왼쪽은 파란 뉴클레오솜이 빽빽한 닫힌 염색질, 오른쪽은 뉴클레오솜이 비킨 노란 구간에 초록 전사인자가 붙은 열린 염색질"}
 
 | 단계 | 크기 | 메모 |
 |---|---|---|
@@ -320,7 +320,7 @@ attr9[c("gene_id", "gene_name", "exon_number")]
 
 **0-based vs 1-based**
 
-![같은 염기 10개 위에 그린 두 좌표계. 1-based는 글자에, 0-based는 글자 사이 경계에 번호를 붙임. 주황 구간 GTTG의 숫자를 비교](../figures/ch03_coordinates.svg){fig-alt="염기 10개 ACGTTGCAAG 위쪽에 1부터 10까지 글자 번호, 아래쪽에 0부터 10까지 경계 번호가 있고, 셋째부터 여섯째 글자 GTTG가 1-based로 start 3 end 6, 0-based로 start 2 end 6"}
+![같은 염기 10개 위에 그린 두 좌표계. 1-based는 글자에, 0-based는 글자 사이 경계에 번호를 붙임. 노란 구간 GTTG의 숫자를 비교](../figures/ch03_coordinates.png){fig-alt="염기 10개 ACGTTGCAAG 위쪽에 파란색으로 1부터 10까지 글자 번호, 아래쪽에 청록색으로 0부터 10까지 경계 번호. 노란색으로 칠한 셋째부터 여섯째 글자 GTTG는 1-based로 start 3 end 6 [3, 6], 0-based로 start 2 end 6 [2, 6)이고 길이는 둘 다 4"}
 
 | 방식 | 첫 글자 | 구간 | 길이 | 쓰는 곳 |
 |---|---|---|---|---|
