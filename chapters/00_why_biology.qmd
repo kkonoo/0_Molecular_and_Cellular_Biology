@@ -75,7 +75,7 @@ format:
 
 ## 1) 크기의 사다리
 
-![세포와 그 안의 구조를 로그 눈금 위에 놓은 크기. 눈금 한 칸이 10배이므로 왼쪽 끝 DNA 지름과 오른쪽 끝 Visium spot은 약 3만 배 차이](../figures/ch00_scale.svg){fig-alt="1 nm부터 100 µm까지 로그 눈금 위의 DNA 지름, 단백질, 리보솜, 미토콘드리아, 핵, 림프구, Visium spot"}
+![세포와 그 안의 구조를 로그 눈금 위에 놓은 크기. 눈금 한 칸이 10배이므로 왼쪽 끝 DNA 지름과 오른쪽 끝 Visium spot은 약 3만 배 차이](../figures/ch00_scale.png){fig-alt="1 nm부터 100 µm까지 로그 눈금 위에 DNA 이중나선 지름(약 2 nm), 단백질(약 4 nm), 리보솜(20–30 nm), 미토콘드리아 길이(1–2 µm), 핵(약 5 µm), 림프구(약 7 µm)를 파란 점과 막대로 표시하고, 오른쪽 끝에 Visium spot(지름 55 µm)을 청록 점으로 표시한 그림."}
 
 | 대상 | 크기 | 무엇인가 | 출처 |
 |---|---|---|---|
@@ -200,7 +200,7 @@ format:
 ::: {.callout-caution .data-box icon=false collapse="true"}
 ## 데이터에서는 이렇게 보여요: count matrix 한 칸 = 한 세포에서 잡힌 한 유전자의 UMI 수
 
-![가상의 count matrix 일부. 행 = 유전자, 열 = 세포 바코드, 칸 = UMI 수, 마지막 줄 = 세포별 전체 UMI](../figures/ch00_matrix.svg){fig-alt="유전자 5개와 세포 6개의 count matrix. 대부분의 칸이 0이고, 둘째 세포의 CD3E 칸 5가 강조됨"}
+![가상의 count matrix 일부. 행 = 유전자, 열 = 세포 바코드, 칸 = UMI 수, 마지막 줄 = 세포별 전체 UMI](../figures/ch00_matrix.png){fig-alt="유전자 5개와 세포 6개의 count matrix. 대부분의 칸이 회색 0이고 0이 아닌 칸은 옅은 파랑, 둘째 세포의 CD3E 칸 5가 노란색으로 강조됨"}
 
 **파일로는**
 
