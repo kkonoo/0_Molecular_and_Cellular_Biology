@@ -67,8 +67,8 @@ format:
 | 지속 | 오래 유지, 대개 되돌아가지 않음 | 자극이 사라지면 돌아오기도 함 |
 | 예 | B세포 vs T세포, CD14 단핵구 vs FCGR3A 단핵구 | 세포주기·증식([9장](09_cell_cycle_death_cancer.qmd)), 활성화, 스트레스, 질환 관련 상태 (예: 알츠하이머 모델 생쥐의 질환 관련 미세아교세포 DAM [Keren-Shaul 2017](https://doi.org/10.1016/j.cell.2017.05.018){.src}) |
 
-- 전사체로 나눈 집단이 곧 기능적으로 독립된 cell type이라고 바로 동일시하지 않기 [Papalexi & Satija 2018](https://doi.org/10.1038/nri.2017.76){.src}
-- 경계가 흐린 경우도 많음: naive T와 memory T를 type으로 볼지 state로 볼지는 연구 질문에 따라 다르게 다룸 → 자세히 [HaLab Wiki: 면역세포의 종류와 상태](https://halab-wiki.knu.ac.kr/disease/immunology/01-basics/cells.html)
+- 전사체로 나눈 집단을 기능적으로 독립된 cell type과 바로 동일시하지 않기 [Papalexi & Satija 2018](https://doi.org/10.1038/nri.2017.76){.src}
+- 경계가 흐린 경우도 많음: naive T와 memory T를 type으로 볼지 state로 볼지는 연구 질문에 따라 다름 → 자세히 [HaLab Wiki: 면역세포의 종류와 상태](https://halab-wiki.knu.ac.kr/disease/immunology/01-basics/cells.html)
 
 ::: {.callout-tip collapse="true"}
 ## 비유: 같은 악보집, 다른 악기와 다른 연주
@@ -125,7 +125,8 @@ format:
 
 - Takahashi와 Yamanaka (2006): 마우스 배아·성체 섬유모세포에 **Oct3/4, Sox2, c-Myc, Klf4** 네 전사인자를 넣어 만능 상태로 유도 (Nanog는 필요 없었음)
 - 만능성 확인: 면역결핍 생쥐 피부 밑에 넣자 **세 배엽 조직이 모두 섞인 종양** (기형종)이 생김, 포배에 넣자 배아 발생에 참여
-- c-Myc = [9장](09_cell_cycle_death_cancer.qmd)의 종양유전자 *MYC* → 만능성·증식과 암은 가까운 관계, 기형종은 만능성의 증거이자 위험
+- c-Myc = [9장](09_cell_cycle_death_cancer.qmd)의 종양유전자 *MYC* → 만능성·증식과 암은 가까운 관계
+- 기형종은 만능성의 증거이자 위험
 
 # 4. 조혈: 줄기세포 하나에서 모든 혈액세포로
 
@@ -268,7 +269,7 @@ c(pct.1 = pct.1, pct.2 = pct.2,
 | PAGA | 클러스터끼리 얼마나 연결됐는지 그래프로 요약, scanpy `sc.tl.paga` | [Wolf 2019](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1663-x){.src} |
 
 - 방법마다 결과가 다를 수 있어 여러 방법을 비교한 벤치마크도 있음 [Saelens 2019](https://doi.org/10.1038/s41587-019-0071-9){.src}
-- 궤적은 **추론**: 실제로 그 세포가 그 세포에서 나왔는지는 계통추적(lineage tracing) 실험으로 따로 확인해야 함 ([HaLab Wiki: 면역계의 발생](https://halab-wiki.knu.ac.kr/disease/immunology/01-basics/ontogeny.html))
+- 궤적은 **추론**: 한 세포가 실제로 다른 세포에서 나왔는지는 계통추적(lineage tracing) 실험으로 따로 확인해야 함 ([HaLab Wiki: 면역계의 발생](https://halab-wiki.knu.ac.kr/disease/immunology/01-basics/ontogeny.html))
 :::
 
 # 5. 정리
