@@ -110,8 +110,8 @@ format:
 | 반응 | ELK1·SRF | *FOS* 등 표적 유전자 발현 | expression |
 
 - MAPKKK → MAPKK → MAPK = "kinase의 kinase의 kinase" [KEGG](https://www.kegg.jp/entry/hsa04010){.src}
-- 표의 연결은 KEGG MAPK 지도의 KGML 파일에 적힌 관계와 같음 [KEGGgraph](https://github.com/Accio/KEGGgraph){.src} → 장 끝 데이터 상자의 그림 아래 줄이 같은 줄기
-- KEGG MAPK 지도에는 ERK 말고도 JNK, p38, ERK5 줄기가 있음 [KEGG](https://www.kegg.jp/entry/hsa04010){.src} → "MAPK가 켜졌다"는 말은 어느 줄기인지 따져야 함
+- 표의 연결은 KEGG MAPK 지도의 KGML 파일에 적힌 관계와 같음 [KEGGgraph](https://github.com/Accio/KEGGgraph){.src} → 장 끝 데이터 상자에 있는 그림의 아래 줄이 같은 줄기
+- KEGG MAPK 지도에는 ERK 말고도 JNK, p38, ERK5 줄기가 있음 [KEGG](https://www.kegg.jp/entry/hsa04010){.src} → "MAPK가 켜졌다"고 할 때는 어느 줄기인지 따져야 함
 - 이 줄기의 유전자(*KRAS*, *BRAF* 등)는 암에서 자주 돌연변이 → 수용체 신호 없이도 늘 켜진 상태가 됨 → [9장](09_cell_cycle_death_cancer.qmd)
 
 ## 2) 2차 전달자
@@ -184,7 +184,7 @@ format:
 | +p / −p | 인산화 / 탈인산화 | `phosphorylation` / `dephosphorylation` |
 | +u | 유비퀴틴화 | `ubiquitination` |
 
-- KGML = KEGG 지도를 기계가 읽는 XML 파일. 분석 도구가 그림을 그리거나 그래프로 바꿀 때 씀
+- KGML = KEGG 지도를 기계가 읽을 수 있게 적은 XML 파일. 분석 도구가 그림을 그리거나 그래프로 바꿀 때 씀
 - 지도는 여러 세포·조직·실험의 지식을 모은 것 → 내 세포에서 모든 화살표가 작동한다는 뜻은 아님
 - 화살표 대부분은 **단백질 사이**의 관계(결합·인산화) → mRNA 데이터로 직접 확인되지 않음
 
@@ -197,7 +197,7 @@ format:
 
 **색칠된 그림 읽기**
 
-- KEGG 원래 지도에도 색이 있음: 생물종 지도의 유전자 상자 기본색은 연두 (KGML에 `bgcolor="#BFFFBF"`) → 실험 결과와 무관
+- KEGG 원래 지도에도 색이 있음: 생물종 지도에서 유전자 상자의 기본색은 연두 (KGML에 `bgcolor="#BFFFBF"`) → 실험 결과와 무관
 - 분석 도구가 결과로 칠한 그림 (예: pathview) [pathview](https://github.com/datapplab/pathview){.src}
   - 기본 색: 낮음 = 초록, 중간 = 회색, 높음 = 빨강 → 원래 지도의 연두와 헷갈리기 쉬움
   - 상자에 유전자가 여러 개면 값을 하나로 합침 (기본 `node.sum = "sum"`) → +2와 −2인 두 유전자는 합이 0이라 회색
@@ -295,4 +295,4 @@ phyper(k - 1, M, N2 - M, n, lower.tail = FALSE)
 1. universe 10,000개, DE 유전자 200개, 어떤 경로의 유전자 100개 중 DE와 겹치는 것이 8개다. (a) 기대 겹침은? (b) `GeneRatio`, `BgRatio`, `FoldEnrichment`는? (c) `phyper`로 p값을 구하는 식을 쓰라.
 2. EGF로 자극하고 10분 뒤 bulk RNA-seq을 했더니 *EGFR*, *KRAS*, *BRAF*, *MAP2K1*, *MAPK1*의 mRNA는 변화가 없었다. 동료가 "MAPK 경로는 켜지지 않았다"고 결론 내렸다. 이 장의 내용으로 반박하고, 경로 활성을 보려면 무엇을 보면 좋을지 쓰라.
 3. pathview로 칠한 MAPK 그림에서 RAS 상자가 회색이었다. 그런데 상자 안 유전자 중 *KRAS*는 크게 올랐다고 한다. 어떻게 이런 일이 생길 수 있나?
-4. GSEA 결과 상위 GO term 다섯 개의 `core_enrichment`가 거의 같은 유전자 열 개로 이루어져 있다. 이 결과를 "다섯 가지 생물학적 과정이 함께 바뀌었다"고 보고하면 무엇이 문제인가?
+4. GSEA 결과에서 상위 GO term 다섯 개의 `core_enrichment`가 거의 같은 유전자 열 개로 이루어져 있다. 이 결과를 "다섯 가지 생물학적 과정이 함께 바뀌었다"고 보고하면 무엇이 문제인가?
