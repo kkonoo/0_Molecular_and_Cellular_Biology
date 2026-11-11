@@ -51,13 +51,13 @@ format:
 | 불일치 수선 (mismatch repair) | 복제가 끝난 뒤 짝이 안 맞는 자리를 찾아 고침 | 남은 것 약 1,000개 중 1개만 남음 |
 | 최종 | | 염기쌍당 10⁻⁹–10⁻¹¹ [Fijalkowska 2012](https://pmc.ncbi.nlm.nih.gov/articles/PMC3391330){.src} |
 
-- 독립적인 검사 세 단계를 곱하는 구조: 10⁻⁵ × 10⁻² × 10⁻³ = 10⁻¹⁰
+- 독립적인 검사 세 단계의 오류 비율을 곱하는 구조: 10⁻⁵ × 10⁻² × 10⁻³ = 10⁻¹⁰
 - 숫자는 대장균 연구에서 나온 것. 사람 세포도 같은 세 단계를 거치지만 정확한 값은 세포와 위치마다 다름
 
 ## 3) DNA 수선
 
 - 복제 오류 말고도 DNA는 계속 손상됨: 자외선, 화학물질, 저절로 일어나는 화학 변화
-- 세포에는 손상 종류별 수선 경로가 있음 (개념만)
+- 세포에는 손상 종류마다 다른 수선 경로가 있음 (개념만)
   - 염기 하나가 망가짐 → 그 염기를 잘라 내고 다시 채움
   - 가닥이 크게 뒤틀림(예: 자외선 손상) → 그 부분을 넓게 잘라 내고 다시 합성
   - 두 가닥이 다 끊김 → 끝을 그냥 잇거나(이 과정에서 글자가 빠지거나 더해질 수 있음), 복제해 둔 같은 서열을 주형 삼아 복구
@@ -169,7 +169,7 @@ format:
   - 흔한 변이 하나에 r² > 0.8로 묶인 변이: 비아프리카 집단 15–20개, 아프리카 집단 약 8개
 - GWAS에서의 뜻
   - 원인 변이 하나가 형질에 영향 → LD로 묶인 이웃 변이 수십 개도 함께 유의하게 나옴
-  - 가장 작은 P를 가진 변이(lead SNP)가 원인이라는 보장은 없음 → 후보를 좁히는 작업 = fine-mapping
+  - P가 가장 작은 변이(lead SNP)가 원인이라는 보장은 없음 → 후보를 좁히는 작업 = fine-mapping
   - 여러 집단의 데이터를 함께 보면 묶인 변이가 줄어 후보를 좁히기 쉬움
 
 ::: {.callout-tip collapse="true"}
@@ -266,7 +266,7 @@ setNames(sapply(gts, decode), gts)
 ::: {.callout-caution .data-box icon=false collapse="true"}
 ## 데이터에서는 이렇게 보여요: GWAS 결과표 한 줄 = 변이 하나의 연관 검정, 기준 allele부터 확인
 
-**컬럼** — GWAS Catalog의 요약통계 형식 GWAS-SSF 이름 기준 [GWAS-SSF](https://github.com/EBISPOT/gwas-summary-statistics-standard){.src}
+**컬럼** — GWAS Catalog의 요약통계 형식인 GWAS-SSF의 이름 기준 [GWAS-SSF](https://github.com/EBISPOT/gwas-summary-statistics-standard){.src}
 
 | 내용 | GWAS-SSF 이름 (다른 이름 예) | 뜻 |
 |---|---|---|
