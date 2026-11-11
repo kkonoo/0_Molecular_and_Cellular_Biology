@@ -86,7 +86,7 @@ format:
 - 중복 read (duplicate): 같은 원본 분자의 복사본에서 나온 read
 - 결과: read 수는 원래 분자 수의 비율을 그대로 반영하지 못함
 - 해결: 증폭 **전에** 분자마다 붙인 UMI로 같은 분자의 read를 하나로 셈 → [0장](00_why_biology.qmd)
-- UMI가 없는 bulk RNA-seq: 같은 위치에 정렬된 read를 중복으로 볼 수도 있지만, 많이 발현된 유전자는 서로 다른 분자가 우연히 같은 위치에서 나올 수 있어 판단이 어려움
+- UMI가 없는 bulk RNA-seq: 같은 위치에 정렬된 read를 중복으로 볼 수도 있음. 그러나 많이 발현된 유전자는 서로 다른 분자가 우연히 같은 위치에서 나올 수 있어 판단이 어려움
 
 ::: {.callout-warning collapse="true"}
 ## 처음엔 여기서 헷갈려요
@@ -161,7 +161,7 @@ format:
 
 - CITE-seq: 전사체와 표면 단백질을 같은 세포에서 잼 [Stoeckius 2017](https://doi.org/10.1038/nmeth.4380){.src}, [Seurat 문서](https://github.com/satijalab/seurat/blob/main/vignettes/multimodal_vignette.Rmd){.src}
   - Cell Ranger는 이 라이브러리를 `Antibody Capture` 종류로 처리 [Cell Ranger 코드](https://github.com/10XGenomics/cellranger/blob/main/lib/python/cellranger/rna/library.py){.src}
-- 항체 기반 데이터는 **항체 품질**에 묶여 있음 → 어떤 항체(클론 이름, 제조사)를 썼는지 메타데이터 확인
+- 항체 기반 데이터는 **항체 품질**에 달려 있음 → 어떤 항체(클론 이름, 제조사)를 썼는지 메타데이터 확인
 
 # 5. CRISPR–Cas9: 유전자를 바꾼다
 
@@ -207,7 +207,7 @@ format:
 - 계대 (passage): 용기가 차면 일부를 덜어 새 용기로 옮겨 키우는 것
   - 계대가 쌓이면 성질이 바뀔 수 있음 → 실험 기록에 계대 수를 남기고, 데이터 메타데이터에서 확인
 - 세포주 오인·교차 오염: 다른 세포주가 섞이거나 뒤바뀐 채 쓰이는 문제
-  - Cellosaurus는 세포주마다 오염·오인 기록과 STR 프로필(세포주를 구별하는 유전 표지)을 제공하고, 국제 세포주 인증 위원회(ICLAC)의 작업에 기여 [Cellosaurus](https://www.cellosaurus.org/){.src}
+  - Cellosaurus는 세포주마다 오염·오인 기록과 STR 프로필(세포주를 구별하는 유전 표지)을 제공. 국제 세포주 인증 위원회(ICLAC)의 작업에도 기여 [Cellosaurus](https://www.cellosaurus.org/){.src}
   - 공개 데이터를 쓸 때: 세포주 이름을 Cellosaurus에서 찾아 문제 기록이 있는지 확인
 - 세포주 하나는 한 개체에서 나온 세포 → 세포주 실험의 "반복"은 생물학적 반복(다른 사람)이 아님 ([1. Basic Statistics 0장](https://kkonoo.github.io/1_Basic_Statistics/chapters/00_why_statistics.html))
 - 시료 준비도 흔적을 남김
