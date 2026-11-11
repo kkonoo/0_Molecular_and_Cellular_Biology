@@ -128,7 +128,7 @@ format:
 | 일반 전사인자 / 특이 전사인자 | general / sequence-specific TF | 모든 promoter의 공통 장치 / 어느 유전자를 켤지 고르는 TF | [5](05_transcription.qmd) |
 | 모티프 | motif | TF가 잘 붙는 짧은 DNA 서열의 패턴 | [5](05_transcription.qmd) |
 | 위치 가중 행렬 | position weight matrix, PWM | 모티프의 위치별 염기 선호도를 log 비로 적은 표 | [5](05_transcription.qmd) |
-| 후성유전 | epigenetics | 서열을 바꾸지 않고 발현 상태를 정하고 분열 뒤에도 이어지는 표지 | [5](05_transcription.qmd) |
+| 후성유전 | epigenetics | 서열을 바꾸지 않고 발현 상태를 정하는 표지. 분열 뒤에도 이어짐 | [5](05_transcription.qmd) |
 | DNA 메틸화 | DNA methylation | C(주로 CpG의 C)에 메틸기가 붙는 것 | [5](05_transcription.qmd) |
 | CpG 섬 | CpG island | CpG가 몰려 있는 구간. 대개 promoter에 있고 메틸화되지 않음 | [5](05_transcription.qmd) |
 | 히스톤 변형 | histone modification | 히스톤 꼬리에 붙는 화학 표지 (H3K4me3, H3K27ac 등) | [5](05_transcription.qmd) |
