@@ -12,6 +12,8 @@ HaLab에 들어온 CS·통계 전공 대학원생을 위한 분자세포생물�
 ├── index.qmd                    # 홈 (강의 안내, 장 목록)
 ├── chapters/                    # 장별 .qmd (00–12, 부록 A1–A4)
 ├── assets/                      # CSS, AI 위젯 초기화
+├── figures/                     # 개념 그림 PNG (scripts/figs/의 스크립트가 만듦)
+├── scripts/figs/                # 그림 스크립트 (medfig.py = 공용 스타일, 파란 테마)
 ├── _extensions/ai-chat/         # AI 학습 도우미 위젯
 └── .github/workflows/deploy.yml # main에 push하면 GitHub Pages로 배포
 ```
@@ -19,7 +21,7 @@ HaLab에 들어온 CS·통계 전공 대학원생을 위한 분자세포생물�
 ## 작성 원칙
 
 - 교과서(Essential Cell Biology, OpenStax Biology 2e 등)는 목차 구조만 참고하고 문장·그림은 새로 씁니다.
-- 그림은 직접 만든 SVG(인라인 SVG, mermaid)나 OpenStax Biology 2e(CC BY 4.0) 그림을 출처와 함께 씁니다.
+- 개념 그림은 `scripts/figs/`의 matplotlib 스크립트로 만든 PNG(200 dpi, Pretendard, 파란 테마)입니다. 그림 하나에 스크립트 하나이고, 고친 뒤 `python3 scripts/figs/<이름>.py`로 다시 만듭니다. 대화형 그림은 인라인 SVG, 계통도는 mermaid로 둡니다. OpenStax Biology 2e(CC BY 4.0) 그림은 출처와 함께 씁니다.
 - 외부 교재 링크는 4장의 [Human Genetics](https://chaek.org/books/human-genetics) 하나만 둡니다. 면역세포는 [HaLab Wiki](https://halab-wiki.knu.ac.kr/disease/immunology/index.html)로 연결합니다.
 - 숫자와 명칭은 확인한 출처를 `[출처](url){.src}` 배지로 붙입니다.
 - 장마다 "데이터에서는 이렇게 보여요" 상자(`::: {.callout-caution .data-box icon=false}`)를 장 끝(정리 앞)에 하나 이상 둡니다. 따로 절 제목을 달지 않습니다.
