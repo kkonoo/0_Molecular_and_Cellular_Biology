@@ -193,7 +193,7 @@ format:
 | GSE·GSM ↔ SRP·SRX·SRR 변환 | pysradb, ffq (명령줄) | `pysradb gsm-to-srr`, `ffq GSE…` |
 
 - 함수 이름: [GEOquery](https://bioconductor.org/packages/GEOquery/){.src} [ffq 2022](https://doi.org/10.1101/2022.05.18.492548){.src} [pysradb](https://github.com/saketkc/pysradb){.src}
-- 사람·마우스 RNA-seq 일부는 NCBI가 SRA read를 HISAT2·featureCounts로 같은 방식으로 다시 센 count도 제공 → GEOquery `getRNASeqData()` [GEOquery](https://bioconductor.org/packages/GEOquery/){.src}
+- 사람·마우스 RNA-seq 일부는 NCBI가 count도 제공: SRA read를 HISAT2·featureCounts로 같은 방식으로 다시 센 것 → GEOquery `getRNASeqData()` [GEOquery](https://bioconductor.org/packages/GEOquery/){.src}
 
 **판단**
 
