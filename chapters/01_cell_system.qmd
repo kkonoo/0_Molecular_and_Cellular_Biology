@@ -67,7 +67,7 @@ format:
 
 # 2. 소기관 투어
 
-![진핵세포 모식도. 오른쪽은 구획별로 어떤 RNA가 있는지와 세포막 확대. 크기 비율과 개수는 실제와 다름](../figures/ch01_cell_map.svg){fig-alt="세포막 안에 핵, 핵공, 거친 ER, 골지체, 미토콘드리아, 리소좀이 있고 핵에는 intron을 포함한 pre-mRNA, 세포질에는 성숙 mRNA, 미토콘드리아에는 mtDNA 전사체가 표시된 모식도"}
+![진핵세포 모식도. 오른쪽은 구획별로 어떤 RNA가 있는지와 세포막 확대. 크기 비율과 개수는 실제와 다름](../figures/ch01_cell_map.png){fig-alt="세포막 안에 핵공이 뚫린 두 겹 핵막의 핵, 리보솜이 붙은 거친 ER, 골지체, 미토콘드리아 둘, 리소좀이 그려진 모식도. 핵에는 intron을 포함한 pre-mRNA(파랑), 세포질에는 리보솜이 붙은 성숙 mRNA(청록), 미토콘드리아에는 mtDNA 고리와 그 전사체(초록)가 있고, 오른쪽에 구획별 RNA 정리와 막 단백질이 박힌 인지질 이중층 확대"}
 
 | 소기관 | 하는 일 | 데이터와의 연결 |
 |---|---|---|
@@ -188,7 +188,7 @@ format:
 ::: {.callout-caution .data-box icon=false collapse="true"}
 ## 데이터에서는 이렇게 보여요: mitochondrial read 비율은 막이 온전했는지 보는 간접 지표
 
-![막이 손상된 세포에서 MT- 비율이 올라가는 원리. 아래 막대는 가상의 숫자로, 주황(MT-) 분자 수는 그대로이고 전체가 줄어 비율이 오름](../figures/ch01_damaged_cell.svg){fig-alt="온전한 세포와 막에 구멍이 난 세포. 손상된 세포에서 세포질 mRNA는 빠져나가고 미토콘드리아는 남음. 아래 막대에서 MT- 비율이 4%에서 25%로 오름"}
+![막이 손상된 세포에서 MT- 비율이 올라가는 원리. 아래 막대는 가상의 숫자로, 청록(MT-) 분자 수는 그대로이고 전체가 줄어 비율이 오름](../figures/ch01_damaged_cell.png){fig-alt="온전한 세포와 막에 구멍이 난 세포의 모식도. 손상된 세포에서 파란 세포질 mRNA는 구멍으로 빠져나가고 청록 미토콘드리아는 남음. 아래 막대에서 MT- 200개는 같고 총 UMI가 5,000에서 800으로 줄어 MT- 비율이 4%에서 25%로 오름"}
 
 **왜 올라가나**
 
@@ -239,7 +239,7 @@ rbind(total, mt, pct_mt = mt / total * 100)
 ::: {.callout-caution .data-box icon=false collapse="true"}
 ## 데이터에서는 이렇게 보여요: scRNA-seq은 세포 전체, snRNA-seq은 핵만 잡는다
 
-![scRNA-seq과 snRNA-seq이 잡는 범위와 read가 떨어지는 곳. 아래 막대는 모식도이며 실제 비율은 조직과 방법마다 다름](../figures/ch01_sc_vs_sn.svg){fig-alt="왼쪽은 세포 전체를 잡는 scRNA-seq, 오른쪽은 핵만 잡는 snRNA-seq. snRNA-seq에서는 intron read 비중이 크고 MT- read가 거의 없음"}
+![scRNA-seq과 snRNA-seq이 잡는 범위와 read가 떨어지는 곳. 아래 막대는 모식도이며 실제 비율은 조직과 방법마다 다름](../figures/ch01_sc_vs_sn.png){fig-alt="왼쪽은 세포 전체를 점선으로 잡는 scRNA-seq, 오른쪽은 핵만 점선으로 잡는 snRNA-seq. 아래 read 막대에서 scRNA-seq은 exon 위주에 MT- 조각이 있고, snRNA-seq은 intron 비중이 크고 MT- 조각이 없음. MT-가 많으면 세포질이 덜 벗겨진 신호라는 노란 표시"}
 
 | | scRNA-seq | snRNA-seq |
 |---|---|---|
