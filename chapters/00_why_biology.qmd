@@ -142,7 +142,7 @@ format:
 
 ## 1) 분자에서 숫자까지
 
-![가상의 세포 하나에서 유전자 A·B·C의 mRNA가 count가 되는 과정. 아래 표처럼 세포 속 실제 분자 수, read 수, UMI 수가 모두 다름](../figures/ch00_counting.svg){fig-alt="세포 속 mRNA가 포획, PCR 증폭, 시퀀싱, UMI 합치기를 거쳐 count가 되는 다섯 단계"}
+![가상의 세포 하나에서 유전자 A·B·C의 mRNA가 count가 되는 과정. 아래 표처럼 세포 속 실제 분자 수, read 수, UMI 수가 모두 다름](../figures/ch00_counting.png){fig-alt="세포 속 mRNA가 포획, PCR 증폭, 시퀀싱, UMI 합치기를 거쳐 count가 되는 다섯 단계"}
 
 | 단계 | 일어나는 일 | 자세히 |
 |---|---|---|
