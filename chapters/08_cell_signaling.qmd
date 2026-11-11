@@ -37,7 +37,7 @@ format:
 
 ## 1) 신호 → 수용체 → 전달 → 반응
 
-![신호전달의 일반 구조. 숫자는 아래 표의 단계. 모식도이며 크기 비율은 실제와 다름](../figures/ch08_overview.svg){fig-alt="세포 밖 리간드가 막의 수용체에 붙고, kinase 세 개가 차례로 인산화되어 전사인자가 핵 안 표적 유전자를 켜고, 그 mRNA에서 만들어진 억제 단백질이 kinase 2를 억제하는 그림"}
+![신호전달의 일반 구조. 숫자는 아래 표의 단계. 모식도이며 크기 비율은 실제와 다름](../figures/ch08_overview.png){fig-alt="세포 밖 리간드가 막의 수용체에 붙고, kinase 1·2·3이 차례로 인산화(+p)되어 전사인자가 핵 안 표적 유전자를 켜는 모식도. 표적 유전자의 mRNA(노란 표시: RNA-seq이 세는 것)에서 번역된 억제 단백질(SOCS, DUSP 등)이 초록 T자 선으로 kinase 2를 억제하는 음성 되먹임"}
 
 | 단계 | 무엇 | 예: 성장 신호 |
 |---|---|---|
@@ -168,7 +168,7 @@ format:
 ::: {.callout-caution .data-box icon=false collapse="true"}
 ## 데이터에서는 이렇게 보여요: KEGG 그림의 상자 하나는 유전자 하나가 아닐 수 있다
 
-![KEGG pathway 그림의 기호를 범례를 보고 새로 그린 것. 아래 줄은 MAPK 지도의 ERK 줄기를 같은 기호로 그린 예](../figures/ch08_kegg_legend.svg){fig-alt="왼쪽은 노드 모양 네 가지, 오른쪽은 활성화, 억제, 간접 효과, 결합, 인산화, 탈인산화, 유비퀴틴화 선, 아래는 EGFR에서 ELK1까지의 줄과 ERK를 억제하는 DUSP"}
+![KEGG pathway 그림의 기호를 범례를 보고 새로 그린 것. 아래 줄은 MAPK 지도의 ERK 줄기를 같은 기호로 그린 예](../figures/ch08_kegg_legend.png){fig-alt="왼쪽 위는 노드 모양 네 가지(유전자 산물 직사각형, HRAS·KRAS·NRAS 등 여러 유전자가 든 RAS 상자, 화합물 작은 원, 다른 지도로 가는 둥근 직사각형), 오른쪽 위는 활성화, 억제, 간접 효과, 결합, 인산화, 탈인산화, 유비퀴틴화 선. 아래는 EGFR에서 ELK1까지의 줄과 ERK를 탈인산화해 억제하는 DUSP"}
 
 **기호** [KEGG 도움말](https://www.kegg.jp/kegg/document/help_pathway.html){.src} [KEGGgraph](https://github.com/Accio/KEGGgraph){.src}
 
@@ -213,7 +213,7 @@ format:
 - 질문: DE 유전자 목록에 이 경로의 유전자가 **우연보다 많이** 들어 있나?
 - 2×2 표 → 초기하분포 검정 (= Fisher 정확검정 단측) [enrichit](https://github.com/YuLab-SMU/enrichit){.src}
 
-![ORA의 2×2 표. 숫자는 가상의 예이고 원의 크기는 비율과 무관](../figures/ch08_ora.svg){fig-alt="universe 1만 2천 개 안에서 DE 유전자 300개와 경로 유전자 200개가 12개 겹치는 벤 그림과, 같은 숫자의 2×2 표"}
+![ORA의 2×2 표. 노란 칸이 겹침 k. 숫자는 가상의 예이고 원의 크기는 비율과 무관](../figures/ch08_ora.png){fig-alt="universe 1만 2천 개 안에서 파랑 원의 DE 유전자 300개와 청록 원의 경로 유전자 200개가 노란 부분에서 12개 겹치는 벤 그림과, 겹침 12를 노란 칸으로 표시하고 합계에 n·M·N을 붙인 같은 숫자의 2×2 표"}
 
 ```{r}
 #| label: ora-phyper
