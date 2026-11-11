@@ -46,10 +46,10 @@ def above(x, L, name, size, c=TEXT):
     label(ax, x, L, size, fs=11, c=TEXT2)
     label(ax, x, L + 0.26, name, fs=12, w="bold", c=c)
 
-def below(x, L, name, size, c=TEXT):
+def below(x, L, name, size, c=TEXT, dx=0.0):
     ax.plot([x, x], [Y - 0.1, L + 0.14], **LEAD)
-    label(ax, x, L, name, fs=12, w="bold", c=c)
-    label(ax, x, L - 0.26, size, fs=11, c=TEXT2)
+    label(ax, x + dx, L, name, fs=12, w="bold", c=c)
+    label(ax, x + dx, L - 0.26, size, fs=11, c=TEXT2)
 
 # DNA 이중나선: 지름 약 2 nm
 x = point(2, BIO);            above(x, 2.30, "DNA 이중나선", "지름 약 2 nm")
@@ -57,8 +57,8 @@ x = point(2, BIO);            above(x, 2.30, "DNA 이중나선", "지름 약 2 n
 x = point(4, BIO);            below(x, 0.62, "단백질 하나", "약 4 nm")
 # 리보솜: 20–30 nm
 x = span(20, 30, BIO);        above(x, 1.78, "리보솜", "20–30 nm")
-# 미토콘드리아: 길이 1–2 µm (leader from the left part of the bar, clear of the "1 µm" tick label)
-span(1000, 2000, BIO);        below(xp(1180), 0.62, "미토콘드리아", "길이 1–2 µm")
+# 미토콘드리아: 길이 1–2 µm (leader clear of the "1 µm" tick label; text nudged left, away from 핵)
+span(1000, 2000, BIO);        below(xp(1180), 0.62, "미토콘드리아", "길이 1–2 µm", dx=-0.18)
 # 핵: 약 5 µm
 x = point(5000, BIO);         below(x, 0.62, "핵", "약 5 µm")
 # 림프구: 약 7 µm

@@ -55,14 +55,14 @@ label(ax, x_start, 3.3, "사람은 종 코드 없음 → ENSG00000141510 (TP53)"
 label(ax, 0.32, 2.7, "② 층마다 다른 ID", fs=12.5, w="bold", ha="left")
 label(ax, W - 0.3, 2.7, "예: 사람 TP53", fs=11, c=TEXT2, ha="right")
 
-cols = [(1.7, 1.9, "유전자", C_GENE), (3.95, 1.45, "전사체", C_TX), (5.9, 1.45, "단백질", C_PROT)]
+cols = [(1.7, 1.9, "유전자", C_GENE), (3.95, 1.45, "전사체", C_TX), (5.82, 1.53, "단백질", C_PROT)]
 for cx, cwid, name, c in cols:
-    label(ax, cx + cwid / 2, 2.38, name, fs=12, w="bold", c=c)
-label(ax, cols[1][0] + cols[1][1] / 2, 2.16, "여럿일 수 있음", fs=11, c=TEXT2)
+    label(ax, cx + cwid / 2, 2.5, name, fs=12, w="bold", c=c)
+label(ax, cols[1][0] + cols[1][1] / 2, 2.27, "여럿일 수 있음", fs=11, c=TEXT2)
 
 rows = [  # row label, y, gene cell, tx cell, protein cell (text, mono?)
-    ("Ensembl", 1.78, ("ENSG00000141510", True), ("ENST…", True), ("ENSP…", True)),
-    ("NCBI", 1.14, ("Gene ID 7157", False), ("NM_… · NR_…", True), ("NP_…", True)),
+    ("Ensembl", 1.74, ("ENSG00000141510", True), ("ENST…", True), ("ENSP…", True)),
+    ("NCBI", 1.12, ("Gene ID 7157", False), ("NM_… · NR_…", True), ("NP_…", True)),
     ("HGNC · UniProt", 0.5, ("HGNC:11998", False), None, ("UniProt accession", False)),
 ]
 ch = 0.42
@@ -86,7 +86,7 @@ for rl, yc, g, t, p in rows:
     if t:
         cell(tx, tw, yc, tc, t, stack=True)
         arrow(ax, gx + gw + 0.04, yc, tx - 0.04, yc, color=GREY, lw=1.4, ms=11)
-        arrow(ax, tx + tw + 0.16, yc, px - 0.04, yc, color=GREY, lw=1.4, ms=11)
+        arrow(ax, tx + tw + 0.15, yc, px - 0.04, yc, color=GREY, lw=1.4, ms=11)
     else:
         arrow(ax, gx + gw + 0.04, yc, px - 0.04, yc, color=GREY, lw=1.3, ms=11, ls="--")
 
