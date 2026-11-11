@@ -47,11 +47,11 @@ format:
 | ② splicing | intron을 잘라 내고 exon끼리 이음 | exon–exon 경계를 걸치는 read (spliced read) |
 | ③ 3' 끝 + poly(A) 꼬리 | polyA 신호(대표 서열 AAUAAA)에서 10–30 nt 뒤를 자르고 A를 길게 붙임 [Beaudoing 2000](https://genome.cshlp.org/content/10/7/1001){.src} | poly(A)를 잡는 방법에서 read가 3' 끝에 몰림 (장 끝 데이터 상자) |
 
-- 가공 중인 RNA는 핵에 있음 → 핵을 읽으면 intron read가 많음 ([1장](01_cell_system.qmd)의 snRNA-seq)
+- 가공 중인 RNA는 핵에 있음 → 핵의 RNA를 읽으면 intron read가 많음 ([1장](01_cell_system.qmd)의 snRNA-seq)
 
 ## 2) splicing과 GU–AG 경계
 
-- splicing: 스플라이세오좀 (spliceosome) — 작은 RNA(snRNA)와 단백질의 복합체 — 이 intron 양 끝을 알아보고 잘라 냄
+- splicing: 스플라이세오좀 (spliceosome)이 intron 양 끝을 알아보고 잘라 냄. 스플라이세오좀 = 작은 RNA(snRNA)와 단백질의 복합체
 - intron 경계의 규칙: 대부분 **GU로 시작해 AG로 끝남** (DNA 서열로는 GT…AG)
   - 포유류 splice site 쌍의 98.71%가 GT–AG, 0.56%가 GC–AG, 나머지는 AT–AC 등 드문 쌍 [Burset 2000](https://pmc.ncbi.nlm.nih.gov/articles/PMC29840){.src}
 - 정렬 프로그램도 이 규칙을 씀 — 예: STAR [STAR 매뉴얼](https://github.com/alexdobin/STAR/blob/master/doc/STARmanual.pdf){.src}
@@ -71,12 +71,12 @@ format:
 ## 1) 대체 splicing
 
 - 대체 splicing (alternative splicing): 같은 pre-mRNA에서 exon 조합을 다르게 이어 서로 다른 mRNA를 만듦
-- 사람의 exon이 여러 개인 유전자 중 약 95%가 대체 splicing을 거친다는 추정 [Pan 2008](https://doi.org/10.1038/ng.259){.src}
+- exon이 여러 개인 사람 유전자 중 약 95%가 대체 splicing을 거친다는 추정 [Pan 2008](https://doi.org/10.1038/ng.259){.src}
 - 그래서 annotation에는 한 유전자에 transcript가 여러 개 달린 경우가 흔함 → 정량할 때 "어느 isoform의 read인가"가 문제 (장 끝 데이터 상자 1)
 
 ::: {.callout-important}
 ## isoform (= transcript)
-- 같은 유전자에서 나온, exon 조합이나 시작·끝 위치가 다른 RNA 하나하나
+- 같은 유전자에서 나온 RNA 하나하나. exon 조합이나 시작·끝 위치가 서로 다름
 - GTF에서 `transcript_id` 하나 = isoform 하나. 여러 transcript가 같은 `gene_id`를 공유 ([3장](03_genome_chromatin.qmd))
 - gene 수준의 양 = 그 유전자 isoform들의 합
 :::
@@ -179,7 +179,7 @@ round(n, 1)
 - DE 분석으로 넘기는 두 방법 [tximport](https://bioconductor.org/packages/release/bioc/vignettes/tximport/inst/doc/tximport.html){.src} [Soneson 2015](https://doi.org/10.12688/f1000research.7563.1){.src}
   1. 원래 count + 길이 offset: `DESeq2::DESeqDataSetFromTximport()`가 알아서 처리
   2. `countsFromAbundance = "lengthScaledTPM"` 또는 `"scaledTPM"`으로 만든 count를 보통 count 행렬처럼 사용
-- 피할 것: gene 수준 count를 offset **없이** 그대로 넘기기 — 시료마다 isoform 구성이 달라 평균 길이가 바뀌는 효과를 놓침
+- 피할 것: gene 수준 count를 offset **없이** 그대로 넘기기 — 시료마다 isoform 구성이 달라 평균 길이가 바뀜. 이 효과를 놓침
 :::
 
 ::: {.callout-caution .data-box icon=false collapse="true"}
