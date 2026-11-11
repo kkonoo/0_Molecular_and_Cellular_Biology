@@ -33,6 +33,7 @@ ROW1, ROW2, ROW3 = 4.0, 2.95, 1.9
 box(ax, 0.0, 1.7, 2.4, 3.45, fc=FAINT, ec="none", r=0.12, z=0)
 box(ax, 2.55, 1.7, 5.7, 3.45, fc=FAINT, ec="none", r=0.12, z=0)
 label(ax, 0.15, 4.88, "외재 경로", fs=13, w="bold", c=EXT, ha="left")
+label(ax, 1.05, 4.87, "사멸 수용체 경로", fs=11, c=TEXT2, ha="left")
 label(ax, 2.72, 4.88, "내재 경로", fs=13, w="bold", c=INT, ha="left")
 label(ax, 3.62, 4.87, "미토콘드리아 경로", fs=11, c=TEXT2, ha="left")
 
@@ -64,12 +65,12 @@ arrow(ax, BX + BW, yc, RX, yc, color=ARW)
 arrow(ax, RC, ROW1, RC, ROW2 + H, color=ARW)
 arrow(ax, RC, ROW2, RC, ROW3 + H, color=ARW)
 
-# inhibition: BCL-2 family ⊣ BAX·BAK
+# inhibition: BCL-2 family ⊣ BAX·BAK  (bar stops just short of the BAX·BAK box)
 p0 = np.array([6.1, ROW2 + H])
-p1 = np.array([6.6, ROW1 - 0.03])
+p1 = np.array([6.56, ROW1 - 0.1])
 ax.plot([p0[0], p1[0]], [p0[1], p1[1]], color=TEXT2, lw=1.8, zorder=3, solid_capstyle="butt")
 d = (p1 - p0) / np.linalg.norm(p1 - p0)
-perp = np.array([-d[1], d[0]]) * 0.11
+perp = np.array([-d[1], d[0]]) * 0.1
 ax.plot([p1[0] - perp[0], p1[0] + perp[0]], [p1[1] - perp[1], p1[1] + perp[1]],
         color=TEXT2, lw=2.2, zorder=3, solid_capstyle="butt")
 label(ax, 6.12, 3.79, "억제", fs=11, c=TEXT2, ha="right")

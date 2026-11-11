@@ -53,7 +53,7 @@ format:
   - 신호가 오면 돌아오는 세포: 예) 항원을 만난 림프구가 증식 ([HaLab Wiki: 면역계의 큰 그림](https://halab-wiki.knu.ac.kr/disease/immunology/01-basics/overview.html))
   - 거의 돌아오지 않는 세포: 예) 대부분의 신경세포
 
-![세포주기 모식도. 호 길이는 24시간 주기 예시의 단계별 시간 비율이고, 빨간 표시 세 곳이 검문점, 안쪽 글자가 단계별 DNA 양](../figures/ch09_cell_cycle.svg){fig-alt="G1, S, G2, M이 시계 방향으로 이어진 원. G1이 가장 길고 M이 가장 짧음. G1에서 G0로 빠졌다 돌아오는 화살표, G1/S·G2/M·M기 안의 검문점 세 개, 안쪽에 2C, 2C→4C, 4C 표시"}
+![세포주기 모식도. 호 길이는 24시간 주기 예시의 단계별 시간 비율이고, 번호 붙은 짙은 표시 세 곳이 검문점, 안쪽 글자가 단계별 DNA 양](../figures/ch09_cell_cycle.png){fig-alt="G1(파랑), S(청록), G2(초록), M(옅은 파랑)이 시계 방향으로 이어진 원. G1이 약 11시간으로 가장 길고 M이 약 1시간으로 가장 짧음. G1에서 G0로 빠졌다 돌아오는 화살표, G1/S·G2/M·M기 안의 번호 붙은 검문점 세 개, 안쪽에 2C, 2C→4C, 4C 표시"}
 
 - S기에 DNA 전체가 한 번 복제 → 염색체 하나가 똑같은 **자매염색분체 (sister chromatid)** 2개로 붙어 있음
 - M기에 자매염색분체를 갈라 딸세포에 하나씩 → 딸세포는 다시 2C
@@ -153,7 +153,7 @@ format:
 - **caspase** = 단백질을 자르는 효소 무리. 평소엔 꺼진 전구체로 있다가 잘리면서 켜짐 → 연쇄 반응
   - 개시 caspase (caspase-8, -9) → 실행 caspase (caspase-3, -7) → 세포 단백질을 잘라 해체 [Elmore 2007](https://pmc.ncbi.nlm.nih.gov/articles/PMC2117903){.src}
 
-![apoptosis의 두 경로. 외재 경로(왼쪽)와 내재 경로(오른쪽)가 실행 caspase에서 만남. 단순화한 흐름도](../figures/ch09_apoptosis.svg){fig-alt="외재 경로: 사멸 리간드, 사멸 수용체, caspase-8. 내재 경로: 스트레스, BH3-only, BAX·BAK, cytochrome c 방출, APAF1과 caspase-9. BCL-2 계열이 BAX·BAK을 억제하고, caspase-8이 BID를 통해 내재 경로를 증폭. 두 경로가 실행 caspase-3·7로 모여 세포 해체"}
+![apoptosis의 두 경로. 외재 경로(왼쪽)와 내재 경로(오른쪽)가 실행 caspase에서 만남. 단순화한 흐름도](../figures/ch09_apoptosis.png){fig-alt="왼쪽 청록 외재 경로: 사멸 리간드, 사멸 수용체(FAS·TNFR1, FADD), caspase-8. 오른쪽 파랑 내재 경로: 스트레스(DNA 손상→p53), BH3-only, BAX·BAK, cytochrome c 방출, APAF1과 caspase-9이며, BCL-2·BCL-XL·MCL-1이 BAX·BAK을 억제하고 caspase-8이 점선으로 BID를 잘라 내재 경로를 증폭. 두 경로가 아래 초록 실행 caspase-3·7로 모여 단백질 절단과 세포 해체로 이어짐"}
 
 **내재 경로 (intrinsic, 미토콘드리아 경로)**: 세포 안의 문제가 출발점
 
@@ -185,7 +185,7 @@ format:
 - 암 = 세포가 주기·검문점·사멸의 통제를 벗어나 **계속 늘어나는** 상태
 - 고장 나는 유전자는 크게 두 종류
 
-![같은 유전자의 두 벌(allele) 중 몇 벌이 고장 나야 효과가 나는지 비교한 모식도. 가속기(종양유전자)는 한 벌만 켜져도, 브레이크(종양억제유전자)는 두 벌 모두 잃어야 효과가 남](../figures/ch09_accel_brake.svg){fig-alt="위 줄 가속기: 정상, 한 벌 변이, 두 벌 변이에서 한 벌 변이부터 계속 켜짐. 아래 줄 브레이크: 한 벌 변이에서는 아직 작동, 두 벌 모두 변이일 때 브레이크 없음"}
+![같은 유전자의 두 벌(allele) 중 몇 벌이 고장 나야 효과가 나는지 비교한 모식도. 가속기(종양유전자)는 한 벌만 켜져도, 브레이크(종양억제유전자)는 두 벌 모두 잃어야 효과가 남](../figures/ch09_accel_brake.png){fig-alt="위 줄 가속기(KRAS·MYC): 두 벌 모두 정상이면 신호 있을 때만 켜짐, 한 벌 변이부터 계속 켜짐. 아래 줄 브레이크(TP53·RB1): 한 벌 변이(첫 번째 hit)에서는 아직 작동, 두 벌 모두 변이(두 번째 hit)일 때 브레이크 없음. 효과가 난 칸은 옅은 색 면으로 표시"}
 
 | 구분 | 종양유전자 (oncogene) | 종양억제유전자 (tumor suppressor gene) |
 |---|---|---|
@@ -266,7 +266,7 @@ format:
 
 **Phase는 이렇게 정해짐**
 
-![S.Score와 G2M.Score 평면에서 Phase가 나뉘는 영역. 점은 가상의 세포](../figures/ch09_score_plane.svg){fig-alt="가로축 S.Score, 세로축 G2M.Score. 두 점수가 모두 음수인 왼쪽 아래가 G1, 대각선 아래가 S, 위가 G2M. 대각선에 수직인 빨간 화살표가 CC.Difference 방향, 대각선을 따라가는 보라 점선이 분열 여부 방향"}
+![S.Score와 G2M.Score 평면에서 Phase가 나뉘는 영역. 점은 가상의 세포](../figures/ch09_score_plane.png){fig-alt="가로축 S.Score, 세로축 G2M.Score. 두 점수가 모두 음수인 왼쪽 아래가 파란 G1, 대각선 아래가 청록 S, 위가 초록 G2M이고, 대각선에 수직인 양방향 실선 화살표가 CC.Difference 방향, 대각선을 따라가는 점선 화살표가 분열 여부 방향."}
 
 ```{r}
 #| label: phase-rule
@@ -279,7 +279,7 @@ data.frame(S.Score, G2M.Score, Phase,
            CC.Difference = S.Score - G2M.Score)
 ```
 
-- 규칙은 그림 오른쪽과 같음 [Seurat 소스](https://github.com/satijalab/seurat/blob/main/R/utilities.R){.src} [scanpy 소스](https://github.com/scverse/scanpy/blob/main/src/scanpy/tools/_score_genes.py){.src}
+- 규칙은 그림의 영역 표시와 같음 [Seurat 소스](https://github.com/satijalab/seurat/blob/main/R/utilities.R){.src} [scanpy 소스](https://github.com/scverse/scanpy/blob/main/src/scanpy/tools/_score_genes.py){.src}
 - 4번 세포: S.Score가 음수여도 G2M.Score가 양수라 G2M
 - 5번 세포: 두 점수가 같음 → Seurat은 `Undecided` (scanpy는 이 경우 S)
 - **G1 = "S·G2M 신호가 없다"**는 뜻 → 주기를 멈춘 G0 세포, 분화를 마친 세포도 G1로 나옴
@@ -306,7 +306,7 @@ data.frame(S.Score, G2M.Score, Phase,
 - 회귀 = 유전자마다 점수로 발현을 설명하는 회귀식을 맞추고 **잔차**를 다음 단계에 씀 ([1. Basic Statistics 9장](https://kkonoo.github.io/1_Basic_Statistics/chapters/09_correlation_regression.html))
 - 차이만 회귀를 쓰는 경우: 분화 과정(마우스 조혈처럼 줄기세포는 쉬고 분화 중인 세포는 증식하는 경우)
   - 비네트 설명: 이때 전부 빼면 줄기세포와 전구세포의 구분까지 흐려질 수 있음
-- 위 코드 출력의 1번(G1)과 5번(분열 중) 세포는 CC.Difference가 둘 다 0 근처 → 차이를 회귀해도 두 세포의 **"분열 중인가"** 차이는 그대로 남음 (그림의 보라 점선 방향)
+- 위 코드 출력의 1번(G1)과 5번(분열 중) 세포는 CC.Difference가 둘 다 0 근처 → 차이를 회귀해도 두 세포의 **"분열 중인가"** 차이는 그대로 남음 (그림의 검은 점선 화살표 방향)
 - scanpy: `sc.pp.regress_out(adata, ['S_score', 'G2M_score'])` [scanpy 튜토리얼](https://scanpy.scverse.org/en/latest/how-to/cell-cycle.html){.src} — `adata.X`를 덮어쓰므로 원래 값은 따로 보관. 함수 설명에도 경우에 따라 과보정될 수 있다고 적혀 있음 [scanpy 소스](https://github.com/scverse/scanpy/blob/main/src/scanpy/preprocessing/_simple.py){.src}
 - Seurat의 회귀 결과는 `scale.data`(PCA·클러스터링 입력)에 저장됨 → marker·DE 검정의 기본 입력(`data`)은 그대로 [Seurat FindMarkers](https://satijalab.org/seurat/reference/findmarkers){.src}
 
