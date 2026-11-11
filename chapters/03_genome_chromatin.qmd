@@ -55,7 +55,7 @@ format:
 
 ## 2) 단백질 정보는 1.5%뿐
 
-- 단백질 암호화 유전자 약 2만 개의 단백질 정보는 유전체의 약 **1.5%**에 담겨 있음 [NHGRI](https://www.genome.gov/genetics-glossary/Gene){.src}
+- 단백질 암호화 유전자는 약 2만 개. 그 단백질 정보는 유전체의 약 **1.5%**에 담겨 있음 [NHGRI](https://www.genome.gov/genetics-glossary/Gene){.src}
 - 나머지 98% 이상
   - intron: 유전자 안에 있지만 단백질 정보는 아닌 구간 (2절)
   - 조절 서열: promoter, enhancer → [5장](05_transcription.qmd)
@@ -145,7 +145,7 @@ format:
 
 - TAD (topologically associating domain): Hi-C(어느 두 구간이 공간에서 가까운지 세는 방법)로 찾은 Mb 규모 영역 [Dixon 2012](https://doi.org/10.1038/nature11082){.src}
   - 세포 종류가 달라도 비교적 안정, 경계에 절연 단백질 CTCF가 많음
-  - enhancer와 promoter의 만남도 이런 3차원 구조 안에서 일어남 → [5장](05_transcription.qmd)
+  - enhancer와 promoter도 이런 3차원 구조 안에서 만남 → [5장](05_transcription.qmd)
 
 ## 3) 열린 염색질과 닫힌 염색질
 
