@@ -61,7 +61,7 @@ format:
 
 ## 2) 리보솜과 tRNA
 
-![번역 모식도. 리보솜이 mRNA를 5'→3' 방향으로 한 코돈씩 읽고, tRNA가 안티코돈으로 코돈과 짝을 지어 아미노산을 가져옴. 크기 비율은 실제와 다름](../figures/ch07_translation.svg){fig-alt="mRNA 위의 코돈 AUG GUG AUU GGC UGG AAA UAA, 그 위에 리보솜 두 소단위와 tRNA 두 개, tRNA 위로 Met-Val-Ile-Gly 사슬이 자라고 Trp가 다음 차례로 들어옴"}
+![번역 모식도. 리보솜이 mRNA를 5'→3' 방향으로 한 코돈씩 읽고, tRNA가 안티코돈으로 코돈과 짝을 지어 아미노산을 가져옴. 크기 비율은 실제와 다름](../figures/ch07_translation.png){fig-alt="파란 mRNA 위의 코돈 AUG GUG AUU GGC UGG AAA UAA와 그 위아래를 감싼 리보솜 큰·작은 소단위, GGC와 UGG 위에서 안티코돈 CCG·ACC로 짝지은 청록색 tRNA 두 개. Gly에 이어진 Met-Val-Ile-Gly 초록 사슬이 위로 자라고 Trp가 다음 결합 차례이며, 아래에 Met-Val-Ile-Gly-Trp-Lys-종결 번역 결과와 5'→3' 이동 화살표"}
 
 | 등장인물 | 무엇인가 | 하는 일 |
 |---|---|---|
@@ -104,7 +104,7 @@ format:
 
 # 2. 접히고, 다듬어진다
 
-![단백질의 일생 다섯 단계와 각 단계가 데이터에서 보이는지. 모식도](../figures/ch07_lifecycle.svg){fig-alt="합성, 접힘, 수식, 위치, 분해의 다섯 칸과 그 아래 데이터에서 보이는지를 적은 청록색 칸"}
+![단백질의 일생 다섯 단계와 각 단계가 데이터에서 보이는지. 모식도](../figures/ch07_lifecycle.png){fig-alt="합성, 접힘, 수식(PTM), 위치, 분해의 다섯 칸이 화살표로 이어짐. 아래 데이터 칸에는 합성 쪽에 RNA-seq이 세는 mRNA 수, 접힘 쪽에 HSP 유전자 발현(HSPA1A 등)이 적혀 있고, 수식·위치·분해 아래로는 'PTM·위치·분해는 mRNA에 흔적 없음'이라는 노란 칸 하나가 걸쳐 있음"}
 
 ## 1) 접힘과 샤페론
 

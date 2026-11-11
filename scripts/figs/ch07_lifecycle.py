@@ -96,9 +96,8 @@ box(ax, xs[0], ry0, cw, rh, fc=FAINT, ec=LINE, r=0.1)
 label(ax, cxs[0], ry0 + rh / 2, "RNA-seq이 세는 것\n= mRNA 수", fs=11, linespacing=1.35)
 box(ax, xs[1], ry0, cw, rh, fc=FAINT, ec=LINE, r=0.1)
 label(ax, cxs[1], ry0 + rh / 2, "HSP 유전자 발현\n(HSPA1A 등)", fs=11, linespacing=1.35)
-x3 = xs[2]
-box(ax, x3, ry0, xs[4] + cw - x3, rh, fc=ACCENT, ec="none", r=0.1)
-label(ax, (x3 + xs[4] + cw) / 2, ry0 + rh / 2, "PTM·위치·분해는 mRNA에 흔적 없음",
-      fs=13, w="bold", c=ON_ACCENT)
+for k, t in [(2, "mRNA에 흔적 없음\n→ 단백질을 직접 잼"), (3, "표면 단백질은\nCITE-seq으로 셈"), (4, "분해 속도가\n단백질 양을 좌우")]:
+    box(ax, xs[k], ry0, cw, rh, fc=FAINT, ec=LINE, r=0.1)
+    label(ax, cxs[k], ry0 + rh / 2, t, fs=11, linespacing=1.35)
 
 save(fig, os.path.join(HERE, "../../figures/ch07_lifecycle.png"))
