@@ -236,6 +236,6 @@ sub("\\.[0-9]+$", "", "ENSG00000223972.5")   # 버전 떼기
 
 - 데이터셋 합치기, DB와 매핑: **버전을 뗀 Ensembl ID**로 묶음
 - 그림·표·논문: **symbol**로 표시
-- 공개 single-cell 데이터 표준도 같은 방식: CELLxGENE 스키마는 유전자 행 이름(`var.index`)을 Ensembl ID로, symbol은 `feature_name` 열에 둠. 예전 판의 HGNC symbol 행 이름을 Ensembl ID로 바꿈 [CELLxGENE 스키마](https://github.com/chanzuckerberg/single-cell-curation/blob/main/schema/5.0.0/schema.md){.src}
+- 공개 single-cell 데이터 표준도 같은 방식: CELLxGENE 스키마는 유전자 행 이름(`var.index`)을 Ensembl ID로, symbol은 `feature_name` 열에 둠. 예전 판에서 HGNC symbol이던 행 이름을 Ensembl ID로 바꿈 [CELLxGENE 스키마](https://github.com/chanzuckerberg/single-cell-curation/blob/main/schema/5.0.0/schema.md){.src}
 - 사람–마우스 비교: ortholog 표로 매핑 (3절)
 :::
