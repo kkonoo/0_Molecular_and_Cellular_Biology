@@ -112,7 +112,7 @@ format:
 
 ## 2) Rb: G1/S의 문지기
 
-- Rb 단백질(유전자 *RB1*)은 인산이 적은 상태에서 전사인자 **E2F**를 붙잡음 → S기 유전자 전사가 꺼짐 (전사인자 → [5장](05_transcription.qmd))
+- Rb 단백질(유전자 *RB1*)은 인산이 적은 상태에서 전사인자 **E2F**를 붙잡음 → S기 유전자의 전사가 꺼짐 (전사인자 → [5장](05_transcription.qmd))
 - 성장 신호(→ [8장](08_cell_signaling.qmd)) → cyclin D–CDK4/6 → Rb 인산화 → E2F가 풀려남
 - 풀린 E2F가 cyclin E 등 S기 유전자를 켬 → cyclin E–CDK2가 Rb를 더 인산화 → **되먹임**으로 스위치가 확실히 넘어감
 - 이 지점(제한점)을 넘으면 성장 신호가 끊겨도 주기가 계속 진행 [Seville 2005](https://www.benthamdirect.com/content/journals/ccdt/10.2174/1568009053765816){.src}
@@ -145,7 +145,8 @@ format:
 | 내용물 | 막 안에 갇힌 채 식세포가 먹어 치움 | 밖으로 쏟아짐 (DAMP: 손상 신호 분자) |
 | 염증 | 거의 없음 | 염증을 일으킴 |
 
-- 출처 [Elmore 2007](https://pmc.ncbi.nlm.nih.gov/articles/PMC2117903){.src} [Kim 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6294794){.src} — 단, necrosis에도 **프로그램된** 형태(necroptosis, pyroptosis 등)가 있고, apoptosis 세포를 제때 치우지 못하면 결국 터져 염증을 일으킴
+- 출처 [Elmore 2007](https://pmc.ncbi.nlm.nih.gov/articles/PMC2117903){.src} [Kim 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6294794){.src} — 단, necrosis에도 **프로그램된** 형태(necroptosis, pyroptosis 등)가 있음
+  - apoptosis 세포도 제때 치우지 못하면 결국 터져 염증을 일으킴
 
 ## 2) 두 경로
 
@@ -169,7 +170,7 @@ format:
 **외재 경로 (extrinsic, 사멸 수용체 경로)**: 다른 세포가 보낸 **사멸 리간드**가 세포 표면의 **사멸 수용체**에 붙는 것이 출발점
 
 - FAS 리간드 → FAS, TNF → TNFR1 → 어댑터 단백질(FADD) → caspase-8. 세포독성 T세포가 감염세포를 없애는 방법 중 하나 [Elmore 2007](https://pmc.ncbi.nlm.nih.gov/articles/PMC2117903){.src}
-- caspase-8은 BID를 잘라 내재 경로까지 끌어들여 신호를 키우기도 함. 리간드–수용체 신호의 일반 원리 → [8장](08_cell_signaling.qmd), [11장](11_tissue_interaction.qmd)
+- caspase-8은 BID를 잘라 내재 경로까지 켜기도 함 → 신호가 커짐. 리간드–수용체 신호의 일반 원리 → [8장](08_cell_signaling.qmd), [11장](11_tissue_interaction.qmd)
 
 ## 3) 분석에서 만나는 곳
 
@@ -217,7 +218,7 @@ format:
 ## 3) 체세포 변이가 쌓인다
 
 - 암의 변이는 대부분 **체세포 변이 (somatic mutation)** = 태어난 뒤 한 세포에서 생겨 그 후손에게만 있음 → [4장](04_replication_mutation_inheritance.qmd)
-- 12개 암종 3,281개 종양을 분석한 연구: 의미 있게 자주 변이된 유전자 127개, 종양 하나는 그중 **2–6개** 정도를 가짐 [Kandoth 2013](https://pmc.ncbi.nlm.nih.gov/articles/PMC3927368){.src}
+- 12개 암종의 종양 3,281개를 분석한 연구: 의미 있게 자주 변이된 유전자 127개, 종양 하나에는 그중 **2–6개** 정도가 있음 [Kandoth 2013](https://pmc.ncbi.nlm.nih.gov/articles/PMC3927368){.src}
   - → 암을 만드는 핵심 변이(driver)는 몇 개뿐이고, 나머지 많은 변이는 따라온 것(passenger)
 - 검문점이 고장 난 세포는 변이를 더 빨리 쌓음 → 다음 hit이 쉬워짐
 
@@ -303,7 +304,8 @@ data.frame(S.Score, G2M.Score, Phase,
 | 차이만 회귀 | `obj$CC.Difference <- obj$S.Score - obj$G2M.Score` 후 `ScaleData(obj, vars.to.regress = "CC.Difference")` | 분열 중 vs 쉬는 세포의 차이는 **남고**, 분열 중인 세포 안의 S vs G2M 차이만 빠짐 |
 
 - 회귀 = 유전자마다 점수로 발현을 설명하는 회귀식을 맞추고 **잔차**를 다음 단계에 씀 ([1. Basic Statistics 9장](https://kkonoo.github.io/1_Basic_Statistics/chapters/09_correlation_regression.html))
-- 차이만 회귀를 쓰는 경우: 비네트는 분화 과정(마우스 조혈처럼 줄기세포는 쉬고 분화 중인 세포는 증식하는 경우)에서 전부 빼면 줄기세포와 전구세포의 구분까지 흐려질 수 있다고 설명
+- 차이만 회귀를 쓰는 경우: 분화 과정(마우스 조혈처럼 줄기세포는 쉬고 분화 중인 세포는 증식하는 경우)
+  - 비네트 설명: 이때 전부 빼면 줄기세포와 전구세포의 구분까지 흐려질 수 있음
 - 위 코드 출력의 1번(G1)과 5번(분열 중) 세포는 CC.Difference가 둘 다 0 근처 → 차이를 회귀해도 두 세포의 **"분열 중인가"** 차이는 그대로 남음 (그림의 보라 점선 방향)
 - scanpy: `sc.pp.regress_out(adata, ['S_score', 'G2M_score'])` [scanpy 튜토리얼](https://scanpy.scverse.org/en/latest/how-to/cell-cycle.html){.src} — `adata.X`를 덮어쓰므로 원래 값은 따로 보관. 함수 설명에도 경우에 따라 과보정될 수 있다고 적혀 있음 [scanpy 소스](https://github.com/scverse/scanpy/blob/main/src/scanpy/preprocessing/_simple.py){.src}
 - Seurat의 회귀 결과는 `scale.data`(PCA·클러스터링 입력)에 저장됨 → marker·DE 검정의 기본 입력(`data`)은 그대로 [Seurat FindMarkers](https://satijalab.org/seurat/reference/findmarkers){.src}
@@ -325,10 +327,10 @@ data.frame(S.Score, G2M.Score, Phase,
 # 5. 정리
 
 - 세포주기 G1 → S → G2 → M, 주기를 멈추면 G0. DNA 양은 S기에 2C → 4C, n(염색체 벌 수)과 구분
-- cyclin–CDK가 단계를 넘기고, 검문점(G1/S의 Rb·p53, G2/M의 DNA 손상 신호, 방추사 검문점)이 조건이 안 맞으면 멈춤
+- cyclin–CDK가 단계를 넘기고, 검문점(G1/S의 Rb·p53, G2/M의 DNA 손상 신호, 방추사 검문점)은 조건이 안 맞으면 주기를 멈춤
 - apoptosis는 caspase로 조용히 해체되는 죽음 — 내재 경로(BCL-2 계열 → cytochrome c → caspase-9)와 외재 경로(FAS·TNFR1 → caspase-8). necrosis는 터지며 염증
 - 암은 가속기(종양유전자: *KRAS*, *MYC*, 한 벌로 충분)가 붙고 브레이크(종양억제유전자: *TP53*, *RB1*, 두 벌 모두)가 고장 난 상태. 체세포 변이가 쌓여 생김
-- 세포주기 점수(`S.Score`, `G2M.Score`, `Phase`)로 증식 세포를 찾고, 궁금한 것에 따라 전부 회귀·차이만 회귀·그대로 둠을 고름
+- 세포주기 점수(`S.Score`, `G2M.Score`, `Phase`)로 증식 세포를 찾고, 궁금한 것에 따라 전부 회귀·차이만 회귀·그대로 두기 중에서 고름
 
 # 연습문제
 
