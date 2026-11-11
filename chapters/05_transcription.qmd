@@ -159,6 +159,8 @@ format:
 | H3K27me3 | 넓은 억제 구간 | Polycomb 단백질에 의한 억제 |
 | H3K9me3 | 이질염색질, 반복 서열 | 오래 닫혀 있는 구간 |
 
+![한 유전체 구간에서 히스톤 표지 여섯 가지가 주로 있는 곳을 genome browser처럼 그린 모식도. 신호 모양은 설명용. 노란색으로 표시한 대기 enhancer에는 H3K4me1만 있고 H3K27ac가 없음](../figures/ch05_histone_marks.png){fig-alt="위쪽 유전자 트랙 아래에 H3K4me3, H3K4me1, H3K27ac, H3K36me3, H3K27me3, H3K9me3 신호 트랙 여섯 줄이 있는 모식도. 왼쪽부터 활성 enhancer에는 H3K4me1과 H3K27ac 봉우리, 대기 enhancer에는 H3K4me1만, TSS에는 H3K4me3와 H3K27ac 봉우리, 발현 유전자 몸통에는 넓은 H3K36me3, 억제 구간에는 넓은 H3K27me3, 반복 서열 구간에는 넓은 H3K9me3 블록"}
+
 - 사람 참조 후성유전체 프로젝트 (Roadmap Epigenomics)는 H3K4me3, H3K4me1, H3K36me3, H3K27me3, H3K9me3 다섯 표지를 핵심으로 재고, H3K27ac는 일부 시료에서 더 잼. 표지의 조합으로 염색질 상태 (chromatin state)를 나눔 [Roadmap 2015](https://pubmed.ncbi.nlm.nih.gov/25693563/){.src}
 - 히스톤 표지는 항체로 잡아 ChIP-seq으로 잼 → 장 끝 데이터 상자 1
 
